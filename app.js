@@ -1,5 +1,5 @@
 // CORS proxy used to bypass browser restrictions on direct RSS fetching
-const CORS_PROXY = "https://api.allorigins.win/get?url=";
+const CORS_PROXY = "https://api.allorigins.win/raw?url=";
 
 let allArticles = []; // { feed, title, link, date, excerpt, author }
 let activeTab = "all";
@@ -8,8 +8,7 @@ async function fetchFeed(feed) {
   const proxyUrl = CORS_PROXY + encodeURIComponent(feed.url);
   const res = await fetch(proxyUrl);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
-  const data = await res.json();
-  const text = data.contents;
+  const text = await res.text();
   const parser = new DOMParser();
   const doc = parser.parseFromString(text, "application/xml");
 
