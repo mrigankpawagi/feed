@@ -156,12 +156,43 @@ function renderArticles() {
   }
 }
 
+function openReader(article) {
+  const overlay = document.getElementById("reader-overlay");
+  const iframe = document.getElementById("reader-iframe");
+  const titleEl = document.getElementById("reader-title");
+  const extLink = document.getElementById("reader-external");
+
+  titleEl.textContent = article.title;
+  extLink.href = article.link;
+  iframe.src = article.link;
+
+  overlay.hidden = false;
+  document.body.classList.add("reader-open");
+
+  // Push a history entry so the back-button closes the reader
+  history.pushState({ reader: true }, "", "#reader");
+}
+
+function closeReader() {
+  const overlay = document.getElementById("reader-overlay");
+  const iframe = document.getElementById("reader-iframe");
+
+  overlay.hidden = true;
+  document.body.classList.remove("reader-open");
+
+  // Clear the iframe src to stop any ongoing load
+  iframe.src = "";
+}
+
 function makeCard(article, showFeedBadge) {
   const a = document.createElement("a");
   a.className = "article-card";
   a.href = article.link;
-  a.target = "_blank";
-  a.rel = "noopener noreferrer";
+
+  a.addEventListener("click", (e) => {
+    e.preventDefault();
+    openReader(article);
+  });
 
   const meta = document.createElement("div");
   meta.className = "article-meta";
@@ -257,4 +288,29 @@ document.addEventListener("DOMContentLoaded", () => {
   buildTabs();
   loadAllFeeds();
   document.getElementById("btn-refresh").addEventListener("click", loadAllFeeds);
+
+  // Reader: close button and Escape key both call this helper
+  function handleCloseReader() {
+    closeReader();
+    if (history.state && history.state.reader) {
+      history.back();
+    }
+  }
+
+  // Reader: close button
+  document.getElementById("reader-close").addEventListener("click", handleCloseReader);
+
+  // Reader: Escape key
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !document.getElementById("reader-overlay").hidden) {
+      handleCloseReader();
+    }
+  });
+
+  // Reader: back-button (mobile and desktop)
+  window.addEventListener("popstate", (e) => {
+    if (!document.getElementById("reader-overlay").hidden) {
+      closeReader();
+    }
+  });
 });
