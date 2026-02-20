@@ -1,13 +1,64 @@
-// CORS proxy used to bypass browser restrictions on direct RSS fetching
-const CORS_PROXY = "https://api.allorigins.win/raw?url=";
+// CORS proxies used to bypass browser restrictions on direct RSS fetching (tried in order)
+const CORS_PROXIES = [
+  "https://corsproxy.io/?",
+  "https://api.allorigins.win/raw?url=",
+];
+
+const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
 
 let allArticles = []; // { feed, title, link, date, excerpt, author }
 let activeTab = "all";
+let feedErrors = {}; // feed.name -> { feed, error }
+
+async function fetchWithProxy(url) {
+  let lastError;
+  for (const proxy of CORS_PROXIES) {
+    try {
+      const res = await fetch(proxy + encodeURIComponent(url));
+      if (res.ok) return res;
+      lastError = new Error(`HTTP ${res.status}`);
+    } catch (e) {
+      lastError = e;
+    }
+  }
+  throw lastError || new Error(`Failed to fetch ${url}: all proxies failed`);
+}
+
+function cacheKey(feed) {
+  return `feed:${feed.url}`;
+}
+
+function readCache(feed) {
+  try {
+    const raw = localStorage.getItem(cacheKey(feed));
+    if (!raw) return null;
+    const { data, ts } = JSON.parse(raw);
+    if (Date.now() - ts > CACHE_TTL) return null;
+    return data.map((a) => ({ ...a, date: a.date ? new Date(a.date) : null }));
+  } catch {
+    return null;
+  }
+}
+
+function writeCache(feed, articles) {
+  try {
+    localStorage.setItem(
+      cacheKey(feed),
+      JSON.stringify({
+        data: articles.map((a) => ({
+          ...a,
+          date: a.date ? a.date.toISOString() : null,
+        })),
+        ts: Date.now(),
+      })
+    );
+  } catch {
+    // ignore storage errors (e.g. quota exceeded)
+  }
+}
 
 async function fetchFeed(feed) {
-  const proxyUrl = CORS_PROXY + encodeURIComponent(feed.url);
-  const res = await fetch(proxyUrl);
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  const res = await fetchWithProxy(feed.url);
   const text = await res.text();
   const parser = new DOMParser();
   const doc = parser.parseFromString(text, "application/xml");
@@ -81,6 +132,15 @@ function formatDate(date) {
   });
 }
 
+function sortArticles() {
+  allArticles.sort((a, b) => {
+    if (!a.date && !b.date) return 0;
+    if (!a.date) return 1;
+    if (!b.date) return -1;
+    return b.date - a.date;
+  });
+}
+
 function buildTabs() {
   const tabs = document.getElementById("tabs");
   tabs.innerHTML = "";
@@ -116,13 +176,26 @@ function renderArticles() {
   const container = document.getElementById("articles-container");
   container.innerHTML = "";
 
+  // Show any feed errors
+  Object.values(feedErrors).forEach(({ feed, error }) => {
+    const err = document.createElement("div");
+    err.className = "error-msg";
+    err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>Failed to load <strong>${escapeHtml(feed.name)}</strong>: ${escapeHtml(error.message)}`;
+    container.appendChild(err);
+  });
+
   const filtered =
     activeTab === "all"
       ? allArticles
       : allArticles.filter((a) => a.feed === activeTab);
 
   if (filtered.length === 0) {
-    container.innerHTML = `<div class="status">No articles found.</div>`;
+    if (Object.keys(feedErrors).length === 0) {
+      const status = document.createElement("div");
+      status.className = "status";
+      status.textContent = "No articles found.";
+      container.appendChild(status);
+    }
     return;
   }
 
@@ -214,43 +287,42 @@ async function loadAllFeeds() {
   const btn = document.getElementById("btn-refresh");
   btn.classList.add("spinning");
   const container = document.getElementById("articles-container");
-  container.innerHTML = `<div class="status"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>Loading feeds…</div>`;
 
+  feedErrors = {};
   allArticles = [];
-  const errors = [];
 
+  // Show cached articles immediately while fetching fresh data
+  FEEDS.forEach((feed) => {
+    const cached = readCache(feed);
+    if (cached) allArticles.push(...cached);
+  });
+  sortArticles();
+
+  if (allArticles.length > 0) {
+    renderArticles();
+  } else {
+    container.innerHTML = `<div class="status"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>Loading feeds…</div>`;
+  }
+
+  // Fetch all feeds in parallel; update the view as each one completes
   await Promise.all(
     FEEDS.map(async (feed) => {
       try {
         const articles = await fetchFeed(feed);
+        writeCache(feed, articles);
+        // Replace this feed's articles with the freshly fetched ones
+        allArticles = allArticles.filter((a) => a.feed !== feed.name);
         allArticles.push(...articles);
+        sortArticles();
+        renderArticles();
       } catch (e) {
-        errors.push({ feed, error: e });
+        feedErrors[feed.name] = { feed, error: e };
+        renderArticles();
       }
     })
   );
 
-  // Sort all articles by date descending
-  allArticles.sort((a, b) => {
-    if (!a.date && !b.date) return 0;
-    if (!a.date) return 1;
-    if (!b.date) return -1;
-    return b.date - a.date;
-  });
-
   btn.classList.remove("spinning");
-  container.innerHTML = "";
-
-  if (errors.length > 0) {
-    errors.forEach(({ feed, error }) => {
-      const err = document.createElement("div");
-      err.className = "error-msg";
-      err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>Failed to load <strong>${escapeHtml(feed.name)}</strong>: ${escapeHtml(error.message)}`;
-      container.appendChild(err);
-    });
-  }
-
-  renderArticles();
 }
 
 document.addEventListener("DOMContentLoaded", () => {

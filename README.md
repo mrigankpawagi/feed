@@ -4,7 +4,7 @@ A minimal, client-side RSS/Atom feed reader that runs entirely in the browser â€
 
 ## How it works
 
-The page fetches RSS and Atom feeds via a CORS proxy ([allorigins.win](https://allorigins.win/)), parses the XML in the browser, and renders the latest articles as clickable cards. Articles are sorted by date and can be filtered per feed using the tab bar at the top.
+The page fetches RSS and Atom feeds via a CORS proxy ([corsproxy.io](https://corsproxy.io/), with [allorigins.win](https://allorigins.win/) as a fallback), parses the XML in the browser, and renders the latest articles as clickable cards. Feeds are loaded in parallel and articles appear as each feed is ready. Articles are sorted by date and can be filtered per feed using the tab bar at the top. Fetched articles are cached in `localStorage` for 30 minutes so the page loads instantly on repeat visits.
 
 ## Customise
 
