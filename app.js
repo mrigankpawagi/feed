@@ -13,6 +13,11 @@ async function fetchFeed(feed) {
   const parser = new DOMParser();
   const doc = parser.parseFromString(text, "application/xml");
 
+  const parserError = doc.querySelector("parsererror");
+  if (parserError) {
+    throw new Error("Invalid XML received from feed");
+  }
+
   // Support both RSS and Atom
   const isAtom = !!doc.querySelector("feed");
   const entries = isAtom
