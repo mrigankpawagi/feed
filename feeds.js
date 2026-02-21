@@ -12,4 +12,8 @@ const FEEDS = [
     name: "Dan Luu",
     url: "https://danluu.com/atom.xml",
   },
+  {
+    name: "Hillel Wayne",
+    url: "https://buttondown.email/hillelwayne/rss",
+  },
 ];
