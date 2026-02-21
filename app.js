@@ -5,23 +5,47 @@ const CORS_PROXIES = [
 ];
 
 const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+const FETCH_TIMEOUT_MS = 10000; // 10-second timeout per proxy attempt
 
 let allArticles = []; // { feed, title, link, date, excerpt, author }
 let activeTab = "all";
 let feedErrors = {}; // feed.name -> { feed, error }
 
 async function fetchWithProxy(url) {
-  let lastError;
-  for (const proxy of CORS_PROXIES) {
+  // Race all proxies in parallel; each has its own timeout.
+  // The first proxy to return a successful response wins.
+  const controllers = CORS_PROXIES.map(() => new AbortController());
+  const timers = controllers.map((c) =>
+    setTimeout(() => c.abort(), FETCH_TIMEOUT_MS)
+  );
+
+  const promises = CORS_PROXIES.map(async (proxy, i) => {
     try {
-      const res = await fetch(proxy + encodeURIComponent(url));
-      if (res.ok) return res;
-      lastError = new Error(`HTTP ${res.status}`);
-    } catch (e) {
-      lastError = e;
+      const res = await fetch(proxy + encodeURIComponent(url), {
+        signal: controllers[i].signal,
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      // Read the full body here so the signal stays live while streaming
+      const text = await res.text();
+      return text;
+    } finally {
+      clearTimeout(timers[i]);
     }
+  });
+
+  try {
+    const text = await Promise.any(promises);
+    // Cancel any still-in-flight proxy requests and their timers
+    controllers.forEach((c) => c.abort());
+    timers.forEach((t) => clearTimeout(t));
+    return { ok: true, text: () => Promise.resolve(text) };
+  } catch (e) {
+    const reasons =
+      e instanceof AggregateError
+        ? e.errors.map((err) => err.message).join("; ")
+        : String(e);
+    throw new Error(`Failed to fetch ${url}: all proxies failed (${reasons})`);
   }
-  throw lastError || new Error(`Failed to fetch ${url}: all proxies failed`);
 }
 
 function cacheKey(feed) {
@@ -177,10 +201,15 @@ function renderArticles() {
   container.innerHTML = "";
 
   // Show any feed errors
-  Object.values(feedErrors).forEach(({ feed, error }) => {
+  Object.values(feedErrors).forEach(({ feed, error, stale }) => {
     const err = document.createElement("div");
-    err.className = "error-msg";
-    err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>Failed to load <strong>${escapeHtml(feed.name)}</strong>: ${escapeHtml(error.message)}`;
+    if (stale) {
+      err.className = "stale-msg";
+      err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Showing cached data for <strong>${escapeHtml(feed.name)}</strong>: could not refresh (${escapeHtml(error.message)})`;
+    } else {
+      err.className = "error-msg";
+      err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>Failed to load <strong>${escapeHtml(feed.name)}</strong>: ${escapeHtml(error.message)}`;
+    }
     container.appendChild(err);
   });
 
@@ -292,9 +321,13 @@ async function loadAllFeeds() {
   allArticles = [];
 
   // Show cached articles immediately while fetching fresh data
+  const cachedFeeds = new Set();
   FEEDS.forEach((feed) => {
     const cached = readCache(feed);
-    if (cached) allArticles.push(...cached);
+    if (cached) {
+      allArticles.push(...cached);
+      cachedFeeds.add(feed.name);
+    }
   });
   sortArticles();
 
@@ -316,7 +349,7 @@ async function loadAllFeeds() {
         sortArticles();
         renderArticles();
       } catch (e) {
-        feedErrors[feed.name] = { feed, error: e };
+        feedErrors[feed.name] = { feed, error: e, stale: cachedFeeds.has(feed.name) };
         renderArticles();
       }
     })
