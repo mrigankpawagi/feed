@@ -9,6 +9,10 @@ const FEEDS = [
     url: "https://siddhartha-gadgil.github.io/automating-mathematics/index.xml",
   },
   {
+    name: "Matt Might",
+    url: "https://matt.might.net/articles/feed.rss",
+  },
+  {
     name: "Dan Luu",
     url: "https://danluu.com/atom.xml",
   },
