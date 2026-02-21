@@ -1,7 +1,8 @@
 // CORS proxies used to bypass browser restrictions on direct RSS fetching (tried in order)
 const CORS_PROXIES = [
-  "https://corsproxy.io/?",
+  "https://corsproxy.io/?url=",
   "https://api.allorigins.win/raw?url=",
+  "https://api.codetabs.com/v1/proxy?quest=",
 ];
 
 const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
