@@ -8,4 +8,8 @@ const FEEDS = [
     name: "Automating Mathematics",
     url: "https://siddhartha-gadgil.github.io/automating-mathematics/index.xml",
   },
+  {
+    name: "Dan Luu",
+    url: "https://danluu.com/atom.xml",
+  },
 ];
