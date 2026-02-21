@@ -225,8 +225,6 @@ function renderArticles() {
   if (errorValues.length > 0) {
     const details = document.createElement("details");
     details.className = "issues-details";
-    details.open = true;
-
     const summary = document.createElement("summary");
     summary.className = "issues-summary";
     const errorCount = errorValues.filter((v) => !v.stale).length;
