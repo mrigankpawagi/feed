@@ -200,18 +200,37 @@ function renderArticles() {
   const container = document.getElementById("articles-container");
   container.innerHTML = "";
 
-  // Show any feed errors
-  Object.values(feedErrors).forEach(({ feed, error, stale }) => {
-    const err = document.createElement("div");
-    if (stale) {
-      err.className = "stale-msg";
-      err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Showing cached data for <strong>${escapeHtml(feed.name)}</strong>: could not refresh (${escapeHtml(error.message)})`;
-    } else {
-      err.className = "error-msg";
-      err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg>Failed to load <strong>${escapeHtml(feed.name)}</strong>: ${escapeHtml(error.message)}`;
-    }
-    container.appendChild(err);
-  });
+  // Show any feed errors/warnings in a collapsible dropdown
+  const errorValues = Object.values(feedErrors);
+  if (errorValues.length > 0) {
+    const details = document.createElement("details");
+    details.className = "issues-details";
+    details.open = true;
+
+    const summary = document.createElement("summary");
+    summary.className = "issues-summary";
+    const errorCount = errorValues.filter((v) => !v.stale).length;
+    const warnCount = errorValues.filter((v) => v.stale).length;
+    const parts = [];
+    if (errorCount > 0) parts.push(`${errorCount} error${errorCount !== 1 ? "s" : ""}`);
+    if (warnCount > 0) parts.push(`${warnCount} warning${warnCount !== 1 ? "s" : ""}`);
+    summary.textContent = parts.join(", ");
+    details.appendChild(summary);
+
+    errorValues.forEach(({ feed, error, stale }) => {
+      const err = document.createElement("div");
+      if (stale) {
+        err.className = "stale-msg";
+        err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Showing cached data for <strong>${escapeHtml(feed.name)}</strong>: could not refresh (${escapeHtml(error.message)})</span>`;
+      } else {
+        err.className = "error-msg";
+        err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg><span>Failed to load <strong>${escapeHtml(feed.name)}</strong>: ${escapeHtml(error.message)}</span>`;
+      }
+      details.appendChild(err);
+    });
+
+    container.appendChild(details);
+  }
 
   const filtered =
     activeTab === "all"
