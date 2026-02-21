@@ -84,7 +84,9 @@ function writeCache(feed, articles) {
 
 async function fetchFeed(feed) {
   const res = await fetchWithProxy(feed.url);
-  const text = await res.text();
+  // Strip UTF-8 BOM if present — some feeds (e.g. WordPress, Hugo) include it,
+  // which causes DOMParser to reject the document as invalid XML.
+  const text = (await res.text()).replace(/^\uFEFF/, "");
   const parser = new DOMParser();
   const doc = parser.parseFromString(text, "application/xml");
 
