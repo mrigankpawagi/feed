@@ -265,34 +265,12 @@ function renderArticles() {
     return;
   }
 
-  // In "all" view, group by feed if multiple feeds
-  if (activeTab === "all" && FEEDS.length > 1) {
-    const byFeed = {};
-    FEEDS.forEach((f) => (byFeed[f.name] = []));
-    filtered.forEach((a) => {
-      if (byFeed[a.feed]) byFeed[a.feed].push(a);
-    });
-
-    FEEDS.forEach((f) => {
-      if (byFeed[f.name].length === 0) return;
-      const header = document.createElement("div");
-      header.className = "feed-section-header";
-      header.innerHTML = `<h2>${escapeHtml(f.name)}</h2>`;
-      container.appendChild(header);
-
-      const list = document.createElement("div");
-      list.className = "articles";
-      byFeed[f.name].forEach((a) => list.appendChild(makeCard(a, false)));
-      container.appendChild(list);
-    });
-  } else {
-    const list = document.createElement("div");
-    list.className = "articles";
-    filtered.forEach((a) =>
-      list.appendChild(makeCard(a, activeTab === "all"))
-    );
-    container.appendChild(list);
-  }
+  const list = document.createElement("div");
+  list.className = "articles";
+  filtered.forEach((a) =>
+    list.appendChild(makeCard(a, activeTab === "all"))
+  );
+  container.appendChild(list);
 }
 
 function makeCard(article, showFeedBadge) {
