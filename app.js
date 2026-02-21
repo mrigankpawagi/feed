@@ -3,6 +3,7 @@ const CORS_PROXIES = [
   "https://corsproxy.io/?url=",
   "https://api.allorigins.win/raw?url=",
   "https://api.codetabs.com/v1/proxy?quest=",
+  "https://corsproxy.org/?url=",
 ];
 
 const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
@@ -98,11 +99,15 @@ async function fetchFeed(feed) {
   let doc = parser.parseFromString(text, "application/xml");
 
   if (doc.querySelector("parsererror")) {
-    // Retry after escaping undefined HTML entities (e.g. &nbsp;) that are
-    // invalid in strict XML but common in WordPress and other blog feeds.
-    const fixed = text.replace(
-      /&(?!(amp|lt|gt|apos|quot|#\d+|#x[0-9a-fA-F]+);)[A-Za-z]\w*;/g,
-      (m) => `&amp;${m.slice(1)}`
+    // Retry after sanitising common XML issues found in real-world feeds:
+    // 1. Remove control characters that are illegal in XML (keep \t, \n, \r)
+    let fixed = text.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "");
+    // 2. Escape every '&' that is not already part of a valid XML entity
+    //    reference (covers bare & in URLs, text, and undefined HTML entities
+    //    like &nbsp; that are common in WordPress / blog feeds).
+    fixed = fixed.replace(
+      /&(?!(amp|lt|gt|apos|quot|#\d+|#x[0-9a-fA-F]+);)/g,
+      "&amp;"
     );
     doc = parser.parseFromString(fixed, "application/xml");
   }
