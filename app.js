@@ -28,6 +28,11 @@ async function fetchWithProxy(url) {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       // Read the full body here so the signal stays live while streaming
       const text = await res.text();
+      // Reject HTML responses (proxy error pages) so Promise.any tries the next proxy
+      const trimmed = text.trimStart();
+      if (/^<!DOCTYPE\s+html/i.test(trimmed) || /^<html[\s>]/i.test(trimmed)) {
+        throw new Error("Proxy returned HTML instead of feed content");
+      }
       return text;
     } finally {
       clearTimeout(timers[i]);
@@ -84,9 +89,23 @@ function writeCache(feed, articles) {
 
 async function fetchFeed(feed) {
   const res = await fetchWithProxy(feed.url);
-  const text = await res.text();
+  let text = await res.text();
+
+  // Strip UTF-8 BOM if present
+  text = text.replace(/^\ufeff/, "");
+
   const parser = new DOMParser();
-  const doc = parser.parseFromString(text, "application/xml");
+  let doc = parser.parseFromString(text, "application/xml");
+
+  if (doc.querySelector("parsererror")) {
+    // Retry after escaping undefined HTML entities (e.g. &nbsp;) that are
+    // invalid in strict XML but common in WordPress and other blog feeds.
+    const fixed = text.replace(
+      /&(?!(amp|lt|gt|apos|quot|#\d+|#x[0-9a-fA-F]+);)[A-Za-z]\w*;/g,
+      (m) => `&amp;${m.slice(1)}`
+    );
+    doc = parser.parseFromString(fixed, "application/xml");
+  }
 
   const parserError = doc.querySelector("parsererror");
   if (parserError) {
