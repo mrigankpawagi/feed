@@ -5,11 +5,19 @@ const FEEDS = [
     url: "https://blog.sigplan.org/feed/",
   },
   {
-    name: "Paul Graham Essays",
-    url: "https://www.aaronsw.com/2002/feeds/pgessays.rss",
-  },
-  {
     name: "Automating Mathematics",
     url: "https://siddhartha-gadgil.github.io/automating-mathematics/index.xml",
+  },
+  {
+    name: "Matt Might",
+    url: "https://matt.might.net/articles/feed.rss",
+  },
+  {
+    name: "Dan Luu",
+    url: "https://danluu.com/atom.xml",
+  },
+  {
+    name: "Hillel Wayne",
+    url: "https://buttondown.email/hillelwayne/rss",
   },
 ];
