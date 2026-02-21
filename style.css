@@ -234,6 +234,49 @@ main {
   }
 }
 
+/* Issues dropdown */
+.issues-details {
+  margin-bottom: 1rem;
+}
+
+.issues-summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  list-style: none;
+  width: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+.issues-summary::-webkit-details-marker {
+  display: none;
+}
+
+.issues-summary::before {
+  content: "▶";
+  font-size: 0.6rem;
+  transition: transform 0.15s;
+  display: inline-block;
+}
+
+.issues-details[open] > .issues-summary::before {
+  transform: rotate(90deg);
+}
+
+.issues-summary:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 /* Article cards */
 .articles {
   display: flex;
