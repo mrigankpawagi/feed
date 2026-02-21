@@ -7,7 +7,7 @@ const CORS_PROXIES = [
 ];
 
 const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
-const FETCH_TIMEOUT_MS = 10000; // 10-second timeout per proxy attempt
+const FETCH_TIMEOUT_MS = 20000; // 20-second timeout per proxy attempt
 
 let allArticles = []; // { feed, title, link, date, excerpt, author }
 let activeTab = "all";
@@ -92,40 +92,35 @@ async function fetchFeed(feed) {
   const res = await fetchWithProxy(feed.url);
   let text = await res.text();
 
-  // Strip UTF-8 BOM if present
-  text = text.replace(/^\ufeff/, "");
+  // Strip UTF-8 BOM and illegal XML control characters
+  // (keep tab \x09, newline \x0A, carriage return \x0D)
+  text = text.replace(/^\ufeff/, "").replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "");
 
   const parser = new DOMParser();
+
+  // Attempt 1: parse as-is (well-formed feeds succeed here)
   let doc = parser.parseFromString(text, "application/xml");
 
-  // Sanitised copy (control chars removed) – used in both the XML retry
-  // and the HTML fallback so we never re-introduce illegal characters.
-  const sanitized = text.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "");
-
   if (doc.querySelector("parsererror")) {
-    // Retry after sanitising common XML issues found in real-world feeds:
-    // 1. Control characters already removed in `sanitized` above.
-    // 2. Escape every '&' that is not already part of a valid XML entity
-    //    reference (covers bare & in URLs, text, and undefined HTML entities
-    //    like &nbsp; that are common in WordPress / blog feeds).
-    const fixed = sanitized.replace(
+    // Attempt 2: escape bare '&' not already part of a valid XML entity
+    // (covers bare & in URLs and undefined HTML entities like &nbsp;)
+    const fixed = text.replace(
       /&(?!(amp|lt|gt|apos|quot|#\d+|#x[0-9a-fA-F]+);)/g,
       "&amp;"
     );
     doc = parser.parseFromString(fixed, "application/xml");
+
+    if (doc.querySelector("parsererror")) {
+      // Attempt 3: wrap elements that commonly hold raw HTML in CDATA sections
+      // so that embedded HTML tags and bare < / > no longer break XML parsing.
+      // This handles feeds like Dan Luu and Automating Mathematics that embed
+      // raw HTML content without CDATA wrappers.
+      doc = parser.parseFromString(wrapHtmlContentInCDATA(fixed), "application/xml");
+    }
   }
 
-  // Final fallback: HTML parser tolerates unescaped < and HTML entities
-  // (e.g. feeds like Dan Luu and Automating Mathematics that contain
-  // literal < characters or named HTML entities in their content).
-  // Use the control-char-sanitized text so invalid characters are still removed.
-  let htmlFallback = false;
   if (doc.querySelector("parsererror")) {
-    doc = parser.parseFromString(sanitized, "text/html");
-    htmlFallback = true;
-    if (!doc.querySelector("feed") && !doc.querySelector("channel")) {
-      throw new Error("Invalid XML received from feed");
-    }
+    throw new Error("Invalid XML received from feed");
   }
 
   // Support both RSS and Atom
@@ -151,14 +146,7 @@ async function fetchFeed(feed) {
       author = entry.querySelector("author name")?.textContent?.trim() || "";
     } else {
       title = entry.querySelector("title")?.textContent?.trim() || "Untitled";
-      // In HTML-fallback mode the browser treats <link> as a void element,
-      // so its URL text lands in the following text node rather than as
-      // textContent of the element itself.
-      const linkEl = entry.querySelector("link");
-      const linkText = htmlFallback
-        ? linkEl?.nextSibling?.textContent?.trim()
-        : linkEl?.textContent?.trim();
-      link = linkText || "#";
+      link = entry.querySelector("link")?.textContent?.trim() || "#";
       date = entry.querySelector("pubDate,dc\\:date,date")?.textContent?.trim();
       const desc =
         entry.querySelector("description,content\\:encoded")?.textContent?.trim() || "";
@@ -176,6 +164,30 @@ async function fetchFeed(feed) {
       author,
     };
   });
+}
+
+// Wraps elements that commonly contain raw HTML in CDATA sections so that
+// embedded HTML tags and unescaped < / > characters do not break XML parsing.
+function wrapHtmlContentInCDATA(xml) {
+  const htmlTags = ["description", "content", "summary", "encoded"];
+  let result = xml;
+  for (const tag of htmlTags) {
+    result = result.replace(
+      new RegExp(
+        `(<(?:[a-zA-Z]+:)?${tag}(?:\\s[^>]*)?>)([\\s\\S]*?)(<\\/(?:[a-zA-Z]+:)?${tag}>)`,
+        "gi"
+      ),
+      (_, open, content, close) => {
+        // Skip elements already wrapped in CDATA
+        if (/^\s*<!\[CDATA\[/.test(content)) return _;
+        // Escape any ]]> in the content to prevent premature CDATA section close;
+        // the standard XML technique is to split it across two adjacent CDATA sections.
+        const safe = content.replace(/\]\]>/g, "]]]]><![CDATA[>");
+        return `${open}<![CDATA[${safe}]]>${close}`;
+      }
+    );
+  }
+  return result;
 }
 
 function stripHtml(html) {
