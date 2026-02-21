@@ -1,0 +1,28 @@
+{
+  "name": "feed",
+  "version": "1.0.0",
+  "description": "A minimal, client-side RSS/Atom feed reader that runs entirely in the browser — no server, no login, no tracking.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrigankpawagi/feed.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mrigankpawagi/feed/issues"
+  },
+  "homepage": "https://github.com/mrigankpawagi/feed#readme",
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "jest-environment-jsdom": "^30.2.0"
+  }
+}

@@ -363,3 +363,18 @@ document.addEventListener("DOMContentLoaded", () => {
   loadAllFeeds();
   document.getElementById("btn-refresh").addEventListener("click", loadAllFeeds);
 });
+
+if (typeof module !== "undefined") {
+  module.exports = {
+    parseDate,
+    formatDate,
+    escapeHtml,
+    cacheKey,
+    sortArticles,
+    stripHtml,
+    readCache,
+    writeCache,
+    fetchFeed,
+    fetchWithProxy,
+  };
+}
