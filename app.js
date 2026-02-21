@@ -98,23 +98,34 @@ async function fetchFeed(feed) {
   const parser = new DOMParser();
   let doc = parser.parseFromString(text, "application/xml");
 
+  // Sanitised copy (control chars removed) – used in both the XML retry
+  // and the HTML fallback so we never re-introduce illegal characters.
+  const sanitized = text.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "");
+
   if (doc.querySelector("parsererror")) {
     // Retry after sanitising common XML issues found in real-world feeds:
-    // 1. Remove control characters that are illegal in XML (keep \t, \n, \r)
-    let fixed = text.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "");
+    // 1. Control characters already removed in `sanitized` above.
     // 2. Escape every '&' that is not already part of a valid XML entity
     //    reference (covers bare & in URLs, text, and undefined HTML entities
     //    like &nbsp; that are common in WordPress / blog feeds).
-    fixed = fixed.replace(
+    const fixed = sanitized.replace(
       /&(?!(amp|lt|gt|apos|quot|#\d+|#x[0-9a-fA-F]+);)/g,
       "&amp;"
     );
     doc = parser.parseFromString(fixed, "application/xml");
   }
 
-  const parserError = doc.querySelector("parsererror");
-  if (parserError) {
-    throw new Error("Invalid XML received from feed");
+  // Final fallback: HTML parser tolerates unescaped < and HTML entities
+  // (e.g. feeds like Dan Luu and Automating Mathematics that contain
+  // literal < characters or named HTML entities in their content).
+  // Use the control-char-sanitized text so invalid characters are still removed.
+  let htmlFallback = false;
+  if (doc.querySelector("parsererror")) {
+    doc = parser.parseFromString(sanitized, "text/html");
+    htmlFallback = true;
+    if (!doc.querySelector("feed") && !doc.querySelector("channel")) {
+      throw new Error("Invalid XML received from feed");
+    }
   }
 
   // Support both RSS and Atom
@@ -140,7 +151,14 @@ async function fetchFeed(feed) {
       author = entry.querySelector("author name")?.textContent?.trim() || "";
     } else {
       title = entry.querySelector("title")?.textContent?.trim() || "Untitled";
-      link = entry.querySelector("link")?.textContent?.trim() || "#";
+      // In HTML-fallback mode the browser treats <link> as a void element,
+      // so its URL text lands in the following text node rather than as
+      // textContent of the element itself.
+      const linkEl = entry.querySelector("link");
+      const linkText = htmlFallback
+        ? linkEl?.nextSibling?.textContent?.trim()
+        : linkEl?.textContent?.trim();
+      link = linkText || "#";
       date = entry.querySelector("pubDate,dc\\:date,date")?.textContent?.trim();
       const desc =
         entry.querySelector("description,content\\:encoded")?.textContent?.trim() || "";
