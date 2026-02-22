@@ -3,6 +3,8 @@
 
 Uses only the Python standard library — no pip dependencies required.
 Feeds are fetched in parallel via ThreadPoolExecutor.
+HTTP conditional requests (ETag / If-Modified-Since) are used to skip
+re-downloading feeds that have not changed since the last run.
 """
 
 import html
@@ -14,6 +16,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 # ── Configuration ────────────────────────────────────────────────────
@@ -22,6 +25,7 @@ FEEDS_JS = REPO_DIR / "feeds.js"
 OUTPUT = REPO_DIR / "feed_data.json"
 EXCERPT_LEN = 300
 FETCH_TIMEOUT = 60  # seconds per feed
+MAX_WORKERS = 32    # cap threads regardless of feed count
 
 # XML namespace prefixes used by common RSS extensions
 NS = {
@@ -153,15 +157,46 @@ def parse_atom(root, feed_name: str) -> list[dict]:
 
 
 # ── Fetch a single feed ──────────────────────────────────────────────
-def fetch_feed(feed: dict) -> dict:
-    """Fetch and parse one feed.  Returns {feed, articles, error}."""
+def fetch_feed(feed: dict, cache: dict | None = None) -> dict:
+    """Fetch and parse one feed.  Returns {feed, articles, error, etag, last_modified}.
+
+    *cache* may contain ``etag`` and/or ``last_modified`` values from a
+    previous run.  When supplied, the matching conditional-request headers
+    are sent so that an unchanged feed is answered with HTTP 304 and we
+    reuse the cached articles without re-downloading or re-parsing.
+    """
     name, url = feed["name"], feed["url"]
+    headers = {"User-Agent": "FeedFetcher/1.0"}
+    cached_articles = []
+    if cache:
+        if cache.get("etag"):
+            headers["If-None-Match"] = cache["etag"]
+        if cache.get("last_modified"):
+            headers["If-Modified-Since"] = cache["last_modified"]
+        cached_articles = cache.get("articles", [])
+
     try:
-        req = Request(url, headers={"User-Agent": "FeedFetcher/1.0"})
-        with urlopen(req, timeout=FETCH_TIMEOUT) as resp:
+        req = Request(url, headers=headers)
+        try:
+            resp_ctx = urlopen(req, timeout=FETCH_TIMEOUT)
+        except HTTPError as e:
+            if e.code == 304:
+                # Feed unchanged — reuse cached articles
+                return {
+                    "feed": name,
+                    "articles": cached_articles,
+                    "error": None,
+                    "etag": cache.get("etag") if cache else None,
+                    "last_modified": cache.get("last_modified") if cache else None,
+                    "not_modified": True,
+                }
+            raise
+        with resp_ctx as resp:
+            new_etag = resp.headers.get("ETag")
+            new_last_modified = resp.headers.get("Last-Modified")
             raw = resp.read()
     except Exception as e:
-        return {"feed": name, "articles": [], "error": str(e)}
+        return {"feed": name, "articles": [], "error": str(e), "etag": None, "last_modified": None}
 
     try:
         text = raw.decode("utf-8")
@@ -179,14 +214,14 @@ def fetch_feed(feed: dict) -> dict:
     try:
         root = ET.fromstring(text)
     except ET.ParseError as e:
-        return {"feed": name, "articles": [], "error": f"XML parse error: {e}"}
+        return {"feed": name, "articles": [], "error": f"XML parse error: {e}", "etag": None, "last_modified": None}
 
     if root.tag == "{http://www.w3.org/2005/Atom}feed" or root.tag == "feed":
         articles = parse_atom(root, name)
     else:
         articles = parse_rss(root, name)
 
-    return {"feed": name, "articles": articles, "error": None}
+    return {"feed": name, "articles": articles, "error": None, "etag": new_etag, "last_modified": new_last_modified}
 
 
 # ── Main ─────────────────────────────────────────────────────────────
@@ -196,32 +231,51 @@ def main():
         print("No feeds found in feeds.js", file=sys.stderr)
         sys.exit(1)
 
-    print(f"Fetching {len(feeds)} feeds in parallel...")
+    # Load existing feed_data.json to reuse cached articles and HTTP
+    # validators (ETag / Last-Modified) for feeds that haven't changed.
+    existing: dict = {}
+    if OUTPUT.exists():
+        try:
+            existing = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    feed_cache: dict[str, dict] = existing.get("feedCache", {})
+
+    print(f"Fetching {len(feeds)} feeds in parallel (max {MAX_WORKERS} workers)...")
 
     results = []
-    with ThreadPoolExecutor(max_workers=len(feeds)) as pool:
-        futures = {pool.submit(fetch_feed, f): f for f in feeds}
+    with ThreadPoolExecutor(max_workers=min(MAX_WORKERS, len(feeds))) as pool:
+        futures = {pool.submit(fetch_feed, f, feed_cache.get(f["name"])): f for f in feeds}
         for future in as_completed(futures):
             r = future.result()
-            status = (
-                f"{len(r['articles'])} articles"
-                if not r["error"]
-                else f"ERROR: {r['error']}"
-            )
+            if r.get("not_modified"):
+                status = f"{len(r['articles'])} articles (not modified, using cache)"
+            elif not r["error"]:
+                status = f"{len(r['articles'])} articles"
+            else:
+                status = f"ERROR: {r['error']}"
             print(f"  {r['feed']}: {status}")
             results.append(r)
 
     all_articles = []
     errors = {}
+    new_feed_cache: dict[str, dict] = {}
     for r in results:
         all_articles.extend(r["articles"])
         if r["error"]:
             errors[r["feed"]] = r["error"]
+        else:
+            new_feed_cache[r["feed"]] = {
+                "etag": r.get("etag"),
+                "last_modified": r.get("last_modified"),
+                "articles": r["articles"],
+            }
 
     output = {
         "lastUpdated": datetime.now(tz=timezone.utc).isoformat(),
         "articles": all_articles,
         "errors": errors,
+        "feedCache": new_feed_cache,
     }
     OUTPUT.write_text(
         json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8"
