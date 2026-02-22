@@ -2,12 +2,11 @@
 const CORS_PROXIES = [
   "https://corsproxy.io/?url=",
   "https://api.allorigins.win/raw?url=",
-  "https://api.codetabs.com/v1/proxy?quest=",
   "https://corsproxy.org/?url=",
 ];
 
 const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
-const FETCH_TIMEOUT_MS = 20000; // 20-second timeout per proxy attempt
+const FETCH_TIMEOUT_MS = 45000; // 45-second timeout per proxy attempt
 
 let allArticles = []; // { feed, title, link, date, excerpt, author }
 let activeTab = "all";
