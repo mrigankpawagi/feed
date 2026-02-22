@@ -2,7 +2,7 @@ name: Fetch Feeds
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # every 30 minutes
+    - cron: "0 6 * * *"        # once daily at 06:00 UTC
   workflow_dispatch:           # manual trigger
   push:
     branches: [main]
