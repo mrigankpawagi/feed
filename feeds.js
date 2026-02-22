@@ -15,9 +15,6 @@ const FEEDS = [
   {
     name: "Dan Luu",
     url: "https://danluu.com/atom.xml",
-    // The RSS feed is ~6 MB (full article text × 128 posts) which exceeds
-    // free CORS-proxy limits.  Fall back to scraping the lightweight homepage.
-    homepageUrl: "https://danluu.com/",
   },
   {
     name: "Hillel Wayne",

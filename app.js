@@ -92,16 +92,8 @@ function writeCache(feed, articles) {
 }
 
 async function fetchFeed(feed) {
-  let text;
-  try {
-    const res = await fetchWithProxy(feed.url);
-    text = await res.text();
-  } catch (e) {
-    // If the RSS feed is unreachable but a lightweight homepage is configured,
-    // scrape article links from the homepage instead.
-    if (feed.homepageUrl) return fetchFromHomepage(feed);
-    throw e;
-  }
+  const res = await fetchWithProxy(feed.url);
+  let text = await res.text();
 
   // Strip UTF-8 BOM and illegal XML control characters
   // (keep tab \x09, newline \x0A, carriage return \x0D)
@@ -284,31 +276,6 @@ function rxNested(xml, parent, child) {
   const re = new RegExp(`<${parent}[\\s>][\\s\\S]*?<\\/${parent}>`, "i");
   const m = xml.match(re);
   return m ? rxText(m[0], child) : "";
-}
-
-// Fallback: scrape article links from a blog homepage when the RSS feed
-// is too large for CORS proxies (e.g. Dan Luu's 6 MB full-text feed).
-async function fetchFromHomepage(feed) {
-  const res = await fetchWithProxy(feed.homepageUrl);
-  const html = await res.text();
-  const articles = [];
-  // Match dated article links: <d>MM/YY</d><a href=...>...</a>  (Dan Luu style)
-  const re = /<d>(\d{2})\/(\d{2})<\/d>\s*<a\s+href=["']?([^"'>\s]+)["']?[^>]*>([^<]+)<\/a>/gi;
-  let m;
-  while ((m = re.exec(html)) !== null) {
-    const [, month, shortYear, link, title] = m;
-    if (!link || link.startsWith("#")) continue;
-    const year = +shortYear < 70 ? 2000 + +shortYear : 1900 + +shortYear;
-    articles.push({
-      feed: feed.name,
-      title: title.trim(),
-      link: link.startsWith("http") ? link : new URL(link, feed.homepageUrl).href,
-      date: new Date(year, +month - 1),
-      excerpt: "",
-      author: "",
-    });
-  }
-  return articles;
 }
 
 function stripHtml(html) {
