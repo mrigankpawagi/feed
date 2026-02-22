@@ -1,289 +1,35 @@
-// CORS proxies used to bypass browser restrictions on direct RSS fetching (tried in order)
-const CORS_PROXIES = [
-  "https://corsproxy.io/?url=",
-  "https://api.allorigins.win/raw?url=",
-  "https://corsproxy.org/?url=",
-];
+// Feed data is pre-fetched by a GitHub Actions workflow and stored in
+// feed_data.json (same origin — no CORS proxies needed).
 
+const CACHE_KEY = "feed_data_cache";
 const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
-const FETCH_TIMEOUT_MS = 45000; // 45-second timeout per proxy attempt
 
 let allArticles = []; // { feed, title, link, date, excerpt, author }
 let activeTab = "all";
-let feedErrors = {}; // feed.name -> { feed, error }
+let feedErrors = {}; // feed.name -> { feed, error, stale }
 
-async function fetchWithProxy(url) {
-  // Race all proxies in parallel; each has its own timeout.
-  // The first proxy to return a successful response wins.
-  const controllers = CORS_PROXIES.map(() => new AbortController());
-  const timers = controllers.map((c) =>
-    setTimeout(() => c.abort(), FETCH_TIMEOUT_MS)
-  );
-
-  const promises = CORS_PROXIES.map(async (proxy, i) => {
-    try {
-      const res = await fetch(proxy + encodeURIComponent(url), {
-        signal: controllers[i].signal,
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      // Read the full body here so the signal stays live while streaming
-      const text = await res.text();
-      // Reject empty / too-short responses (some proxies return 200 with no body)
-      const trimmed = text.trimStart();
-      if (trimmed.length < 50) {
-        throw new Error("Proxy returned empty or too-short response");
-      }
-      // Reject HTML responses (proxy error pages) so Promise.any tries the next proxy
-      if (/^<!DOCTYPE\s+html/i.test(trimmed) || /^<html[\s>]/i.test(trimmed)) {
-        throw new Error("Proxy returned HTML instead of feed content");
-      }
-      return text;
-    } finally {
-      clearTimeout(timers[i]);
-    }
-  });
-
+// ── Cache helpers ─────────────────────────────────────────────────
+function readCache() {
   try {
-    const text = await Promise.any(promises);
-    // Cancel any still-in-flight proxy requests and their timers
-    controllers.forEach((c) => c.abort());
-    timers.forEach((t) => clearTimeout(t));
-    return { ok: true, text: () => Promise.resolve(text) };
-  } catch (e) {
-    const reasons =
-      e instanceof AggregateError
-        ? e.errors.map((err) => err.message).join("; ")
-        : String(e);
-    throw new Error(`Failed to fetch ${url}: all proxies failed (${reasons})`);
-  }
-}
-
-function cacheKey(feed) {
-  return `feed:${feed.url}`;
-}
-
-function readCache(feed) {
-  try {
-    const raw = localStorage.getItem(cacheKey(feed));
+    const raw = localStorage.getItem(CACHE_KEY);
     if (!raw) return null;
     const { data, ts } = JSON.parse(raw);
     if (Date.now() - ts > CACHE_TTL) return null;
-    return data.map((a) => ({ ...a, date: a.date ? new Date(a.date) : null }));
+    return data;
   } catch {
     return null;
   }
 }
 
-function writeCache(feed, articles) {
+function writeCache(data) {
   try {
-    localStorage.setItem(
-      cacheKey(feed),
-      JSON.stringify({
-        data: articles.map((a) => ({
-          ...a,
-          date: a.date ? a.date.toISOString() : null,
-        })),
-        ts: Date.now(),
-      })
-    );
+    localStorage.setItem(CACHE_KEY, JSON.stringify({ data, ts: Date.now() }));
   } catch {
-    // ignore storage errors (e.g. quota exceeded)
+    // ignore storage errors
   }
 }
 
-async function fetchFeed(feed) {
-  const res = await fetchWithProxy(feed.url);
-  let text = await res.text();
-
-  // Strip UTF-8 BOM and illegal XML control characters
-  // (keep tab \x09, newline \x0A, carriage return \x0D)
-  text = text.replace(/^\ufeff/, "").replace(/[\x00-\x08\x0B\x0C\x0E-\x1F]/g, "");
-
-  const parser = new DOMParser();
-
-  // Attempt 1: parse as-is (well-formed feeds succeed here)
-  let doc = parser.parseFromString(text, "application/xml");
-
-  if (doc.querySelector("parsererror")) {
-    // Attempt 2: escape bare '&' not already part of a valid XML entity
-    // (covers bare & in URLs and undefined HTML entities like &nbsp;)
-    const fixed = text.replace(
-      /&(?!(amp|lt|gt|apos|quot|#\d+|#x[0-9a-fA-F]+);)/g,
-      "&amp;"
-    );
-    doc = parser.parseFromString(fixed, "application/xml");
-
-    if (doc.querySelector("parsererror")) {
-      // Attempt 3: wrap elements that commonly hold raw HTML in CDATA sections
-      // so that embedded HTML tags and bare < / > no longer break XML parsing.
-      doc = parser.parseFromString(wrapHtmlContentInCDATA(fixed), "application/xml");
-    }
-  }
-
-  if (doc.querySelector("parsererror")) {
-    // Attempt 4: regex-based fallback (handles truncated or malformed XML
-    // that DOMParser cannot recover, e.g. large feeds cut short by proxies)
-    const regexArticles = parseFeedWithRegex(text, feed);
-    if (regexArticles.length > 0) return regexArticles;
-    throw new Error("Invalid XML received from feed");
-  }
-
-  // Support both RSS and Atom
-  const isAtom = !!doc.querySelector("feed");
-  const entries = isAtom
-    ? Array.from(doc.querySelectorAll("entry"))
-    : Array.from(doc.querySelectorAll("item"));
-
-  return entries.map((entry) => {
-    let title, link, date, excerpt, author;
-
-    if (isAtom) {
-      title = entry.querySelector("title")?.textContent?.trim() || "Untitled";
-      link =
-        entry.querySelector('link[rel="alternate"]')?.getAttribute("href") ||
-        entry.querySelector("link")?.getAttribute("href") ||
-        entry.querySelector("link")?.textContent?.trim() ||
-        "#";
-      date = entry.querySelector("updated,published")?.textContent?.trim();
-      const content =
-        entry.querySelector("content,summary")?.textContent?.trim() || "";
-      excerpt = stripHtml(content).slice(0, 220);
-      author = entry.querySelector("author name")?.textContent?.trim() || "";
-    } else {
-      title = entry.querySelector("title")?.textContent?.trim() || "Untitled";
-      link = entry.querySelector("link")?.textContent?.trim() || "#";
-      date = entry.querySelector("pubDate,dc\\:date,date")?.textContent?.trim();
-      const desc =
-        entry.querySelector("description,content\\:encoded")?.textContent?.trim() || "";
-      excerpt = stripHtml(desc).slice(0, 220);
-      author =
-        entry.querySelector("author,dc\\:creator")?.textContent?.trim() || "";
-    }
-
-    return {
-      feed: feed.name,
-      title,
-      link,
-      date: parseDate(date),
-      excerpt,
-      author,
-    };
-  });
-}
-
-// Wraps elements that commonly contain raw HTML in CDATA sections so that
-// embedded HTML tags and unescaped < / > characters do not break XML parsing.
-function wrapHtmlContentInCDATA(xml) {
-  const htmlTags = ["description", "content", "summary", "encoded"];
-  let result = xml;
-  for (const tag of htmlTags) {
-    result = result.replace(
-      new RegExp(
-        `(<(?:[a-zA-Z]+:)?${tag}(?:\\s[^>]*)?>)([\\s\\S]*?)(<\\/(?:[a-zA-Z]+:)?${tag}>)`,
-        "gi"
-      ),
-      (_, open, content, close) => {
-        // Skip elements already wrapped in CDATA
-        if (/^\s*<!\[CDATA\[/.test(content)) return _;
-        // Escape any ]]> in the content to prevent premature CDATA section close;
-        // the standard XML technique is to split it across two adjacent CDATA sections.
-        const safe = content.replace(/\]\]>/g, "]]]]><![CDATA[>");
-        return `${open}<![CDATA[${safe}]]>${close}`;
-      }
-    );
-  }
-  return result;
-}
-
-// ── Regex-based fallback feed parser ──────────────────────────────
-// Used when DOMParser fails (e.g. truncated responses from CORS proxies).
-// Extracts complete <item>/<entry> blocks via regex — partial trailing
-// items are silently skipped because the closing tag is never found.
-function parseFeedWithRegex(text, feed) {
-  const isAtom = /<feed[\s>]/i.test(text) && !/<rss[\s>]/i.test(text);
-  const blockRe = isAtom
-    ? /<entry(?:\s[^>]*)?>[\s\S]*?<\/entry>/gi
-    : /<item(?:\s[^>]*)?>[\s\S]*?<\/item>/gi;
-
-  const articles = [];
-  let m;
-  while ((m = blockRe.exec(text)) !== null) {
-    const b = m[0];
-    let title, link, date, content, author;
-
-    if (isAtom) {
-      title = rxText(b, "title") || "Untitled";
-      link = rxAtomLink(b);
-      date = rxText(b, "updated") || rxText(b, "published");
-      content = rxText(b, "content") || rxText(b, "summary") || "";
-      author = rxNested(b, "author", "name");
-    } else {
-      title = rxText(b, "title") || "Untitled";
-      link = rxText(b, "link") || "#";
-      date = rxText(b, "pubDate") || rxText(b, "dc\\:date") || rxText(b, "date");
-      content = rxText(b, "description") || rxText(b, "content\\:encoded") || "";
-      author = rxText(b, "author") || rxText(b, "dc\\:creator") || "";
-    }
-
-    articles.push({
-      feed: feed.name,
-      title,
-      link,
-      date: parseDate(date),
-      excerpt: stripHtml(content).slice(0, 220),
-      author,
-    });
-  }
-  return articles;
-}
-
-function rxText(xml, tag) {
-  const re = new RegExp(
-    `<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tag}>`,
-    "i"
-  );
-  const m = xml.match(re);
-  if (!m) return "";
-  let c = m[1].trim();
-  const cd = c.match(/^<!\[CDATA\[([\s\S]*)\]\]>$/);
-  if (cd) c = cd[1];
-  return c
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&amp;/g, "&")
-    .replace(/&quot;/g, '"')
-    .replace(/&apos;/g, "'")
-    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n))
-    .replace(/&#x([0-9a-fA-F]+);/g, (_, n) =>
-      String.fromCodePoint(parseInt(n, 16))
-    );
-}
-
-function rxAtomLink(xml) {
-  const alt =
-    xml.match(
-      /<link[^>]*rel\s*=\s*["']alternate["'][^>]*href\s*=\s*["']([^"']+)["']/i
-    ) ||
-    xml.match(
-      /<link[^>]*href\s*=\s*["']([^"']+)["'][^>]*rel\s*=\s*["']alternate["']/i
-    );
-  if (alt) return alt[1];
-  const any = xml.match(/<link[^>]*href\s*=\s*["']([^"']+)["']/i);
-  return any ? any[1] : rxText(xml, "link") || "#";
-}
-
-function rxNested(xml, parent, child) {
-  const re = new RegExp(`<${parent}[\\s>][\\s\\S]*?<\\/${parent}>`, "i");
-  const m = xml.match(re);
-  return m ? rxText(m[0], child) : "";
-}
-
-function stripHtml(html) {
-  const div = document.createElement("div");
-  div.innerHTML = html;
-  return div.textContent || div.innerText || "";
-}
-
+// ── Date / text helpers ───────────────────────────────────────────
 function parseDate(str) {
   if (!str) return null;
   const d = new Date(str);
@@ -299,6 +45,29 @@ function formatDate(date) {
   });
 }
 
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+// ── Data loading ──────────────────────────────────────────────────
+function hydrateArticles(data) {
+  feedErrors = {};
+  if (data.errors) {
+    for (const [name, msg] of Object.entries(data.errors)) {
+      const feed = FEEDS.find((f) => f.name === name) || { name };
+      feedErrors[name] = { feed, error: new Error(msg), stale: false };
+    }
+  }
+  return (data.articles || []).map((a) => ({
+    ...a,
+    date: parseDate(a.date),
+  }));
+}
+
 function sortArticles() {
   allArticles.sort((a, b) => {
     if (!a.date && !b.date) return 0;
@@ -308,6 +77,42 @@ function sortArticles() {
   });
 }
 
+async function loadAllFeeds() {
+  const btn = document.getElementById("btn-refresh");
+  btn.classList.add("spinning");
+  const container = document.getElementById("articles-container");
+
+  feedErrors = {};
+  allArticles = [];
+
+  // Show cached data immediately while fetching fresh data
+  const cached = readCache();
+  if (cached) {
+    allArticles = hydrateArticles(cached);
+    sortArticles();
+    renderArticles();
+  } else {
+    container.innerHTML = `<div class="status"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>Loading feeds…</div>`;
+  }
+
+  try {
+    const res = await fetch("feed_data.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    writeCache(data);
+    allArticles = hydrateArticles(data);
+    sortArticles();
+    renderArticles();
+  } catch (e) {
+    if (allArticles.length === 0) {
+      container.innerHTML = `<div class="status">Failed to load feed data: ${escapeHtml(e.message)}</div>`;
+    }
+  }
+
+  btn.classList.remove("spinning");
+}
+
+// ── Tabs ──────────────────────────────────────────────────────────
 function buildTabs() {
   const tabs = document.getElementById("tabs");
   tabs.innerHTML = "";
@@ -339,6 +144,7 @@ function setTab(name) {
   renderArticles();
 }
 
+// ── Rendering ─────────────────────────────────────────────────────
 function renderArticles() {
   const container = document.getElementById("articles-container");
   container.innerHTML = "";
@@ -442,60 +248,7 @@ function makeCard(article, showFeedBadge) {
   return a;
 }
 
-function escapeHtml(str) {
-  return str
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;");
-}
-
-async function loadAllFeeds() {
-  const btn = document.getElementById("btn-refresh");
-  btn.classList.add("spinning");
-  const container = document.getElementById("articles-container");
-
-  feedErrors = {};
-  allArticles = [];
-
-  // Show cached articles immediately while fetching fresh data
-  const cachedFeeds = new Set();
-  FEEDS.forEach((feed) => {
-    const cached = readCache(feed);
-    if (cached) {
-      allArticles.push(...cached);
-      cachedFeeds.add(feed.name);
-    }
-  });
-  sortArticles();
-
-  if (allArticles.length > 0) {
-    renderArticles();
-  } else {
-    container.innerHTML = `<div class="status"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>Loading feeds…</div>`;
-  }
-
-  // Fetch all feeds in parallel; update the view as each one completes
-  await Promise.all(
-    FEEDS.map(async (feed) => {
-      try {
-        const articles = await fetchFeed(feed);
-        writeCache(feed, articles);
-        // Replace this feed's articles with the freshly fetched ones
-        allArticles = allArticles.filter((a) => a.feed !== feed.name);
-        allArticles.push(...articles);
-        sortArticles();
-        renderArticles();
-      } catch (e) {
-        feedErrors[feed.name] = { feed, error: e, stale: cachedFeeds.has(feed.name) };
-        renderArticles();
-      }
-    })
-  );
-
-  btn.classList.remove("spinning");
-}
-
+// ── Init ──────────────────────────────────────────────────────────
 document.addEventListener("DOMContentLoaded", () => {
   buildTabs();
   loadAllFeeds();
