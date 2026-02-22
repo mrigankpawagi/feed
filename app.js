@@ -1,33 +1,8 @@
 // Feed data is pre-fetched by a GitHub Actions workflow and stored in
 // feed_data.json (same origin — no CORS proxies needed).
 
-const CACHE_KEY = "feed_data_cache";
-const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
-
 let allArticles = []; // { feed, title, link, date, excerpt, author }
 let activeTab = "all";
-let feedErrors = {}; // feed.name -> { feed, error, stale }
-
-// ── Cache helpers ─────────────────────────────────────────────────
-function readCache() {
-  try {
-    const raw = localStorage.getItem(CACHE_KEY);
-    if (!raw) return null;
-    const { data, ts } = JSON.parse(raw);
-    if (Date.now() - ts > CACHE_TTL) return null;
-    return data;
-  } catch {
-    return null;
-  }
-}
-
-function writeCache(data) {
-  try {
-    localStorage.setItem(CACHE_KEY, JSON.stringify({ data, ts: Date.now() }));
-  } catch {
-    // ignore storage errors
-  }
-}
 
 // ── Date / text helpers ───────────────────────────────────────────
 function parseDate(str) {
@@ -55,13 +30,6 @@ function escapeHtml(str) {
 
 // ── Data loading ──────────────────────────────────────────────────
 function hydrateArticles(data) {
-  feedErrors = {};
-  if (data.errors) {
-    for (const [name, msg] of Object.entries(data.errors)) {
-      const feed = FEEDS.find((f) => f.name === name) || { name };
-      feedErrors[name] = { feed, error: new Error(msg), stale: false };
-    }
-  }
   return (data.articles || []).map((a) => ({
     ...a,
     date: parseDate(a.date),
@@ -78,38 +46,21 @@ function sortArticles() {
 }
 
 async function loadAllFeeds() {
-  const btn = document.getElementById("btn-refresh");
-  btn.classList.add("spinning");
   const container = document.getElementById("articles-container");
 
-  feedErrors = {};
   allArticles = [];
-
-  // Show cached data immediately while fetching fresh data
-  const cached = readCache();
-  if (cached) {
-    allArticles = hydrateArticles(cached);
-    sortArticles();
-    renderArticles();
-  } else {
-    container.innerHTML = `<div class="status"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.219-8.56"/></svg>Loading feeds…</div>`;
-  }
+  container.innerHTML = `<div class="status">Loading feeds…</div>`;
 
   try {
     const res = await fetch("feed_data.json");
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
-    writeCache(data);
     allArticles = hydrateArticles(data);
     sortArticles();
     renderArticles();
   } catch (e) {
-    if (allArticles.length === 0) {
-      container.innerHTML = `<div class="status">Failed to load feed data: ${escapeHtml(e.message)}</div>`;
-    }
+    container.innerHTML = `<div class="status">Failed to load feed data: ${escapeHtml(e.message)}</div>`;
   }
-
-  btn.classList.remove("spinning");
 }
 
 // ── Tabs ──────────────────────────────────────────────────────────
@@ -149,48 +100,16 @@ function renderArticles() {
   const container = document.getElementById("articles-container");
   container.innerHTML = "";
 
-  // Show any feed errors/warnings in a collapsible dropdown
-  const errorValues = Object.values(feedErrors);
-  if (errorValues.length > 0) {
-    const details = document.createElement("details");
-    details.className = "issues-details";
-    const summary = document.createElement("summary");
-    summary.className = "issues-summary";
-    const errorCount = errorValues.filter((v) => !v.stale).length;
-    const warnCount = errorValues.filter((v) => v.stale).length;
-    const parts = [];
-    if (errorCount > 0) parts.push(`${errorCount} error${errorCount !== 1 ? "s" : ""}`);
-    if (warnCount > 0) parts.push(`${warnCount} warning${warnCount !== 1 ? "s" : ""}`);
-    summary.textContent = parts.join(", ");
-    details.appendChild(summary);
-
-    errorValues.forEach(({ feed, error, stale }) => {
-      const err = document.createElement("div");
-      if (stale) {
-        err.className = "stale-msg";
-        err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><span>Showing cached data for <strong>${escapeHtml(feed.name)}</strong>: could not refresh (${escapeHtml(error.message)})</span>`;
-      } else {
-        err.className = "error-msg";
-        err.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink:0"><circle cx="12" cy="12" r="10"/><line x1="12" x2="12" y1="8" y2="12"/><line x1="12" x2="12.01" y1="16" y2="16"/></svg><span>Failed to load <strong>${escapeHtml(feed.name)}</strong>: ${escapeHtml(error.message)}</span>`;
-      }
-      details.appendChild(err);
-    });
-
-    container.appendChild(details);
-  }
-
   const filtered =
     activeTab === "all"
       ? allArticles
       : allArticles.filter((a) => a.feed === activeTab);
 
   if (filtered.length === 0) {
-    if (Object.keys(feedErrors).length === 0) {
-      const status = document.createElement("div");
-      status.className = "status";
-      status.textContent = "No articles found.";
-      container.appendChild(status);
-    }
+    const status = document.createElement("div");
+    status.className = "status";
+    status.textContent = "No articles found.";
+    container.appendChild(status);
     return;
   }
 
@@ -252,5 +171,4 @@ function makeCard(article, showFeedBadge) {
 document.addEventListener("DOMContentLoaded", () => {
   buildTabs();
   loadAllFeeds();
-  document.getElementById("btn-refresh").addEventListener("click", loadAllFeeds);
 });
