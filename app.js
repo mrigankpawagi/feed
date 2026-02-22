@@ -29,8 +29,12 @@ async function fetchWithProxy(url) {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       // Read the full body here so the signal stays live while streaming
       const text = await res.text();
-      // Reject HTML responses (proxy error pages) so Promise.any tries the next proxy
+      // Reject empty / too-short responses (some proxies return 200 with no body)
       const trimmed = text.trimStart();
+      if (trimmed.length < 50) {
+        throw new Error("Proxy returned empty or too-short response");
+      }
+      // Reject HTML responses (proxy error pages) so Promise.any tries the next proxy
       if (/^<!DOCTYPE\s+html/i.test(trimmed) || /^<html[\s>]/i.test(trimmed)) {
         throw new Error("Proxy returned HTML instead of feed content");
       }
@@ -113,13 +117,15 @@ async function fetchFeed(feed) {
     if (doc.querySelector("parsererror")) {
       // Attempt 3: wrap elements that commonly hold raw HTML in CDATA sections
       // so that embedded HTML tags and bare < / > no longer break XML parsing.
-      // This handles feeds like Dan Luu and Automating Mathematics that embed
-      // raw HTML content without CDATA wrappers.
       doc = parser.parseFromString(wrapHtmlContentInCDATA(fixed), "application/xml");
     }
   }
 
   if (doc.querySelector("parsererror")) {
+    // Attempt 4: regex-based fallback (handles truncated or malformed XML
+    // that DOMParser cannot recover, e.g. large feeds cut short by proxies)
+    const regexArticles = parseFeedWithRegex(text, feed);
+    if (regexArticles.length > 0) return regexArticles;
     throw new Error("Invalid XML received from feed");
   }
 
@@ -188,6 +194,89 @@ function wrapHtmlContentInCDATA(xml) {
     );
   }
   return result;
+}
+
+// ── Regex-based fallback feed parser ──────────────────────────────
+// Used when DOMParser fails (e.g. truncated responses from CORS proxies).
+// Extracts complete <item>/<entry> blocks via regex — partial trailing
+// items are silently skipped because the closing tag is never found.
+function parseFeedWithRegex(text, feed) {
+  const isAtom = /<feed[\s>]/i.test(text) && !/<rss[\s>]/i.test(text);
+  const blockRe = isAtom
+    ? /<entry(?:\s[^>]*)?>[\s\S]*?<\/entry>/gi
+    : /<item(?:\s[^>]*)?>[\s\S]*?<\/item>/gi;
+
+  const articles = [];
+  let m;
+  while ((m = blockRe.exec(text)) !== null) {
+    const b = m[0];
+    let title, link, date, content, author;
+
+    if (isAtom) {
+      title = rxText(b, "title") || "Untitled";
+      link = rxAtomLink(b);
+      date = rxText(b, "updated") || rxText(b, "published");
+      content = rxText(b, "content") || rxText(b, "summary") || "";
+      author = rxNested(b, "author", "name");
+    } else {
+      title = rxText(b, "title") || "Untitled";
+      link = rxText(b, "link") || "#";
+      date = rxText(b, "pubDate") || rxText(b, "dc\\:date") || rxText(b, "date");
+      content = rxText(b, "description") || rxText(b, "content\\:encoded") || "";
+      author = rxText(b, "author") || rxText(b, "dc\\:creator") || "";
+    }
+
+    articles.push({
+      feed: feed.name,
+      title,
+      link,
+      date: parseDate(date),
+      excerpt: stripHtml(content).slice(0, 220),
+      author,
+    });
+  }
+  return articles;
+}
+
+function rxText(xml, tag) {
+  const re = new RegExp(
+    `<${tag}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${tag}>`,
+    "i"
+  );
+  const m = xml.match(re);
+  if (!m) return "";
+  let c = m[1].trim();
+  const cd = c.match(/^<!\[CDATA\[([\s\S]*)\]\]>$/);
+  if (cd) c = cd[1];
+  return c
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, n) =>
+      String.fromCodePoint(parseInt(n, 16))
+    );
+}
+
+function rxAtomLink(xml) {
+  const alt =
+    xml.match(
+      /<link[^>]*rel\s*=\s*["']alternate["'][^>]*href\s*=\s*["']([^"']+)["']/i
+    ) ||
+    xml.match(
+      /<link[^>]*href\s*=\s*["']([^"']+)["'][^>]*rel\s*=\s*["']alternate["']/i
+    );
+  if (alt) return alt[1];
+  const any = xml.match(/<link[^>]*href\s*=\s*["']([^"']+)["']/i);
+  return any ? any[1] : rxText(xml, "link") || "#";
+}
+
+function rxNested(xml, parent, child) {
+  const re = new RegExp(`<${parent}[\\s>][\\s\\S]*?<\\/${parent}>`, "i");
+  const m = xml.match(re);
+  return m ? rxText(m[0], child) : "";
 }
 
 function stripHtml(html) {
