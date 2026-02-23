@@ -1,6 +1,86 @@
 {
-  "lastUpdated": "2026-02-22T09:46:51.384009+00:00",
+  "lastUpdated": "2026-02-23T06:55:15.509748+00:00",
   "articles": [
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Think Globally, Discuss PL Locally",
+      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+      "date": "2025-09-16T13:09:36+00:00",
+      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+      "author": "Harrison Goldstein"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Reserve Reviewer Policy",
+      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+      "date": "2025-09-09T15:59:52+00:00",
+      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+      "author": "Shriram Krishnamurthi"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "AI Models Need a Virtual Machine",
+      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+      "date": "2025-08-29T09:00:39+00:00",
+      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+      "date": "2025-05-19T13:43:38+00:00",
+      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+      "author": "Adrian Sampson"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "How to Give a Good Talk",
+      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+      "date": "2025-03-31T13:00:03+00:00",
+      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+      "author": "Michael Greenberg"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+      "date": "2025-03-20T16:21:36+00:00",
+      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+      "date": "2025-01-29T13:00:02+00:00",
+      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+      "author": "Andreia Mordido"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Missing Mentoring Pillar",
+      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+      "date": "2025-01-13T14:00:31+00:00",
+      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+      "author": "Rachit Nigam"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+      "date": "2025-01-02T13:00:44+00:00",
+      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+      "author": "Alastair Donaldson"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Evaluating Human Factors Beyond Lines of Code",
+      "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
+      "date": "2024-11-21T15:22:41+00:00",
+      "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
+      "author": "Will Crichton"
+    },
     {
       "feed": "Automating Mathematics",
       "title": "Mathematics as Natural Science in the Era of AI",
@@ -136,86 +216,6 @@
       "date": "2019-10-03T21:14:02+05:30",
       "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
       "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Think Globally, Discuss PL Locally",
-      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-      "date": "2025-09-16T13:09:36+00:00",
-      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-      "author": "Harrison Goldstein"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Reserve Reviewer Policy",
-      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-      "date": "2025-09-09T15:59:52+00:00",
-      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-      "author": "Shriram Krishnamurthi"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "AI Models Need a Virtual Machine",
-      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-      "date": "2025-08-29T09:00:39+00:00",
-      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-      "date": "2025-05-19T13:43:38+00:00",
-      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-      "author": "Adrian Sampson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "How to Give a Good Talk",
-      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-      "date": "2025-03-31T13:00:03+00:00",
-      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-      "author": "Michael Greenberg"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-      "date": "2025-03-20T16:21:36+00:00",
-      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-      "date": "2025-01-29T13:00:02+00:00",
-      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-      "author": "Andreia Mordido"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Missing Mentoring Pillar",
-      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-      "date": "2025-01-13T14:00:31+00:00",
-      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-      "author": "Rachit Nigam"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
-      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
-      "date": "2025-01-02T13:00:44+00:00",
-      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
-      "author": "Alastair Donaldson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Evaluating Human Factors Beyond Lines of Code",
-      "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
-      "date": "2024-11-21T15:22:41+00:00",
-      "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
-      "author": "Will Crichton"
     },
     {
       "feed": "Matt Might",
@@ -1562,5 +1562,1597 @@
       "author": ""
     }
   ],
-  "errors": {}
+  "errors": {},
+  "feedCache": {
+    "SIGPLAN Blog": {
+      "etag": "\"b81c3faae47c51f5ae61264528cd420b\"",
+      "last_modified": "Tue, 16 Sep 2025 13:09:36 GMT",
+      "articles": [
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Think Globally, Discuss PL Locally",
+          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+          "date": "2025-09-16T13:09:36+00:00",
+          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+          "author": "Harrison Goldstein"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Reserve Reviewer Policy",
+          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+          "date": "2025-09-09T15:59:52+00:00",
+          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+          "author": "Shriram Krishnamurthi"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "AI Models Need a Virtual Machine",
+          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+          "date": "2025-08-29T09:00:39+00:00",
+          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+          "date": "2025-05-19T13:43:38+00:00",
+          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+          "author": "Adrian Sampson"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "How to Give a Good Talk",
+          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+          "date": "2025-03-31T13:00:03+00:00",
+          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+          "author": "Michael Greenberg"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+          "date": "2025-03-20T16:21:36+00:00",
+          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+          "date": "2025-01-29T13:00:02+00:00",
+          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+          "author": "Andreia Mordido"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Missing Mentoring Pillar",
+          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+          "date": "2025-01-13T14:00:31+00:00",
+          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+          "author": "Rachit Nigam"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+          "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+          "date": "2025-01-02T13:00:44+00:00",
+          "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+          "author": "Alastair Donaldson"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Evaluating Human Factors Beyond Lines of Code",
+          "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
+          "date": "2024-11-21T15:22:41+00:00",
+          "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
+          "author": "Will Crichton"
+        }
+      ]
+    },
+    "Automating Mathematics": {
+      "etag": "\"6965f00c-3cd8\"",
+      "last_modified": "Tue, 13 Jan 2026 07:11:08 GMT",
+      "articles": [
+        {
+          "feed": "Automating Mathematics",
+          "title": "Mathematics as Natural Science in the Era of AI",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
+          "date": "2026-01-12T06:57:32+05:30",
+          "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Leanlang for Programmers",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
+          "date": "2025-12-10T10:09:51+00:00",
+          "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Integrating AI with the Lean Prover: How and Why",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
+          "date": "2025-11-12T09:22:22+00:00",
+          "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "When AI struck Gold at the Maths Olympiad",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
+          "date": "2025-10-09T08:50:40+00:00",
+          "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "AI for Mathematics: A Snapshot (July 2025)",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
+          "date": "2025-07-19T04:15:41+00:00",
+          "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "LeanAide: AI for Lean & Mathematics",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
+          "date": "2025-02-08T13:41:12+00:00",
+          "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Wishlist/ToDo List",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
+          "date": "2024-03-01T07:56:06+05:30",
+          "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Sieving chatGPT",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
+          "date": "2022-12-11T12:51:30+05:30",
+          "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
+          "date": "2022-06-07T06:50:53+05:30",
+          "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Some things I learnt from Dennis Sullivan",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
+          "date": "2022-03-24T11:10:36+05:30",
+          "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Forward Reasoning in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
+          "date": "2022-03-10T19:20:21+05:30",
+          "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "SAT Solver-Prover in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
+          "date": "2021-06-28T07:00:52+05:30",
+          "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "SAT Solving",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
+          "date": "2021-05-18T08:53:42+05:30",
+          "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Automating Mathematics India",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
+          "date": "2021-04-19T10:32:15+05:30",
+          "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Solving (but not proving?) Pappus",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
+          "date": "2021-04-19T06:53:09+05:30",
+          "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
+          "date": "2021-04-14T12:24:23+05:30",
+          "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Computer Assisted Proofs",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
+          "date": "2019-10-03T21:14:02+05:30",
+          "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        }
+      ]
+    },
+    "Matt Might": {
+      "etag": "\"65a425c0-55cf\"",
+      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
+      "articles": [
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Change your behavior",
+          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+          "date": "2024-01-14T12:14:05-06:00",
+          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Hello, Perceptron: An introduction to artificial neural networks",
+          "link": "http://matt.might.net/articles/hello-perceptron/",
+          "date": "2023-05-05T09:05:31-05:00",
+          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+          "date": "2023-04-01T10:48:44-05:00",
+          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "12 resolutions for programmers",
+          "link": "http://matt.might.net/articles/programmers-resolutions/",
+          "date": "2012-01-03T08:06:54-07:00",
+          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+          "link": "http://matt.might.net/articles/26-languages-part2/",
+          "date": "2022-12-31T12:36:56-07:00",
+          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+          "link": "http://matt.might.net/articles/26-languages-part1/",
+          "date": "2022-12-27T16:28:42-07:00",
+          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+          "date": "2022-11-28T06:16:39-06:00",
+          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Control yourself",
+          "link": "http://matt.might.net/articles/how-to-control-yourself/",
+          "date": "2022-11-01T13:05:08-05:00",
+          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Get tenure",
+          "link": "http://matt.might.net/articles/tenure/",
+          "date": "2015-08-18T10:33:03-06:00",
+          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Counting hash collisions with the birthday paradox",
+          "link": "http://matt.might.net/articles/counting-hash-collisions/",
+          "date": "2015-07-16T23:33:41-04:00",
+          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
+          "author": ""
+        }
+      ]
+    },
+    "Dan Luu": {
+      "etag": "W/\"6993d125-5fbb28\"",
+      "last_modified": "Tue, 17 Feb 2026 02:23:33 GMT",
+      "articles": [
+        {
+          "feed": "Dan Luu",
+          "title": "Steve Ballmer was an underrated CEO",
+          "link": "https://danluu.com/ballmer/",
+          "date": "2024-10-28T00:00:00+00:00",
+          "excerpt": "There's a common narrative that Microsoft was moribund under Steve Ballmer and then later saved by the miraculous leadership of Satya Nadella. This is the dominant narrative in every online discussion about the topic I've seen and it's a commonly expressed belief \"in real life\" as well. While I don'",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How good can you be at Codenames without knowing any words?",
+          "link": "https://danluu.com/codenames/",
+          "date": "2024-08-11T00:00:00+00:00",
+          "excerpt": "About eight years ago, I was playing a game of Codenames where the game state was such that our team would almost certainly lose if we didn't correctly guess all of our remaining words on our turn. From the given clue, we were unable to do this. Although the game is meant to be a word guessing game ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "A discussion of discussions on AI bias",
+          "link": "https://danluu.com/ai-bias/",
+          "date": "2024-06-16T00:00:00+00:00",
+          "excerpt": "There've been regular viral stories about ML/AI bias with LLMs and generative AI for the past couple years. One thing I find interesting about discussions of bias is how different the reaction is in the LLM and generative AI case when compared to \"classical\" bugs in cases where there's a clear bug. ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "What the FTC got wrong in the Google antitrust investigation",
+          "link": "https://danluu.com/ftc-google-antitrust/",
+          "date": "2024-05-26T00:00:00+00:00",
+          "excerpt": "From 2011-2012, the FTC investigated the possibility of pursuing antitrust action against Google. The FTC decided to close the investigation and not much was publicly known about what happened until Politico released 312 pages of internal FTC memos that from the investigation a decade later. As some",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How web bloat impacts users with slow devices",
+          "link": "https://danluu.com/slow-device/",
+          "date": "2024-03-16T00:00:00+00:00",
+          "excerpt": "In 2017, we looked at how web bloat affects users with slow connections . Even in the U.S., many users didn't have broadband speeds , making much of the web difficult to use. It's still the case that many users don't have broadband speeds, both inside and outside of the U.S. and that much of the mod",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Diseconomies of scale in fraud, spam, support, and moderation",
+          "link": "https://danluu.com/diseconomies-scale/",
+          "date": "2024-02-18T00:00:00+00:00",
+          "excerpt": "If I ask myself a question like \"I'd like to buy an SD card; who do I trust to sell me a real SD card and not some fake, Amazon or my local Best Buy?\", of course the answer is that I trust my local Best Buy 1 more than Amazon, which is notorious for selling counterfeit SD cards. And if I ask who do ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Why it's impossible to agree on what's allowed",
+          "link": "https://danluu.com/impossible-agree/",
+          "date": "2024-02-07T00:00:00+00:00",
+          "excerpt": "On large platforms, it's impossible to have policies on things like moderation, spam, fraud, and sexual content that people agree on. David Turner made a simple game to illustrate how difficult this is even in a trivial case, No Vehicles in the Park . If you haven't played it yet, I recommend playin",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Notes on Cruise's pedestrian accident",
+          "link": "https://danluu.com/cruise-report/",
+          "date": "2024-01-29T00:00:00+00:00",
+          "excerpt": "This is a set of notes on the Quinn Emanuel report on Cruise's handling of the 2023-10-02 accident where a Cruise autonomous vehicle (AV) hit a pedestrian, stopped, and then started moving again with the pedestrian stuck under the bottom of the AV, dragging the pedestrian 20 feet. After seeing some ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Why do people post on [bad platform] instead of [good platform]?",
+          "link": "https://danluu.com/why-video/",
+          "date": "2024-01-25T00:00:00+00:00",
+          "excerpt": "There's a class of comment you often see when someone makes a popular thread on Mastodon/Twitter/Threads/etc., that you also see on videos that's basically \"Why make a Twitter thread? This would be better as a blog post\" or \"Why make a video? This would be better as a blog post\". But, these comments",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How bad are search results? Let's compare Google, Bing, Marginalia, Kagi, Mwmbl, and ChatGPT",
+          "link": "https://danluu.com/seo-spam/",
+          "date": "2023-12-30T00:00:00+00:00",
+          "excerpt": "In The birth & death of search engine optimization , Xe suggests Here's a fun experiment to try. Take an open source project such as yt-dlp and try to find it from a very generic term like \"youtube downloader\". You won't be able to find it because of all of the content farms that try to rank at the ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Transcript of Elon Musk on stage with Dave Chapelle",
+          "link": "https://danluu.com/elon-dave-chappelle/",
+          "date": "2022-12-11T00:00:00+00:00",
+          "excerpt": "This is a transcription of videos Elon Musk's appearance on stage with Dave Chapelle using OpenAI's Whisper model with some manual error corrections and annotations for crowd noise. As with the Exhibit H Twitter text message release , there are a lot of articles that quote bits of this, but the arti",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Chat log exhibits from Twitter v. Musk case",
+          "link": "https://danluu.com/elon-twitter-texts/",
+          "date": "2022-10-01T00:00:00+00:00",
+          "excerpt": "This is a scan/OCR of Exhibits H and J from the Twitter v. Musk case, with some of the conversations de-interleaved and of course converted from a fuzzy scan to text to make for easier reading. I did this so that I could easily read this and, after reading it, I've found that most accountings of wha",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Futurist prediction methods and accuracy",
+          "link": "https://danluu.com/futurist-predictions/",
+          "date": "2022-09-12T00:00:00+00:00",
+          "excerpt": "I've been reading a lot of predictions from people who are looking to understand what problems humanity will face 10-50 years out (and sometimes longer) in order to work in areas that will be instrumental for the future and wondering how accurate these predictions of the future are. The timeframe of",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "In defense of simple architectures",
+          "link": "https://danluu.com/simple-architectures/",
+          "date": "2022-04-06T00:00:00+00:00",
+          "excerpt": "Wave is a $1.7B company with 70 engineers 1 whose product is a CRUD app that adds and subtracts numbers. In keeping with this, our architecture is a standard CRUD app architecture, a Python monolith on top of Postgres. Starting with a simple architecture and solving problems in simple ways where pos",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Why is it so hard to buy things that work well?",
+          "link": "https://danluu.com/nothing-works/",
+          "date": "2022-03-14T00:00:00+00:00",
+          "excerpt": "There's a cocktail party version of the efficient markets hypothesis I frequently hear that's basically, \"markets enforce efficiency, so it's not possible that a company can have some major inefficiency and survive\". We've previously discussed Marc Andreessen's quote that tech hiring can't be ineffi",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Misidentifying talent",
+          "link": "https://danluu.com/talent/",
+          "date": "2022-02-21T00:00:00+00:00",
+          "excerpt": "[Click to collapse / expand section on sports] Here are some notes from talent scouts: Recruit A: ... will be a real specimen with chance to have a Dave Parker body. Facially looks like Leon Wagner. Good body flexibility. Very large hands. Recruit B: Outstanding physical specimen – big athletic fram",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "A decade of major cache incidents at Twitter",
+          "link": "https://danluu.com/cache-incidents/",
+          "date": "2022-02-02T00:00:00+00:00",
+          "excerpt": "This was co-authored with Yao Yue This is a collection of information on severe ( SEV-0 or SEV-1 , the most severe incident classifications) incidents at Twitter that were at least partially attributed to cache from the time Twitter started using its current incident tracking JIRA (2012) to date (20",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Cocktail party ideas",
+          "link": "https://danluu.com/cocktail-ideas/",
+          "date": "2022-02-02T00:00:00+00:00",
+          "excerpt": "You don't have to be at a party to see this phenomenon in action, but there's a curious thing I regularly see at parties in social circles where people value intelligence and cleverness without similarly valuing on-the-ground knowledge or intellectual rigor. People often discuss the standard trendy ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "The container throttling problem",
+          "link": "https://danluu.com/cgroup-throttling/",
+          "date": "2021-12-18T00:00:00+00:00",
+          "excerpt": "This is an excerpt from an internal document David Mackey and I co-authored in April 2019. The document is excerpted since much of the original doc was about comparing possible approaches to increasing efficency at Twitter, which is mostly information that's meaningless outside of Twitter without a ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Some thoughts on writing",
+          "link": "https://danluu.com/writing-non-advice/",
+          "date": "2021-12-13T00:00:00+00:00",
+          "excerpt": "I see a lot of essays framed as writing advice which are actually thinly veiled descriptions of how someone writes that basically say \"you should write how I write\", e.g., people who write short posts say that you should write short posts . As with technical topics, I think a lot of different things",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Some latency measurement pitfalls",
+          "link": "https://danluu.com/latency-pitfalls/",
+          "date": "2021-12-06T00:00:00+00:00",
+          "excerpt": "This is a pseudo-transcript (actual words modified to be more readable than a 100% faithful transcription) of a short lightning talk I did at Twitter a year or two ago, on pitfalls of how we use latency metrics (with the actual service names anonymized per a comms request). Since this presentation, ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Major errors on this blog (and their corrections)",
+          "link": "https://danluu.com/corrections/",
+          "date": "2021-11-22T00:00:00+00:00",
+          "excerpt": "Here's a list of errors on this blog that I think were fairly serious. While what I think of as serious is, of course, subjective, I don't think there's any reasonable way to avoid that because, e.g., I make a huge number of typos, so many that the majority of acknowledgements on many posts are for ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Individuals matter",
+          "link": "https://danluu.com/people-matter/",
+          "date": "2021-11-15T00:00:00+00:00",
+          "excerpt": "One of the most common mistakes I see people make when looking at data is incorrectly using an overly simplified model. A specific variant of this that has derailed the majority of work roadmaps I've looked at is treating people as interchangeable, as if it doesn't matter who is doing what, as if in",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Culture matters",
+          "link": "https://danluu.com/culture/",
+          "date": "2021-11-08T00:00:00+00:00",
+          "excerpt": "Three major tools that companies have to influence behavior are incentives, process, and culture. People often mean different things when talking about these, so I'll provide an example of each so we're on the same page (if you think that I should be using a different word for the concept, feel free",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Willingness to look stupid",
+          "link": "https://danluu.com/look-stupid/",
+          "date": "2021-10-21T00:00:00+00:00",
+          "excerpt": "People frequently 1 think that I'm very stupid. I don't find this surprising, since I don't mind if other people think I'm stupid, which means that I don't adjust my behavior to avoid seeming stupid, which results in people thinking that I'm stupid. Although there are some downsides to people thinki",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "What to learn",
+          "link": "https://danluu.com/learn-what/",
+          "date": "2021-10-18T00:00:00+00:00",
+          "excerpt": "It's common to see people advocate for learning skills that they have or using processes that they use. For example, Steve Yegge has a set of blog posts where he recommends reading compiler books and learning about compilers. His reasoning is basically that, if you understand compilers, you'll see c",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Some reasons to work on productivity and velocity",
+          "link": "https://danluu.com/productivity-velocity/",
+          "date": "2021-10-15T00:00:00+00:00",
+          "excerpt": "A common topic of discussion among my close friends is where the bottlenecks are in our productivity and how we can execute more quickly. This is very different from what I see in my extended social circles, where people commonly say that velocity doesn't matter . In online discussions about this, I",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "The value of in-house expertise",
+          "link": "https://danluu.com/in-house/",
+          "date": "2021-09-29T00:00:00+00:00",
+          "excerpt": "An alternate title for this post might be, \"Twitter has a kernel team!?\". At this point, I've heard that surprised exclamation enough that I've lost count of the number times that's been said to me (I'd guess that it's more than ten but less than a hundred). If we look at trendy companies that are w",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Measurement, benchmarking, and data analysis are underrated",
+          "link": "https://danluu.com/why-benchmark/",
+          "date": "2021-08-27T00:00:00+00:00",
+          "excerpt": "A question I get asked with some frequency is: why bother measuring X, why not build something instead? More bluntly, in a recent conversation with a newsletter author, his comment on some future measurement projects I wanted to do (in the same vein as other projects like keyboard vs. mouse , keyboa",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Against essential and accidental complexity",
+          "link": "https://danluu.com/essential-complexity/",
+          "date": "2020-12-29T00:00:00+00:00",
+          "excerpt": "In the classic 1986 essay, No Silver Bullet , Fred Brooks argued that there is, in some sense, not that much that can be done to improve programmer productivity. His line of reasoning is that programming tasks contain a core of essential/conceptual 1 complexity that's fundamentally not amenable to a",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How do cars do in out-of-sample crash testing?",
+          "link": "https://danluu.com/car-safety/",
+          "date": "2020-06-30T00:06:34-07:00",
+          "excerpt": "Any time you have a benchmark that gets taken seriously, some people will start gaming the benchmark. Some famous examples in computing are the CPU benchmark specfp and video game benchmarks. With specfp, Sun managed to increase its score on 179.art (a sub-benchmark of specfp) by 12x with a compiler",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Finding the Story",
+          "link": "https://danluu.com/voyager-story/",
+          "date": "2020-06-02T00:05:34-07:00",
+          "excerpt": "This is an archive of an old pseudonymously written post from the 90s from someone whose former pseudonym seems to have disappeared from the internet. I see that Star Trek: Voyager has added a new character, a Borg. (From the photos, I also see that they're still breeding women for breast size in th",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "A simple way to get more value from tracing",
+          "link": "https://danluu.com/tracing-analytics/",
+          "date": "2020-05-31T00:06:34-07:00",
+          "excerpt": "A lot of people seem to think that distributed tracing isn't useful, or at least not without extreme effort that isn't worth it for companies smaller than FB. For example, here are a couple of public conversations that sound like a number of private conversations I've had. Sure, there's value somewh",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "A simple way to get more value from metrics",
+          "link": "https://danluu.com/metrics-analytics/",
+          "date": "2020-05-30T00:06:34-07:00",
+          "excerpt": "We spent one day 1 building a system that immediately found a mid 7 figure optimization (which ended up shipping). In the first year, we shipped mid 8 figures per year worth of cost savings as a result. The key feature this system introduces is the ability to query metrics data across all hosts and ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How (some) good corporate engineering blogs are written",
+          "link": "https://danluu.com/corp-eng-blogs/",
+          "date": "2020-03-11T00:00:00+00:00",
+          "excerpt": "I've been comparing notes with people who run corporate engineering blogs and one thing that I think is curious is that it's pretty common for my personal blog to get more traffic than the entire corp eng blog for a company with a nine to ten figure valuation and it's not uncommon for my blog to get",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "The growth of command line options, 1979-Present",
+          "link": "https://danluu.com/cli-complexity/",
+          "date": "2020-03-03T00:00:00+00:00",
+          "excerpt": "My hobby : opening up McIlroy’s UNIX philosophy on one monitor while reading manpages on the other. The first of McIlroy's dicta is often paraphrased as \"do one thing and do it well\", which is shortened from \"Make each program do one thing well. To do a new job, build afresh rather than complicate o",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Suspicious discontinuities",
+          "link": "https://danluu.com/discontinuities/",
+          "date": "2020-02-18T00:00:00+00:00",
+          "excerpt": "If you read any personal finance forums late last year, there's a decent chance you ran across a question from someone who was desperately trying to lose money before the end of the year. There are a number of ways someone could do this; one commonly suggested scheme was to buy put options that were",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "95%-ile isn't that good",
+          "link": "https://danluu.com/p95-skill/",
+          "date": "2020-02-07T00:00:00+00:00",
+          "excerpt": "Reaching 95%-ile isn't very impressive because it's not that hard to do. I think this is one of my most ridiculable ideas. It doesn't help that, when stated nakedly, that sounds elitist. But I think it's just the opposite: most people can become (relatively) good at most things. Note that when I say",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Algorithms interviews: theory vs. practice",
+          "link": "https://danluu.com/algorithms-interviews/",
+          "date": "2020-01-05T00:00:00+00:00",
+          "excerpt": "When I ask people at trendy big tech companies why algorithms quizzes are mandatory, the most common answer I get is something like \"we have so much scale, we can't afford to have someone accidentally write an O(n^2) algorithm and bring the site down\" 1 . One thing I find funny about this is, even t",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Files are fraught with peril",
+          "link": "https://danluu.com/deconstruct-files/",
+          "date": "2019-07-12T00:00:00+00:00",
+          "excerpt": "This is a psuedo-transcript for a talk given at Deconstruct 2019. To make this accessible for people on slow connections as well as people using screen readers, the slides have been replaced by in-line text (the talk has ~120 slides; at an average of 20 kB per slide, that's 2.4 MB. If you think that",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Randomized trial on gender in Overwatch",
+          "link": "https://danluu.com/overwatch-gender/",
+          "date": "2019-02-19T00:00:00+00:00",
+          "excerpt": "A recurring discussion in Overwatch (as well as other online games) is whether or not women are treated differently from men. If you do a quick search, you can find hundreds of discussions about this, some of which have well over a thousand comments. These discussions tend to go the same way and inv",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Fsyncgate: errors on fsync are unrecovarable",
+          "link": "https://danluu.com/fsyncgate/",
+          "date": "2018-03-28T00:00:00+00:00",
+          "excerpt": "This is an archive of the original \"fsyncgate\" email thread. This is posted here because I wanted to have a link that would fit on a slide for a talk on file safety with a mobile-friendly non-bloated format . From:Craig Ringer <craig(at)2ndquadrant(dot)com> Subject:Re: PostgreSQL's handling of fsync",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Computer latency: 1977-2017",
+          "link": "https://danluu.com/input-lag/",
+          "date": "2017-12-24T00:00:00+00:00",
+          "excerpt": "I've had this nagging feeling that the computers I use today feel slower than the computers I used as a kid. As a rule, I don’t trust this kind of feeling because human perception has been shown to be unreliable in empirical studies, so I carried around a high-speed camera and measured the response ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How good are decisions? Evaluating decision quality in domains where evaluation is easy",
+          "link": "https://danluu.com/bad-decisions/",
+          "date": "2017-11-21T00:00:00+00:00",
+          "excerpt": "A statement I commonly hear in tech-utopian circles is that some seeming inefficiency can’t actually be inefficient because the market is efficient and inefficiencies will quickly be eliminated. A contentious example of this is the claim that companies can’t be discriminating because the market is t",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How out of date are Android devices?",
+          "link": "https://danluu.com/android-updates/",
+          "date": "2017-11-12T00:00:00+00:00",
+          "excerpt": "It's common knowledge that Android device tend to be more out of date than iOS devices, but what does this actually mean? Let’s look at android marketshare data to see how old devices in the wild are. The x axis of the plot below is date, and the y axis is Android marketshare. The share of all devic",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "UI backwards compatibility",
+          "link": "https://danluu.com/ui-compatibility/",
+          "date": "2017-11-09T00:00:00+00:00",
+          "excerpt": "About once a month, an app that I regularly use will change its UI in a way that breaks muscle memory, basically tricking the user into doing things they don’t want. Zulip In recent memory, Zulip (a slack competitor) changed its newline behavior so that ctrl + enter sends a message instead of insert",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Filesystem error handling",
+          "link": "https://danluu.com/filesystem-errors/",
+          "date": "2017-10-23T00:00:00+00:00",
+          "excerpt": "We’re going to reproduce some results from papers on filesystem robustness that were written up roughly a decade ago : Prabhakaran et al. SOSP 05 paper , which injected errors below the filesystem and Gunawi et al. FAST 08 , which looked at how often filesystems failed to check return codes of funct",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Keyboard latency",
+          "link": "https://danluu.com/keyboard-latency/",
+          "date": "2017-10-16T00:00:00+00:00",
+          "excerpt": "If you look at “gaming\" keyboards, a lot of them sell for $100 or more on the promise that they’re fast. Ad copy that you’ll see includes: a custom designed keycap that has been made shorter to reduce the time it takes for your actions to register 8x FASTER - Polling Rate of 1000Hz: Response time 0.",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Branch prediction",
+          "link": "https://danluu.com/branch-prediction/",
+          "date": "2017-08-23T00:00:00+00:00",
+          "excerpt": "This is a pseudo-transcript for a talk on branch prediction given at Two Sigma on 8/22/2017 to kick off \"localhost\", a talk series organized by RC . How many of you use branches in your code? Could you please raise your hand if you use if statements or pattern matching? Most of the audience raises t",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Sattolo's algorithm",
+          "link": "https://danluu.com/sattolo/",
+          "date": "2017-08-09T00:00:00+00:00",
+          "excerpt": "I recently had a problem where part of the solution was to do a series of pointer accesses that would walk around a chunk of memory in pseudo-random order. Sattolo's algorithm provides a solution to this because it produces a permutation of a list with exactly one cycle, which guarantees that we wil",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Terminal latency",
+          "link": "https://danluu.com/term-latency/",
+          "date": "2017-07-18T00:00:00+00:00",
+          "excerpt": "There’s a great MSR demo from 2012 that shows the effect of latency on the experience of using a tablet . If you don’t want to watch the three minute video, they basically created a device which could simulate arbitrary latencies down to a fraction of a millisecond. At 100ms (1/10th of a second), wh",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "The widely cited studies on mouse vs. keyboard efficiency are completely bogus",
+          "link": "https://danluu.com/keyboard-v-mouse/",
+          "date": "2017-06-13T00:00:00+00:00",
+          "excerpt": "Which is faster, keyboard or mouse? A large number of programmers believe that the keyboard is faster for all (programming-related) tasks. However, there are a few widely cited webpages on AskTog which claim that Apple studies show that using the mouse is faster than using the keyboard for everythin",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Startup options v. cash",
+          "link": "https://danluu.com/startup-options/",
+          "date": "2017-06-07T00:00:00+00:00",
+          "excerpt": "I often talk to startups that claim that their compensation package has a higher expected value than the equivalent package at a place like Facebook, Google, Twitter, or Snapchat. One thing I don’t understand about this claim is, if the claim is true, why shouldn’t the startup go to an investor, sel",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How web bloat impacts users with slow connections",
+          "link": "https://danluu.com/web-bloat/",
+          "date": "2017-02-08T00:00:00+00:00",
+          "excerpt": "A couple years ago, I took a road trip from Wisconsin to Washington and mostly stayed in rural hotels on the way. I expected the internet in rural areas too sparse to have cable internet to be slow, but I was still surprised that a large fraction of the web was inaccessible. Some blogs with lightwei",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "HN: the good parts",
+          "link": "https://danluu.com/hn-comments/",
+          "date": "2016-10-23T00:00:00+00:00",
+          "excerpt": "HN comments are terrible . On any topic I’m informed about , the vast majority of comments are pretty clearly wrong . Most of the time, there are zero comments from people who know anything about the topic and the top comment is reasonable sounding but totally incorrect. Additionally, many comments ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Programming book recommendations and anti-recommendations",
+          "link": "https://danluu.com/programming-books/",
+          "date": "2016-10-16T01:06:34-07:00",
+          "excerpt": "There are a lot of “12 CS books every programmer must read” lists floating around out there. That's nonsense. The field is too broad for almost any topic to be required reading for all programmers, and even if a topic is that important, people's learning preferences differ too much for any book on t",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Hiring and the market for lemons",
+          "link": "https://danluu.com/hiring-lemons/",
+          "date": "2016-10-09T02:44:14-07:00",
+          "excerpt": "Joel Spolsky has a classic blog post on \"Finding Great Developers\" where he popularized the meme that great developers are impossible to find, a corollary of which is that if you can find someone, they're not great. Joel writes, The great software developers, indeed, the best people in every field, ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "I could do that in a weekend!",
+          "link": "https://danluu.com/sounds-easy/",
+          "date": "2016-10-03T01:14:27-07:00",
+          "excerpt": "I can't think of a single large software company that doesn't regularly draw internet comments of the form “What do all the employees do? I could build their product myself.” Benjamin Pollack and Jeff Atwood called out people who do that with Stack Overflow. But Stack Overflow is relatively obviousl",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Is dev compensation bimodal?",
+          "link": "https://danluu.com/bimodal-compensation/",
+          "date": "2016-09-26T23:33:26-07:00",
+          "excerpt": "Developer compensation has skyrocketed since the demise of the Google et al. wage-suppressing no-hire agreement , to the point where compensation rivals and maybe even exceeds compensation in traditionally remunerative fields like law, consulting, etc. In software, \"senior\" dev salary at a high-payi",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How I learned to program",
+          "link": "https://danluu.com/learning-to-program/",
+          "date": "2016-09-12T01:41:26-07:00",
+          "excerpt": "Tavish Armstrong has a great document where he describes how and when he learned the programming skills he has . I like this idea because I've found that the paths that people take to get into programming are much more varied than stereotypes give credit for, and I think it's useful to see that ther",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Notes on concurrency bugs",
+          "link": "https://danluu.com/concurrency-bugs/",
+          "date": "2016-08-04T20:32:26-07:00",
+          "excerpt": "Do concurrency bugs matter? From the literature, we know that most reported bugs in distributed systems have really simple causes and can be caught by trivial tests, even when we only look at bugs that cause really bad failures, like loss of a cluster or data corruption. The filesystem literature ec",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Some programming blogs to consider reading",
+          "link": "https://danluu.com/programming-blogs/",
+          "date": "2016-04-18T00:06:34-07:00",
+          "excerpt": "This is one of those “N technical things every programmer must read” lists, except that “programmer” is way too broad a term and the styles of writing people find helpful for them are too different for any such list to contain a non-zero number of items (if you want the entire list to be helpful to ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Google SRE book",
+          "link": "https://danluu.com/google-sre-book/",
+          "date": "2016-04-11T01:00:58-07:00",
+          "excerpt": "The book starts with a story about a time Margaret Hamilton brought her young daughter with her to NASA, back in the days of the Apollo program. During a simulation mission, her daughter caused the mission to crash by pressing some keys that caused a prelaunch program to run during the simulated mis",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "We only hire the trendiest",
+          "link": "https://danluu.com/programmer-moneyball/",
+          "date": "2016-03-21T00:23:44-07:00",
+          "excerpt": "An acquaintance of mine, let’s call him Mike, is looking for work after getting laid off from a contract role at Microsoft, which has happened to a lot of people I know. Like me, Mike has 11 years in industry. Unlike me, he doesn't know a lot of folks at trendy companies, so I passed his resume arou",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Harry Potter and the Methods of Rationality review by su3su2u1",
+          "link": "https://danluu.com/su3su2u1/hpmor/",
+          "date": "2016-03-01T00:00:00+00:00",
+          "excerpt": "These are archived from the now defunct su3su2u1 tumblr . Since there was some controversy over su3su2u1's identity, I'll note that I am not su3su2u1 and that hosting this material is neither an endorsement nor a sign of agreement. Harry Potter and the Methods of Rationality full review I opened up ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "su3su2u1 physics tumblr archive",
+          "link": "https://danluu.com/su3su2u1/physics/",
+          "date": "2016-03-01T00:00:00+00:00",
+          "excerpt": "These are archived from the now defunct su3su2u1 tumblr . A Roundabout Approach to Quantum Mechanics This will be the first post in what I hope will be a series that outlines some ideas from quantum mechanics. I will try to keep it light, and not overly math filled- which means I’m not really teachi",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Sampling v. tracing",
+          "link": "https://danluu.com/perf-tracing/",
+          "date": "2016-01-24T00:00:00+00:00",
+          "excerpt": "Perf is probably the most widely used general purpose performance debugging tool on Linux. There are multiple contenders for the #2 spot, and, like perf, they're sampling profilers. Sampling profilers are great. They tend to be easy-to-use and low-overhead compared to most alternatives. However, the",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "We saw some really bad Intel CPU bugs in 2015 and we should expect to see more in the future",
+          "link": "https://danluu.com/cpu-bugs/",
+          "date": "2016-01-10T00:00:00+00:00",
+          "excerpt": "2015 was a pretty good year for Intel. Their quarterly earnings reports exceeded expectations every quarter. They continue to be the only game in town for the serious server market, which continues to grow exponentially; from the earnings reports of the two largest cloud vendors, we can see that AWS",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Normalization of deviance",
+          "link": "https://danluu.com/wat/",
+          "date": "2015-12-29T00:00:00+00:00",
+          "excerpt": "Have you ever mentioned something that seems totally normal to you only to be greeted by surprise? Happens to me all the time when I describe something everyone at work thinks is normal. For some reason, my conversation partner's face morphs from pleasant smile to rictus of horror. Here are a few re",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Big companies v. startups",
+          "link": "https://danluu.com/startup-tradeoffs/",
+          "date": "2015-12-17T00:00:00+00:00",
+          "excerpt": "There's a meme that's been going around for a while now: you should join a startup because the money is better and the work is more technically interesting. Paul Graham says that the best way to make money is to \"start or join a startup\", which has been \"a reliable way to get rich for hundreds of ye",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Files are hard",
+          "link": "https://danluu.com/file-consistency/",
+          "date": "2015-12-12T00:00:00+00:00",
+          "excerpt": "I haven't used a desktop email client in years. None of them could handle the volume of email I get without at least occasionally corrupting my mailbox. Pine, Eudora, and outlook have all corrupted my inbox, forcing me to restore from backup. How is it that desktop mail clients are less reliable tha",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Why use ECC?",
+          "link": "https://danluu.com/why-ecc/",
+          "date": "2015-11-27T00:00:00+00:00",
+          "excerpt": "Jeff Atwood, perhaps the most widely read programming blogger, has a post that makes a case against using ECC memory . My read is that his major points are: Google didn't use ECC when they built their servers in 1999 Most RAM errors are hard errors and not soft errors RAM errors are rare because har",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "What's worked in Computer Science: 1999 v. 2015",
+          "link": "https://danluu.com/butler-lampson-1999/",
+          "date": "2015-11-23T00:00:00+00:00",
+          "excerpt": "In 1999, Butler Lampson gave a talk about the past and future of “computer systems research” . Here are his opinions from 1999 on \"what worked\". Yes Maybe No Virtual memory Parallelism Capabilities Address spaces RISC Fancy type systems Packet nets Garbage collection Functional programming Objects /",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Infinite disk",
+          "link": "https://danluu.com/infinite-disk/",
+          "date": "2015-11-01T00:00:00+00:00",
+          "excerpt": "Hardware performance “obviously” affects software performance and affects how software is optimized. For example, the fact that caches are multiple orders of magnitude faster than RAM means that blocked array accesses give better performance than repeatedly striding through an array. Something that'",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Why Intel added cache partitioning",
+          "link": "https://danluu.com/intel-cat/",
+          "date": "2015-10-04T00:00:00+00:00",
+          "excerpt": "Typical server utilization is between 10% and 50%. Google has demonstrated 90% utilization without impacting latency SLAs . Xkcd estimated that Google owns 2 million machines . If you estimate an amortized total cost of $4k per machine per year , that's $8 billion per year. With numbers like that, e",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Slowlock",
+          "link": "https://danluu.com/limplock/",
+          "date": "2015-09-30T00:00:00+00:00",
+          "excerpt": "Every once in awhile, you hear a story like “there was a case of a 1-Gbps NIC card on a machine that suddenly was transmitting only at 1 Kbps, which then caused a chain reaction upstream in such a way that the performance of the entire workload of a 100-node cluster was crawling at a snail's pace, e",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Steve Yegge's prediction record",
+          "link": "https://danluu.com/yegge-predictions/",
+          "date": "2015-08-31T00:00:00+00:00",
+          "excerpt": "I try to avoid making predictions 1 . It's a no-win proposition: if you're right, hindsight bias makes it look like you're pointing out the obvious. And most predictions are wrong. Every once in a while when someone does a review of predictions from pundits, they're almost always wrong at least as m",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Reading postmortems",
+          "link": "https://danluu.com/postmortem-lessons/",
+          "date": "2015-08-20T00:00:00+00:00",
+          "excerpt": "I love reading postmortems. They're educational, but unlike most educational docs, they tell an entertaining story. I've spent a decent chunk of time reading postmortems at both Google and Microsoft. I haven't done any kind of formal analysis on the most common causes of bad failures (yet), but ther",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Slashdot and Sourceforge",
+          "link": "https://danluu.com/slashdot-sourceforge/",
+          "date": "2015-05-31T00:00:00+00:00",
+          "excerpt": "If you've followed any tech news aggregator in the past week (the week of the 24th of May, 2015), you've probably seen the story about how SourceForge is taking over admin accounts for existing projects and injecting adware in installers for packages like GIMP. For anyone not following the story, So",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "The googlebot monopoly",
+          "link": "https://danluu.com/googlebot-monopoly/",
+          "date": "2015-05-27T00:00:00+00:00",
+          "excerpt": "TIL that Bell Labs and a whole lot of other websites block archive.org, not to mention most search engines. Turns out I have a broken website link in a GitHub repo, caused by the deletion of an old webpage. When I tried to pull the original from archive.org, I found that it's not available because B",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "A defense of boring languages",
+          "link": "https://danluu.com/boring-languages/",
+          "date": "2015-05-25T00:00:00+00:00",
+          "excerpt": "Boring languages are underrated. Many appear to be rated quite highly, at least if you look at market share. But even so, they're underrated. Despite the popularity of Dan McKinley's \"choose boring technology\" essay, boring languages are widely panned. People who use them are too (e.g., they're a ta",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Advantages of monorepos",
+          "link": "https://danluu.com/monorepo/",
+          "date": "2015-05-17T00:00:00+00:00",
+          "excerpt": "Here's a conversation I keep having: Someone : Did you hear that Facebook/Google uses a giant monorepo? WTF! Me : Yeah! It's really convenient, don't you think? Someone : That's THE MOST RIDICULOUS THING I've ever heard. Don't FB and Google know what a terrible idea it is to put all your code in a s",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "We used to build steel mills near cheap power. Now that's where we build datacenters",
+          "link": "https://danluu.com/datacenter-power/",
+          "date": "2015-05-04T00:00:00+00:00",
+          "excerpt": "Why are people so concerned with hardware power consumption nowadays? Some common answers to this question are that power is critically important for phones, tablets, and laptops and that we can put more silicon on a modern chip than we can effectively use . In 2001 Patrick Gelsinger observed that i",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Reading citations is easier than most people think",
+          "link": "https://danluu.com/dunning-kruger/",
+          "date": "2015-03-29T00:00:00+00:00",
+          "excerpt": "It's really common to see claims that some meme is backed by “studies” or “science”. But when I look at the actual studies, it usually turns out that the data are opposed to the claim. Here are the last few instances of this that I've run across. Dunning-Kruger A pop-sci version of Dunning-Kruger, t",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Given that we spend little on testing, how should we test software?",
+          "link": "https://danluu.com/testing/",
+          "date": "2015-03-10T00:00:00+00:00",
+          "excerpt": "I've been reading a lot about software testing, lately. Coming from a hardware background (CPUs and hardware accelerators), it's interesting how different software testing is. Bugs in software are much easier to fix, so it makes sense to spend a lot less effort spent on testing. Because less effort ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "What happens when you load a URL?",
+          "link": "https://danluu.com/navigate-url/",
+          "date": "2015-03-07T00:00:00+00:00",
+          "excerpt": "I've been hearing this question a lot lately, and when I do, it reminds me how much I don't know. Here are some questions this question brings to mind. How does a keyboard work? Why can’t you press an arbitrary combination of three keys at once, except on fancy gaming keyboards? That implies somethi",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Goodhearting IQ, cholesterol, and tail latency",
+          "link": "https://danluu.com/percentile-latency/",
+          "date": "2015-03-05T00:00:00+00:00",
+          "excerpt": "Most real-world problems are big enough that you can't just head for the end goal, you have to break them down into smaller parts and set up intermediate goals. For that matter, most games are that way too. “Win” is too big a goal in chess, so you might have a subgoal like don't get forked . While c",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "AI doesn't have to be very good to displace humans",
+          "link": "https://danluu.com/customer-service/",
+          "date": "2015-02-15T00:00:00+00:00",
+          "excerpt": "There's an ongoing debate over whether \"AI\" will ever be good enough to displace humans and, if so, when it will happen. In this debate, the optimists tend to focus on how much AI is improving and the pessimists point to all the ways AI isn't as good as an ideal human being. I think this misses two ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "CPU backdoors",
+          "link": "https://danluu.com/cpu-backdoors/",
+          "date": "2015-02-03T00:00:00+00:00",
+          "excerpt": "It's generally accepted that any piece of software could be compromised with a backdoor. Prominent examples include the Sony/BMG installer , which had a backdoor built-in to allow Sony to keep users from copying the CD, which also allowed malicious third-parties to take over any machine with the sof",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Blog monetization",
+          "link": "https://danluu.com/blog-ads/",
+          "date": "2015-01-24T00:00:00+00:00",
+          "excerpt": "Does it make sense for me to run ads on my blog? I've been thinking about this lately, since Carbon Ads contacted me about putting an ad up. What are the pros and cons? This isn't a rhetorical question. I'm genuinely interested in what you think . Pros Money Hey, who couldn't use more money? And it'",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "What's new in CPUs since the 80s?",
+          "link": "https://danluu.com/new-cpu-features/",
+          "date": "2015-01-11T00:00:00+00:00",
+          "excerpt": "This is a response to the following question from David Albert: My mental model of CPUs is stuck in the 1980s: basically boxes that do arithmetic, logic, bit twiddling and shifting, and loading and storing things in memory. I'm vaguely aware of various newer developments like vector instructions (SI",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "A review of the Julia language",
+          "link": "https://danluu.com/julialang/",
+          "date": "2014-12-28T00:00:00+00:00",
+          "excerpt": "Here's a language that gives near-C performance that feels like Python or Ruby with optional type annotations (that you can feed to one of two static analysis tools ) that has good support for macros plus decent-ish support for FP, plus a lot more. What's not to like? I'm mostly not going to talk ab",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Integer overflow checking cost",
+          "link": "https://danluu.com/integer-overflow/",
+          "date": "2014-12-17T00:00:00+00:00",
+          "excerpt": "How much overhead should we expect from enabling integer overflow checks? Using a compiler flag or built-in intrinsics, we should be able to do the check with a conditional branch that branches based on the overflow flag that add and sub set. Code that looks like add %esi, %edi should turn into some",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Malloc tutorial",
+          "link": "https://danluu.com/malloc-tutorial/",
+          "date": "2014-12-04T00:00:00+00:00",
+          "excerpt": "Let's write a malloc and see how it works with existing programs! This is basically an expanded explanation of what I did after reading this tutorial by Marwan Burelle and then sitting down and trying to write my own implementation, so the steps are going to be fairly similar. The main implementatio",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Markets, discrimination, and \"lowering the bar\"",
+          "link": "https://danluu.com/tech-discrimination/",
+          "date": "2014-12-01T00:00:00+00:00",
+          "excerpt": "Public discussions of discrimination in tech often result in someone claiming that discrimination is impossible because of market forces. Here's a quote from Marc Andreessen that sums up a common view 1 . Let's launch right into it. I think the critique that Silicon Valley companies are deliberately",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "TF-IDF linux commits",
+          "link": "https://danluu.com/linux-devs-say/",
+          "date": "2014-11-24T00:00:00+00:00",
+          "excerpt": "I was curious what different people worked on in Linux, so I tried grabbing data from the current git repository to see if I could pull that out of commit message data. This doesn't include history from before they switched to git, so it only goes back to 2005, but that's still a decent chunk of his",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "One week of bugs",
+          "link": "https://danluu.com/everything-is-broken/",
+          "date": "2014-11-18T00:00:00+00:00",
+          "excerpt": "If I had to guess, I'd say I probably work around hundreds of bugs in an average week, and thousands in a bad week. It's not unusual for me to run into a hundred new bugs in a single week. But I often get skepticism when I mention that I run into multiple new (to me) bugs per day, and that this is i",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Speeding up this site by 50x",
+          "link": "https://danluu.com/octopress-speedup/",
+          "date": "2014-11-17T00:00:00+00:00",
+          "excerpt": "I've seen all these studies that show how a 100ms improvement in page load time has a significant effect on page views, conversion rate, etc., but I'd never actually tried to optimize my site. This blog is a static Octopress site, hosted on GitHub Pages. Static sites are supposed to be fast, and Git",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How often is the build broken?",
+          "link": "https://danluu.com/broken-builds/",
+          "date": "2014-11-10T00:00:00+00:00",
+          "excerpt": "I've noticed that builds are broken and tests fail a lot more often on open source projects than on “work” projects. I wasn't sure how much of that was my perception vs. reality, so I grabbed the Travis CI data for a few popular categories on GitHub 1 . For reference, at every place I've worked, two",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Literature review on the benefits of static types",
+          "link": "https://danluu.com/empirical-pl/",
+          "date": "2014-11-07T00:00:00+00:00",
+          "excerpt": "There are some pretty strong statements about types floating around out there. The claims range from the oft-repeated phrase that when you get the types to line up, everything just works, to “not relying on type safety is unethical (if you have an SLA)” 1 , \" It boils down to cost vs benefit, actual",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "CLWB and PCOMMIT",
+          "link": "https://danluu.com/clwb-pcommit/",
+          "date": "2014-11-05T00:00:00+00:00",
+          "excerpt": "The latest version of the Intel manual has a couple of new instructions for non-volatile storage, like SSDs . What's that about? Before we look at the instructions in detail, let's take a look at the issues that exist with super fast NVRAM. One problem is that next generation storage technologies (P",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Caches: LRU v. random",
+          "link": "https://danluu.com/2choices-eviction/",
+          "date": "2014-11-03T00:00:00+00:00",
+          "excerpt": "Once upon a time, my computer architecture professor mentioned that using a random eviction policy for caches really isn't so bad. That random eviction isn't bad can be surprising — if your cache fills up and you have to get rid of something, choosing the least recently used (LRU) is an obvious choi",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Testing v. informal reasoning",
+          "link": "https://danluu.com/tests-v-reason/",
+          "date": "2014-11-03T00:00:00+00:00",
+          "excerpt": "This is an off-the-cuff comment for Hacker School's Paper of the Week Read Along series for Out of the Tar Pit . I find the idea itself, which is presented in sections 7-10, at the end of the paper, pretty interesting. However, I have some objections to the motivation for the idea, which makes up th",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Assembly v. intrinsics",
+          "link": "https://danluu.com/assembly-intrinsics/",
+          "date": "2014-10-19T00:00:00+00:00",
+          "excerpt": "Every once in a while, I hear how intrinsics have improved enough that it's safe to use them for high performance code. That would be nice. The promise of intrinsics is that you can write optimized code by calling out to functions (intrinsics) that correspond to particular assembly instructions. Sin",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Google wage fixing, 11-CV-02509-LHK, ORDER DENYING PLAINTIFFS' MOTION FOR PRELIMINARY APPROVAL OF SETTLEMENTS WITH ADOBE, APPLE, GOOGLE, AND INTEL",
+          "link": "https://danluu.com/google-wage-fixing/",
+          "date": "2014-08-14T00:00:00+00:00",
+          "excerpt": "UNITED STATES DISTRICT COURT NORTHERN DISTRICT OF CALIFORNIA SAN JOSE DIVISION IN RE: HIGH-TECH EMPLOYEE ANTITRUST LITIGATION THIS DOCUMENT RELATES TO: ALL ACTIONS Case No.: 11-CV-02509-LHK ORDER DENYING PLAINTIFFS' MOTION FOR PRELIMINARY APPROVAL OF SETTLEMENTS WITH ADOBE, APPLE, GOOGLE, AND INTEL ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Verilog Won & VHDL Lost? — You Be The Judge!",
+          "link": "https://danluu.com/verilog-vs-vhdl/",
+          "date": "2014-08-14T00:00:00+00:00",
+          "excerpt": "This is an archived USENET post from John Cooley on a competitive comparison between VHDL and Verilog that was done in 1997. I knew I hit a nerve. Usually when I publish a candid review of a particular conference or EDA product I typically see around 85 replies in my e-mail \"in\" box. Buried in my re",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Data-driven bug finding",
+          "link": "https://danluu.com/bugalytics/",
+          "date": "2014-04-06T00:00:00+00:00",
+          "excerpt": "I can't remember the last time I went a whole day without running into a software bug . For weeks, I couldn't invite anyone to Facebook events due to a bug that caused the invite button to not display on the invite screen. Google Maps has been giving me illegal and sometimes impossible directions ev",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Editing binaries",
+          "link": "https://danluu.com/edit-binary/",
+          "date": "2014-03-23T00:00:00+00:00",
+          "excerpt": "Editing binaries is a trick that comes in handy a few times a year. You don't often need to, but when you do, there's no alternative. When I mention patching binaries, I get one of two reactions: complete shock or no reaction at all. As far as I can tell, this is because most people have one of thes",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "That bogus gender gap article",
+          "link": "https://danluu.com/gender-gap/",
+          "date": "2014-03-09T00:00:00+00:00",
+          "excerpt": "Last week, Quartz published an article titled “There is no gender gap in tech salaries” . That resulted in linkbait copycat posts all over the internet, from obscure livejournals to Smithsonian.com . The claims are awfully strong, considering that the main study cited only looked at people who gradu",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "That time Oracle tried to have a professor fired for benchmarking their database",
+          "link": "https://danluu.com/anon-benchmark/",
+          "date": "2014-03-05T00:00:00+00:00",
+          "excerpt": "In 1983, at the University of Wisconsin, Dina Bitton, David DeWitt, and Carolyn Turbyfill created a database benchmarking framework . Some of their results included (lower is better): Join without indices table {border-collapse:collapse;margin:0px auto;}table,th,td {border: 1px solid black;}td {text",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Why don't schools teach debugging?",
+          "link": "https://danluu.com/teach-debugging/",
+          "date": "2014-02-08T00:00:00+00:00",
+          "excerpt": "In the fall of 2000, I took my first engineering class: ECE 352 , an entry-level digital design class for first-year computer engineers. It was standing room only, filled with waitlisted students who would find seats later in the semester as people dropped out. We had been warned in orientation that",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Do programmers need math?",
+          "link": "https://danluu.com/math-bias/",
+          "date": "2014-01-09T00:00:00+00:00",
+          "excerpt": "Dear David , I'm afraid my off the cuff response the other day wasn't too well thought out; when you talked about taking calc III and linear algebra, and getting resistance from one of your friends because \"wolfram alpha can do all of that now,\" my first reaction was horror-- which is why I replied ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Data alignment and caches",
+          "link": "https://danluu.com/3c-conflict/",
+          "date": "2014-01-02T00:00:00+00:00",
+          "excerpt": "Here's the graph of a toy benchmark 1 of page-aligned vs. mis-aligned accesses; it shows a ratio of performance between the two at different working set sizes. If this benchmark seems contrived, it actually comes from a real world example of the disastrous performance implications of using nice powe",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "PCA is not a panacea",
+          "link": "https://danluu.com/linear-hammer/",
+          "date": "2013-12-13T00:00:00+00:00",
+          "excerpt": "Earlier this year, I interviewed with a well-known tech startup, one of the hundreds of companies that claims to have harder interviews, more challenging work, and smarter employees than Google 1 . My first interviewer, John, gave me the standard tour: micro-kitchen stocked with a combination of hea",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Why hardware development is hard",
+          "link": "https://danluu.com/hardware-unforgiving/",
+          "date": "2013-11-10T00:00:00+00:00",
+          "excerpt": "In CPU design, most successful teams have a fairly long lineage and rely heavily on experienced engineers. When we look at CPU startups, teams that have a successful exist often have a core team that's been together for decades. For example, PA Semi's acquisition by Apple was a moderately successful",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How to discourage open source contributions",
+          "link": "https://danluu.com/discourage-oss/",
+          "date": "2013-10-27T00:00:00+00:00",
+          "excerpt": "What's the first thing you do when you find a bug or see a missing feature in an open source project? Check out the project page and submit a patch! Oh. Maybe their message is so encouraging that they get hundreds of pull requests a week, and the backlog isn't that bad. Maybe not. Giant sucker than ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Randomize HN",
+          "link": "https://danluu.com/randomize-hn/",
+          "date": "2013-10-04T00:00:00+00:00",
+          "excerpt": "You ever notice that there's this funny threshold for getting to the front page on sites like HN? The exact threshold varies depending on how much traffic there is, but, for articles that aren't wildly popular, there's this moment when the article is at N-1 votes. There is, perhaps, a 60% chance tha",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Writing safe Verilog",
+          "link": "https://danluu.com/pl-troll/",
+          "date": "2013-09-15T00:00:00+00:00",
+          "excerpt": "Troll? That's how people write Verilog 1 . At my old company, we had a team of formal methods PhD's who wrote a linter that typechecked our code, based on our naming convention. For our chip (which was small for a CPU), building a model (compiling) took about five minutes, running a single short tes",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Verilog is weird",
+          "link": "https://danluu.com/why-hardware-development-is-hard/",
+          "date": "2013-09-07T00:00:00+00:00",
+          "excerpt": "Verilog is the most commonly used language for hardware design in America (VHDL is more common in Europe). Too bad it's so baroque. If you ever browse the Verilog questions on Stack Overflow , you'll find a large number of questions, usually downvoted, asking “why doesn't my code work?”, with code t",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "About danluu.com",
+          "link": "https://danluu.com/about/",
+          "date": "2013-09-01T00:00:00+00:00",
+          "excerpt": "About The Blog This started out as a way to jot down thoughts on areas that seem interesting but underappreciated. Since then, this site has grown to the point where it gets millions of hits a month and I see that it's commonly cited by professors in their courses and on stackoverflow. That's flatte",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Latency mitigation strategies (by John Carmack)",
+          "link": "https://danluu.com/latency-mitigation/",
+          "date": "2013-03-05T00:00:00+00:00",
+          "excerpt": "this is an archive of an old article by John Carmack which seems to have disappeared off of the internet Abstract Virtual reality (VR) is one of the most demanding human-in-the-loop applications from a latency standpoint. The latency between the physical movement of a user’s head and updated photons",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Kara Swisher interview of Jack Dorsey",
+          "link": "https://danluu.com/karajack/",
+          "date": "2013-02-12T00:00:00+00:00",
+          "excerpt": "This is a transcript of the Kara Swisher / Jack Dorsey interview from 2/12/2019, made by parsing the original Tweets because I wanted to be able to read this linearly. There's a \"moment\" that tries to track this, but since it doesn't distinguish between sub-threads in any way, you can't tell the dif",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Jonathan Shapiro's Retrospective Thoughts on BitC",
+          "link": "https://danluu.com/bitc-retrospective/",
+          "date": "2012-03-23T00:00:00+00:00",
+          "excerpt": "This is an archive of the Jonathan Shapiro's \"Retrospective Thoughts on BitC\" that seems to have disappeared from the internet; at the time, BitC was aimed at the same niche as Rust Jonathan S. Shapiro shap at eros-os.org Fri Mar 23 15:06:41 PDT 2012 By now it will be obvious to everyone that I have",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Are closed social networks inevitable?",
+          "link": "https://danluu.com/open-social-networks/",
+          "date": "2010-01-01T00:00:00+00:00",
+          "excerpt": "This is an archive of an old Google Buzz conversation (circa 2010?) on a variety of topics, including whether or not it's inevetible that a closed platform will dominate social. Piaw : Social networks will be dominated primarily by network effects. That means in the long run, Facebook will dominate ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "How does Boston compare to SV and what do MIT and Stanford have to do with it?",
+          "link": "https://danluu.com/mit-stanford/",
+          "date": "2010-01-01T00:00:00+00:00",
+          "excerpt": "This is an archive of an old Google Buzz conversation on MIT vs. Stanford and Silicon Valley vs. Boston There's no reason why the Boston area shouldn't be as much a hotbed of startups as Silicon Valley is. By contrast, there are lots of reasons why NYC is no good for startups. Nevertheless, Paul Gra",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Work-life balance at Bioware",
+          "link": "https://danluu.com/bioware/",
+          "date": "2008-05-31T00:00:00+00:00",
+          "excerpt": "This is an archive of some posts in a forum thread titled \"Beware of Bioware\" in a now defunct forum, with comments from that forum as well as blog comments from a now defunct blog that archived that made the first attempt to archive this content. The original posts were deleted shortly after being ",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "History of Symbolics lisp machines",
+          "link": "https://danluu.com/symbolics-lisp-machines/",
+          "date": "2007-11-16T00:00:00+00:00",
+          "excerpt": "This is an archive of Dan Weinreb's comments on Symbolics and Lisp machines. Rebuttal to Stallman’s Story About The Formation of Symbolics and LMI Richard Stallman has been telling a story about the origins of the Lisp machine companies, and the effects on the M.I.T. Artificial Intelligence Lab, for",
+          "author": ""
+        },
+        {
+          "feed": "Dan Luu",
+          "title": "Subspace / Continuum History",
+          "link": "https://danluu.com/subspace-history/",
+          "date": "2006-02-01T00:00:00+00:00",
+          "excerpt": "Archived from an unknown source. Possibly Gravitron? In regards for history: Chapter #1 (Around) December 1995 is when it all started. Rod Humble wished to create something like Air Warrior but online, he approached Virgin Interactive Entertainment with the idea and they replied with something along",
+          "author": ""
+        }
+      ]
+    },
+    "Hillel Wayne": {
+      "etag": null,
+      "last_modified": "Wed, 18 Feb 2026 16:33:08 GMT",
+      "articles": [
+        {
+          "feed": "Hillel Wayne",
+          "title": "Stream of Consciousness Driven Development",
+          "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/",
+          "date": "2026-02-18T16:33:08+00:00",
+          "excerpt": "This is something I just tried out last week but it seems to have enough potential to be worth showing unpolished. I was pairing with a client on writing a spec. I saw a problem with the spec, a convoluted way of fixing the spec. Instead of trying to verbally explain it, I started by creating a new ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Proving What's Possible",
+          "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/",
+          "date": "2026-02-11T18:36:53+00:00",
+          "excerpt": "As a formal methods consultant I have to mathematically express properties of systems. I generally do this with two \"temporal operators\": A(x) means that x is always true. For example, a database table always satisfies all record-level constraints, and a state machine always makes valid transitions ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Logic for Programmers New Release and Next Steps",
+          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/",
+          "date": "2026-02-04T14:00:00+00:00",
+          "excerpt": "It's taken four months, but the next release of Logic for Programmers is now available ! v0.13 is over 50,000 words, making it both 20% larger than v0.12 and officially the longest thing I have ever written. 1 Full release notes are here , but I'll talk a bit about the biggest changes. For one, ever",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Refinement without Specification",
+          "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/",
+          "date": "2026-01-20T17:49:07+00:00",
+          "excerpt": "Imagine we have a SQL database with a user table, and users have a non-nullable is_activated boolean column. Having read That Boolean Should Probably Be Something else , you decide to migrate it to a nullable activated_at column. You can change any of the SQL queries that read/update the user table ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "My Gripes with Prolog",
+          "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
+          "date": "2026-01-14T16:48:51+00:00",
+          "excerpt": "For the next release of Logic for Programmers , I'm finally adding the sections on Answer Set Programming and Constraint Logic Programming that I TODOd back in version 0.9. And this is making me re-experience some of my pain points with Prolog, which I will gripe about now. If you want to know more ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "The Liskov Substitution Principle does more than you think",
+          "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/",
+          "date": "2026-01-06T16:51:26+00:00",
+          "excerpt": "Happy New Year! I'm done with the newsletter hiatus and am going to try updating weekly again. To ease into things a bit, I'll try to keep posts a little more off the cuff and casual for a while, at least until Logic for Programmers is done. Speaking of which, v0.13 should be out by the end of this ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Some Fun Software Facts",
+          "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/",
+          "date": "2025-12-10T18:45:37+00:00",
+          "excerpt": "Last newsletter of the year! First some news on Logic for Programmers . Thanks to everyone who donated to the feedchicago charity drive ! In total we raised $2250 for Chicago food banks. Proof here . If you missed buying Logic for Programmers real cheap in the charity drive, you can still get it for",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "One more week to the Logic for Programmers Food Drive",
+          "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/",
+          "date": "2025-11-24T18:21:49+00:00",
+          "excerpt": "A couple of weeks ago I started a fundraiser for the Greater Chicago Food Depository : get Logic for Programmers 50% off and all the royalties will go to charity. 1 Since then, we've raised a bit over $1600. Y'all are great! The fundraiser is going on until the end of November, so you still have one",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
+          "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/",
+          "date": "2025-11-10T16:31:11+00:00",
+          "excerpt": "From now until the end of the month, you can get Logic for Programmers at half price with the coupon feedchicago . All royalties from that coupon will go to the Greater Chicago Food Depository . Thank you!",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "I'm taking a break",
+          "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/",
+          "date": "2025-10-27T21:02:37+00:00",
+          "excerpt": "Hi everyone, I've been getting burnt out on writing a weekly software essay. It's gone from taking me an afternoon to write a post to taking two or three days, and that's made it really difficult to get other writing done. That, plus some short-term work and life priorities, means now feels like a g",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
+          "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/",
+          "date": "2025-10-21T16:46:24+00:00",
+          "excerpt": "A while back my friend Pablo Meier was reviewing some 2024 videogames and wrote this : I feel like some artists, if they didn't exist, would have the resulting void filled in by someone similar (e.g. if Katy Perry didn't exist, someone like her would have). But others don't have successful imitators",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "The Phase Change",
+          "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/",
+          "date": "2025-10-16T14:59:25+00:00",
+          "excerpt": "Last week I ran my first 10k. It wasn't a race or anything. I left that evening planning to run a 5k, and then three miles later thought \"what if I kept going?\" 1 I've been running for just over two years now. My goal was to run a mile, then three, then three at a pace faster than a power-walk. I wi",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Three ways formally verified code can go wrong in practice",
+          "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
+          "date": "2025-10-10T17:06:19+00:00",
+          "excerpt": "New Logic for Programmers Release! v0.12 is now available ! This should be the last major content release. The next few months are going to be technical review, copyediting and polishing, with a hopeful 1.0 release in March. Full release notes here . Three ways formally verified code can go wrong in",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+          "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/",
+          "date": "2025-09-25T16:50:58+00:00",
+          "excerpt": "Last week I said that this week's newsletter would be a brief history of algebraic data types. I was wrong. That history is now a 3500 word blog post . Patreon blog notes here . I'm speaking at P99 Conf ! My talk, \"Designing Low-Latency Systems with TLA+\", is happening 10/23 at 11:30 central time. I",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
+          "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/",
+          "date": "2025-09-10T13:00:00+00:00",
+          "excerpt": "In my first interview out of college I was asked the change counter problem: Given a set of coin denominations, find the minimum number of coins required to make change for a given number. IE for USA coinage and 37 cents, the minimum number is four (quarter, dime, 2 pennies). I implemented the simpl",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "The Angels and Demons of Nondeterminism",
+          "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/",
+          "date": "2025-09-04T14:00:00+00:00",
+          "excerpt": "Greetings everyone! You might have noticed that it's September and I don't have the next version of Logic for Programmers ready. As penance, here's ten free copies of the book . So a few months ago I wrote a newsletter about how we use nondeterminism in formal methods. The overarching idea: Nondeter",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Logical Duals in Software Engineering",
+          "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/",
+          "date": "2025-08-27T19:25:32+00:00",
+          "excerpt": "( Last week's newsletter took too long and I'm way behind on Logic for Programmers revisions so short one this time. 1 ) In classical logic, two operators F/G are duals if F(x) = !G(!x) . Three examples: x || y is the same as !(!x && !y) . <>P (\"P is possibly true\") is the same as ![]!P (\"not P isn'",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Sapir-Whorf does not apply to Programming Languages",
+          "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/",
+          "date": "2025-08-21T13:00:00+00:00",
+          "excerpt": "This one is a hot mess but it's too late in the week to start over. Oh well! Someone recognized me at last week's Chipy and asked for my opinion on Sapir-Whorf hypothesis in programming languages. I thought this was interesting enough to make a newsletter. First what it is, then why it looks like it",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Software books I wish I could read",
+          "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/",
+          "date": "2025-08-06T13:00:00+00:00",
+          "excerpt": "New Logic for Programmers Release! v0.11 is now available ! This is over 20% longer than v0.10, with a new chapter on code proofs, three chapter overhauls, and more! Full release notes here . Software books I wish I could read I'm writing Logic for Programmers because it's a book I wanted to have te",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "2000 words about arrays and tables",
+          "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/",
+          "date": "2025-07-30T13:00:00+00:00",
+          "excerpt": "I'm way too discombobulated from getting next month's release of Logic for Programmers ready, so I'm pulling a idea from the slush pile. Basically I wanted to come up with a mental model of arrays as a concept that explained APL-style multidimensional arrays and tables but also why there weren't mul",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Programming Language Escape Hatches",
+          "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/",
+          "date": "2025-07-24T14:00:00+00:00",
+          "excerpt": "The excellent-but-defunct blog Programming in the 21st Century defines \"puzzle languages\" as languages were part of the appeal is in figuring out how to express a program idiomatically, like a puzzle. As examples, he lists Haskell, Erlang, and J. All puzzle languages, the author says, have an \"escap",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Maybe writing speed actually is a bottleneck for programming",
+          "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/",
+          "date": "2025-07-17T19:08:27+00:00",
+          "excerpt": "I'm a big (neo)vim buff. My config is over 1500 lines and I regularly write new scripts. I recently ported my neovim config to a new laptop. Before then, I was using VSCode to write, and when I switched back I immediately saw a big gain in productivity. People often pooh-pooh vim (and other assistiv",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Logic for Programmers Turns One",
+          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/",
+          "date": "2025-07-08T18:18:52+00:00",
+          "excerpt": "I released Logic for Programmers exactly one year ago today. It feels weird to celebrate the anniversary of something that isn't 1.0 yet, but software projects have a proud tradition of celebrating a dozen anniversaries before 1.0. I wanted to share about what's changed in the past year and the work",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Logical Quantifiers in Software",
+          "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/",
+          "date": "2025-07-02T19:44:22+00:00",
+          "excerpt": "I realize that for all I've talked about Logic for Programmers in this newsletter, I never once explained basic logical quantifiers. They're both simple and incredibly useful, so let's do that this week! Sets and quantifiers A set is a collection of unordered, unique elements. {1, 2, 3, …} is a set,",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "You can cheat a test suite with a big enough polynomial",
+          "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/",
+          "date": "2025-06-24T16:27:01+00:00",
+          "excerpt": "Hi nerds, I'm back from Systems Distributed ! I'd heartily recommend it, wildest conference I've been to in years. I have a lot of work to catch up on, so this will be a short newsletter. In an earlier version of my talk, I had a gag about unit tests. First I showed the test f([1,2,3]) == 3 , then s",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Solving LinkedIn Queens with SMT",
+          "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/",
+          "date": "2025-06-12T15:43:25+00:00",
+          "excerpt": "No newsletter next week I’ll be speaking at Systems Distributed . My talk isn't close to done yet, which is why this newsletter is both late and short. Solving LinkedIn Queens in SMT The article Modern SAT solvers: fast, neat and underused claims that SAT solvers 1 are \"criminally underused by the i",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "AI is a gamechanger for TLA+ users",
+          "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/",
+          "date": "2025-06-05T14:59:11+00:00",
+          "excerpt": "New Logic for Programmers Release v0.10 is now available ! This is a minor release, mostly focused on logic-based refactoring, with new material on set types and testing refactors are correct. See the full release notes at the changelog page . Due to conference pressure v0.11 will also likely be a m",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "What does \"Undecidable\" mean, anyway",
+          "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/",
+          "date": "2025-05-28T19:34:02+00:00",
+          "excerpt": "Systems Distributed I'll be speaking at Systems Distributed next month! The talk is brand new and will aim to showcase some of the formal methods mental models that would be useful in mainstream software development. It has added some extra stress on my schedule, though, so expect the next two month",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Finding hard 24 puzzles with planner programming",
+          "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/",
+          "date": "2025-05-20T18:21:01+00:00",
+          "excerpt": "Planner programming is a programming technique where you solve problems by providing a goal and actions, and letting the planner find actions that reach the goal. In a previous edition of Logic for Programmers , I demonstrated how this worked by solving the 24 puzzle with planning. For reasons discu",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Modeling Awkward Social Situations with TLA+",
+          "link": "https://buttondown.com/hillelwayne/archive/modeling-awkward-social-situations-with-tla/",
+          "date": "2025-05-14T16:02:21+00:00",
+          "excerpt": "You're walking down the street and need to pass someone going the opposite way. You take a step left, but they're thinking the same thing and take a step to their right , aka your left. You're still blocking each other. Then you take a step to the right, and they take a step to their left, and you'r",
+          "author": ""
+        }
+      ]
+    }
+  }
 }
