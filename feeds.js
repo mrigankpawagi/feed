@@ -20,4 +20,8 @@ const FEEDS = [
     name: "Hillel Wayne",
     url: "https://buttondown.email/hillelwayne/rss",
   },
+  {
+    name: "Simon Willison",
+    url: "https://simonwillison.net/atom/everything/",
+  },
 ];
