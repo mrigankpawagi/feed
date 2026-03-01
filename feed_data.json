@@ -1,221 +1,13 @@
 {
-  "lastUpdated": "2026-02-28T06:27:52.108908+00:00",
+  "lastUpdated": "2026-03-01T06:36:11.933626+00:00",
   "articles": [
     {
-      "feed": "Automating Mathematics",
-      "title": "Mathematics as Natural Science in the Era of AI",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
-      "date": "2026-01-12T06:57:32+05:30",
-      "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Leanlang for Programmers",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
-      "date": "2025-12-10T10:09:51+00:00",
-      "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Integrating AI with the Lean Prover: How and Why",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
-      "date": "2025-11-12T09:22:22+00:00",
-      "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "When AI struck Gold at the Maths Olympiad",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
-      "date": "2025-10-09T08:50:40+00:00",
-      "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "AI for Mathematics: A Snapshot (July 2025)",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
-      "date": "2025-07-19T04:15:41+00:00",
-      "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "LeanAide: AI for Lean & Mathematics",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
-      "date": "2025-02-08T13:41:12+00:00",
-      "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Wishlist/ToDo List",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
-      "date": "2024-03-01T07:56:06+05:30",
-      "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Sieving chatGPT",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
-      "date": "2022-12-11T12:51:30+05:30",
-      "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
-      "date": "2022-06-07T06:50:53+05:30",
-      "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Some things I learnt from Dennis Sullivan",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
-      "date": "2022-03-24T11:10:36+05:30",
-      "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Forward Reasoning in Lean 4",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
-      "date": "2022-03-10T19:20:21+05:30",
-      "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "SAT Solver-Prover in Lean 4",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
-      "date": "2021-06-28T07:00:52+05:30",
-      "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "SAT Solving",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
-      "date": "2021-05-18T08:53:42+05:30",
-      "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Automating Mathematics India",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
-      "date": "2021-04-19T10:32:15+05:30",
-      "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Solving (but not proving?) Pappus",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
-      "date": "2021-04-19T06:53:09+05:30",
-      "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
-      "date": "2021-04-14T12:24:23+05:30",
-      "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Computer Assisted Proofs",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
-      "date": "2019-10-03T21:14:02+05:30",
-      "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Think Globally, Discuss PL Locally",
-      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-      "date": "2025-09-16T13:09:36+00:00",
-      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-      "author": "Harrison Goldstein"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Reserve Reviewer Policy",
-      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-      "date": "2025-09-09T15:59:52+00:00",
-      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-      "author": "Shriram Krishnamurthi"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "AI Models Need a Virtual Machine",
-      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-      "date": "2025-08-29T09:00:39+00:00",
-      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-      "date": "2025-05-19T13:43:38+00:00",
-      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-      "author": "Adrian Sampson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "How to Give a Good Talk",
-      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-      "date": "2025-03-31T13:00:03+00:00",
-      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-      "author": "Michael Greenberg"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-      "date": "2025-03-20T16:21:36+00:00",
-      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-      "date": "2025-01-29T13:00:02+00:00",
-      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-      "author": "Andreia Mordido"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Missing Mentoring Pillar",
-      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-      "date": "2025-01-13T14:00:31+00:00",
-      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-      "author": "Rachit Nigam"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
-      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
-      "date": "2025-01-02T13:00:44+00:00",
-      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
-      "author": "Alastair Donaldson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Evaluating Human Factors Beyond Lines of Code",
-      "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
-      "date": "2024-11-21T15:22:41+00:00",
-      "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
-      "author": "Will Crichton"
+      "feed": "Simon Willison",
+      "title": "Interactive explanations",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+      "date": "2026-02-28T23:09:39+00:00",
+      "excerpt": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt . For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need t",
+      "author": ""
     },
     {
       "feed": "Simon Willison",
@@ -450,252 +242,140 @@
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
-      "link": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything",
-      "date": "2026-02-20T17:12:55+00:00",
-      "excerpt": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI I don't normally cover acquisition news like this, but I have some thoughts. It's hard to overstate the impact Georgi Gerganov has had on the local model space. Back in March 2023 his release of llama.cpp made it possible to run",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Mathematics as Natural Science in the Era of AI",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
+      "date": "2026-01-12T06:57:32+05:30",
+      "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "New Blog Post: Some Silly Z3 Scripts I Wrote",
-      "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-some-silly-z3-scripts-i-wrote/",
-      "date": "2026-02-23T16:49:10+00:00",
-      "excerpt": "Now that I'm not spending all my time on Logic for Programmers, I have time to update my website again! So here's the first blog post in five months: Some Silly Z3 Scripts I Wrote . Normally I'd also put a link to the Patreon notes but I've decided I don't like publishing gated content and am going ",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Leanlang for Programmers",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
+      "date": "2025-12-10T10:09:51+00:00",
+      "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "Stream of Consciousness Driven Development",
-      "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/",
-      "date": "2026-02-18T16:33:08+00:00",
-      "excerpt": "This is something I just tried out last week but it seems to have enough potential to be worth showing unpolished. I was pairing with a client on writing a spec. I saw a problem with the spec, a convoluted way of fixing the spec. Instead of trying to verbally explain it, I started by creating a new ",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Integrating AI with the Lean Prover: How and Why",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
+      "date": "2025-11-12T09:22:22+00:00",
+      "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "Proving What's Possible",
-      "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/",
-      "date": "2026-02-11T18:36:53+00:00",
-      "excerpt": "As a formal methods consultant I have to mathematically express properties of systems. I generally do this with two \"temporal operators\": A(x) means that x is always true. For example, a database table always satisfies all record-level constraints, and a state machine always makes valid transitions ",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "When AI struck Gold at the Maths Olympiad",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
+      "date": "2025-10-09T08:50:40+00:00",
+      "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "Logic for Programmers New Release and Next Steps",
-      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/",
-      "date": "2026-02-04T14:00:00+00:00",
-      "excerpt": "It's taken four months, but the next release of Logic for Programmers is now available ! v0.13 is over 50,000 words, making it both 20% larger than v0.12 and officially the longest thing I have ever written. 1 Full release notes are here , but I'll talk a bit about the biggest changes. For one, ever",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "AI for Mathematics: A Snapshot (July 2025)",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
+      "date": "2025-07-19T04:15:41+00:00",
+      "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "Refinement without Specification",
-      "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/",
-      "date": "2026-01-20T17:49:07+00:00",
-      "excerpt": "Imagine we have a SQL database with a user table, and users have a non-nullable is_activated boolean column. Having read That Boolean Should Probably Be Something else , you decide to migrate it to a nullable activated_at column. You can change any of the SQL queries that read/update the user table ",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "LeanAide: AI for Lean & Mathematics",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
+      "date": "2025-02-08T13:41:12+00:00",
+      "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "My Gripes with Prolog",
-      "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
-      "date": "2026-01-14T16:48:51+00:00",
-      "excerpt": "For the next release of Logic for Programmers , I'm finally adding the sections on Answer Set Programming and Constraint Logic Programming that I TODOd back in version 0.9. And this is making me re-experience some of my pain points with Prolog, which I will gripe about now. If you want to know more ",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Wishlist/ToDo List",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
+      "date": "2024-03-01T07:56:06+05:30",
+      "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "The Liskov Substitution Principle does more than you think",
-      "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/",
-      "date": "2026-01-06T16:51:26+00:00",
-      "excerpt": "Happy New Year! I'm done with the newsletter hiatus and am going to try updating weekly again. To ease into things a bit, I'll try to keep posts a little more off the cuff and casual for a while, at least until Logic for Programmers is done. Speaking of which, v0.13 should be out by the end of this ",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Sieving chatGPT",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
+      "date": "2022-12-11T12:51:30+05:30",
+      "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "Some Fun Software Facts",
-      "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/",
-      "date": "2025-12-10T18:45:37+00:00",
-      "excerpt": "Last newsletter of the year! First some news on Logic for Programmers . Thanks to everyone who donated to the feedchicago charity drive ! In total we raised $2250 for Chicago food banks. Proof here . If you missed buying Logic for Programmers real cheap in the charity drive, you can still get it for",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
+      "date": "2022-06-07T06:50:53+05:30",
+      "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "One more week to the Logic for Programmers Food Drive",
-      "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/",
-      "date": "2025-11-24T18:21:49+00:00",
-      "excerpt": "A couple of weeks ago I started a fundraiser for the Greater Chicago Food Depository : get Logic for Programmers 50% off and all the royalties will go to charity. 1 Since then, we've raised a bit over $1600. Y'all are great! The fundraiser is going on until the end of November, so you still have one",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Some things I learnt from Dennis Sullivan",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
+      "date": "2022-03-24T11:10:36+05:30",
+      "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
-      "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/",
-      "date": "2025-11-10T16:31:11+00:00",
-      "excerpt": "From now until the end of the month, you can get Logic for Programmers at half price with the coupon feedchicago . All royalties from that coupon will go to the Greater Chicago Food Depository . Thank you!",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Forward Reasoning in Lean 4",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
+      "date": "2022-03-10T19:20:21+05:30",
+      "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "I'm taking a break",
-      "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/",
-      "date": "2025-10-27T21:02:37+00:00",
-      "excerpt": "Hi everyone, I've been getting burnt out on writing a weekly software essay. It's gone from taking me an afternoon to write a post to taking two or three days, and that's made it really difficult to get other writing done. That, plus some short-term work and life priorities, means now feels like a g",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "SAT Solver-Prover in Lean 4",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
+      "date": "2021-06-28T07:00:52+05:30",
+      "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
-      "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/",
-      "date": "2025-10-21T16:46:24+00:00",
-      "excerpt": "A while back my friend Pablo Meier was reviewing some 2024 videogames and wrote this : I feel like some artists, if they didn't exist, would have the resulting void filled in by someone similar (e.g. if Katy Perry didn't exist, someone like her would have). But others don't have successful imitators",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "SAT Solving",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
+      "date": "2021-05-18T08:53:42+05:30",
+      "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "The Phase Change",
-      "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/",
-      "date": "2025-10-16T14:59:25+00:00",
-      "excerpt": "Last week I ran my first 10k. It wasn't a race or anything. I left that evening planning to run a 5k, and then three miles later thought \"what if I kept going?\" 1 I've been running for just over two years now. My goal was to run a mile, then three, then three at a pace faster than a power-walk. I wi",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Automating Mathematics India",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
+      "date": "2021-04-19T10:32:15+05:30",
+      "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "Three ways formally verified code can go wrong in practice",
-      "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
-      "date": "2025-10-10T17:06:19+00:00",
-      "excerpt": "New Logic for Programmers Release! v0.12 is now available ! This should be the last major content release. The next few months are going to be technical review, copyediting and polishing, with a hopeful 1.0 release in March. Full release notes here . Three ways formally verified code can go wrong in",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Solving (but not proving?) Pappus",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
+      "date": "2021-04-19T06:53:09+05:30",
+      "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
-      "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/",
-      "date": "2025-09-25T16:50:58+00:00",
-      "excerpt": "Last week I said that this week's newsletter would be a brief history of algebraic data types. I was wrong. That history is now a 3500 word blog post . Patreon blog notes here . I'm speaking at P99 Conf ! My talk, \"Designing Low-Latency Systems with TLA+\", is happening 10/23 at 11:30 central time. I",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
+      "date": "2021-04-14T12:24:23+05:30",
+      "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
-      "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/",
-      "date": "2025-09-10T13:00:00+00:00",
-      "excerpt": "In my first interview out of college I was asked the change counter problem: Given a set of coin denominations, find the minimum number of coins required to make change for a given number. IE for USA coinage and 37 cents, the minimum number is four (quarter, dime, 2 pennies). I implemented the simpl",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "The Angels and Demons of Nondeterminism",
-      "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/",
-      "date": "2025-09-04T14:00:00+00:00",
-      "excerpt": "Greetings everyone! You might have noticed that it's September and I don't have the next version of Logic for Programmers ready. As penance, here's ten free copies of the book . So a few months ago I wrote a newsletter about how we use nondeterminism in formal methods. The overarching idea: Nondeter",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Logical Duals in Software Engineering",
-      "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/",
-      "date": "2025-08-27T19:25:32+00:00",
-      "excerpt": "( Last week's newsletter took too long and I'm way behind on Logic for Programmers revisions so short one this time. 1 ) In classical logic, two operators F/G are duals if F(x) = !G(!x) . Three examples: x || y is the same as !(!x && !y) . <>P (\"P is possibly true\") is the same as ![]!P (\"not P isn'",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Sapir-Whorf does not apply to Programming Languages",
-      "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/",
-      "date": "2025-08-21T13:00:00+00:00",
-      "excerpt": "This one is a hot mess but it's too late in the week to start over. Oh well! Someone recognized me at last week's Chipy and asked for my opinion on Sapir-Whorf hypothesis in programming languages. I thought this was interesting enough to make a newsletter. First what it is, then why it looks like it",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Software books I wish I could read",
-      "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/",
-      "date": "2025-08-06T13:00:00+00:00",
-      "excerpt": "New Logic for Programmers Release! v0.11 is now available ! This is over 20% longer than v0.10, with a new chapter on code proofs, three chapter overhauls, and more! Full release notes here . Software books I wish I could read I'm writing Logic for Programmers because it's a book I wanted to have te",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "2000 words about arrays and tables",
-      "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/",
-      "date": "2025-07-30T13:00:00+00:00",
-      "excerpt": "I'm way too discombobulated from getting next month's release of Logic for Programmers ready, so I'm pulling a idea from the slush pile. Basically I wanted to come up with a mental model of arrays as a concept that explained APL-style multidimensional arrays and tables but also why there weren't mul",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Programming Language Escape Hatches",
-      "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/",
-      "date": "2025-07-24T14:00:00+00:00",
-      "excerpt": "The excellent-but-defunct blog Programming in the 21st Century defines \"puzzle languages\" as languages were part of the appeal is in figuring out how to express a program idiomatically, like a puzzle. As examples, he lists Haskell, Erlang, and J. All puzzle languages, the author says, have an \"escap",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Maybe writing speed actually is a bottleneck for programming",
-      "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/",
-      "date": "2025-07-17T19:08:27+00:00",
-      "excerpt": "I'm a big (neo)vim buff. My config is over 1500 lines and I regularly write new scripts. I recently ported my neovim config to a new laptop. Before then, I was using VSCode to write, and when I switched back I immediately saw a big gain in productivity. People often pooh-pooh vim (and other assistiv",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Logic for Programmers Turns One",
-      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/",
-      "date": "2025-07-08T18:18:52+00:00",
-      "excerpt": "I released Logic for Programmers exactly one year ago today. It feels weird to celebrate the anniversary of something that isn't 1.0 yet, but software projects have a proud tradition of celebrating a dozen anniversaries before 1.0. I wanted to share about what's changed in the past year and the work",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Logical Quantifiers in Software",
-      "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/",
-      "date": "2025-07-02T19:44:22+00:00",
-      "excerpt": "I realize that for all I've talked about Logic for Programmers in this newsletter, I never once explained basic logical quantifiers. They're both simple and incredibly useful, so let's do that this week! Sets and quantifiers A set is a collection of unordered, unique elements. {1, 2, 3, …} is a set,",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "You can cheat a test suite with a big enough polynomial",
-      "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/",
-      "date": "2025-06-24T16:27:01+00:00",
-      "excerpt": "Hi nerds, I'm back from Systems Distributed ! I'd heartily recommend it, wildest conference I've been to in years. I have a lot of work to catch up on, so this will be a short newsletter. In an earlier version of my talk, I had a gag about unit tests. First I showed the test f([1,2,3]) == 3 , then s",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Solving LinkedIn Queens with SMT",
-      "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/",
-      "date": "2025-06-12T15:43:25+00:00",
-      "excerpt": "No newsletter next week I’ll be speaking at Systems Distributed . My talk isn't close to done yet, which is why this newsletter is both late and short. Solving LinkedIn Queens in SMT The article Modern SAT solvers: fast, neat and underused claims that SAT solvers 1 are \"criminally underused by the i",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "AI is a gamechanger for TLA+ users",
-      "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/",
-      "date": "2025-06-05T14:59:11+00:00",
-      "excerpt": "New Logic for Programmers Release v0.10 is now available ! This is a minor release, mostly focused on logic-based refactoring, with new material on set types and testing refactors are correct. See the full release notes at the changelog page . Due to conference pressure v0.11 will also likely be a m",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "What does \"Undecidable\" mean, anyway",
-      "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/",
-      "date": "2025-05-28T19:34:02+00:00",
-      "excerpt": "Systems Distributed I'll be speaking at Systems Distributed next month! The talk is brand new and will aim to showcase some of the formal methods mental models that would be useful in mainstream software development. It has added some extra stress on my schedule, though, so expect the next two month",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Finding hard 24 puzzles with planner programming",
-      "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/",
-      "date": "2025-05-20T18:21:01+00:00",
-      "excerpt": "Planner programming is a programming technique where you solve problems by providing a goal and actions, and letting the planner find actions that reach the goal. In a previous edition of Logic for Programmers , I demonstrated how this worked by solving the 24 puzzle with planning. For reasons discu",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "Computer Assisted Proofs",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
+      "date": "2019-10-03T21:14:02+05:30",
+      "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
       "feed": "Matt Might",
@@ -776,6 +456,86 @@
       "date": "2015-07-16T23:33:41-04:00",
       "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
       "author": ""
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Think Globally, Discuss PL Locally",
+      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+      "date": "2025-09-16T13:09:36+00:00",
+      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+      "author": "Harrison Goldstein"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Reserve Reviewer Policy",
+      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+      "date": "2025-09-09T15:59:52+00:00",
+      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+      "author": "Shriram Krishnamurthi"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "AI Models Need a Virtual Machine",
+      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+      "date": "2025-08-29T09:00:39+00:00",
+      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+      "date": "2025-05-19T13:43:38+00:00",
+      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+      "author": "Adrian Sampson"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "How to Give a Good Talk",
+      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+      "date": "2025-03-31T13:00:03+00:00",
+      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+      "author": "Michael Greenberg"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+      "date": "2025-03-20T16:21:36+00:00",
+      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+      "date": "2025-01-29T13:00:02+00:00",
+      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+      "author": "Andreia Mordido"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Missing Mentoring Pillar",
+      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+      "date": "2025-01-13T14:00:31+00:00",
+      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+      "author": "Rachit Nigam"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+      "date": "2025-01-02T13:00:44+00:00",
+      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+      "author": "Alastair Donaldson"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Evaluating Human Factors Beyond Lines of Code",
+      "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
+      "date": "2024-11-21T15:22:41+00:00",
+      "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
+      "author": "Will Crichton"
     },
     {
       "feed": "Dan Luu",
@@ -1800,242 +1560,262 @@
       "date": "2006-02-01T00:00:00+00:00",
       "excerpt": "Archived from an unknown source. Possibly Gravitron? In regards for history: Chapter #1 (Around) December 1995 is when it all started. Rod Humble wished to create something like Air Warrior but online, he approached Virgin Interactive Entertainment with the idea and they replied with something along",
       "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "New Blog Post: Some Silly Z3 Scripts I Wrote",
+      "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-some-silly-z3-scripts-i-wrote/",
+      "date": "2026-02-23T16:49:10+00:00",
+      "excerpt": "Now that I'm not spending all my time on Logic for Programmers, I have time to update my website again! So here's the first blog post in five months: Some Silly Z3 Scripts I Wrote . Normally I'd also put a link to the Patreon notes but I've decided I don't like publishing gated content and am going ",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Stream of Consciousness Driven Development",
+      "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/",
+      "date": "2026-02-18T16:33:08+00:00",
+      "excerpt": "This is something I just tried out last week but it seems to have enough potential to be worth showing unpolished. I was pairing with a client on writing a spec. I saw a problem with the spec, a convoluted way of fixing the spec. Instead of trying to verbally explain it, I started by creating a new ",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Proving What's Possible",
+      "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/",
+      "date": "2026-02-11T18:36:53+00:00",
+      "excerpt": "As a formal methods consultant I have to mathematically express properties of systems. I generally do this with two \"temporal operators\": A(x) means that x is always true. For example, a database table always satisfies all record-level constraints, and a state machine always makes valid transitions ",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Logic for Programmers New Release and Next Steps",
+      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/",
+      "date": "2026-02-04T14:00:00+00:00",
+      "excerpt": "It's taken four months, but the next release of Logic for Programmers is now available ! v0.13 is over 50,000 words, making it both 20% larger than v0.12 and officially the longest thing I have ever written. 1 Full release notes are here , but I'll talk a bit about the biggest changes. For one, ever",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Refinement without Specification",
+      "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/",
+      "date": "2026-01-20T17:49:07+00:00",
+      "excerpt": "Imagine we have a SQL database with a user table, and users have a non-nullable is_activated boolean column. Having read That Boolean Should Probably Be Something else , you decide to migrate it to a nullable activated_at column. You can change any of the SQL queries that read/update the user table ",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "My Gripes with Prolog",
+      "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
+      "date": "2026-01-14T16:48:51+00:00",
+      "excerpt": "For the next release of Logic for Programmers , I'm finally adding the sections on Answer Set Programming and Constraint Logic Programming that I TODOd back in version 0.9. And this is making me re-experience some of my pain points with Prolog, which I will gripe about now. If you want to know more ",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "The Liskov Substitution Principle does more than you think",
+      "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/",
+      "date": "2026-01-06T16:51:26+00:00",
+      "excerpt": "Happy New Year! I'm done with the newsletter hiatus and am going to try updating weekly again. To ease into things a bit, I'll try to keep posts a little more off the cuff and casual for a while, at least until Logic for Programmers is done. Speaking of which, v0.13 should be out by the end of this ",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Some Fun Software Facts",
+      "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/",
+      "date": "2025-12-10T18:45:37+00:00",
+      "excerpt": "Last newsletter of the year! First some news on Logic for Programmers . Thanks to everyone who donated to the feedchicago charity drive ! In total we raised $2250 for Chicago food banks. Proof here . If you missed buying Logic for Programmers real cheap in the charity drive, you can still get it for",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "One more week to the Logic for Programmers Food Drive",
+      "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/",
+      "date": "2025-11-24T18:21:49+00:00",
+      "excerpt": "A couple of weeks ago I started a fundraiser for the Greater Chicago Food Depository : get Logic for Programmers 50% off and all the royalties will go to charity. 1 Since then, we've raised a bit over $1600. Y'all are great! The fundraiser is going on until the end of November, so you still have one",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
+      "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/",
+      "date": "2025-11-10T16:31:11+00:00",
+      "excerpt": "From now until the end of the month, you can get Logic for Programmers at half price with the coupon feedchicago . All royalties from that coupon will go to the Greater Chicago Food Depository . Thank you!",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "I'm taking a break",
+      "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/",
+      "date": "2025-10-27T21:02:37+00:00",
+      "excerpt": "Hi everyone, I've been getting burnt out on writing a weekly software essay. It's gone from taking me an afternoon to write a post to taking two or three days, and that's made it really difficult to get other writing done. That, plus some short-term work and life priorities, means now feels like a g",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
+      "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/",
+      "date": "2025-10-21T16:46:24+00:00",
+      "excerpt": "A while back my friend Pablo Meier was reviewing some 2024 videogames and wrote this : I feel like some artists, if they didn't exist, would have the resulting void filled in by someone similar (e.g. if Katy Perry didn't exist, someone like her would have). But others don't have successful imitators",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "The Phase Change",
+      "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/",
+      "date": "2025-10-16T14:59:25+00:00",
+      "excerpt": "Last week I ran my first 10k. It wasn't a race or anything. I left that evening planning to run a 5k, and then three miles later thought \"what if I kept going?\" 1 I've been running for just over two years now. My goal was to run a mile, then three, then three at a pace faster than a power-walk. I wi",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Three ways formally verified code can go wrong in practice",
+      "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
+      "date": "2025-10-10T17:06:19+00:00",
+      "excerpt": "New Logic for Programmers Release! v0.12 is now available ! This should be the last major content release. The next few months are going to be technical review, copyediting and polishing, with a hopeful 1.0 release in March. Full release notes here . Three ways formally verified code can go wrong in",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+      "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/",
+      "date": "2025-09-25T16:50:58+00:00",
+      "excerpt": "Last week I said that this week's newsletter would be a brief history of algebraic data types. I was wrong. That history is now a 3500 word blog post . Patreon blog notes here . I'm speaking at P99 Conf ! My talk, \"Designing Low-Latency Systems with TLA+\", is happening 10/23 at 11:30 central time. I",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
+      "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/",
+      "date": "2025-09-10T13:00:00+00:00",
+      "excerpt": "In my first interview out of college I was asked the change counter problem: Given a set of coin denominations, find the minimum number of coins required to make change for a given number. IE for USA coinage and 37 cents, the minimum number is four (quarter, dime, 2 pennies). I implemented the simpl",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "The Angels and Demons of Nondeterminism",
+      "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/",
+      "date": "2025-09-04T14:00:00+00:00",
+      "excerpt": "Greetings everyone! You might have noticed that it's September and I don't have the next version of Logic for Programmers ready. As penance, here's ten free copies of the book . So a few months ago I wrote a newsletter about how we use nondeterminism in formal methods. The overarching idea: Nondeter",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Logical Duals in Software Engineering",
+      "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/",
+      "date": "2025-08-27T19:25:32+00:00",
+      "excerpt": "( Last week's newsletter took too long and I'm way behind on Logic for Programmers revisions so short one this time. 1 ) In classical logic, two operators F/G are duals if F(x) = !G(!x) . Three examples: x || y is the same as !(!x && !y) . <>P (\"P is possibly true\") is the same as ![]!P (\"not P isn'",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Sapir-Whorf does not apply to Programming Languages",
+      "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/",
+      "date": "2025-08-21T13:00:00+00:00",
+      "excerpt": "This one is a hot mess but it's too late in the week to start over. Oh well! Someone recognized me at last week's Chipy and asked for my opinion on Sapir-Whorf hypothesis in programming languages. I thought this was interesting enough to make a newsletter. First what it is, then why it looks like it",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Software books I wish I could read",
+      "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/",
+      "date": "2025-08-06T13:00:00+00:00",
+      "excerpt": "New Logic for Programmers Release! v0.11 is now available ! This is over 20% longer than v0.10, with a new chapter on code proofs, three chapter overhauls, and more! Full release notes here . Software books I wish I could read I'm writing Logic for Programmers because it's a book I wanted to have te",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "2000 words about arrays and tables",
+      "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/",
+      "date": "2025-07-30T13:00:00+00:00",
+      "excerpt": "I'm way too discombobulated from getting next month's release of Logic for Programmers ready, so I'm pulling a idea from the slush pile. Basically I wanted to come up with a mental model of arrays as a concept that explained APL-style multidimensional arrays and tables but also why there weren't mul",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Programming Language Escape Hatches",
+      "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/",
+      "date": "2025-07-24T14:00:00+00:00",
+      "excerpt": "The excellent-but-defunct blog Programming in the 21st Century defines \"puzzle languages\" as languages were part of the appeal is in figuring out how to express a program idiomatically, like a puzzle. As examples, he lists Haskell, Erlang, and J. All puzzle languages, the author says, have an \"escap",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Maybe writing speed actually is a bottleneck for programming",
+      "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/",
+      "date": "2025-07-17T19:08:27+00:00",
+      "excerpt": "I'm a big (neo)vim buff. My config is over 1500 lines and I regularly write new scripts. I recently ported my neovim config to a new laptop. Before then, I was using VSCode to write, and when I switched back I immediately saw a big gain in productivity. People often pooh-pooh vim (and other assistiv",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Logic for Programmers Turns One",
+      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/",
+      "date": "2025-07-08T18:18:52+00:00",
+      "excerpt": "I released Logic for Programmers exactly one year ago today. It feels weird to celebrate the anniversary of something that isn't 1.0 yet, but software projects have a proud tradition of celebrating a dozen anniversaries before 1.0. I wanted to share about what's changed in the past year and the work",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Logical Quantifiers in Software",
+      "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/",
+      "date": "2025-07-02T19:44:22+00:00",
+      "excerpt": "I realize that for all I've talked about Logic for Programmers in this newsletter, I never once explained basic logical quantifiers. They're both simple and incredibly useful, so let's do that this week! Sets and quantifiers A set is a collection of unordered, unique elements. {1, 2, 3, …} is a set,",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "You can cheat a test suite with a big enough polynomial",
+      "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/",
+      "date": "2025-06-24T16:27:01+00:00",
+      "excerpt": "Hi nerds, I'm back from Systems Distributed ! I'd heartily recommend it, wildest conference I've been to in years. I have a lot of work to catch up on, so this will be a short newsletter. In an earlier version of my talk, I had a gag about unit tests. First I showed the test f([1,2,3]) == 3 , then s",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Solving LinkedIn Queens with SMT",
+      "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/",
+      "date": "2025-06-12T15:43:25+00:00",
+      "excerpt": "No newsletter next week I’ll be speaking at Systems Distributed . My talk isn't close to done yet, which is why this newsletter is both late and short. Solving LinkedIn Queens in SMT The article Modern SAT solvers: fast, neat and underused claims that SAT solvers 1 are \"criminally underused by the i",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "AI is a gamechanger for TLA+ users",
+      "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/",
+      "date": "2025-06-05T14:59:11+00:00",
+      "excerpt": "New Logic for Programmers Release v0.10 is now available ! This is a minor release, mostly focused on logic-based refactoring, with new material on set types and testing refactors are correct. See the full release notes at the changelog page . Due to conference pressure v0.11 will also likely be a m",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "What does \"Undecidable\" mean, anyway",
+      "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/",
+      "date": "2025-05-28T19:34:02+00:00",
+      "excerpt": "Systems Distributed I'll be speaking at Systems Distributed next month! The talk is brand new and will aim to showcase some of the formal methods mental models that would be useful in mainstream software development. It has added some extra stress on my schedule, though, so expect the next two month",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Finding hard 24 puzzles with planner programming",
+      "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/",
+      "date": "2025-05-20T18:21:01+00:00",
+      "excerpt": "Planner programming is a programming technique where you solve problems by providing a goal and actions, and letting the planner find actions that reach the goal. In a previous edition of Logic for Programmers , I demonstrated how this worked by solving the 24 puzzle with planning. For reasons discu",
+      "author": ""
     }
   ],
   "errors": {},
   "feedCache": {
-    "Automating Mathematics": {
-      "etag": "\"6965f00c-3cd8\"",
-      "last_modified": "Tue, 13 Jan 2026 07:11:08 GMT",
-      "articles": [
-        {
-          "feed": "Automating Mathematics",
-          "title": "Mathematics as Natural Science in the Era of AI",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
-          "date": "2026-01-12T06:57:32+05:30",
-          "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Leanlang for Programmers",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
-          "date": "2025-12-10T10:09:51+00:00",
-          "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Integrating AI with the Lean Prover: How and Why",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
-          "date": "2025-11-12T09:22:22+00:00",
-          "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "When AI struck Gold at the Maths Olympiad",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
-          "date": "2025-10-09T08:50:40+00:00",
-          "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "AI for Mathematics: A Snapshot (July 2025)",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
-          "date": "2025-07-19T04:15:41+00:00",
-          "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "LeanAide: AI for Lean & Mathematics",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
-          "date": "2025-02-08T13:41:12+00:00",
-          "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Wishlist/ToDo List",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
-          "date": "2024-03-01T07:56:06+05:30",
-          "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Sieving chatGPT",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
-          "date": "2022-12-11T12:51:30+05:30",
-          "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
-          "date": "2022-06-07T06:50:53+05:30",
-          "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Some things I learnt from Dennis Sullivan",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
-          "date": "2022-03-24T11:10:36+05:30",
-          "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Forward Reasoning in Lean 4",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
-          "date": "2022-03-10T19:20:21+05:30",
-          "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "SAT Solver-Prover in Lean 4",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
-          "date": "2021-06-28T07:00:52+05:30",
-          "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "SAT Solving",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
-          "date": "2021-05-18T08:53:42+05:30",
-          "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Automating Mathematics India",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
-          "date": "2021-04-19T10:32:15+05:30",
-          "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Solving (but not proving?) Pappus",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
-          "date": "2021-04-19T06:53:09+05:30",
-          "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
-          "date": "2021-04-14T12:24:23+05:30",
-          "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Computer Assisted Proofs",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
-          "date": "2019-10-03T21:14:02+05:30",
-          "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        }
-      ]
-    },
-    "SIGPLAN Blog": {
-      "etag": "\"b81c3faae47c51f5ae61264528cd420b\"",
-      "last_modified": "Tue, 16 Sep 2025 13:09:36 GMT",
-      "articles": [
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Think Globally, Discuss PL Locally",
-          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-          "date": "2025-09-16T13:09:36+00:00",
-          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-          "author": "Harrison Goldstein"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Reserve Reviewer Policy",
-          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-          "date": "2025-09-09T15:59:52+00:00",
-          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-          "author": "Shriram Krishnamurthi"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "AI Models Need a Virtual Machine",
-          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-          "date": "2025-08-29T09:00:39+00:00",
-          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-          "date": "2025-05-19T13:43:38+00:00",
-          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-          "author": "Adrian Sampson"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "How to Give a Good Talk",
-          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-          "date": "2025-03-31T13:00:03+00:00",
-          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-          "author": "Michael Greenberg"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-          "date": "2025-03-20T16:21:36+00:00",
-          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-          "date": "2025-01-29T13:00:02+00:00",
-          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-          "author": "Andreia Mordido"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Missing Mentoring Pillar",
-          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-          "date": "2025-01-13T14:00:31+00:00",
-          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-          "author": "Rachit Nigam"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
-          "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
-          "date": "2025-01-02T13:00:44+00:00",
-          "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
-          "author": "Alastair Donaldson"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Evaluating Human Factors Beyond Lines of Code",
-          "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
-          "date": "2024-11-21T15:22:41+00:00",
-          "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
-          "author": "Will Crichton"
-        }
-      ]
-    },
     "Simon Willison": {
       "etag": null,
-      "last_modified": "Fri, 27 Feb 2026 22:49:32 GMT",
+      "last_modified": "Sat, 28 Feb 2026 23:09:39 GMT",
       "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "Interactive explanations",
+          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+          "date": "2026-02-28T23:09:39+00:00",
+          "excerpt": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt . For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need t",
+          "author": ""
+        },
         {
           "feed": "Simon Willison",
           "title": "Please, please, please stop using passkeys for encrypting user data",
@@ -2267,260 +2047,148 @@
           "date": "2026-02-20T22:10:04+00:00",
           "excerpt": "Taalas serves Llama 3.1 8B at 17,000 tokens/second This new Canadian hardware startup just announced their first product - a custom hardware implementation of the Llama 3.1 8B model (from July 2024 ) that can run at a staggering 17,000 tokens/second. I was going to include a video of their demo but ",
           "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI",
-          "link": "https://simonwillison.net/2026/Feb/20/ggmlai-joins-hugging-face/#atom-everything",
-          "date": "2026-02-20T17:12:55+00:00",
-          "excerpt": "ggml.ai joins Hugging Face to ensure the long-term progress of Local AI I don't normally cover acquisition news like this, but I have some thoughts. It's hard to overstate the impact Georgi Gerganov has had on the local model space. Back in March 2023 his release of llama.cpp made it possible to run",
-          "author": ""
         }
       ]
     },
-    "Hillel Wayne": {
-      "etag": null,
-      "last_modified": "Mon, 23 Feb 2026 16:49:10 GMT",
+    "Automating Mathematics": {
+      "etag": "\"6965f00c-3cd8\"",
+      "last_modified": "Tue, 13 Jan 2026 07:11:08 GMT",
       "articles": [
         {
-          "feed": "Hillel Wayne",
-          "title": "New Blog Post: Some Silly Z3 Scripts I Wrote",
-          "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-some-silly-z3-scripts-i-wrote/",
-          "date": "2026-02-23T16:49:10+00:00",
-          "excerpt": "Now that I'm not spending all my time on Logic for Programmers, I have time to update my website again! So here's the first blog post in five months: Some Silly Z3 Scripts I Wrote . Normally I'd also put a link to the Patreon notes but I've decided I don't like publishing gated content and am going ",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Mathematics as Natural Science in the Era of AI",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
+          "date": "2026-01-12T06:57:32+05:30",
+          "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "Stream of Consciousness Driven Development",
-          "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/",
-          "date": "2026-02-18T16:33:08+00:00",
-          "excerpt": "This is something I just tried out last week but it seems to have enough potential to be worth showing unpolished. I was pairing with a client on writing a spec. I saw a problem with the spec, a convoluted way of fixing the spec. Instead of trying to verbally explain it, I started by creating a new ",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Leanlang for Programmers",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
+          "date": "2025-12-10T10:09:51+00:00",
+          "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "Proving What's Possible",
-          "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/",
-          "date": "2026-02-11T18:36:53+00:00",
-          "excerpt": "As a formal methods consultant I have to mathematically express properties of systems. I generally do this with two \"temporal operators\": A(x) means that x is always true. For example, a database table always satisfies all record-level constraints, and a state machine always makes valid transitions ",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Integrating AI with the Lean Prover: How and Why",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
+          "date": "2025-11-12T09:22:22+00:00",
+          "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "Logic for Programmers New Release and Next Steps",
-          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/",
-          "date": "2026-02-04T14:00:00+00:00",
-          "excerpt": "It's taken four months, but the next release of Logic for Programmers is now available ! v0.13 is over 50,000 words, making it both 20% larger than v0.12 and officially the longest thing I have ever written. 1 Full release notes are here , but I'll talk a bit about the biggest changes. For one, ever",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "When AI struck Gold at the Maths Olympiad",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
+          "date": "2025-10-09T08:50:40+00:00",
+          "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "Refinement without Specification",
-          "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/",
-          "date": "2026-01-20T17:49:07+00:00",
-          "excerpt": "Imagine we have a SQL database with a user table, and users have a non-nullable is_activated boolean column. Having read That Boolean Should Probably Be Something else , you decide to migrate it to a nullable activated_at column. You can change any of the SQL queries that read/update the user table ",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "AI for Mathematics: A Snapshot (July 2025)",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
+          "date": "2025-07-19T04:15:41+00:00",
+          "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "My Gripes with Prolog",
-          "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
-          "date": "2026-01-14T16:48:51+00:00",
-          "excerpt": "For the next release of Logic for Programmers , I'm finally adding the sections on Answer Set Programming and Constraint Logic Programming that I TODOd back in version 0.9. And this is making me re-experience some of my pain points with Prolog, which I will gripe about now. If you want to know more ",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "LeanAide: AI for Lean & Mathematics",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
+          "date": "2025-02-08T13:41:12+00:00",
+          "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "The Liskov Substitution Principle does more than you think",
-          "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/",
-          "date": "2026-01-06T16:51:26+00:00",
-          "excerpt": "Happy New Year! I'm done with the newsletter hiatus and am going to try updating weekly again. To ease into things a bit, I'll try to keep posts a little more off the cuff and casual for a while, at least until Logic for Programmers is done. Speaking of which, v0.13 should be out by the end of this ",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Wishlist/ToDo List",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
+          "date": "2024-03-01T07:56:06+05:30",
+          "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "Some Fun Software Facts",
-          "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/",
-          "date": "2025-12-10T18:45:37+00:00",
-          "excerpt": "Last newsletter of the year! First some news on Logic for Programmers . Thanks to everyone who donated to the feedchicago charity drive ! In total we raised $2250 for Chicago food banks. Proof here . If you missed buying Logic for Programmers real cheap in the charity drive, you can still get it for",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Sieving chatGPT",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
+          "date": "2022-12-11T12:51:30+05:30",
+          "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "One more week to the Logic for Programmers Food Drive",
-          "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/",
-          "date": "2025-11-24T18:21:49+00:00",
-          "excerpt": "A couple of weeks ago I started a fundraiser for the Greater Chicago Food Depository : get Logic for Programmers 50% off and all the royalties will go to charity. 1 Since then, we've raised a bit over $1600. Y'all are great! The fundraiser is going on until the end of November, so you still have one",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
+          "date": "2022-06-07T06:50:53+05:30",
+          "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
-          "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/",
-          "date": "2025-11-10T16:31:11+00:00",
-          "excerpt": "From now until the end of the month, you can get Logic for Programmers at half price with the coupon feedchicago . All royalties from that coupon will go to the Greater Chicago Food Depository . Thank you!",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Some things I learnt from Dennis Sullivan",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
+          "date": "2022-03-24T11:10:36+05:30",
+          "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "I'm taking a break",
-          "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/",
-          "date": "2025-10-27T21:02:37+00:00",
-          "excerpt": "Hi everyone, I've been getting burnt out on writing a weekly software essay. It's gone from taking me an afternoon to write a post to taking two or three days, and that's made it really difficult to get other writing done. That, plus some short-term work and life priorities, means now feels like a g",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Forward Reasoning in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
+          "date": "2022-03-10T19:20:21+05:30",
+          "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
-          "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/",
-          "date": "2025-10-21T16:46:24+00:00",
-          "excerpt": "A while back my friend Pablo Meier was reviewing some 2024 videogames and wrote this : I feel like some artists, if they didn't exist, would have the resulting void filled in by someone similar (e.g. if Katy Perry didn't exist, someone like her would have). But others don't have successful imitators",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "SAT Solver-Prover in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
+          "date": "2021-06-28T07:00:52+05:30",
+          "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "The Phase Change",
-          "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/",
-          "date": "2025-10-16T14:59:25+00:00",
-          "excerpt": "Last week I ran my first 10k. It wasn't a race or anything. I left that evening planning to run a 5k, and then three miles later thought \"what if I kept going?\" 1 I've been running for just over two years now. My goal was to run a mile, then three, then three at a pace faster than a power-walk. I wi",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "SAT Solving",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
+          "date": "2021-05-18T08:53:42+05:30",
+          "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "Three ways formally verified code can go wrong in practice",
-          "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
-          "date": "2025-10-10T17:06:19+00:00",
-          "excerpt": "New Logic for Programmers Release! v0.12 is now available ! This should be the last major content release. The next few months are going to be technical review, copyediting and polishing, with a hopeful 1.0 release in March. Full release notes here . Three ways formally verified code can go wrong in",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Automating Mathematics India",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
+          "date": "2021-04-19T10:32:15+05:30",
+          "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
-          "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/",
-          "date": "2025-09-25T16:50:58+00:00",
-          "excerpt": "Last week I said that this week's newsletter would be a brief history of algebraic data types. I was wrong. That history is now a 3500 word blog post . Patreon blog notes here . I'm speaking at P99 Conf ! My talk, \"Designing Low-Latency Systems with TLA+\", is happening 10/23 at 11:30 central time. I",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Solving (but not proving?) Pappus",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
+          "date": "2021-04-19T06:53:09+05:30",
+          "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
-          "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/",
-          "date": "2025-09-10T13:00:00+00:00",
-          "excerpt": "In my first interview out of college I was asked the change counter problem: Given a set of coin denominations, find the minimum number of coins required to make change for a given number. IE for USA coinage and 37 cents, the minimum number is four (quarter, dime, 2 pennies). I implemented the simpl",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
+          "date": "2021-04-14T12:24:23+05:30",
+          "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         },
         {
-          "feed": "Hillel Wayne",
-          "title": "The Angels and Demons of Nondeterminism",
-          "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/",
-          "date": "2025-09-04T14:00:00+00:00",
-          "excerpt": "Greetings everyone! You might have noticed that it's September and I don't have the next version of Logic for Programmers ready. As penance, here's ten free copies of the book . So a few months ago I wrote a newsletter about how we use nondeterminism in formal methods. The overarching idea: Nondeter",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Logical Duals in Software Engineering",
-          "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/",
-          "date": "2025-08-27T19:25:32+00:00",
-          "excerpt": "( Last week's newsletter took too long and I'm way behind on Logic for Programmers revisions so short one this time. 1 ) In classical logic, two operators F/G are duals if F(x) = !G(!x) . Three examples: x || y is the same as !(!x && !y) . <>P (\"P is possibly true\") is the same as ![]!P (\"not P isn'",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Sapir-Whorf does not apply to Programming Languages",
-          "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/",
-          "date": "2025-08-21T13:00:00+00:00",
-          "excerpt": "This one is a hot mess but it's too late in the week to start over. Oh well! Someone recognized me at last week's Chipy and asked for my opinion on Sapir-Whorf hypothesis in programming languages. I thought this was interesting enough to make a newsletter. First what it is, then why it looks like it",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Software books I wish I could read",
-          "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/",
-          "date": "2025-08-06T13:00:00+00:00",
-          "excerpt": "New Logic for Programmers Release! v0.11 is now available ! This is over 20% longer than v0.10, with a new chapter on code proofs, three chapter overhauls, and more! Full release notes here . Software books I wish I could read I'm writing Logic for Programmers because it's a book I wanted to have te",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "2000 words about arrays and tables",
-          "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/",
-          "date": "2025-07-30T13:00:00+00:00",
-          "excerpt": "I'm way too discombobulated from getting next month's release of Logic for Programmers ready, so I'm pulling a idea from the slush pile. Basically I wanted to come up with a mental model of arrays as a concept that explained APL-style multidimensional arrays and tables but also why there weren't mul",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Programming Language Escape Hatches",
-          "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/",
-          "date": "2025-07-24T14:00:00+00:00",
-          "excerpt": "The excellent-but-defunct blog Programming in the 21st Century defines \"puzzle languages\" as languages were part of the appeal is in figuring out how to express a program idiomatically, like a puzzle. As examples, he lists Haskell, Erlang, and J. All puzzle languages, the author says, have an \"escap",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Maybe writing speed actually is a bottleneck for programming",
-          "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/",
-          "date": "2025-07-17T19:08:27+00:00",
-          "excerpt": "I'm a big (neo)vim buff. My config is over 1500 lines and I regularly write new scripts. I recently ported my neovim config to a new laptop. Before then, I was using VSCode to write, and when I switched back I immediately saw a big gain in productivity. People often pooh-pooh vim (and other assistiv",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Logic for Programmers Turns One",
-          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/",
-          "date": "2025-07-08T18:18:52+00:00",
-          "excerpt": "I released Logic for Programmers exactly one year ago today. It feels weird to celebrate the anniversary of something that isn't 1.0 yet, but software projects have a proud tradition of celebrating a dozen anniversaries before 1.0. I wanted to share about what's changed in the past year and the work",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Logical Quantifiers in Software",
-          "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/",
-          "date": "2025-07-02T19:44:22+00:00",
-          "excerpt": "I realize that for all I've talked about Logic for Programmers in this newsletter, I never once explained basic logical quantifiers. They're both simple and incredibly useful, so let's do that this week! Sets and quantifiers A set is a collection of unordered, unique elements. {1, 2, 3, …} is a set,",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "You can cheat a test suite with a big enough polynomial",
-          "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/",
-          "date": "2025-06-24T16:27:01+00:00",
-          "excerpt": "Hi nerds, I'm back from Systems Distributed ! I'd heartily recommend it, wildest conference I've been to in years. I have a lot of work to catch up on, so this will be a short newsletter. In an earlier version of my talk, I had a gag about unit tests. First I showed the test f([1,2,3]) == 3 , then s",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Solving LinkedIn Queens with SMT",
-          "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/",
-          "date": "2025-06-12T15:43:25+00:00",
-          "excerpt": "No newsletter next week I’ll be speaking at Systems Distributed . My talk isn't close to done yet, which is why this newsletter is both late and short. Solving LinkedIn Queens in SMT The article Modern SAT solvers: fast, neat and underused claims that SAT solvers 1 are \"criminally underused by the i",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "AI is a gamechanger for TLA+ users",
-          "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/",
-          "date": "2025-06-05T14:59:11+00:00",
-          "excerpt": "New Logic for Programmers Release v0.10 is now available ! This is a minor release, mostly focused on logic-based refactoring, with new material on set types and testing refactors are correct. See the full release notes at the changelog page . Due to conference pressure v0.11 will also likely be a m",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "What does \"Undecidable\" mean, anyway",
-          "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/",
-          "date": "2025-05-28T19:34:02+00:00",
-          "excerpt": "Systems Distributed I'll be speaking at Systems Distributed next month! The talk is brand new and will aim to showcase some of the formal methods mental models that would be useful in mainstream software development. It has added some extra stress on my schedule, though, so expect the next two month",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Finding hard 24 puzzles with planner programming",
-          "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/",
-          "date": "2025-05-20T18:21:01+00:00",
-          "excerpt": "Planner programming is a programming technique where you solve problems by providing a goal and actions, and letting the planner find actions that reach the goal. In a previous edition of Logic for Programmers , I demonstrated how this worked by solving the 24 puzzle with planning. For reasons discu",
-          "author": ""
+          "feed": "Automating Mathematics",
+          "title": "Computer Assisted Proofs",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
+          "date": "2019-10-03T21:14:02+05:30",
+          "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         }
       ]
     },
@@ -2610,9 +2278,95 @@
         }
       ]
     },
+    "SIGPLAN Blog": {
+      "etag": "\"b81c3faae47c51f5ae61264528cd420b\"",
+      "last_modified": "Tue, 16 Sep 2025 13:09:36 GMT",
+      "articles": [
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Think Globally, Discuss PL Locally",
+          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+          "date": "2025-09-16T13:09:36+00:00",
+          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+          "author": "Harrison Goldstein"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Reserve Reviewer Policy",
+          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+          "date": "2025-09-09T15:59:52+00:00",
+          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+          "author": "Shriram Krishnamurthi"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "AI Models Need a Virtual Machine",
+          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+          "date": "2025-08-29T09:00:39+00:00",
+          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+          "date": "2025-05-19T13:43:38+00:00",
+          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+          "author": "Adrian Sampson"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "How to Give a Good Talk",
+          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+          "date": "2025-03-31T13:00:03+00:00",
+          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+          "author": "Michael Greenberg"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+          "date": "2025-03-20T16:21:36+00:00",
+          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+          "date": "2025-01-29T13:00:02+00:00",
+          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+          "author": "Andreia Mordido"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Missing Mentoring Pillar",
+          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+          "date": "2025-01-13T14:00:31+00:00",
+          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+          "author": "Rachit Nigam"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+          "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+          "date": "2025-01-02T13:00:44+00:00",
+          "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+          "author": "Alastair Donaldson"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Evaluating Human Factors Beyond Lines of Code",
+          "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
+          "date": "2024-11-21T15:22:41+00:00",
+          "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
+          "author": "Will Crichton"
+        }
+      ]
+    },
     "Dan Luu": {
-      "etag": "W/\"6997f7f7-5fbb28\"",
-      "last_modified": "Fri, 20 Feb 2026 05:58:15 GMT",
+      "etag": "W/\"6993d125-5fbb28\"",
+      "last_modified": "Tue, 17 Feb 2026 02:23:33 GMT",
       "articles": [
         {
           "feed": "Dan Luu",
@@ -3636,6 +3390,252 @@
           "link": "https://danluu.com/subspace-history/",
           "date": "2006-02-01T00:00:00+00:00",
           "excerpt": "Archived from an unknown source. Possibly Gravitron? In regards for history: Chapter #1 (Around) December 1995 is when it all started. Rod Humble wished to create something like Air Warrior but online, he approached Virgin Interactive Entertainment with the idea and they replied with something along",
+          "author": ""
+        }
+      ]
+    },
+    "Hillel Wayne": {
+      "etag": null,
+      "last_modified": "Mon, 23 Feb 2026 16:49:10 GMT",
+      "articles": [
+        {
+          "feed": "Hillel Wayne",
+          "title": "New Blog Post: Some Silly Z3 Scripts I Wrote",
+          "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-some-silly-z3-scripts-i-wrote/",
+          "date": "2026-02-23T16:49:10+00:00",
+          "excerpt": "Now that I'm not spending all my time on Logic for Programmers, I have time to update my website again! So here's the first blog post in five months: Some Silly Z3 Scripts I Wrote . Normally I'd also put a link to the Patreon notes but I've decided I don't like publishing gated content and am going ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Stream of Consciousness Driven Development",
+          "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/",
+          "date": "2026-02-18T16:33:08+00:00",
+          "excerpt": "This is something I just tried out last week but it seems to have enough potential to be worth showing unpolished. I was pairing with a client on writing a spec. I saw a problem with the spec, a convoluted way of fixing the spec. Instead of trying to verbally explain it, I started by creating a new ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Proving What's Possible",
+          "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/",
+          "date": "2026-02-11T18:36:53+00:00",
+          "excerpt": "As a formal methods consultant I have to mathematically express properties of systems. I generally do this with two \"temporal operators\": A(x) means that x is always true. For example, a database table always satisfies all record-level constraints, and a state machine always makes valid transitions ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Logic for Programmers New Release and Next Steps",
+          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/",
+          "date": "2026-02-04T14:00:00+00:00",
+          "excerpt": "It's taken four months, but the next release of Logic for Programmers is now available ! v0.13 is over 50,000 words, making it both 20% larger than v0.12 and officially the longest thing I have ever written. 1 Full release notes are here , but I'll talk a bit about the biggest changes. For one, ever",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Refinement without Specification",
+          "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/",
+          "date": "2026-01-20T17:49:07+00:00",
+          "excerpt": "Imagine we have a SQL database with a user table, and users have a non-nullable is_activated boolean column. Having read That Boolean Should Probably Be Something else , you decide to migrate it to a nullable activated_at column. You can change any of the SQL queries that read/update the user table ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "My Gripes with Prolog",
+          "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
+          "date": "2026-01-14T16:48:51+00:00",
+          "excerpt": "For the next release of Logic for Programmers , I'm finally adding the sections on Answer Set Programming and Constraint Logic Programming that I TODOd back in version 0.9. And this is making me re-experience some of my pain points with Prolog, which I will gripe about now. If you want to know more ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "The Liskov Substitution Principle does more than you think",
+          "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/",
+          "date": "2026-01-06T16:51:26+00:00",
+          "excerpt": "Happy New Year! I'm done with the newsletter hiatus and am going to try updating weekly again. To ease into things a bit, I'll try to keep posts a little more off the cuff and casual for a while, at least until Logic for Programmers is done. Speaking of which, v0.13 should be out by the end of this ",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Some Fun Software Facts",
+          "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/",
+          "date": "2025-12-10T18:45:37+00:00",
+          "excerpt": "Last newsletter of the year! First some news on Logic for Programmers . Thanks to everyone who donated to the feedchicago charity drive ! In total we raised $2250 for Chicago food banks. Proof here . If you missed buying Logic for Programmers real cheap in the charity drive, you can still get it for",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "One more week to the Logic for Programmers Food Drive",
+          "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/",
+          "date": "2025-11-24T18:21:49+00:00",
+          "excerpt": "A couple of weeks ago I started a fundraiser for the Greater Chicago Food Depository : get Logic for Programmers 50% off and all the royalties will go to charity. 1 Since then, we've raised a bit over $1600. Y'all are great! The fundraiser is going on until the end of November, so you still have one",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
+          "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/",
+          "date": "2025-11-10T16:31:11+00:00",
+          "excerpt": "From now until the end of the month, you can get Logic for Programmers at half price with the coupon feedchicago . All royalties from that coupon will go to the Greater Chicago Food Depository . Thank you!",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "I'm taking a break",
+          "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/",
+          "date": "2025-10-27T21:02:37+00:00",
+          "excerpt": "Hi everyone, I've been getting burnt out on writing a weekly software essay. It's gone from taking me an afternoon to write a post to taking two or three days, and that's made it really difficult to get other writing done. That, plus some short-term work and life priorities, means now feels like a g",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
+          "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/",
+          "date": "2025-10-21T16:46:24+00:00",
+          "excerpt": "A while back my friend Pablo Meier was reviewing some 2024 videogames and wrote this : I feel like some artists, if they didn't exist, would have the resulting void filled in by someone similar (e.g. if Katy Perry didn't exist, someone like her would have). But others don't have successful imitators",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "The Phase Change",
+          "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/",
+          "date": "2025-10-16T14:59:25+00:00",
+          "excerpt": "Last week I ran my first 10k. It wasn't a race or anything. I left that evening planning to run a 5k, and then three miles later thought \"what if I kept going?\" 1 I've been running for just over two years now. My goal was to run a mile, then three, then three at a pace faster than a power-walk. I wi",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Three ways formally verified code can go wrong in practice",
+          "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
+          "date": "2025-10-10T17:06:19+00:00",
+          "excerpt": "New Logic for Programmers Release! v0.12 is now available ! This should be the last major content release. The next few months are going to be technical review, copyediting and polishing, with a hopeful 1.0 release in March. Full release notes here . Three ways formally verified code can go wrong in",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+          "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/",
+          "date": "2025-09-25T16:50:58+00:00",
+          "excerpt": "Last week I said that this week's newsletter would be a brief history of algebraic data types. I was wrong. That history is now a 3500 word blog post . Patreon blog notes here . I'm speaking at P99 Conf ! My talk, \"Designing Low-Latency Systems with TLA+\", is happening 10/23 at 11:30 central time. I",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Many Hard Leetcode Problems are Easy Constraint Problems",
+          "link": "https://buttondown.com/hillelwayne/archive/many-hard-leetcode-problems-are-easy-constraint/",
+          "date": "2025-09-10T13:00:00+00:00",
+          "excerpt": "In my first interview out of college I was asked the change counter problem: Given a set of coin denominations, find the minimum number of coins required to make change for a given number. IE for USA coinage and 37 cents, the minimum number is four (quarter, dime, 2 pennies). I implemented the simpl",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "The Angels and Demons of Nondeterminism",
+          "link": "https://buttondown.com/hillelwayne/archive/the-angels-and-demons-of-nondeterminism/",
+          "date": "2025-09-04T14:00:00+00:00",
+          "excerpt": "Greetings everyone! You might have noticed that it's September and I don't have the next version of Logic for Programmers ready. As penance, here's ten free copies of the book . So a few months ago I wrote a newsletter about how we use nondeterminism in formal methods. The overarching idea: Nondeter",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Logical Duals in Software Engineering",
+          "link": "https://buttondown.com/hillelwayne/archive/logical-duals-in-software-engineering/",
+          "date": "2025-08-27T19:25:32+00:00",
+          "excerpt": "( Last week's newsletter took too long and I'm way behind on Logic for Programmers revisions so short one this time. 1 ) In classical logic, two operators F/G are duals if F(x) = !G(!x) . Three examples: x || y is the same as !(!x && !y) . <>P (\"P is possibly true\") is the same as ![]!P (\"not P isn'",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Sapir-Whorf does not apply to Programming Languages",
+          "link": "https://buttondown.com/hillelwayne/archive/sapir-whorf-does-not-apply-to-programming/",
+          "date": "2025-08-21T13:00:00+00:00",
+          "excerpt": "This one is a hot mess but it's too late in the week to start over. Oh well! Someone recognized me at last week's Chipy and asked for my opinion on Sapir-Whorf hypothesis in programming languages. I thought this was interesting enough to make a newsletter. First what it is, then why it looks like it",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Software books I wish I could read",
+          "link": "https://buttondown.com/hillelwayne/archive/software-books-i-wish-i-could-read/",
+          "date": "2025-08-06T13:00:00+00:00",
+          "excerpt": "New Logic for Programmers Release! v0.11 is now available ! This is over 20% longer than v0.10, with a new chapter on code proofs, three chapter overhauls, and more! Full release notes here . Software books I wish I could read I'm writing Logic for Programmers because it's a book I wanted to have te",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "2000 words about arrays and tables",
+          "link": "https://buttondown.com/hillelwayne/archive/2000-words-about-arrays-and-tables/",
+          "date": "2025-07-30T13:00:00+00:00",
+          "excerpt": "I'm way too discombobulated from getting next month's release of Logic for Programmers ready, so I'm pulling a idea from the slush pile. Basically I wanted to come up with a mental model of arrays as a concept that explained APL-style multidimensional arrays and tables but also why there weren't mul",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Programming Language Escape Hatches",
+          "link": "https://buttondown.com/hillelwayne/archive/programming-language-escape-hatches/",
+          "date": "2025-07-24T14:00:00+00:00",
+          "excerpt": "The excellent-but-defunct blog Programming in the 21st Century defines \"puzzle languages\" as languages were part of the appeal is in figuring out how to express a program idiomatically, like a puzzle. As examples, he lists Haskell, Erlang, and J. All puzzle languages, the author says, have an \"escap",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Maybe writing speed actually is a bottleneck for programming",
+          "link": "https://buttondown.com/hillelwayne/archive/maybe-writing-speed-actually-is-a-bottleneck-for/",
+          "date": "2025-07-17T19:08:27+00:00",
+          "excerpt": "I'm a big (neo)vim buff. My config is over 1500 lines and I regularly write new scripts. I recently ported my neovim config to a new laptop. Before then, I was using VSCode to write, and when I switched back I immediately saw a big gain in productivity. People often pooh-pooh vim (and other assistiv",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Logic for Programmers Turns One",
+          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-turns-one/",
+          "date": "2025-07-08T18:18:52+00:00",
+          "excerpt": "I released Logic for Programmers exactly one year ago today. It feels weird to celebrate the anniversary of something that isn't 1.0 yet, but software projects have a proud tradition of celebrating a dozen anniversaries before 1.0. I wanted to share about what's changed in the past year and the work",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Logical Quantifiers in Software",
+          "link": "https://buttondown.com/hillelwayne/archive/logical-quantifiers-in-software/",
+          "date": "2025-07-02T19:44:22+00:00",
+          "excerpt": "I realize that for all I've talked about Logic for Programmers in this newsletter, I never once explained basic logical quantifiers. They're both simple and incredibly useful, so let's do that this week! Sets and quantifiers A set is a collection of unordered, unique elements. {1, 2, 3, …} is a set,",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "You can cheat a test suite with a big enough polynomial",
+          "link": "https://buttondown.com/hillelwayne/archive/you-can-cheat-a-test-suite-with-a-big-enough/",
+          "date": "2025-06-24T16:27:01+00:00",
+          "excerpt": "Hi nerds, I'm back from Systems Distributed ! I'd heartily recommend it, wildest conference I've been to in years. I have a lot of work to catch up on, so this will be a short newsletter. In an earlier version of my talk, I had a gag about unit tests. First I showed the test f([1,2,3]) == 3 , then s",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Solving LinkedIn Queens with SMT",
+          "link": "https://buttondown.com/hillelwayne/archive/solving-linkedin-queens-with-smt/",
+          "date": "2025-06-12T15:43:25+00:00",
+          "excerpt": "No newsletter next week I’ll be speaking at Systems Distributed . My talk isn't close to done yet, which is why this newsletter is both late and short. Solving LinkedIn Queens in SMT The article Modern SAT solvers: fast, neat and underused claims that SAT solvers 1 are \"criminally underused by the i",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "AI is a gamechanger for TLA+ users",
+          "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/",
+          "date": "2025-06-05T14:59:11+00:00",
+          "excerpt": "New Logic for Programmers Release v0.10 is now available ! This is a minor release, mostly focused on logic-based refactoring, with new material on set types and testing refactors are correct. See the full release notes at the changelog page . Due to conference pressure v0.11 will also likely be a m",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "What does \"Undecidable\" mean, anyway",
+          "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/",
+          "date": "2025-05-28T19:34:02+00:00",
+          "excerpt": "Systems Distributed I'll be speaking at Systems Distributed next month! The talk is brand new and will aim to showcase some of the formal methods mental models that would be useful in mainstream software development. It has added some extra stress on my schedule, though, so expect the next two month",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Finding hard 24 puzzles with planner programming",
+          "link": "https://buttondown.com/hillelwayne/archive/finding-hard-24-puzzles-with-planner-programming/",
+          "date": "2025-05-20T18:21:01+00:00",
+          "excerpt": "Planner programming is a programming technique where you solve problems by providing a goal and actions, and letting the planner find actions that reach the goal. In a previous edition of Logic for Programmers , I demonstrated how this worked by solving the 24 puzzle with planning. For reasons discu",
           "author": ""
         }
       ]
