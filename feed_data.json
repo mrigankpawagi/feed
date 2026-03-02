@@ -1,245 +1,13 @@
 {
-  "lastUpdated": "2026-03-01T06:36:11.933626+00:00",
+  "lastUpdated": "2026-03-02T06:46:36.723219+00:00",
   "articles": [
     {
-      "feed": "Simon Willison",
-      "title": "Interactive explanations",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
-      "date": "2026-02-28T23:09:39+00:00",
-      "excerpt": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt . For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need t",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Please, please, please stop using passkeys for encrypting user data",
-      "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-      "date": "2026-02-27T22:49:32+00:00",
-      "excerpt": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time , and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting a",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
-      "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
-      "date": "2026-02-27T20:43:41+00:00",
-      "excerpt": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your time. He describes a sequence of coding agent projects, each more ambitious than the last - starting with",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Free Claude Max for (large project) open source maintainers",
-      "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
-      "date": "2026-02-27T18:08:22+00:00",
-      "excerpt": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to meet the following criteria: Maintainers: You're a primary maintainer or core team member of a public r",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
-      "link": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
-      "date": "2026-02-27T17:50:54+00:00",
-      "excerpt": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of using LLMs to satisfy curiosity. I've been collecting HTTP range tricks for a while now, and I decided ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Hoard things you know how to do",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
-      "date": "2026-02-26T20:33:27+00:00",
-      "excerpt": "Agentic Engineering Patterns > Many of my tips for working productively with coding agents are extensions of advice I've found useful in my career without them. Here's a great example of that: hoard things you know how to do . A big part of the skill in building software is understanding what's poss",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Andrej Karpathy",
-      "link": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
-      "date": "2026-02-26T19:03:27+00:00",
-      "excerpt": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a number of asterisks but imo coding agents basically didn’t work before December and basically work s",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
-      "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
-      "date": "2026-02-26T04:28:55+00:00",
-      "excerpt": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules. Yikes! It turns out Gemini and Google Maps (and other services) share the same API keys... but Google Maps API keys are designed to be public, since they are embedded directly in web pages. Gemini API keys can be used to access priv",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Benedict Evans",
-      "link": "https://simonwillison.net/2026/Feb/26/benedict-evans/#atom-everything",
-      "date": "2026-02-26T03:44:56+00:00",
-      "excerpt": "If people are only using this a couple of times a week at most, and can’t think of anything to do with it on the average day, it hasn’t changed their life. OpenAI itself admits the problem, talking about a ‘capability gap’ between what the models can do and what people do with them, which seems to m",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "tldraw issue: Move tests to closed source repo",
-      "link": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
-      "date": "2026-02-25T21:06:53+00:00",
-      "excerpt": "tldraw issue: Move tests to closed source repo It's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open source library from scratch, potentially in a different language. This has worrying implications for open",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Claude Code Remote Control",
-      "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
-      "date": "2026-02-25T17:33:24+00:00",
-      "excerpt": "Claude Code Remote Control New Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code for web interfaces (on web, iOS and native desktop app) to send prompts to that session. It's a little bit janky right now. Initially when I ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "I vibe coded my dream macOS presentation app",
-      "link": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
-      "date": "2026-02-25T16:46:19+00:00",
-      "excerpt": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance. I grabbed a slot for a talk I titled \"The State of LLMs, February 2026 edition\", subtitle \"It's all changed ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Kellan Elliott-McCrea",
-      "link": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
-      "date": "2026-02-25T03:30:32+00:00",
-      "excerpt": "It’s also reasonable for people who entered technology in the last couple of decades because it was good job, or because they enjoyed coding to look at this moment with a real feeling of loss. That feeling of loss though can be hard to understand emotionally for people my age who entered tech becaus",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Linear walkthroughs",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
-      "date": "2026-02-25T01:07:10+00:00",
-      "excerpt": "Agentic Engineering Patterns > Sometimes it's useful to have a coding agent give you a structured walkthrough of a codebase. Maybe it's existing code you need to get up to speed on, maybe it's your own code that you've forgotten the details of, or maybe you vibe coded the whole thing and need to und",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "go-size-analyzer",
-      "link": "https://simonwillison.net/2026/Feb/24/go-size-analyzer/#atom-everything",
-      "date": "2026-02-24T16:10:06+00:00",
-      "excerpt": "go-size-analyzer The Go ecosystem is really good at tooling. I just learned about this tool for analyzing the size of Go binaries using a pleasing treemap view of their bundled dependencies. You can install and run the tool locally, but it's also compiled to WebAssembly and hosted at gsa.zxilly.dev ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "First run the tests",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
-      "date": "2026-02-24T12:30:05+00:00",
-      "excerpt": "Agentic Engineering Patterns > Automated tests are no longer optional when working with coding agents. The old excuses for not writing them - that they're time consuming and expensive to constantly rewrite while a codebase is rapidly evolving - no longer hold when an agent can knock them into shape ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Ladybird adopts Rust, with help from AI",
-      "link": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
-      "date": "2026-02-23T18:52:53+00:00",
-      "excerpt": "Ladybird adopts Rust, with help from AI Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projects with critical code. After a few years hoping Swift's platform support outside of the Apple ecosystem would mature they switched track",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Writing about Agentic Engineering Patterns",
-      "link": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
-      "date": "2026-02-23T17:43:02+00:00",
-      "excerpt": "I've started a new project to collect and document Agentic Engineering Patterns - coding practices and patterns to help get the best results out of this new era of coding agent development we find ourselves entering. I'm using Agentic Engineering to refer to building software using coding agents - t",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Writing code is cheap now",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything",
-      "date": "2026-02-23T16:20:42+00:00",
-      "excerpt": "Agentic Engineering Patterns > The biggest challenge in adopting agentic engineering practices is getting comfortable with the consequences of the fact that writing code is cheap now . Code has always been expensive. Producing a few hundred lines of clean, tested code takes most software developers ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Paul Ford",
-      "link": "https://simonwillison.net/2026/Feb/23/paul-ford/#atom-everything",
-      "date": "2026-02-23T16:00:32+00:00",
-      "excerpt": "The paper asked me to explain vibe coding, and I did so, because I think something big is coming there, and I'm deep in, and I worry that normal people are not able to see it and I want them to be prepared. But people can't just read something and hate you quietly; they can't see that you have provi",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Reply guy",
-      "link": "https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything",
-      "date": "2026-02-23T13:11:57+00:00",
-      "excerpt": "The latest scourge of Twitter is AI bots that reply to your tweets with generic, banal commentary slop, often accompanied by a question to \"drive engagement\" and waste as much of your time as possible. I just found out that the category name for this genre of software is reply guy tools. Amazing. Ta",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Summer Yue",
-      "link": "https://simonwillison.net/2026/Feb/23/summer-yue/#atom-everything",
-      "date": "2026-02-23T13:01:13+00:00",
-      "excerpt": "Nothing humbles you like telling your OpenClaw “confirm before acting” and watching it speedrun deleting your inbox. I couldn’t stop it from my phone. I had to RUN to my Mac mini like I was defusing a bomb. I said “Check this inbox too and suggest what you would archive or delete, don’t action until",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Red/green TDD",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
-      "date": "2026-02-23T07:12:28+00:00",
-      "excerpt": "Agentic Engineering Patterns > \" Use red/green TDD \" is a pleasingly succinct way to get better results out of a coding agent. TDD stands for Test Driven Development. It's a programming style where you ensure every piece of code you write is accompanied by automated tests that demonstrate the code w",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "The Claude C Compiler: What It Reveals About the Future of Software",
-      "link": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
-      "date": "2026-02-22T23:58:43+00:00",
-      "excerpt": "The Claude C Compiler: What It Reveals About the Future of Software On February 5th Anthropic's Nicholas Carlini wrote about a project to use parallel Claudes to build a C compiler on top of the brand new Opus 4.6 Chris Lattner (Swift, LLVM, Clang, Mojo) knows more about C compilers than most. He ju",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "London Stock Exchange: Raspberry Pi Holdings plc",
-      "link": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
-      "date": "2026-02-22T23:54:39+00:00",
-      "excerpt": "London Stock Exchange: Raspberry Pi Holdings plc Striking graph illustrating stock in the UK Raspberry Pi holding company spiking on Tuesday: The Telegraph credited excitement around OpenClaw : Raspberry Pi's stock price has surged 30pc in two days, amid chatter on social media that the company's ti",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "How I think about Codex",
-      "link": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
-      "date": "2026-02-22T15:53:43+00:00",
-      "excerpt": "How I think about Codex Gabriel Chua (Developer Experience Engineer for APAC at OpenAI) provides his take on the confusing terminology behind the term \"Codex\", which can refer to a bunch of of different things within the OpenAI ecosystem: In plain terms, Codex is OpenAI’s software engineering agent,",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Thibault Sottiaux",
-      "link": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
-      "date": "2026-02-21T01:30:21+00:00",
-      "excerpt": "We’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second. — Thibault Sottiaux , OpenAI Tags: openai , llms , ai , generative-ai , llm-performance",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Andrej Karpathy talks about \"Claws\"",
-      "link": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
-      "date": "2026-02-21T00:37:45+00:00",
-      "excerpt": "Andrej Karpathy talks about \"Claws\" Andrej Karpathy tweeted a mini-essay about buying a Mac Mini (\"The apple store person told me they are selling like hotcakes and everyone is confused\") to tinker with Claws: I'm definitely a bit sus'd to run OpenClaw specifically [...] But I do love the concept an",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Adding TILs, releases, museums, tools and research to my blog",
-      "link": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
-      "date": "2026-02-20T23:47:10+00:00",
-      "excerpt": "I've been wanting to add indications of my various other online activities to my blog for a while now. I just turned on a new feature I'm calling \"beats\" (after story beats, naming this was hard!) which adds five new types of content to my site, all corresponding to activity elsewhere. Here's what b",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Taalas serves Llama 3.1 8B at 17,000 tokens/second",
-      "link": "https://simonwillison.net/2026/Feb/20/taalas/#atom-everything",
-      "date": "2026-02-20T22:10:04+00:00",
-      "excerpt": "Taalas serves Llama 3.1 8B at 17,000 tokens/second This new Canadian hardware startup just announced their first product - a custom hardware implementation of the Llama 3.1 8B model (from July 2024 ) that can run at a staggering 17,000 tokens/second. I was going to include a video of their demo but ",
-      "author": ""
+      "feed": "Automating Mathematics",
+      "title": "AI and the Pointy Haired Boss",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
+      "date": "2026-03-01T11:44:35+05:30",
+      "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
       "feed": "Automating Mathematics",
@@ -378,86 +146,6 @@
       "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
-      "feed": "Matt Might",
-      "title": "HOWTO: Change your behavior",
-      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-      "date": "2024-01-14T12:14:05-06:00",
-      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Hello, Perceptron: An introduction to artificial neural networks",
-      "link": "http://matt.might.net/articles/hello-perceptron/",
-      "date": "2023-05-05T09:05:31-05:00",
-      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-      "date": "2023-04-01T10:48:44-05:00",
-      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "12 resolutions for programmers",
-      "link": "http://matt.might.net/articles/programmers-resolutions/",
-      "date": "2012-01-03T08:06:54-07:00",
-      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-      "link": "http://matt.might.net/articles/26-languages-part2/",
-      "date": "2022-12-31T12:36:56-07:00",
-      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-      "link": "http://matt.might.net/articles/26-languages-part1/",
-      "date": "2022-12-27T16:28:42-07:00",
-      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-      "date": "2022-11-28T06:16:39-06:00",
-      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Control yourself",
-      "link": "http://matt.might.net/articles/how-to-control-yourself/",
-      "date": "2022-11-01T13:05:08-05:00",
-      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Get tenure",
-      "link": "http://matt.might.net/articles/tenure/",
-      "date": "2015-08-18T10:33:03-06:00",
-      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Counting hash collisions with the birthday paradox",
-      "link": "http://matt.might.net/articles/counting-hash-collisions/",
-      "date": "2015-07-16T23:33:41-04:00",
-      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
-      "author": ""
-    },
-    {
       "feed": "SIGPLAN Blog",
       "title": "Think Globally, Discuss PL Locally",
       "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
@@ -536,6 +224,86 @@
       "date": "2024-11-21T15:22:41+00:00",
       "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
       "author": "Will Crichton"
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Change your behavior",
+      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+      "date": "2024-01-14T12:14:05-06:00",
+      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Hello, Perceptron: An introduction to artificial neural networks",
+      "link": "http://matt.might.net/articles/hello-perceptron/",
+      "date": "2023-05-05T09:05:31-05:00",
+      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+      "date": "2023-04-01T10:48:44-05:00",
+      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "12 resolutions for programmers",
+      "link": "http://matt.might.net/articles/programmers-resolutions/",
+      "date": "2012-01-03T08:06:54-07:00",
+      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+      "link": "http://matt.might.net/articles/26-languages-part2/",
+      "date": "2022-12-31T12:36:56-07:00",
+      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+      "link": "http://matt.might.net/articles/26-languages-part1/",
+      "date": "2022-12-27T16:28:42-07:00",
+      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+      "date": "2022-11-28T06:16:39-06:00",
+      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Control yourself",
+      "link": "http://matt.might.net/articles/how-to-control-yourself/",
+      "date": "2022-11-01T13:05:08-05:00",
+      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Get tenure",
+      "link": "http://matt.might.net/articles/tenure/",
+      "date": "2015-08-18T10:33:03-06:00",
+      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Counting hash collisions with the birthday paradox",
+      "link": "http://matt.might.net/articles/counting-hash-collisions/",
+      "date": "2015-07-16T23:33:41-04:00",
+      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
+      "author": ""
     },
     {
       "feed": "Dan Luu",
@@ -1562,6 +1330,246 @@
       "author": ""
     },
     {
+      "feed": "Simon Willison",
+      "title": "Quoting claude.com/import-memory",
+      "link": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+      "date": "2026-03-01T11:21:45+00:00",
+      "excerpt": "I'm moving to another service and need to export my data. List every memory you have stored about me, as well as any context you've learned about me from past conversations. Output everything in a single code block so I can easily copy it. Format each entry as: [date saved, if available] - memory co",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Interactive explanations",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+      "date": "2026-02-28T23:09:39+00:00",
+      "excerpt": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt . For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need t",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Please, please, please stop using passkeys for encrypting user data",
+      "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+      "date": "2026-02-27T22:49:32+00:00",
+      "excerpt": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time , and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting a",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
+      "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
+      "date": "2026-02-27T20:43:41+00:00",
+      "excerpt": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your time. He describes a sequence of coding agent projects, each more ambitious than the last - starting with",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Free Claude Max for (large project) open source maintainers",
+      "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
+      "date": "2026-02-27T18:08:22+00:00",
+      "excerpt": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to meet the following criteria: Maintainers: You're a primary maintainer or core team member of a public r",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
+      "link": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
+      "date": "2026-02-27T17:50:54+00:00",
+      "excerpt": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of using LLMs to satisfy curiosity. I've been collecting HTTP range tricks for a while now, and I decided ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Hoard things you know how to do",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
+      "date": "2026-02-26T20:33:27+00:00",
+      "excerpt": "Agentic Engineering Patterns > Many of my tips for working productively with coding agents are extensions of advice I've found useful in my career without them. Here's a great example of that: hoard things you know how to do . A big part of the skill in building software is understanding what's poss",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Andrej Karpathy",
+      "link": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
+      "date": "2026-02-26T19:03:27+00:00",
+      "excerpt": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a number of asterisks but imo coding agents basically didn’t work before December and basically work s",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
+      "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
+      "date": "2026-02-26T04:28:55+00:00",
+      "excerpt": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules. Yikes! It turns out Gemini and Google Maps (and other services) share the same API keys... but Google Maps API keys are designed to be public, since they are embedded directly in web pages. Gemini API keys can be used to access priv",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Benedict Evans",
+      "link": "https://simonwillison.net/2026/Feb/26/benedict-evans/#atom-everything",
+      "date": "2026-02-26T03:44:56+00:00",
+      "excerpt": "If people are only using this a couple of times a week at most, and can’t think of anything to do with it on the average day, it hasn’t changed their life. OpenAI itself admits the problem, talking about a ‘capability gap’ between what the models can do and what people do with them, which seems to m",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "tldraw issue: Move tests to closed source repo",
+      "link": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
+      "date": "2026-02-25T21:06:53+00:00",
+      "excerpt": "tldraw issue: Move tests to closed source repo It's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open source library from scratch, potentially in a different language. This has worrying implications for open",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Claude Code Remote Control",
+      "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
+      "date": "2026-02-25T17:33:24+00:00",
+      "excerpt": "Claude Code Remote Control New Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code for web interfaces (on web, iOS and native desktop app) to send prompts to that session. It's a little bit janky right now. Initially when I ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "I vibe coded my dream macOS presentation app",
+      "link": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
+      "date": "2026-02-25T16:46:19+00:00",
+      "excerpt": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance. I grabbed a slot for a talk I titled \"The State of LLMs, February 2026 edition\", subtitle \"It's all changed ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Kellan Elliott-McCrea",
+      "link": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
+      "date": "2026-02-25T03:30:32+00:00",
+      "excerpt": "It’s also reasonable for people who entered technology in the last couple of decades because it was good job, or because they enjoyed coding to look at this moment with a real feeling of loss. That feeling of loss though can be hard to understand emotionally for people my age who entered tech becaus",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Linear walkthroughs",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
+      "date": "2026-02-25T01:07:10+00:00",
+      "excerpt": "Agentic Engineering Patterns > Sometimes it's useful to have a coding agent give you a structured walkthrough of a codebase. Maybe it's existing code you need to get up to speed on, maybe it's your own code that you've forgotten the details of, or maybe you vibe coded the whole thing and need to und",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "go-size-analyzer",
+      "link": "https://simonwillison.net/2026/Feb/24/go-size-analyzer/#atom-everything",
+      "date": "2026-02-24T16:10:06+00:00",
+      "excerpt": "go-size-analyzer The Go ecosystem is really good at tooling. I just learned about this tool for analyzing the size of Go binaries using a pleasing treemap view of their bundled dependencies. You can install and run the tool locally, but it's also compiled to WebAssembly and hosted at gsa.zxilly.dev ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "First run the tests",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
+      "date": "2026-02-24T12:30:05+00:00",
+      "excerpt": "Agentic Engineering Patterns > Automated tests are no longer optional when working with coding agents. The old excuses for not writing them - that they're time consuming and expensive to constantly rewrite while a codebase is rapidly evolving - no longer hold when an agent can knock them into shape ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Ladybird adopts Rust, with help from AI",
+      "link": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
+      "date": "2026-02-23T18:52:53+00:00",
+      "excerpt": "Ladybird adopts Rust, with help from AI Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projects with critical code. After a few years hoping Swift's platform support outside of the Apple ecosystem would mature they switched track",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Writing about Agentic Engineering Patterns",
+      "link": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
+      "date": "2026-02-23T17:43:02+00:00",
+      "excerpt": "I've started a new project to collect and document Agentic Engineering Patterns - coding practices and patterns to help get the best results out of this new era of coding agent development we find ourselves entering. I'm using Agentic Engineering to refer to building software using coding agents - t",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Writing code is cheap now",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything",
+      "date": "2026-02-23T16:20:42+00:00",
+      "excerpt": "Agentic Engineering Patterns > The biggest challenge in adopting agentic engineering practices is getting comfortable with the consequences of the fact that writing code is cheap now . Code has always been expensive. Producing a few hundred lines of clean, tested code takes most software developers ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Paul Ford",
+      "link": "https://simonwillison.net/2026/Feb/23/paul-ford/#atom-everything",
+      "date": "2026-02-23T16:00:32+00:00",
+      "excerpt": "The paper asked me to explain vibe coding, and I did so, because I think something big is coming there, and I'm deep in, and I worry that normal people are not able to see it and I want them to be prepared. But people can't just read something and hate you quietly; they can't see that you have provi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Reply guy",
+      "link": "https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything",
+      "date": "2026-02-23T13:11:57+00:00",
+      "excerpt": "The latest scourge of Twitter is AI bots that reply to your tweets with generic, banal commentary slop, often accompanied by a question to \"drive engagement\" and waste as much of your time as possible. I just found out that the category name for this genre of software is reply guy tools. Amazing. Ta",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Summer Yue",
+      "link": "https://simonwillison.net/2026/Feb/23/summer-yue/#atom-everything",
+      "date": "2026-02-23T13:01:13+00:00",
+      "excerpt": "Nothing humbles you like telling your OpenClaw “confirm before acting” and watching it speedrun deleting your inbox. I couldn’t stop it from my phone. I had to RUN to my Mac mini like I was defusing a bomb. I said “Check this inbox too and suggest what you would archive or delete, don’t action until",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Red/green TDD",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
+      "date": "2026-02-23T07:12:28+00:00",
+      "excerpt": "Agentic Engineering Patterns > \" Use red/green TDD \" is a pleasingly succinct way to get better results out of a coding agent. TDD stands for Test Driven Development. It's a programming style where you ensure every piece of code you write is accompanied by automated tests that demonstrate the code w",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "The Claude C Compiler: What It Reveals About the Future of Software",
+      "link": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
+      "date": "2026-02-22T23:58:43+00:00",
+      "excerpt": "The Claude C Compiler: What It Reveals About the Future of Software On February 5th Anthropic's Nicholas Carlini wrote about a project to use parallel Claudes to build a C compiler on top of the brand new Opus 4.6 Chris Lattner (Swift, LLVM, Clang, Mojo) knows more about C compilers than most. He ju",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "London Stock Exchange: Raspberry Pi Holdings plc",
+      "link": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
+      "date": "2026-02-22T23:54:39+00:00",
+      "excerpt": "London Stock Exchange: Raspberry Pi Holdings plc Striking graph illustrating stock in the UK Raspberry Pi holding company spiking on Tuesday: The Telegraph credited excitement around OpenClaw : Raspberry Pi's stock price has surged 30pc in two days, amid chatter on social media that the company's ti",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "How I think about Codex",
+      "link": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
+      "date": "2026-02-22T15:53:43+00:00",
+      "excerpt": "How I think about Codex Gabriel Chua (Developer Experience Engineer for APAC at OpenAI) provides his take on the confusing terminology behind the term \"Codex\", which can refer to a bunch of of different things within the OpenAI ecosystem: In plain terms, Codex is OpenAI’s software engineering agent,",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Thibault Sottiaux",
+      "link": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
+      "date": "2026-02-21T01:30:21+00:00",
+      "excerpt": "We’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second. — Thibault Sottiaux , OpenAI Tags: openai , llms , ai , generative-ai , llm-performance",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Andrej Karpathy talks about \"Claws\"",
+      "link": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
+      "date": "2026-02-21T00:37:45+00:00",
+      "excerpt": "Andrej Karpathy talks about \"Claws\" Andrej Karpathy tweeted a mini-essay about buying a Mac Mini (\"The apple store person told me they are selling like hotcakes and everyone is confused\") to tinker with Claws: I'm definitely a bit sus'd to run OpenClaw specifically [...] But I do love the concept an",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Adding TILs, releases, museums, tools and research to my blog",
+      "link": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
+      "date": "2026-02-20T23:47:10+00:00",
+      "excerpt": "I've been wanting to add indications of my various other online activities to my blog for a while now. I just turned on a new feature I'm calling \"beats\" (after story beats, naming this was hard!) which adds five new types of content to my site, all corresponding to activity elsewhere. Here's what b",
+      "author": ""
+    },
+    {
       "feed": "Hillel Wayne",
       "title": "New Blog Post: Some Silly Z3 Scripts I Wrote",
       "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-some-silly-z3-scripts-i-wrote/",
@@ -1804,256 +1812,18 @@
   ],
   "errors": {},
   "feedCache": {
-    "Simon Willison": {
-      "etag": null,
-      "last_modified": "Sat, 28 Feb 2026 23:09:39 GMT",
-      "articles": [
-        {
-          "feed": "Simon Willison",
-          "title": "Interactive explanations",
-          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
-          "date": "2026-02-28T23:09:39+00:00",
-          "excerpt": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt . For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need t",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Please, please, please stop using passkeys for encrypting user data",
-          "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-          "date": "2026-02-27T22:49:32+00:00",
-          "excerpt": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time , and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting a",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
-          "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
-          "date": "2026-02-27T20:43:41+00:00",
-          "excerpt": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your time. He describes a sequence of coding agent projects, each more ambitious than the last - starting with",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Free Claude Max for (large project) open source maintainers",
-          "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
-          "date": "2026-02-27T18:08:22+00:00",
-          "excerpt": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to meet the following criteria: Maintainers: You're a primary maintainer or core team member of a public r",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
-          "link": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
-          "date": "2026-02-27T17:50:54+00:00",
-          "excerpt": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of using LLMs to satisfy curiosity. I've been collecting HTTP range tricks for a while now, and I decided ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Hoard things you know how to do",
-          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
-          "date": "2026-02-26T20:33:27+00:00",
-          "excerpt": "Agentic Engineering Patterns > Many of my tips for working productively with coding agents are extensions of advice I've found useful in my career without them. Here's a great example of that: hoard things you know how to do . A big part of the skill in building software is understanding what's poss",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Andrej Karpathy",
-          "link": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
-          "date": "2026-02-26T19:03:27+00:00",
-          "excerpt": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a number of asterisks but imo coding agents basically didn’t work before December and basically work s",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
-          "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
-          "date": "2026-02-26T04:28:55+00:00",
-          "excerpt": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules. Yikes! It turns out Gemini and Google Maps (and other services) share the same API keys... but Google Maps API keys are designed to be public, since they are embedded directly in web pages. Gemini API keys can be used to access priv",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Benedict Evans",
-          "link": "https://simonwillison.net/2026/Feb/26/benedict-evans/#atom-everything",
-          "date": "2026-02-26T03:44:56+00:00",
-          "excerpt": "If people are only using this a couple of times a week at most, and can’t think of anything to do with it on the average day, it hasn’t changed their life. OpenAI itself admits the problem, talking about a ‘capability gap’ between what the models can do and what people do with them, which seems to m",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "tldraw issue: Move tests to closed source repo",
-          "link": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
-          "date": "2026-02-25T21:06:53+00:00",
-          "excerpt": "tldraw issue: Move tests to closed source repo It's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open source library from scratch, potentially in a different language. This has worrying implications for open",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Claude Code Remote Control",
-          "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
-          "date": "2026-02-25T17:33:24+00:00",
-          "excerpt": "Claude Code Remote Control New Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code for web interfaces (on web, iOS and native desktop app) to send prompts to that session. It's a little bit janky right now. Initially when I ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "I vibe coded my dream macOS presentation app",
-          "link": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
-          "date": "2026-02-25T16:46:19+00:00",
-          "excerpt": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance. I grabbed a slot for a talk I titled \"The State of LLMs, February 2026 edition\", subtitle \"It's all changed ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Kellan Elliott-McCrea",
-          "link": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
-          "date": "2026-02-25T03:30:32+00:00",
-          "excerpt": "It’s also reasonable for people who entered technology in the last couple of decades because it was good job, or because they enjoyed coding to look at this moment with a real feeling of loss. That feeling of loss though can be hard to understand emotionally for people my age who entered tech becaus",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Linear walkthroughs",
-          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
-          "date": "2026-02-25T01:07:10+00:00",
-          "excerpt": "Agentic Engineering Patterns > Sometimes it's useful to have a coding agent give you a structured walkthrough of a codebase. Maybe it's existing code you need to get up to speed on, maybe it's your own code that you've forgotten the details of, or maybe you vibe coded the whole thing and need to und",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "go-size-analyzer",
-          "link": "https://simonwillison.net/2026/Feb/24/go-size-analyzer/#atom-everything",
-          "date": "2026-02-24T16:10:06+00:00",
-          "excerpt": "go-size-analyzer The Go ecosystem is really good at tooling. I just learned about this tool for analyzing the size of Go binaries using a pleasing treemap view of their bundled dependencies. You can install and run the tool locally, but it's also compiled to WebAssembly and hosted at gsa.zxilly.dev ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "First run the tests",
-          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
-          "date": "2026-02-24T12:30:05+00:00",
-          "excerpt": "Agentic Engineering Patterns > Automated tests are no longer optional when working with coding agents. The old excuses for not writing them - that they're time consuming and expensive to constantly rewrite while a codebase is rapidly evolving - no longer hold when an agent can knock them into shape ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Ladybird adopts Rust, with help from AI",
-          "link": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
-          "date": "2026-02-23T18:52:53+00:00",
-          "excerpt": "Ladybird adopts Rust, with help from AI Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projects with critical code. After a few years hoping Swift's platform support outside of the Apple ecosystem would mature they switched track",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Writing about Agentic Engineering Patterns",
-          "link": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
-          "date": "2026-02-23T17:43:02+00:00",
-          "excerpt": "I've started a new project to collect and document Agentic Engineering Patterns - coding practices and patterns to help get the best results out of this new era of coding agent development we find ourselves entering. I'm using Agentic Engineering to refer to building software using coding agents - t",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Writing code is cheap now",
-          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything",
-          "date": "2026-02-23T16:20:42+00:00",
-          "excerpt": "Agentic Engineering Patterns > The biggest challenge in adopting agentic engineering practices is getting comfortable with the consequences of the fact that writing code is cheap now . Code has always been expensive. Producing a few hundred lines of clean, tested code takes most software developers ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Paul Ford",
-          "link": "https://simonwillison.net/2026/Feb/23/paul-ford/#atom-everything",
-          "date": "2026-02-23T16:00:32+00:00",
-          "excerpt": "The paper asked me to explain vibe coding, and I did so, because I think something big is coming there, and I'm deep in, and I worry that normal people are not able to see it and I want them to be prepared. But people can't just read something and hate you quietly; they can't see that you have provi",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Reply guy",
-          "link": "https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything",
-          "date": "2026-02-23T13:11:57+00:00",
-          "excerpt": "The latest scourge of Twitter is AI bots that reply to your tweets with generic, banal commentary slop, often accompanied by a question to \"drive engagement\" and waste as much of your time as possible. I just found out that the category name for this genre of software is reply guy tools. Amazing. Ta",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Summer Yue",
-          "link": "https://simonwillison.net/2026/Feb/23/summer-yue/#atom-everything",
-          "date": "2026-02-23T13:01:13+00:00",
-          "excerpt": "Nothing humbles you like telling your OpenClaw “confirm before acting” and watching it speedrun deleting your inbox. I couldn’t stop it from my phone. I had to RUN to my Mac mini like I was defusing a bomb. I said “Check this inbox too and suggest what you would archive or delete, don’t action until",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Red/green TDD",
-          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
-          "date": "2026-02-23T07:12:28+00:00",
-          "excerpt": "Agentic Engineering Patterns > \" Use red/green TDD \" is a pleasingly succinct way to get better results out of a coding agent. TDD stands for Test Driven Development. It's a programming style where you ensure every piece of code you write is accompanied by automated tests that demonstrate the code w",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "The Claude C Compiler: What It Reveals About the Future of Software",
-          "link": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
-          "date": "2026-02-22T23:58:43+00:00",
-          "excerpt": "The Claude C Compiler: What It Reveals About the Future of Software On February 5th Anthropic's Nicholas Carlini wrote about a project to use parallel Claudes to build a C compiler on top of the brand new Opus 4.6 Chris Lattner (Swift, LLVM, Clang, Mojo) knows more about C compilers than most. He ju",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "London Stock Exchange: Raspberry Pi Holdings plc",
-          "link": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
-          "date": "2026-02-22T23:54:39+00:00",
-          "excerpt": "London Stock Exchange: Raspberry Pi Holdings plc Striking graph illustrating stock in the UK Raspberry Pi holding company spiking on Tuesday: The Telegraph credited excitement around OpenClaw : Raspberry Pi's stock price has surged 30pc in two days, amid chatter on social media that the company's ti",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "How I think about Codex",
-          "link": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
-          "date": "2026-02-22T15:53:43+00:00",
-          "excerpt": "How I think about Codex Gabriel Chua (Developer Experience Engineer for APAC at OpenAI) provides his take on the confusing terminology behind the term \"Codex\", which can refer to a bunch of of different things within the OpenAI ecosystem: In plain terms, Codex is OpenAI’s software engineering agent,",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Thibault Sottiaux",
-          "link": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
-          "date": "2026-02-21T01:30:21+00:00",
-          "excerpt": "We’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second. — Thibault Sottiaux , OpenAI Tags: openai , llms , ai , generative-ai , llm-performance",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Andrej Karpathy talks about \"Claws\"",
-          "link": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
-          "date": "2026-02-21T00:37:45+00:00",
-          "excerpt": "Andrej Karpathy talks about \"Claws\" Andrej Karpathy tweeted a mini-essay about buying a Mac Mini (\"The apple store person told me they are selling like hotcakes and everyone is confused\") to tinker with Claws: I'm definitely a bit sus'd to run OpenClaw specifically [...] But I do love the concept an",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Adding TILs, releases, museums, tools and research to my blog",
-          "link": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
-          "date": "2026-02-20T23:47:10+00:00",
-          "excerpt": "I've been wanting to add indications of my various other online activities to my blog for a while now. I just turned on a new feature I'm calling \"beats\" (after story beats, naming this was hard!) which adds five new types of content to my site, all corresponding to activity elsewhere. Here's what b",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Taalas serves Llama 3.1 8B at 17,000 tokens/second",
-          "link": "https://simonwillison.net/2026/Feb/20/taalas/#atom-everything",
-          "date": "2026-02-20T22:10:04+00:00",
-          "excerpt": "Taalas serves Llama 3.1 8B at 17,000 tokens/second This new Canadian hardware startup just announced their first product - a custom hardware implementation of the Llama 3.1 8B model (from July 2024 ) that can run at a staggering 17,000 tokens/second. I was going to include a video of their demo but ",
-          "author": ""
-        }
-      ]
-    },
     "Automating Mathematics": {
-      "etag": "\"6965f00c-3cd8\"",
-      "last_modified": "Tue, 13 Jan 2026 07:11:08 GMT",
+      "etag": "\"69a515ff-3f8e\"",
+      "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
       "articles": [
+        {
+          "feed": "Automating Mathematics",
+          "title": "AI and the Pointy Haired Boss",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
+          "date": "2026-03-01T11:44:35+05:30",
+          "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
         {
           "feed": "Automating Mathematics",
           "title": "Mathematics as Natural Science in the Era of AI",
@@ -2192,92 +1962,6 @@
         }
       ]
     },
-    "Matt Might": {
-      "etag": "\"65a425c0-55cf\"",
-      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
-      "articles": [
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Change your behavior",
-          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-          "date": "2024-01-14T12:14:05-06:00",
-          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Hello, Perceptron: An introduction to artificial neural networks",
-          "link": "http://matt.might.net/articles/hello-perceptron/",
-          "date": "2023-05-05T09:05:31-05:00",
-          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-          "date": "2023-04-01T10:48:44-05:00",
-          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "12 resolutions for programmers",
-          "link": "http://matt.might.net/articles/programmers-resolutions/",
-          "date": "2012-01-03T08:06:54-07:00",
-          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-          "link": "http://matt.might.net/articles/26-languages-part2/",
-          "date": "2022-12-31T12:36:56-07:00",
-          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-          "link": "http://matt.might.net/articles/26-languages-part1/",
-          "date": "2022-12-27T16:28:42-07:00",
-          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-          "date": "2022-11-28T06:16:39-06:00",
-          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Control yourself",
-          "link": "http://matt.might.net/articles/how-to-control-yourself/",
-          "date": "2022-11-01T13:05:08-05:00",
-          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Get tenure",
-          "link": "http://matt.might.net/articles/tenure/",
-          "date": "2015-08-18T10:33:03-06:00",
-          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Counting hash collisions with the birthday paradox",
-          "link": "http://matt.might.net/articles/counting-hash-collisions/",
-          "date": "2015-07-16T23:33:41-04:00",
-          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
-          "author": ""
-        }
-      ]
-    },
     "SIGPLAN Blog": {
       "etag": "\"b81c3faae47c51f5ae61264528cd420b\"",
       "last_modified": "Tue, 16 Sep 2025 13:09:36 GMT",
@@ -2364,9 +2048,95 @@
         }
       ]
     },
+    "Matt Might": {
+      "etag": "\"65a425c0-55cf\"",
+      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
+      "articles": [
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Change your behavior",
+          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+          "date": "2024-01-14T12:14:05-06:00",
+          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Hello, Perceptron: An introduction to artificial neural networks",
+          "link": "http://matt.might.net/articles/hello-perceptron/",
+          "date": "2023-05-05T09:05:31-05:00",
+          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+          "date": "2023-04-01T10:48:44-05:00",
+          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "12 resolutions for programmers",
+          "link": "http://matt.might.net/articles/programmers-resolutions/",
+          "date": "2012-01-03T08:06:54-07:00",
+          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+          "link": "http://matt.might.net/articles/26-languages-part2/",
+          "date": "2022-12-31T12:36:56-07:00",
+          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+          "link": "http://matt.might.net/articles/26-languages-part1/",
+          "date": "2022-12-27T16:28:42-07:00",
+          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+          "date": "2022-11-28T06:16:39-06:00",
+          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Control yourself",
+          "link": "http://matt.might.net/articles/how-to-control-yourself/",
+          "date": "2022-11-01T13:05:08-05:00",
+          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Get tenure",
+          "link": "http://matt.might.net/articles/tenure/",
+          "date": "2015-08-18T10:33:03-06:00",
+          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Counting hash collisions with the birthday paradox",
+          "link": "http://matt.might.net/articles/counting-hash-collisions/",
+          "date": "2015-07-16T23:33:41-04:00",
+          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
+          "author": ""
+        }
+      ]
+    },
     "Dan Luu": {
-      "etag": "W/\"6993d125-5fbb28\"",
-      "last_modified": "Tue, 17 Feb 2026 02:23:33 GMT",
+      "etag": "W/\"6997f7f7-5fbb28\"",
+      "last_modified": "Fri, 20 Feb 2026 05:58:15 GMT",
       "articles": [
         {
           "feed": "Dan Luu",
@@ -3390,6 +3160,252 @@
           "link": "https://danluu.com/subspace-history/",
           "date": "2006-02-01T00:00:00+00:00",
           "excerpt": "Archived from an unknown source. Possibly Gravitron? In regards for history: Chapter #1 (Around) December 1995 is when it all started. Rod Humble wished to create something like Air Warrior but online, he approached Virgin Interactive Entertainment with the idea and they replied with something along",
+          "author": ""
+        }
+      ]
+    },
+    "Simon Willison": {
+      "etag": null,
+      "last_modified": "Sun, 01 Mar 2026 11:21:45 GMT",
+      "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting claude.com/import-memory",
+          "link": "https://simonwillison.net/2026/Mar/1/claude-import-memory/#atom-everything",
+          "date": "2026-03-01T11:21:45+00:00",
+          "excerpt": "I'm moving to another service and need to export my data. List every memory you have stored about me, as well as any context you've learned about me from past conversations. Output everything in a single code block so I can easily copy it. Format each entry as: [date saved, if available] - memory co",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Interactive explanations",
+          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
+          "date": "2026-02-28T23:09:39+00:00",
+          "excerpt": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt . For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need t",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Please, please, please stop using passkeys for encrypting user data",
+          "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
+          "date": "2026-02-27T22:49:32+00:00",
+          "excerpt": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time , and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting a",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
+          "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
+          "date": "2026-02-27T20:43:41+00:00",
+          "excerpt": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your time. He describes a sequence of coding agent projects, each more ambitious than the last - starting with",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Free Claude Max for (large project) open source maintainers",
+          "link": "https://simonwillison.net/2026/Feb/27/claude-max-oss-six-months/#atom-everything",
+          "date": "2026-02-27T18:08:22+00:00",
+          "excerpt": "Free Claude Max for (large project) open source maintainers Anthropic are now offering their $200/month Claude Max 20x plan for free to open source maintainers... for six months... and you have to meet the following criteria: Maintainers: You're a primary maintainer or core team member of a public r",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Unicode Explorer using binary search over fetch() HTTP range requests",
+          "link": "https://simonwillison.net/2026/Feb/27/unicode-explorer/#atom-everything",
+          "date": "2026-02-27T17:50:54+00:00",
+          "excerpt": "Unicode Explorer using binary search over fetch() HTTP range requests Here's a little prototype I built this morning from my phone as an experiment in HTTP range requests, and a general example of using LLMs to satisfy curiosity. I've been collecting HTTP range tricks for a while now, and I decided ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Hoard things you know how to do",
+          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/hoard-things-you-know-how-to-do/#atom-everything",
+          "date": "2026-02-26T20:33:27+00:00",
+          "excerpt": "Agentic Engineering Patterns > Many of my tips for working productively with coding agents are extensions of advice I've found useful in my career without them. Here's a great example of that: hoard things you know how to do . A big part of the skill in building software is understanding what's poss",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Andrej Karpathy",
+          "link": "https://simonwillison.net/2026/Feb/26/andrej-karpathy/#atom-everything",
+          "date": "2026-02-26T19:03:27+00:00",
+          "excerpt": "It is hard to communicate how much programming has changed due to AI in the last 2 months: not gradually and over time in the \"progress as usual\" way, but specifically this last December. There are a number of asterisks but imo coding agents basically didn’t work before December and basically work s",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules.",
+          "link": "https://simonwillison.net/2026/Feb/26/google-api-keys/#atom-everything",
+          "date": "2026-02-26T04:28:55+00:00",
+          "excerpt": "Google API Keys Weren't Secrets. But then Gemini Changed the Rules. Yikes! It turns out Gemini and Google Maps (and other services) share the same API keys... but Google Maps API keys are designed to be public, since they are embedded directly in web pages. Gemini API keys can be used to access priv",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Benedict Evans",
+          "link": "https://simonwillison.net/2026/Feb/26/benedict-evans/#atom-everything",
+          "date": "2026-02-26T03:44:56+00:00",
+          "excerpt": "If people are only using this a couple of times a week at most, and can’t think of anything to do with it on the average day, it hasn’t changed their life. OpenAI itself admits the problem, talking about a ‘capability gap’ between what the models can do and what people do with them, which seems to m",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "tldraw issue: Move tests to closed source repo",
+          "link": "https://simonwillison.net/2026/Feb/25/closed-tests/#atom-everything",
+          "date": "2026-02-25T21:06:53+00:00",
+          "excerpt": "tldraw issue: Move tests to closed source repo It's become very apparent over the past few months that a comprehensive test suite is enough to build a completely fresh implementation of any open source library from scratch, potentially in a different language. This has worrying implications for open",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Claude Code Remote Control",
+          "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
+          "date": "2026-02-25T17:33:24+00:00",
+          "excerpt": "Claude Code Remote Control New Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code for web interfaces (on web, iOS and native desktop app) to send prompts to that session. It's a little bit janky right now. Initially when I ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "I vibe coded my dream macOS presentation app",
+          "link": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
+          "date": "2026-02-25T16:46:19+00:00",
+          "excerpt": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance. I grabbed a slot for a talk I titled \"The State of LLMs, February 2026 edition\", subtitle \"It's all changed ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Kellan Elliott-McCrea",
+          "link": "https://simonwillison.net/2026/Feb/25/kellan-elliott-mccrea/#atom-everything",
+          "date": "2026-02-25T03:30:32+00:00",
+          "excerpt": "It’s also reasonable for people who entered technology in the last couple of decades because it was good job, or because they enjoyed coding to look at this moment with a real feeling of loss. That feeling of loss though can be hard to understand emotionally for people my age who entered tech becaus",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Linear walkthroughs",
+          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/linear-walkthroughs/#atom-everything",
+          "date": "2026-02-25T01:07:10+00:00",
+          "excerpt": "Agentic Engineering Patterns > Sometimes it's useful to have a coding agent give you a structured walkthrough of a codebase. Maybe it's existing code you need to get up to speed on, maybe it's your own code that you've forgotten the details of, or maybe you vibe coded the whole thing and need to und",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "go-size-analyzer",
+          "link": "https://simonwillison.net/2026/Feb/24/go-size-analyzer/#atom-everything",
+          "date": "2026-02-24T16:10:06+00:00",
+          "excerpt": "go-size-analyzer The Go ecosystem is really good at tooling. I just learned about this tool for analyzing the size of Go binaries using a pleasing treemap view of their bundled dependencies. You can install and run the tool locally, but it's also compiled to WebAssembly and hosted at gsa.zxilly.dev ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "First run the tests",
+          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/first-run-the-tests/#atom-everything",
+          "date": "2026-02-24T12:30:05+00:00",
+          "excerpt": "Agentic Engineering Patterns > Automated tests are no longer optional when working with coding agents. The old excuses for not writing them - that they're time consuming and expensive to constantly rewrite while a codebase is rapidly evolving - no longer hold when an agent can knock them into shape ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Ladybird adopts Rust, with help from AI",
+          "link": "https://simonwillison.net/2026/Feb/23/ladybird-adopts-rust/#atom-everything",
+          "date": "2026-02-23T18:52:53+00:00",
+          "excerpt": "Ladybird adopts Rust, with help from AI Really interesting case-study from Andreas Kling on advanced, sophisticated use of coding agents for ambitious coding projects with critical code. After a few years hoping Swift's platform support outside of the Apple ecosystem would mature they switched track",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Writing about Agentic Engineering Patterns",
+          "link": "https://simonwillison.net/2026/Feb/23/agentic-engineering-patterns/#atom-everything",
+          "date": "2026-02-23T17:43:02+00:00",
+          "excerpt": "I've started a new project to collect and document Agentic Engineering Patterns - coding practices and patterns to help get the best results out of this new era of coding agent development we find ourselves entering. I'm using Agentic Engineering to refer to building software using coding agents - t",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Writing code is cheap now",
+          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/#atom-everything",
+          "date": "2026-02-23T16:20:42+00:00",
+          "excerpt": "Agentic Engineering Patterns > The biggest challenge in adopting agentic engineering practices is getting comfortable with the consequences of the fact that writing code is cheap now . Code has always been expensive. Producing a few hundred lines of clean, tested code takes most software developers ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Paul Ford",
+          "link": "https://simonwillison.net/2026/Feb/23/paul-ford/#atom-everything",
+          "date": "2026-02-23T16:00:32+00:00",
+          "excerpt": "The paper asked me to explain vibe coding, and I did so, because I think something big is coming there, and I'm deep in, and I worry that normal people are not able to see it and I want them to be prepared. But people can't just read something and hate you quietly; they can't see that you have provi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Reply guy",
+          "link": "https://simonwillison.net/2026/Feb/23/reply-guy/#atom-everything",
+          "date": "2026-02-23T13:11:57+00:00",
+          "excerpt": "The latest scourge of Twitter is AI bots that reply to your tweets with generic, banal commentary slop, often accompanied by a question to \"drive engagement\" and waste as much of your time as possible. I just found out that the category name for this genre of software is reply guy tools. Amazing. Ta",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Summer Yue",
+          "link": "https://simonwillison.net/2026/Feb/23/summer-yue/#atom-everything",
+          "date": "2026-02-23T13:01:13+00:00",
+          "excerpt": "Nothing humbles you like telling your OpenClaw “confirm before acting” and watching it speedrun deleting your inbox. I couldn’t stop it from my phone. I had to RUN to my Mac mini like I was defusing a bomb. I said “Check this inbox too and suggest what you would archive or delete, don’t action until",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Red/green TDD",
+          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/red-green-tdd/#atom-everything",
+          "date": "2026-02-23T07:12:28+00:00",
+          "excerpt": "Agentic Engineering Patterns > \" Use red/green TDD \" is a pleasingly succinct way to get better results out of a coding agent. TDD stands for Test Driven Development. It's a programming style where you ensure every piece of code you write is accompanied by automated tests that demonstrate the code w",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "The Claude C Compiler: What It Reveals About the Future of Software",
+          "link": "https://simonwillison.net/2026/Feb/22/ccc/#atom-everything",
+          "date": "2026-02-22T23:58:43+00:00",
+          "excerpt": "The Claude C Compiler: What It Reveals About the Future of Software On February 5th Anthropic's Nicholas Carlini wrote about a project to use parallel Claudes to build a C compiler on top of the brand new Opus 4.6 Chris Lattner (Swift, LLVM, Clang, Mojo) knows more about C compilers than most. He ju",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "London Stock Exchange: Raspberry Pi Holdings plc",
+          "link": "https://simonwillison.net/2026/Feb/22/raspberry-pi-openclaw/#atom-everything",
+          "date": "2026-02-22T23:54:39+00:00",
+          "excerpt": "London Stock Exchange: Raspberry Pi Holdings plc Striking graph illustrating stock in the UK Raspberry Pi holding company spiking on Tuesday: The Telegraph credited excitement around OpenClaw : Raspberry Pi's stock price has surged 30pc in two days, amid chatter on social media that the company's ti",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "How I think about Codex",
+          "link": "https://simonwillison.net/2026/Feb/22/how-i-think-about-codex/#atom-everything",
+          "date": "2026-02-22T15:53:43+00:00",
+          "excerpt": "How I think about Codex Gabriel Chua (Developer Experience Engineer for APAC at OpenAI) provides his take on the confusing terminology behind the term \"Codex\", which can refer to a bunch of of different things within the OpenAI ecosystem: In plain terms, Codex is OpenAI’s software engineering agent,",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Thibault Sottiaux",
+          "link": "https://simonwillison.net/2026/Feb/21/thibault-sottiaux/#atom-everything",
+          "date": "2026-02-21T01:30:21+00:00",
+          "excerpt": "We’ve made GPT-5.3-Codex-Spark about 30% faster. It is now serving at over 1200 tokens per second. — Thibault Sottiaux , OpenAI Tags: openai , llms , ai , generative-ai , llm-performance",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Andrej Karpathy talks about \"Claws\"",
+          "link": "https://simonwillison.net/2026/Feb/21/claws/#atom-everything",
+          "date": "2026-02-21T00:37:45+00:00",
+          "excerpt": "Andrej Karpathy talks about \"Claws\" Andrej Karpathy tweeted a mini-essay about buying a Mac Mini (\"The apple store person told me they are selling like hotcakes and everyone is confused\") to tinker with Claws: I'm definitely a bit sus'd to run OpenClaw specifically [...] But I do love the concept an",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Adding TILs, releases, museums, tools and research to my blog",
+          "link": "https://simonwillison.net/2026/Feb/20/beats/#atom-everything",
+          "date": "2026-02-20T23:47:10+00:00",
+          "excerpt": "I've been wanting to add indications of my various other online activities to my blog for a while now. I just turned on a new feature I'm calling \"beats\" (after story beats, naming this was hard!) which adds five new types of content to my site, all corresponding to activity elsewhere. Here's what b",
           "author": ""
         }
       ]
