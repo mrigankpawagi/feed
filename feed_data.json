@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T06:38:25.883787+00:00",
+  "lastUpdated": "2026-03-11T06:41:12.408162+00:00",
   "articles": [
     {
       "feed": "Automating Mathematics",
@@ -144,6 +144,14 @@
       "date": "2019-10-03T21:14:02+05:30",
       "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
       "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "AI should help us produce better code",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything",
+      "date": "2026-03-10T22:25:09+00:00",
+      "excerpt": "Agentic Engineering Patterns > Many developers worry that outsourcing their code to AI tools will result in a drop in quality, producing bad code that's churned out fast enough that decision makers are willing to overlook its flaws. If adopting coding agents demonstrably reduces the quality of the c",
+      "author": ""
     },
     {
       "feed": "Simon Willison",
@@ -375,14 +383,6 @@
       "link": "https://simonwillison.net/2026/Feb/25/claude-code-remote-control/#atom-everything",
       "date": "2026-02-25T17:33:24+00:00",
       "excerpt": "Claude Code Remote Control New Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code for web interfaces (on web, iOS and native desktop app) to send prompts to that session. It's a little bit janky right now. Initially when I ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "I vibe coded my dream macOS presentation app",
-      "link": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
-      "date": "2026-02-25T16:46:19+00:00",
-      "excerpt": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance. I grabbed a slot for a talk I titled \"The State of LLMs, February 2026 edition\", subtitle \"It's all changed ",
       "author": ""
     },
     {
@@ -1571,10 +1571,18 @@
     },
     {
       "feed": "Hillel Wayne",
+      "title": "LLMs are bad at vibing specifications",
+      "link": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
+      "date": "2026-03-10T17:12:30+00:00",
+      "excerpt": "No newsletter next week I'll be speaking at InfoQ London . But see below for a book giveaway! LLMs are bad at vibing specifications About a year ago I wrote AI is a gamechanger for TLA+ users , which argued that AI are a \"specification force multiplier\". That was written from the perspective an TLA+",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
       "title": "Free Books",
       "link": "https://buttondown.com/hillelwayne/archive/free-books/",
       "date": "2026-03-03T16:34:33+00:00",
-      "excerpt": "Spinning a lot of plates this week so skipping the newsletter. As an apology, have ten free copies of Logic for Programmers . These five are available now. These five should be available at 10:30 AM CEST tomorrow, so people in Europe have a better chance of nabbing one.",
+      "excerpt": "Spinning a lot of plates this week so skipping the newsletter. As an apology, have ten free copies of Logic for Programmers . These five are available now. These five should be available at 10:30 AM CEST tomorrow, so people in Europe have a better chance of nabbing one. Nevermind Leanpub had a bug t",
       "author": ""
     },
     {
@@ -1800,14 +1808,6 @@
       "date": "2025-06-05T14:59:11+00:00",
       "excerpt": "New Logic for Programmers Release v0.10 is now available ! This is a minor release, mostly focused on logic-based refactoring, with new material on set types and testing refactors are correct. See the full release notes at the changelog page . Due to conference pressure v0.11 will also likely be a m",
       "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "What does \"Undecidable\" mean, anyway",
-      "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/",
-      "date": "2025-05-28T19:34:02+00:00",
-      "excerpt": "Systems Distributed I'll be speaking at Systems Distributed next month! The talk is brand new and will aim to showcase some of the formal methods mental models that would be useful in mainstream software development. It has added some extra stress on my schedule, though, so expect the next two month",
-      "author": ""
     }
   ],
   "errors": {},
@@ -1964,8 +1964,16 @@
     },
     "Simon Willison": {
       "etag": null,
-      "last_modified": "Mon, 09 Mar 2026 15:05:15 GMT",
+      "last_modified": "Tue, 10 Mar 2026 22:25:09 GMT",
       "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "AI should help us produce better code",
+          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything",
+          "date": "2026-03-10T22:25:09+00:00",
+          "excerpt": "Agentic Engineering Patterns > Many developers worry that outsourcing their code to AI tools will result in a drop in quality, producing bad code that's churned out fast enough that decision makers are willing to overlook its flaws. If adopting coding agents demonstrably reduces the quality of the c",
+          "author": ""
+        },
         {
           "feed": "Simon Willison",
           "title": "Production query plans without production data",
@@ -2197,14 +2205,6 @@
           "date": "2026-02-25T17:33:24+00:00",
           "excerpt": "Claude Code Remote Control New Claude Code feature dropped yesterday: you can now run a \"remote control\" session on your computer and then use the Claude Code for web interfaces (on web, iOS and native desktop app) to send prompts to that session. It's a little bit janky right now. Initially when I ",
           "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "I vibe coded my dream macOS presentation app",
-          "link": "https://simonwillison.net/2026/Feb/25/present/#atom-everything",
-          "date": "2026-02-25T16:46:19+00:00",
-          "excerpt": "I gave a talk this weekend at Social Science FOO Camp in Mountain View. The event was a classic unconference format where anyone could present a talk without needing to propose it in advance. I grabbed a slot for a talk I titled \"The State of LLMs, February 2026 edition\", subtitle \"It's all changed ",
-          "author": ""
         }
       ]
     },
@@ -2381,8 +2381,8 @@
       ]
     },
     "Dan Luu": {
-      "etag": "W/\"6993d125-5fbb28\"",
-      "last_modified": "Tue, 17 Feb 2026 02:23:33 GMT",
+      "etag": "W/\"6997f7f7-5fbb28\"",
+      "last_modified": "Fri, 20 Feb 2026 05:58:15 GMT",
       "articles": [
         {
           "feed": "Dan Luu",
@@ -3412,14 +3412,22 @@
     },
     "Hillel Wayne": {
       "etag": null,
-      "last_modified": "Tue, 03 Mar 2026 16:34:33 GMT",
+      "last_modified": "Tue, 10 Mar 2026 17:12:30 GMT",
       "articles": [
+        {
+          "feed": "Hillel Wayne",
+          "title": "LLMs are bad at vibing specifications",
+          "link": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
+          "date": "2026-03-10T17:12:30+00:00",
+          "excerpt": "No newsletter next week I'll be speaking at InfoQ London . But see below for a book giveaway! LLMs are bad at vibing specifications About a year ago I wrote AI is a gamechanger for TLA+ users , which argued that AI are a \"specification force multiplier\". That was written from the perspective an TLA+",
+          "author": ""
+        },
         {
           "feed": "Hillel Wayne",
           "title": "Free Books",
           "link": "https://buttondown.com/hillelwayne/archive/free-books/",
           "date": "2026-03-03T16:34:33+00:00",
-          "excerpt": "Spinning a lot of plates this week so skipping the newsletter. As an apology, have ten free copies of Logic for Programmers . These five are available now. These five should be available at 10:30 AM CEST tomorrow, so people in Europe have a better chance of nabbing one.",
+          "excerpt": "Spinning a lot of plates this week so skipping the newsletter. As an apology, have ten free copies of Logic for Programmers . These five are available now. These five should be available at 10:30 AM CEST tomorrow, so people in Europe have a better chance of nabbing one. Nevermind Leanpub had a bug t",
           "author": ""
         },
         {
@@ -3644,14 +3652,6 @@
           "link": "https://buttondown.com/hillelwayne/archive/ai-is-a-gamechanger-for-tla-users/",
           "date": "2025-06-05T14:59:11+00:00",
           "excerpt": "New Logic for Programmers Release v0.10 is now available ! This is a minor release, mostly focused on logic-based refactoring, with new material on set types and testing refactors are correct. See the full release notes at the changelog page . Due to conference pressure v0.11 will also likely be a m",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "What does \"Undecidable\" mean, anyway",
-          "link": "https://buttondown.com/hillelwayne/archive/what-does-undecidable-mean-anyway/",
-          "date": "2025-05-28T19:34:02+00:00",
-          "excerpt": "Systems Distributed I'll be speaking at Systems Distributed next month! The talk is brand new and will aim to showcase some of the formal methods mental models that would be useful in mainstream software development. It has added some extra stress on my schedule, though, so expect the next two month",
           "author": ""
         }
       ]
