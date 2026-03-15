@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-14T06:36:11.601808+00:00",
+  "lastUpdated": "2026-03-15T06:46:04.044267+00:00",
   "articles": [
     {
       "feed": "Automating Mathematics",
@@ -144,6 +144,22 @@
       "date": "2019-10-03T21:14:02+05:30",
       "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
       "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Jannis Leidel",
+      "link": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
+      "date": "2026-03-14T18:41:25+00:00",
+      "excerpt": "GitHub’s slopocalypse – the flood of AI-generated spam PRs and issues – has made Jazzband’s model of open membership and shared push access untenable. Jazzband was designed for a world where the worst case was someone accidentally merging the wrong PR. In a world where only 1 in 10 AI-generated PRs ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+      "link": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
+      "date": "2026-03-14T18:19:38+00:00",
+      "excerpt": "I was a speaker last month at the Pragmatic Summit in San Francisco, where I participated in a fireside chat session about Agentic Engineering hosted by Eric Lui from Statsig. The video is available on YouTube . Here are my highlights from the conversation. Stages of AI adoption We started by talkin",
+      "author": ""
     },
     {
       "feed": "Simon Willison",
@@ -367,22 +383,6 @@
       "link": "https://simonwillison.net/guides/agentic-engineering-patterns/interactive-explanations/#atom-everything",
       "date": "2026-02-28T23:09:39+00:00",
       "excerpt": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt . For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need t",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Please, please, please stop using passkeys for encrypting user data",
-      "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-      "date": "2026-02-27T22:49:32+00:00",
-      "excerpt": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time , and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting a",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
-      "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
-      "date": "2026-02-27T20:43:41+00:00",
-      "excerpt": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your time. He describes a sequence of coding agent projects, each more ambitious than the last - starting with",
       "author": ""
     },
     {
@@ -1490,6 +1490,86 @@
       "author": ""
     },
     {
+      "feed": "SIGPLAN Blog",
+      "title": "Think Globally, Discuss PL Locally",
+      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+      "date": "2025-09-16T13:09:36+00:00",
+      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+      "author": "Harrison Goldstein"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Reserve Reviewer Policy",
+      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+      "date": "2025-09-09T15:59:52+00:00",
+      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+      "author": "Shriram Krishnamurthi"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "AI Models Need a Virtual Machine",
+      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+      "date": "2025-08-29T09:00:39+00:00",
+      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+      "date": "2025-05-19T13:43:38+00:00",
+      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+      "author": "Adrian Sampson"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "How to Give a Good Talk",
+      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+      "date": "2025-03-31T13:00:03+00:00",
+      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+      "author": "Michael Greenberg"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+      "date": "2025-03-20T16:21:36+00:00",
+      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+      "date": "2025-01-29T13:00:02+00:00",
+      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+      "author": "Andreia Mordido"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Missing Mentoring Pillar",
+      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+      "date": "2025-01-13T14:00:31+00:00",
+      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+      "author": "Rachit Nigam"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+      "date": "2025-01-02T13:00:44+00:00",
+      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+      "author": "Alastair Donaldson"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Evaluating Human Factors Beyond Lines of Code",
+      "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
+      "date": "2024-11-21T15:22:41+00:00",
+      "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
+      "author": "Will Crichton"
+    },
+    {
       "feed": "Hillel Wayne",
       "title": "LLMs are bad at vibing specifications",
       "link": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
@@ -1728,86 +1808,6 @@
       "date": "2025-06-05T14:59:11+00:00",
       "excerpt": "New Logic for Programmers Release v0.10 is now available ! This is a minor release, mostly focused on logic-based refactoring, with new material on set types and testing refactors are correct. See the full release notes at the changelog page . Due to conference pressure v0.11 will also likely be a m",
       "author": ""
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Think Globally, Discuss PL Locally",
-      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-      "date": "2025-09-16T13:09:36+00:00",
-      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-      "author": "Harrison Goldstein"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Reserve Reviewer Policy",
-      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-      "date": "2025-09-09T15:59:52+00:00",
-      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-      "author": "Shriram Krishnamurthi"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "AI Models Need a Virtual Machine",
-      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-      "date": "2025-08-29T09:00:39+00:00",
-      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-      "date": "2025-05-19T13:43:38+00:00",
-      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-      "author": "Adrian Sampson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "How to Give a Good Talk",
-      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-      "date": "2025-03-31T13:00:03+00:00",
-      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-      "author": "Michael Greenberg"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-      "date": "2025-03-20T16:21:36+00:00",
-      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-      "date": "2025-01-29T13:00:02+00:00",
-      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-      "author": "Andreia Mordido"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Missing Mentoring Pillar",
-      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-      "date": "2025-01-13T14:00:31+00:00",
-      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-      "author": "Rachit Nigam"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
-      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
-      "date": "2025-01-02T13:00:44+00:00",
-      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
-      "author": "Alastair Donaldson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Evaluating Human Factors Beyond Lines of Code",
-      "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
-      "date": "2024-11-21T15:22:41+00:00",
-      "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
-      "author": "Will Crichton"
     }
   ],
   "errors": {},
@@ -1964,8 +1964,24 @@
     },
     "Simon Willison": {
       "etag": null,
-      "last_modified": "Fri, 13 Mar 2026 18:29:13 GMT",
+      "last_modified": "Sat, 14 Mar 2026 18:41:25 GMT",
       "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Jannis Leidel",
+          "link": "https://simonwillison.net/2026/Mar/14/jannis-leidel/#atom-everything",
+          "date": "2026-03-14T18:41:25+00:00",
+          "excerpt": "GitHub’s slopocalypse – the flood of AI-generated spam PRs and issues – has made Jazzband’s model of open membership and shared push access untenable. Jazzband was designed for a world where the worst case was someone accidentally merging the wrong PR. In a world where only 1 in 10 AI-generated PRs ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+          "link": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
+          "date": "2026-03-14T18:19:38+00:00",
+          "excerpt": "I was a speaker last month at the Pragmatic Summit in San Francisco, where I participated in a fireside chat session about Agentic Engineering hosted by Eric Lui from Statsig. The video is available on YouTube . Here are my highlights from the conversation. Stages of AI adoption We started by talkin",
+          "author": ""
+        },
         {
           "feed": "Simon Willison",
           "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
@@ -2189,22 +2205,6 @@
           "date": "2026-02-28T23:09:39+00:00",
           "excerpt": "Agentic Engineering Patterns > When we lose track of how code written by our agents works we take on cognitive debt . For a lot of things this doesn't matter: if the code fetches some data from a database and outputs it as JSON the implementation details are likely simple enough that we don't need t",
           "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Please, please, please stop using passkeys for encrypting user data",
-          "link": "https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything",
-          "date": "2026-02-27T22:49:32+00:00",
-          "excerpt": "Please, please, please stop using passkeys for encrypting user data Because users lose their passkeys all the time , and may not understand that their data has been irreversibly encrypted using them and can no longer be recovered. Tim Cappalli: To the wider identity industry: please stop promoting a",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "An AI agent coding skeptic tries AI agent coding, in excessive detail",
-          "link": "https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything",
-          "date": "2026-02-27T20:43:41+00:00",
-          "excerpt": "An AI agent coding skeptic tries AI agent coding, in excessive detail Another in the genre of \"OK, coding agents got good in November\" posts, this one is by Max Woolf and is very much worth your time. He describes a sequence of coding agent projects, each more ambitious than the last - starting with",
-          "author": ""
         }
       ]
     },
@@ -2295,8 +2295,8 @@
       ]
     },
     "Dan Luu": {
-      "etag": "W/\"6997f7f7-5fbb28\"",
-      "last_modified": "Fri, 20 Feb 2026 05:58:15 GMT",
+      "etag": "W/\"6993d125-5fbb28\"",
+      "last_modified": "Tue, 17 Feb 2026 02:23:33 GMT",
       "articles": [
         {
           "feed": "Dan Luu",
@@ -3324,6 +3324,92 @@
         }
       ]
     },
+    "SIGPLAN Blog": {
+      "etag": "\"b81c3faae47c51f5ae61264528cd420b\"",
+      "last_modified": "Tue, 16 Sep 2025 13:09:36 GMT",
+      "articles": [
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Think Globally, Discuss PL Locally",
+          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+          "date": "2025-09-16T13:09:36+00:00",
+          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+          "author": "Harrison Goldstein"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Reserve Reviewer Policy",
+          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+          "date": "2025-09-09T15:59:52+00:00",
+          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+          "author": "Shriram Krishnamurthi"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "AI Models Need a Virtual Machine",
+          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+          "date": "2025-08-29T09:00:39+00:00",
+          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+          "date": "2025-05-19T13:43:38+00:00",
+          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+          "author": "Adrian Sampson"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "How to Give a Good Talk",
+          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+          "date": "2025-03-31T13:00:03+00:00",
+          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+          "author": "Michael Greenberg"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+          "date": "2025-03-20T16:21:36+00:00",
+          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+          "date": "2025-01-29T13:00:02+00:00",
+          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+          "author": "Andreia Mordido"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Missing Mentoring Pillar",
+          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+          "date": "2025-01-13T14:00:31+00:00",
+          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+          "author": "Rachit Nigam"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+          "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+          "date": "2025-01-02T13:00:44+00:00",
+          "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+          "author": "Alastair Donaldson"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Evaluating Human Factors Beyond Lines of Code",
+          "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
+          "date": "2024-11-21T15:22:41+00:00",
+          "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
+          "author": "Will Crichton"
+        }
+      ]
+    },
     "Hillel Wayne": {
       "etag": null,
       "last_modified": "Tue, 10 Mar 2026 17:12:30 GMT",
@@ -3567,92 +3653,6 @@
           "date": "2025-06-05T14:59:11+00:00",
           "excerpt": "New Logic for Programmers Release v0.10 is now available ! This is a minor release, mostly focused on logic-based refactoring, with new material on set types and testing refactors are correct. See the full release notes at the changelog page . Due to conference pressure v0.11 will also likely be a m",
           "author": ""
-        }
-      ]
-    },
-    "SIGPLAN Blog": {
-      "etag": "\"b81c3faae47c51f5ae61264528cd420b\"",
-      "last_modified": "Tue, 16 Sep 2025 13:09:36 GMT",
-      "articles": [
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Think Globally, Discuss PL Locally",
-          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-          "date": "2025-09-16T13:09:36+00:00",
-          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-          "author": "Harrison Goldstein"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Reserve Reviewer Policy",
-          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-          "date": "2025-09-09T15:59:52+00:00",
-          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-          "author": "Shriram Krishnamurthi"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "AI Models Need a Virtual Machine",
-          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-          "date": "2025-08-29T09:00:39+00:00",
-          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-          "date": "2025-05-19T13:43:38+00:00",
-          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-          "author": "Adrian Sampson"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "How to Give a Good Talk",
-          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-          "date": "2025-03-31T13:00:03+00:00",
-          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-          "author": "Michael Greenberg"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-          "date": "2025-03-20T16:21:36+00:00",
-          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-          "date": "2025-01-29T13:00:02+00:00",
-          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-          "author": "Andreia Mordido"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Missing Mentoring Pillar",
-          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-          "date": "2025-01-13T14:00:31+00:00",
-          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-          "author": "Rachit Nigam"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
-          "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
-          "date": "2025-01-02T13:00:44+00:00",
-          "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
-          "author": "Alastair Donaldson"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Evaluating Human Factors Beyond Lines of Code",
-          "link": "https://blog.sigplan.org/2024/11/21/evaluating-human-factors-beyond-lines-of-code/",
-          "date": "2024-11-21T15:22:41+00:00",
-          "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
-          "author": "Will Crichton"
         }
       ]
     }
