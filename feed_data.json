@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T06:54:00.879426+00:00",
+  "lastUpdated": "2026-03-26T06:59:12.997463+00:00",
   "articles": [
     {
       "feed": "Automating Mathematics",
@@ -144,6 +144,246 @@
       "date": "2019-10-03T21:14:02+05:30",
       "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
       "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "datasette-files-s3 0.1a1",
+      "link": "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything",
+      "date": "2026-03-25T21:57:05+00:00",
+      "excerpt": "Release: datasette-files-s3 0.1a1 A backend for datasette-files that adds the ability to store and retrieve files using an S3 bucket. This release added a mechanism for fetching S3 configuration periodically from a URL, which means we can use time limited IAM credentials that are restricted to a pre",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Thoughts on slowing the fuck down",
+      "link": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything",
+      "date": "2026-03-25T21:47:17+00:00",
+      "excerpt": "Thoughts on slowing the fuck down Mario Zechner created the Pi agent framework used by OpenClaw, giving considerable credibility to his opinions on current trends in agentic engineering. He's not impressed: We have basically given up all discipline and agency for a sort of addiction, where your high",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "datasette-llm 0.1a1",
+      "link": "https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything",
+      "date": "2026-03-25T21:24:31+00:00",
+      "excerpt": "Release: datasette-llm 0.1a1 New release of the base plugin that makes models from LLM available for use by other Datasette plugins such as datasette-enrichments-llm . New register_llm_purposes() plugin hook and get_purposes() function for retrieving registered purpose strings. #1 One of the respons",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "LiteLLM Hack: Were You One of the 47,000?",
+      "link": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+      "date": "2026-03-25T17:21:04+00:00",
+      "excerpt": "LiteLLM Hack: Were You One of the 47,000? Daniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteLLM packages during the 46 minute period they were live on PyPI. The answer was 46,996 across the two compromised release versions (1.82.7 and 1.82.8).",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Auto mode for Claude Code",
+      "link": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
+      "date": "2026-03-24T23:57:33+00:00",
+      "excerpt": "Auto mode for Claude Code Really interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions : Today, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with safeguards monitoring actions",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Package Managers Need to Cool Down",
+      "link": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
+      "date": "2026-03-24T21:11:38+00:00",
+      "excerpt": "Package Managers Need to Cool Down Today's LiteLLM supply chain attack inspired me to revisit the idea of dependency cooldowns , the practice of only installing updated dependencies once they've been out in the wild for a few days to give the community a chance to spot if they've been subverted in s",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Christopher Mims",
+      "link": "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything",
+      "date": "2026-03-24T20:35:52+00:00",
+      "excerpt": "I really think \"give AI total control of my computer and therefore my entire life\" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon holding up a picture of his Bored Ape — Christopher Mims , Technology columnist at The Wall Street Jou",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
+      "link": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
+      "date": "2026-03-24T15:07:31+00:00",
+      "excerpt": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer The LiteLLM v1.82.8 package published to PyPI was compromised with a particularly nasty credential stealer hidden in base64 in a litellm_init.pth file, which means installing the package is enough to trigger it even without running im",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Streaming experts",
+      "link": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
+      "date": "2026-03-24T05:09:03+00:00",
+      "excerpt": "I wrote about Dan Woods' experiments with streaming experts the other day , the trick where you run larger Mixture-of-Experts models on hardware that doesn't have enough RAM to fit the entire model by instead streaming the necessary expert weights from SSD for each token that you process. Five days ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Neurotica",
+      "link": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
+      "date": "2026-03-23T23:31:45+00:00",
+      "excerpt": "slop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his freedom to create, he’s disrespecting the value of my time — Neurotica , @schwarzgerat.bsky.social Tags: ai-ethics , slop , generative-ai , ai , llms",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "datasette-files 0.1a2",
+      "link": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
+      "date": "2026-03-23T23:06:38+00:00",
+      "excerpt": "Release: datasette-files 0.1a2 The most interesting alpha of datasette-files yet, a new plugin which adds the ability to upload files directly into a Datasette instance. Here are the release notes in full: Columns are now configured using the new column_types system from Datasette 1.0a26. #8 New fil",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting David Abram",
+      "link": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
+      "date": "2026-03-23T18:56:18+00:00",
+      "excerpt": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense, designing architectures that wouldn't collapse under heavy load, and making decisions that would save mon",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Beats now have notes",
+      "link": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
+      "date": "2026-03-23T02:13:13+00:00",
+      "excerpt": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, search and various archive pages on the site. On any given day these frequently outnumber my regular posts. They were looking a little bit thin and were",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Starlette 1.0 skill",
+      "link": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
+      "date": "2026-03-23T00:05:00+00:00",
+      "excerpt": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Experimenting with Starlette 1.0 with Claude skills",
+      "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
+      "date": "2026-03-22T23:57:44+00:00",
+      "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "PCGamer Article Performance Audit",
+      "link": "https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything",
+      "date": "2026-03-22T22:49:00+00:00",
+      "excerpt": "Research: PCGamer Article Performance Audit Stuart Breckenridge pointed out that PC Gamer Recommends RSS Readers in a 37MB Article That Just Keeps Downloading , highlighting a truly horrifying example of web bloat that added up to 100s more MBs thanks to auto-playing video ads. I decided to have Cla",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "JavaScript Sandboxing Research",
+      "link": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
+      "date": "2026-03-22T19:53:00+00:00",
+      "excerpt": "Research: JavaScript Sandboxing Research Aaron Harper wrote about Node.js worker threads , which inspired me to run a research task to see if they might help with running JavaScript in a sandbox. Claude Code went way beyond my initial question and produced a comparison of isolated-vm , vm2 , quickjs",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "DNS Lookup",
+      "link": "https://simonwillison.net/2026/Mar/22/dns/#atom-everything",
+      "date": "2026-03-22T19:16:30+00:00",
+      "excerpt": "Tool: DNS Lookup TIL that Cloudflare's 1.1.1.1 DNS service (and 1.1.1.2 and 1.1.1.3, which block malware and malware + adult content respectively) has a CORS-enabled JSON API, so I had Claude Code build me a UI for running DNS queries against all three of those resolvers. Tags: dns , cors , cloudfla",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Merge State Visualizer",
+      "link": "https://simonwillison.net/2026/Mar/22/manyana/#atom-everything",
+      "date": "2026-03-22T18:57:32+00:00",
+      "excerpt": "Tool: Merge State Visualizer Bram Cohen wrote about his coherent vision for the future of version control using CRDTs, illustrated by 470 lines of Python . I fed that Python (minus comments) into Claude and asked for an explanation , then had it use Pyodide to build me an interactive UI for seeing h",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Profiling Hacker News users based on their comments",
+      "link": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+      "date": "2026-03-21T23:59:47+00:00",
+      "excerpt": "Here's a mildly dystopian prompt I've been experimenting with recently: \"Profile this user\", accompanied by a copy of their last 1,000 comments on Hacker News. Obtaining those comments is easy. The Algolia Hacker News API supports listing comments sorted by date that have a specific tag, and the aut",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Using Git with coding agents",
+      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+      "date": "2026-03-21T22:08:24+00:00",
+      "excerpt": "Agentic Engineering Patterns > Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes over time and investigate and reverse any mistakes. All of the coding agents are fluent in using Git's features, both basic and advanced. This fluency",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Turbo Pascal 3.02A, deconstructed",
+      "link": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+      "date": "2026-03-20T23:59:14+00:00",
+      "excerpt": "Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,731 byte file that somehow included a full text editor IDE and Pascal compiler. This inspired me to track",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Kimi.ai @Kimi_Moonshot",
+      "link": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+      "date": "2026-03-20T20:29:23+00:00",
+      "excerpt": "Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining & high-compute RL training is the open model ecosystem we love to support. Note: Cursor accesses Kimi-k2.5",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "SQLite Tags Benchmark: Comparing 5 Tagging Strategies",
+      "link": "https://simonwillison.net/2026/Mar/20/sqlite-tags-benchmark/#atom-everything",
+      "date": "2026-03-20T02:57:00+00:00",
+      "excerpt": "Research: SQLite Tags Benchmark: Comparing 5 Tagging Strategies I had Claude Code run a micro-benchmark comparing different approaches to implementing tagging in SQLite. Traditional many-to-many tables won, but FTS5 came a close second. Full table scans with LIKE queries performed better than I expe",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+      "link": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+      "date": "2026-03-19T16:45:15+00:00",
+      "excerpt": "The big news this morning: Astral to join OpenAI (on the Astral blog) and OpenAI to acquire Astral (the OpenAI announcement). Astral are the company behind uv , ruff , and ty - three increasingly load-bearing open source projects in the Python ecosystem. I have thoughts! The official line from OpenA",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+      "link": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
+      "date": "2026-03-18T23:56:46+00:00",
+      "excerpt": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally Here's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+ tokens/second on a 48GB MacBook Pro M3 Max despite that model taking up 209GB (120GB quantized) on disk. Qwe",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "datasette 1.0a26",
+      "link": "https://simonwillison.net/2026/Mar/18/datasette/#atom-everything",
+      "date": "2026-03-18T22:16:19+00:00",
+      "excerpt": "Release: datasette 1.0a26 Datasette now has a mechanism for assigning semantic column types. Built-in column types include url , email , and json , and plugins can register additional types using the new register_column_types() plugin hook.",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
+      "link": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
+      "date": "2026-03-18T17:43:49+00:00",
+      "excerpt": "Snowflake Cortex AI Escapes Sandbox and Executes Malware PromptArmor report on a prompt injection attack chain in Snowflake's Cortex Agent , now fixed. The attack started when a Cortex user asked the agent to review a GitHub repository that had a prompt injection attack hidden at the bottom of the R",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Ken Jin",
+      "link": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
+      "date": "2026-03-17T21:48:26+00:00",
+      "excerpt": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Linux. The 3.15 alpha JIT is about 11-12% faster on macOS AArch64 than the tail calling interpreter, and 5-6% faster than the standard interpreter on x8",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
+      "link": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
+      "date": "2026-03-17T19:39:17+00:00",
+      "excerpt": "OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous GPT-5 mini model when run at maximum reasoning effort. The new mini is also 2x faster than the previous",
+      "author": ""
     },
     {
       "feed": "Dan Luu",
@@ -1170,246 +1410,6 @@
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "Auto mode for Claude Code",
-      "link": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
-      "date": "2026-03-24T23:57:33+00:00",
-      "excerpt": "Auto mode for Claude Code Really interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions : Today, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with safeguards monitoring actions",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Package Managers Need to Cool Down",
-      "link": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
-      "date": "2026-03-24T21:11:38+00:00",
-      "excerpt": "Package Managers Need to Cool Down Today's LiteLLM supply chain attack inspired me to revisit the idea of dependency cooldowns , the practice of only installing updated dependencies once they've been out in the wild for a few days to give the community a chance to spot if they've been subverted in s",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Christopher Mims",
-      "link": "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything",
-      "date": "2026-03-24T20:35:52+00:00",
-      "excerpt": "I really think \"give AI total control of my computer and therefore my entire life\" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon holding up a picture of his Bored Ape — Christopher Mims , Technology columnist at The Wall Street Jou",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
-      "link": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
-      "date": "2026-03-24T15:07:31+00:00",
-      "excerpt": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer The LiteLLM v1.82.8 package published to PyPI was compromised with a particularly nasty credential stealer hidden in base64 in a litellm_init.pth file, which means installing the package is enough to trigger it even without running im",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Streaming experts",
-      "link": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
-      "date": "2026-03-24T05:09:03+00:00",
-      "excerpt": "I wrote about Dan Woods' experiments with streaming experts the other day , the trick where you run larger Mixture-of-Experts models on hardware that doesn't have enough RAM to fit the entire model by instead streaming the necessary expert weights from SSD for each token that you process. Five days ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Neurotica",
-      "link": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
-      "date": "2026-03-23T23:31:45+00:00",
-      "excerpt": "slop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his freedom to create, he’s disrespecting the value of my time — Neurotica , @schwarzgerat.bsky.social Tags: ai-ethics , slop , generative-ai , ai , llms",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "datasette-files 0.1a2",
-      "link": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
-      "date": "2026-03-23T23:06:38+00:00",
-      "excerpt": "Release: datasette-files 0.1a2 The most interesting alpha of datasette-files yet, a new plugin which adds the ability to upload files directly into a Datasette instance. Here are the release notes in full: Columns are now configured using the new column_types system from Datasette 1.0a26. #8 New fil",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting David Abram",
-      "link": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
-      "date": "2026-03-23T18:56:18+00:00",
-      "excerpt": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense, designing architectures that wouldn't collapse under heavy load, and making decisions that would save mon",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Beats now have notes",
-      "link": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
-      "date": "2026-03-23T02:13:13+00:00",
-      "excerpt": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, search and various archive pages on the site. On any given day these frequently outnumber my regular posts. They were looking a little bit thin and were",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Starlette 1.0 skill",
-      "link": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
-      "date": "2026-03-23T00:05:00+00:00",
-      "excerpt": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Experimenting with Starlette 1.0 with Claude skills",
-      "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
-      "date": "2026-03-22T23:57:44+00:00",
-      "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "PCGamer Article Performance Audit",
-      "link": "https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything",
-      "date": "2026-03-22T22:49:00+00:00",
-      "excerpt": "Research: PCGamer Article Performance Audit Stuart Breckenridge pointed out that PC Gamer Recommends RSS Readers in a 37MB Article That Just Keeps Downloading , highlighting a truly horrifying example of web bloat that added up to 100s more MBs thanks to auto-playing video ads. I decided to have Cla",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "JavaScript Sandboxing Research",
-      "link": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
-      "date": "2026-03-22T19:53:00+00:00",
-      "excerpt": "Research: JavaScript Sandboxing Research Aaron Harper wrote about Node.js worker threads , which inspired me to run a research task to see if they might help with running JavaScript in a sandbox. Claude Code went way beyond my initial question and produced a comparison of isolated-vm , vm2 , quickjs",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "DNS Lookup",
-      "link": "https://simonwillison.net/2026/Mar/22/dns/#atom-everything",
-      "date": "2026-03-22T19:16:30+00:00",
-      "excerpt": "Tool: DNS Lookup TIL that Cloudflare's 1.1.1.1 DNS service (and 1.1.1.2 and 1.1.1.3, which block malware and malware + adult content respectively) has a CORS-enabled JSON API, so I had Claude Code build me a UI for running DNS queries against all three of those resolvers. Tags: dns , cors , cloudfla",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Merge State Visualizer",
-      "link": "https://simonwillison.net/2026/Mar/22/manyana/#atom-everything",
-      "date": "2026-03-22T18:57:32+00:00",
-      "excerpt": "Tool: Merge State Visualizer Bram Cohen wrote about his coherent vision for the future of version control using CRDTs, illustrated by 470 lines of Python . I fed that Python (minus comments) into Claude and asked for an explanation , then had it use Pyodide to build me an interactive UI for seeing h",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Profiling Hacker News users based on their comments",
-      "link": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
-      "date": "2026-03-21T23:59:47+00:00",
-      "excerpt": "Here's a mildly dystopian prompt I've been experimenting with recently: \"Profile this user\", accompanied by a copy of their last 1,000 comments on Hacker News. Obtaining those comments is easy. The Algolia Hacker News API supports listing comments sorted by date that have a specific tag, and the aut",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Using Git with coding agents",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
-      "date": "2026-03-21T22:08:24+00:00",
-      "excerpt": "Agentic Engineering Patterns > Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes over time and investigate and reverse any mistakes. All of the coding agents are fluent in using Git's features, both basic and advanced. This fluency",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Turbo Pascal 3.02A, deconstructed",
-      "link": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
-      "date": "2026-03-20T23:59:14+00:00",
-      "excerpt": "Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,731 byte file that somehow included a full text editor IDE and Pascal compiler. This inspired me to track",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Kimi.ai @Kimi_Moonshot",
-      "link": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
-      "date": "2026-03-20T20:29:23+00:00",
-      "excerpt": "Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining & high-compute RL training is the open model ecosystem we love to support. Note: Cursor accesses Kimi-k2.5",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "SQLite Tags Benchmark: Comparing 5 Tagging Strategies",
-      "link": "https://simonwillison.net/2026/Mar/20/sqlite-tags-benchmark/#atom-everything",
-      "date": "2026-03-20T02:57:00+00:00",
-      "excerpt": "Research: SQLite Tags Benchmark: Comparing 5 Tagging Strategies I had Claude Code run a micro-benchmark comparing different approaches to implementing tagging in SQLite. Traditional many-to-many tables won, but FTS5 came a close second. Full table scans with LIKE queries performed better than I expe",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
-      "link": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
-      "date": "2026-03-19T16:45:15+00:00",
-      "excerpt": "The big news this morning: Astral to join OpenAI (on the Astral blog) and OpenAI to acquire Astral (the OpenAI announcement). Astral are the company behind uv , ruff , and ty - three increasingly load-bearing open source projects in the Python ecosystem. I have thoughts! The official line from OpenA",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
-      "link": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
-      "date": "2026-03-18T23:56:46+00:00",
-      "excerpt": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally Here's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+ tokens/second on a 48GB MacBook Pro M3 Max despite that model taking up 209GB (120GB quantized) on disk. Qwe",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "datasette 1.0a26",
-      "link": "https://simonwillison.net/2026/Mar/18/datasette/#atom-everything",
-      "date": "2026-03-18T22:16:19+00:00",
-      "excerpt": "Release: datasette 1.0a26 Datasette now has a mechanism for assigning semantic column types. Built-in column types include url , email , and json , and plugins can register additional types using the new register_column_types() plugin hook.",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
-      "link": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
-      "date": "2026-03-18T17:43:49+00:00",
-      "excerpt": "Snowflake Cortex AI Escapes Sandbox and Executes Malware PromptArmor report on a prompt injection attack chain in Snowflake's Cortex Agent , now fixed. The attack started when a Cortex user asked the agent to review a GitHub repository that had a prompt injection attack hidden at the bottom of the R",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Ken Jin",
-      "link": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
-      "date": "2026-03-17T21:48:26+00:00",
-      "excerpt": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Linux. The 3.15 alpha JIT is about 11-12% faster on macOS AArch64 than the tail calling interpreter, and 5-6% faster than the standard interpreter on x8",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
-      "link": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
-      "date": "2026-03-17T19:39:17+00:00",
-      "excerpt": "OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous GPT-5 mini model when run at maximum reasoning effort. The new mini is also 2x faster than the previous",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "llm 0.29",
-      "link": "https://simonwillison.net/2026/Mar/17/llm/#atom-everything",
-      "date": "2026-03-17T19:24:10+00:00",
-      "excerpt": "Release: llm 0.29 Adds support for OpenAI's new models gpt-5.4 , gpt-5.4-mini , and gpt-5.4-nano .",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Tim Schilling",
-      "link": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
-      "date": "2026-03-17T16:13:37+00:00",
-      "excerpt": "If you do not understand the ticket, if you do not understand the solution, or if you do not understand the feedback on your PR, then your use of LLM is hurting Django as a whole. [...] For a reviewer, it’s demoralizing to communicate with a facade of a human. This is because contributing to open so",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Subagents",
-      "link": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
-      "date": "2026-03-17T12:32:28+00:00",
-      "excerpt": "Agentic Engineering Patterns > LLMs are restricted by their context limit - how many tokens they can fit in their working memory at any given time. These values have not increased much over the past two years even as the LLMs themselves have seen dramatic improvements in their abilities - they gener",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Introducing Mistral Small 4",
-      "link": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
-      "date": "2026-03-16T23:41:17+00:00",
-      "excerpt": "Introducing Mistral Small 4 Big new release from Mistral today (despite the name) - a new Apache 2 licensed 119B parameter (Mixture-of-Experts, 6B active) model which they describe like this: Mistral Small 4 is the first Mistral model to unify the capabilities of our flagship models, Magistral for r",
-      "author": ""
-    },
-    {
       "feed": "Matt Might",
       "title": "HOWTO: Change your behavior",
       "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
@@ -1959,6 +1959,252 @@
           "date": "2019-10-03T21:14:02+05:30",
           "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
           "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        }
+      ]
+    },
+    "Simon Willison": {
+      "etag": null,
+      "last_modified": "Wed, 25 Mar 2026 21:57:05 GMT",
+      "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "datasette-files-s3 0.1a1",
+          "link": "https://simonwillison.net/2026/Mar/25/datasette-files-s3/#atom-everything",
+          "date": "2026-03-25T21:57:05+00:00",
+          "excerpt": "Release: datasette-files-s3 0.1a1 A backend for datasette-files that adds the ability to store and retrieve files using an S3 bucket. This release added a mechanism for fetching S3 configuration periodically from a URL, which means we can use time limited IAM credentials that are restricted to a pre",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Thoughts on slowing the fuck down",
+          "link": "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/#atom-everything",
+          "date": "2026-03-25T21:47:17+00:00",
+          "excerpt": "Thoughts on slowing the fuck down Mario Zechner created the Pi agent framework used by OpenClaw, giving considerable credibility to his opinions on current trends in agentic engineering. He's not impressed: We have basically given up all discipline and agency for a sort of addiction, where your high",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "datasette-llm 0.1a1",
+          "link": "https://simonwillison.net/2026/Mar/25/datasette-llm/#atom-everything",
+          "date": "2026-03-25T21:24:31+00:00",
+          "excerpt": "Release: datasette-llm 0.1a1 New release of the base plugin that makes models from LLM available for use by other Datasette plugins such as datasette-enrichments-llm . New register_llm_purposes() plugin hook and get_purposes() function for retrieving registered purpose strings. #1 One of the respons",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "LiteLLM Hack: Were You One of the 47,000?",
+          "link": "https://simonwillison.net/2026/Mar/25/litellm-hack/#atom-everything",
+          "date": "2026-03-25T17:21:04+00:00",
+          "excerpt": "LiteLLM Hack: Were You One of the 47,000? Daniel Hnyk used the BigQuery PyPI dataset to determine how many downloads there were of the exploited LiteLLM packages during the 46 minute period they were live on PyPI. The answer was 46,996 across the two compromised release versions (1.82.7 and 1.82.8).",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Auto mode for Claude Code",
+          "link": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
+          "date": "2026-03-24T23:57:33+00:00",
+          "excerpt": "Auto mode for Claude Code Really interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions : Today, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with safeguards monitoring actions",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Package Managers Need to Cool Down",
+          "link": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
+          "date": "2026-03-24T21:11:38+00:00",
+          "excerpt": "Package Managers Need to Cool Down Today's LiteLLM supply chain attack inspired me to revisit the idea of dependency cooldowns , the practice of only installing updated dependencies once they've been out in the wild for a few days to give the community a chance to spot if they've been subverted in s",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Christopher Mims",
+          "link": "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything",
+          "date": "2026-03-24T20:35:52+00:00",
+          "excerpt": "I really think \"give AI total control of my computer and therefore my entire life\" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon holding up a picture of his Bored Ape — Christopher Mims , Technology columnist at The Wall Street Jou",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
+          "link": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
+          "date": "2026-03-24T15:07:31+00:00",
+          "excerpt": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer The LiteLLM v1.82.8 package published to PyPI was compromised with a particularly nasty credential stealer hidden in base64 in a litellm_init.pth file, which means installing the package is enough to trigger it even without running im",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Streaming experts",
+          "link": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
+          "date": "2026-03-24T05:09:03+00:00",
+          "excerpt": "I wrote about Dan Woods' experiments with streaming experts the other day , the trick where you run larger Mixture-of-Experts models on hardware that doesn't have enough RAM to fit the entire model by instead streaming the necessary expert weights from SSD for each token that you process. Five days ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Neurotica",
+          "link": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
+          "date": "2026-03-23T23:31:45+00:00",
+          "excerpt": "slop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his freedom to create, he’s disrespecting the value of my time — Neurotica , @schwarzgerat.bsky.social Tags: ai-ethics , slop , generative-ai , ai , llms",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "datasette-files 0.1a2",
+          "link": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
+          "date": "2026-03-23T23:06:38+00:00",
+          "excerpt": "Release: datasette-files 0.1a2 The most interesting alpha of datasette-files yet, a new plugin which adds the ability to upload files directly into a Datasette instance. Here are the release notes in full: Columns are now configured using the new column_types system from Datasette 1.0a26. #8 New fil",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting David Abram",
+          "link": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
+          "date": "2026-03-23T18:56:18+00:00",
+          "excerpt": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense, designing architectures that wouldn't collapse under heavy load, and making decisions that would save mon",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Beats now have notes",
+          "link": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
+          "date": "2026-03-23T02:13:13+00:00",
+          "excerpt": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, search and various archive pages on the site. On any given day these frequently outnumber my regular posts. They were looking a little bit thin and were",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Starlette 1.0 skill",
+          "link": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
+          "date": "2026-03-23T00:05:00+00:00",
+          "excerpt": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Experimenting with Starlette 1.0 with Claude skills",
+          "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
+          "date": "2026-03-22T23:57:44+00:00",
+          "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "PCGamer Article Performance Audit",
+          "link": "https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything",
+          "date": "2026-03-22T22:49:00+00:00",
+          "excerpt": "Research: PCGamer Article Performance Audit Stuart Breckenridge pointed out that PC Gamer Recommends RSS Readers in a 37MB Article That Just Keeps Downloading , highlighting a truly horrifying example of web bloat that added up to 100s more MBs thanks to auto-playing video ads. I decided to have Cla",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "JavaScript Sandboxing Research",
+          "link": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
+          "date": "2026-03-22T19:53:00+00:00",
+          "excerpt": "Research: JavaScript Sandboxing Research Aaron Harper wrote about Node.js worker threads , which inspired me to run a research task to see if they might help with running JavaScript in a sandbox. Claude Code went way beyond my initial question and produced a comparison of isolated-vm , vm2 , quickjs",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "DNS Lookup",
+          "link": "https://simonwillison.net/2026/Mar/22/dns/#atom-everything",
+          "date": "2026-03-22T19:16:30+00:00",
+          "excerpt": "Tool: DNS Lookup TIL that Cloudflare's 1.1.1.1 DNS service (and 1.1.1.2 and 1.1.1.3, which block malware and malware + adult content respectively) has a CORS-enabled JSON API, so I had Claude Code build me a UI for running DNS queries against all three of those resolvers. Tags: dns , cors , cloudfla",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Merge State Visualizer",
+          "link": "https://simonwillison.net/2026/Mar/22/manyana/#atom-everything",
+          "date": "2026-03-22T18:57:32+00:00",
+          "excerpt": "Tool: Merge State Visualizer Bram Cohen wrote about his coherent vision for the future of version control using CRDTs, illustrated by 470 lines of Python . I fed that Python (minus comments) into Claude and asked for an explanation , then had it use Pyodide to build me an interactive UI for seeing h",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Profiling Hacker News users based on their comments",
+          "link": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
+          "date": "2026-03-21T23:59:47+00:00",
+          "excerpt": "Here's a mildly dystopian prompt I've been experimenting with recently: \"Profile this user\", accompanied by a copy of their last 1,000 comments on Hacker News. Obtaining those comments is easy. The Algolia Hacker News API supports listing comments sorted by date that have a specific tag, and the aut",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Using Git with coding agents",
+          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
+          "date": "2026-03-21T22:08:24+00:00",
+          "excerpt": "Agentic Engineering Patterns > Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes over time and investigate and reverse any mistakes. All of the coding agents are fluent in using Git's features, both basic and advanced. This fluency",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Turbo Pascal 3.02A, deconstructed",
+          "link": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
+          "date": "2026-03-20T23:59:14+00:00",
+          "excerpt": "Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,731 byte file that somehow included a full text editor IDE and Pascal compiler. This inspired me to track",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Kimi.ai @Kimi_Moonshot",
+          "link": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
+          "date": "2026-03-20T20:29:23+00:00",
+          "excerpt": "Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining & high-compute RL training is the open model ecosystem we love to support. Note: Cursor accesses Kimi-k2.5",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "SQLite Tags Benchmark: Comparing 5 Tagging Strategies",
+          "link": "https://simonwillison.net/2026/Mar/20/sqlite-tags-benchmark/#atom-everything",
+          "date": "2026-03-20T02:57:00+00:00",
+          "excerpt": "Research: SQLite Tags Benchmark: Comparing 5 Tagging Strategies I had Claude Code run a micro-benchmark comparing different approaches to implementing tagging in SQLite. Traditional many-to-many tables won, but FTS5 came a close second. Full table scans with LIKE queries performed better than I expe",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
+          "link": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
+          "date": "2026-03-19T16:45:15+00:00",
+          "excerpt": "The big news this morning: Astral to join OpenAI (on the Astral blog) and OpenAI to acquire Astral (the OpenAI announcement). Astral are the company behind uv , ruff , and ty - three increasingly load-bearing open source projects in the Python ecosystem. I have thoughts! The official line from OpenA",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
+          "link": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
+          "date": "2026-03-18T23:56:46+00:00",
+          "excerpt": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally Here's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+ tokens/second on a 48GB MacBook Pro M3 Max despite that model taking up 209GB (120GB quantized) on disk. Qwe",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "datasette 1.0a26",
+          "link": "https://simonwillison.net/2026/Mar/18/datasette/#atom-everything",
+          "date": "2026-03-18T22:16:19+00:00",
+          "excerpt": "Release: datasette 1.0a26 Datasette now has a mechanism for assigning semantic column types. Built-in column types include url , email , and json , and plugins can register additional types using the new register_column_types() plugin hook.",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
+          "link": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
+          "date": "2026-03-18T17:43:49+00:00",
+          "excerpt": "Snowflake Cortex AI Escapes Sandbox and Executes Malware PromptArmor report on a prompt injection attack chain in Snowflake's Cortex Agent , now fixed. The attack started when a Cortex user asked the agent to review a GitHub repository that had a prompt injection attack hidden at the bottom of the R",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Ken Jin",
+          "link": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
+          "date": "2026-03-17T21:48:26+00:00",
+          "excerpt": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Linux. The 3.15 alpha JIT is about 11-12% faster on macOS AArch64 than the tail calling interpreter, and 5-6% faster than the standard interpreter on x8",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
+          "link": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
+          "date": "2026-03-17T19:39:17+00:00",
+          "excerpt": "OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous GPT-5 mini model when run at maximum reasoning effort. The new mini is also 2x faster than the previous",
+          "author": ""
         }
       ]
     },
@@ -2988,252 +3234,6 @@
           "link": "https://danluu.com/subspace-history/",
           "date": "2006-02-01T00:00:00+00:00",
           "excerpt": "Archived from an unknown source. Possibly Gravitron? In regards for history: Chapter #1 (Around) December 1995 is when it all started. Rod Humble wished to create something like Air Warrior but online, he approached Virgin Interactive Entertainment with the idea and they replied with something along",
-          "author": ""
-        }
-      ]
-    },
-    "Simon Willison": {
-      "etag": null,
-      "last_modified": "Tue, 24 Mar 2026 23:57:33 GMT",
-      "articles": [
-        {
-          "feed": "Simon Willison",
-          "title": "Auto mode for Claude Code",
-          "link": "https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything",
-          "date": "2026-03-24T23:57:33+00:00",
-          "excerpt": "Auto mode for Claude Code Really interesting new development in Claude Code today as an alternative to --dangerously-skip-permissions : Today, we're introducing auto mode, a new permissions mode in Claude Code where Claude makes permission decisions on your behalf, with safeguards monitoring actions",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Package Managers Need to Cool Down",
-          "link": "https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything",
-          "date": "2026-03-24T21:11:38+00:00",
-          "excerpt": "Package Managers Need to Cool Down Today's LiteLLM supply chain attack inspired me to revisit the idea of dependency cooldowns , the practice of only installing updated dependencies once they've been out in the wild for a few days to give the community a chance to spot if they've been subverted in s",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Christopher Mims",
-          "link": "https://simonwillison.net/2026/Mar/24/christopher-mims/#atom-everything",
-          "date": "2026-03-24T20:35:52+00:00",
-          "excerpt": "I really think \"give AI total control of my computer and therefore my entire life\" is going to look so foolish in retrospect that everyone who went for this is going to look as dumb as Jimmy Fallon holding up a picture of his Bored Ape — Christopher Mims , Technology columnist at The Wall Street Jou",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer",
-          "link": "https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything",
-          "date": "2026-03-24T15:07:31+00:00",
-          "excerpt": "Malicious litellm_init.pth in litellm 1.82.8 — credential stealer The LiteLLM v1.82.8 package published to PyPI was compromised with a particularly nasty credential stealer hidden in base64 in a litellm_init.pth file, which means installing the package is enough to trigger it even without running im",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Streaming experts",
-          "link": "https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything",
-          "date": "2026-03-24T05:09:03+00:00",
-          "excerpt": "I wrote about Dan Woods' experiments with streaming experts the other day , the trick where you run larger Mixture-of-Experts models on hardware that doesn't have enough RAM to fit the entire model by instead streaming the necessary expert weights from SSD for each token that you process. Five days ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Neurotica",
-          "link": "https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything",
-          "date": "2026-03-23T23:31:45+00:00",
-          "excerpt": "slop is something that takes more human effort to consume than it took to produce. When my coworker sends me raw Gemini output he’s not expressing his freedom to create, he’s disrespecting the value of my time — Neurotica , @schwarzgerat.bsky.social Tags: ai-ethics , slop , generative-ai , ai , llms",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "datasette-files 0.1a2",
-          "link": "https://simonwillison.net/2026/Mar/23/datasette-files/#atom-everything",
-          "date": "2026-03-23T23:06:38+00:00",
-          "excerpt": "Release: datasette-files 0.1a2 The most interesting alpha of datasette-files yet, a new plugin which adds the ability to upload files directly into a Datasette instance. Here are the release notes in full: Columns are now configured using the new column_types system from Datasette 1.0a26. #8 New fil",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting David Abram",
-          "link": "https://simonwillison.net/2026/Mar/23/david-abram/#atom-everything",
-          "date": "2026-03-23T18:56:18+00:00",
-          "excerpt": "I have been doing this for years, and the hardest parts of the job were never about typing out code. I have always struggled most with understanding systems, debugging things that made no sense, designing architectures that wouldn't collapse under heavy load, and making decisions that would save mon",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Beats now have notes",
-          "link": "https://simonwillison.net/2026/Mar/23/beats-now-have-notes/#atom-everything",
-          "date": "2026-03-23T02:13:13+00:00",
-          "excerpt": "Last month I added a feature I call beats to this blog, pulling in some of my other content from external sources and including it on the homepage, search and various archive pages on the site. On any given day these frequently outnumber my regular posts. They were looking a little bit thin and were",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Starlette 1.0 skill",
-          "link": "https://simonwillison.net/2026/Mar/23/starlette-1-skill/#atom-everything",
-          "date": "2026-03-23T00:05:00+00:00",
-          "excerpt": "Research: Starlette 1.0 skill See Experimenting with Starlette 1.0 with Claude skills . Tags: starlette",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Experimenting with Starlette 1.0 with Claude skills",
-          "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-everything",
-          "date": "2026-03-22T23:57:44+00:00",
-          "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "PCGamer Article Performance Audit",
-          "link": "https://simonwillison.net/2026/Mar/22/pcgamer-audit/#atom-everything",
-          "date": "2026-03-22T22:49:00+00:00",
-          "excerpt": "Research: PCGamer Article Performance Audit Stuart Breckenridge pointed out that PC Gamer Recommends RSS Readers in a 37MB Article That Just Keeps Downloading , highlighting a truly horrifying example of web bloat that added up to 100s more MBs thanks to auto-playing video ads. I decided to have Cla",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "JavaScript Sandboxing Research",
-          "link": "https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything",
-          "date": "2026-03-22T19:53:00+00:00",
-          "excerpt": "Research: JavaScript Sandboxing Research Aaron Harper wrote about Node.js worker threads , which inspired me to run a research task to see if they might help with running JavaScript in a sandbox. Claude Code went way beyond my initial question and produced a comparison of isolated-vm , vm2 , quickjs",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "DNS Lookup",
-          "link": "https://simonwillison.net/2026/Mar/22/dns/#atom-everything",
-          "date": "2026-03-22T19:16:30+00:00",
-          "excerpt": "Tool: DNS Lookup TIL that Cloudflare's 1.1.1.1 DNS service (and 1.1.1.2 and 1.1.1.3, which block malware and malware + adult content respectively) has a CORS-enabled JSON API, so I had Claude Code build me a UI for running DNS queries against all three of those resolvers. Tags: dns , cors , cloudfla",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Merge State Visualizer",
-          "link": "https://simonwillison.net/2026/Mar/22/manyana/#atom-everything",
-          "date": "2026-03-22T18:57:32+00:00",
-          "excerpt": "Tool: Merge State Visualizer Bram Cohen wrote about his coherent vision for the future of version control using CRDTs, illustrated by 470 lines of Python . I fed that Python (minus comments) into Claude and asked for an explanation , then had it use Pyodide to build me an interactive UI for seeing h",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Profiling Hacker News users based on their comments",
-          "link": "https://simonwillison.net/2026/Mar/21/profiling-hacker-news-users/#atom-everything",
-          "date": "2026-03-21T23:59:47+00:00",
-          "excerpt": "Here's a mildly dystopian prompt I've been experimenting with recently: \"Profile this user\", accompanied by a copy of their last 1,000 comments on Hacker News. Obtaining those comments is easy. The Algolia Hacker News API supports listing comments sorted by date that have a specific tag, and the aut",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Using Git with coding agents",
-          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/#atom-everything",
-          "date": "2026-03-21T22:08:24+00:00",
-          "excerpt": "Agentic Engineering Patterns > Git is a key tool for working with coding agents. Keeping code in version control lets us record how that code changes over time and investigate and reverse any mistakes. All of the coding agents are fluent in using Git's features, both basic and advanced. This fluency",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Turbo Pascal 3.02A, deconstructed",
-          "link": "https://simonwillison.net/2026/Mar/20/turbo-pascal/#atom-everything",
-          "date": "2026-03-20T23:59:14+00:00",
-          "excerpt": "Turbo Pascal 3.02A, deconstructed In Things That Turbo Pascal is Smaller Than James Hague lists things (from 2011) that are larger in size than Borland's 1985 Turbo Pascal 3.02 executable - a 39,731 byte file that somehow included a full text editor IDE and Pascal compiler. This inspired me to track",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Kimi.ai @Kimi_Moonshot",
-          "link": "https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything",
-          "date": "2026-03-20T20:29:23+00:00",
-          "excerpt": "Congrats to the @cursor_ai team on the launch of Composer 2! We are proud to see Kimi-k2.5 provide the foundation. Seeing our model integrated effectively through Cursor's continued pretraining & high-compute RL training is the open model ecosystem we love to support. Note: Cursor accesses Kimi-k2.5",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "SQLite Tags Benchmark: Comparing 5 Tagging Strategies",
-          "link": "https://simonwillison.net/2026/Mar/20/sqlite-tags-benchmark/#atom-everything",
-          "date": "2026-03-20T02:57:00+00:00",
-          "excerpt": "Research: SQLite Tags Benchmark: Comparing 5 Tagging Strategies I had Claude Code run a micro-benchmark comparing different approaches to implementing tagging in SQLite. Traditional many-to-many tables won, but FTS5 came a close second. Full table scans with LIKE queries performed better than I expe",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Thoughts on OpenAI acquiring Astral and uv/ruff/ty",
-          "link": "https://simonwillison.net/2026/Mar/19/openai-acquiring-astral/#atom-everything",
-          "date": "2026-03-19T16:45:15+00:00",
-          "excerpt": "The big news this morning: Astral to join OpenAI (on the Astral blog) and OpenAI to acquire Astral (the OpenAI announcement). Astral are the company behind uv , ruff , and ty - three increasingly load-bearing open source projects in the Python ecosystem. I have thoughts! The official line from OpenA",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally",
-          "link": "https://simonwillison.net/2026/Mar/18/llm-in-a-flash/#atom-everything",
-          "date": "2026-03-18T23:56:46+00:00",
-          "excerpt": "Autoresearching Apple's \"LLM in a Flash\" to run Qwen 397B locally Here's a fascinating piece of research by Dan Woods, who managed to get a custom version of Qwen3.5-397B-A17B running at 5.5+ tokens/second on a 48GB MacBook Pro M3 Max despite that model taking up 209GB (120GB quantized) on disk. Qwe",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "datasette 1.0a26",
-          "link": "https://simonwillison.net/2026/Mar/18/datasette/#atom-everything",
-          "date": "2026-03-18T22:16:19+00:00",
-          "excerpt": "Release: datasette 1.0a26 Datasette now has a mechanism for assigning semantic column types. Built-in column types include url , email , and json , and plugins can register additional types using the new register_column_types() plugin hook.",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Snowflake Cortex AI Escapes Sandbox and Executes Malware",
-          "link": "https://simonwillison.net/2026/Mar/18/snowflake-cortex-ai/#atom-everything",
-          "date": "2026-03-18T17:43:49+00:00",
-          "excerpt": "Snowflake Cortex AI Escapes Sandbox and Executes Malware PromptArmor report on a prompt injection attack chain in Snowflake's Cortex Agent , now fixed. The attack started when a Cortex user asked the agent to review a GitHub repository that had a prompt injection attack hidden at the bottom of the R",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Ken Jin",
-          "link": "https://simonwillison.net/2026/Mar/17/ken-jin/#atom-everything",
-          "date": "2026-03-17T21:48:26+00:00",
-          "excerpt": "Great news—we’ve hit our (very modest) performance goals for the CPython JIT over a year early for macOS AArch64, and a few months early for x86_64 Linux. The 3.15 alpha JIT is about 11-12% faster on macOS AArch64 than the tail calling interpreter, and 5-6% faster than the standard interpreter on x8",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "GPT-5.4 mini and GPT-5.4 nano, which can describe 76,000 photos for $52",
-          "link": "https://simonwillison.net/2026/Mar/17/mini-and-nano/#atom-everything",
-          "date": "2026-03-17T19:39:17+00:00",
-          "excerpt": "OpenAI today: Introducing GPT‑5.4 mini and nano . These models join GPT-5.4 which was released two weeks ago . OpenAI's self-reported benchmarks show the new 5.4-nano out-performing their previous GPT-5 mini model when run at maximum reasoning effort. The new mini is also 2x faster than the previous",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "llm 0.29",
-          "link": "https://simonwillison.net/2026/Mar/17/llm/#atom-everything",
-          "date": "2026-03-17T19:24:10+00:00",
-          "excerpt": "Release: llm 0.29 Adds support for OpenAI's new models gpt-5.4 , gpt-5.4-mini , and gpt-5.4-nano .",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Tim Schilling",
-          "link": "https://simonwillison.net/2026/Mar/17/tim-schilling/#atom-everything",
-          "date": "2026-03-17T16:13:37+00:00",
-          "excerpt": "If you do not understand the ticket, if you do not understand the solution, or if you do not understand the feedback on your PR, then your use of LLM is hurting Django as a whole. [...] For a reviewer, it’s demoralizing to communicate with a facade of a human. This is because contributing to open so",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Subagents",
-          "link": "https://simonwillison.net/guides/agentic-engineering-patterns/subagents/#atom-everything",
-          "date": "2026-03-17T12:32:28+00:00",
-          "excerpt": "Agentic Engineering Patterns > LLMs are restricted by their context limit - how many tokens they can fit in their working memory at any given time. These values have not increased much over the past two years even as the LLMs themselves have seen dramatic improvements in their abilities - they gener",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Introducing Mistral Small 4",
-          "link": "https://simonwillison.net/2026/Mar/16/mistral-small-4/#atom-everything",
-          "date": "2026-03-16T23:41:17+00:00",
-          "excerpt": "Introducing Mistral Small 4 Big new release from Mistral today (despite the name) - a new Apache 2 licensed 119B parameter (Mixture-of-Experts, 6B active) model which they describe like this: Mistral Small 4 is the first Mistral model to unify the capabilities of our flagship models, Magistral for r",
           "author": ""
         }
       ]
