@@ -1,6 +1,150 @@
 {
-  "lastUpdated": "2026-04-03T06:59:01.770037+00:00",
+  "lastUpdated": "2026-04-04T06:50:43.301322+00:00",
   "articles": [
+    {
+      "feed": "Automating Mathematics",
+      "title": "AI and the Pointy Haired Boss",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
+      "date": "2026-03-01T11:44:35+05:30",
+      "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Mathematics as Natural Science in the Era of AI",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
+      "date": "2026-01-12T06:57:32+05:30",
+      "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Leanlang for Programmers",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
+      "date": "2025-12-10T10:09:51+00:00",
+      "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Integrating AI with the Lean Prover: How and Why",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
+      "date": "2025-11-12T09:22:22+00:00",
+      "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "When AI struck Gold at the Maths Olympiad",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
+      "date": "2025-10-09T08:50:40+00:00",
+      "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "AI for Mathematics: A Snapshot (July 2025)",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
+      "date": "2025-07-19T04:15:41+00:00",
+      "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "LeanAide: AI for Lean & Mathematics",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
+      "date": "2025-02-08T13:41:12+00:00",
+      "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Wishlist/ToDo List",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
+      "date": "2024-03-01T07:56:06+05:30",
+      "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Sieving chatGPT",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
+      "date": "2022-12-11T12:51:30+05:30",
+      "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
+      "date": "2022-06-07T06:50:53+05:30",
+      "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Some things I learnt from Dennis Sullivan",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
+      "date": "2022-03-24T11:10:36+05:30",
+      "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Forward Reasoning in Lean 4",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
+      "date": "2022-03-10T19:20:21+05:30",
+      "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "SAT Solver-Prover in Lean 4",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
+      "date": "2021-06-28T07:00:52+05:30",
+      "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "SAT Solving",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
+      "date": "2021-05-18T08:53:42+05:30",
+      "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Automating Mathematics India",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
+      "date": "2021-04-19T10:32:15+05:30",
+      "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Solving (but not proving?) Pappus",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
+      "date": "2021-04-19T06:53:09+05:30",
+      "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
+      "date": "2021-04-14T12:24:23+05:30",
+      "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Computer Assisted Proofs",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
+      "date": "2019-10-03T21:14:02+05:30",
+      "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
     {
       "feed": "SIGPLAN Blog",
       "title": "Think Globally, Discuss PL Locally",
@@ -80,6 +224,150 @@
       "date": "2024-11-21T15:22:41+00:00",
       "excerpt": "Part of PL research is building a science of programming. PL has a science of program correctness: we make precise claims about soundness / completeness / undefined behavior / etc., and we justify those claims with proofs. PL has a science of program performance: we make precise claims about relativ",
       "author": "Will Crichton"
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Change your behavior",
+      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+      "date": "2024-01-14T12:14:05-06:00",
+      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Hello, Perceptron: An introduction to artificial neural networks",
+      "link": "http://matt.might.net/articles/hello-perceptron/",
+      "date": "2023-05-05T09:05:31-05:00",
+      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+      "date": "2023-04-01T10:48:44-05:00",
+      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "12 resolutions for programmers",
+      "link": "http://matt.might.net/articles/programmers-resolutions/",
+      "date": "2012-01-03T08:06:54-07:00",
+      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+      "link": "http://matt.might.net/articles/26-languages-part2/",
+      "date": "2022-12-31T12:36:56-07:00",
+      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+      "link": "http://matt.might.net/articles/26-languages-part1/",
+      "date": "2022-12-27T16:28:42-07:00",
+      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+      "date": "2022-11-28T06:16:39-06:00",
+      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Control yourself",
+      "link": "http://matt.might.net/articles/how-to-control-yourself/",
+      "date": "2022-11-01T13:05:08-05:00",
+      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Get tenure",
+      "link": "http://matt.might.net/articles/tenure/",
+      "date": "2015-08-18T10:33:03-06:00",
+      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Counting hash collisions with the birthday paradox",
+      "link": "http://matt.might.net/articles/counting-hash-collisions/",
+      "date": "2015-07-16T23:33:41-04:00",
+      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Kyle Daigle",
+      "link": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+      "date": "2026-04-04T02:20:17+00:00",
+      "excerpt": "[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.) GitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 2025, and now 2.1B minutes so far ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Vulnerability Research Is Cooked",
+      "link": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+      "date": "2026-04-03T23:59:08+00:00",
+      "excerpt": "Vulnerability Research Is Cooked Thomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerability research. Within the next few months, coding agents will drastically alter both the practice and the economics of exploit development. Frontier ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "The cognitive impact of coding agents",
+      "link": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
+      "date": "2026-04-03T23:57:04+00:00",
+      "excerpt": "A fun thing about recording a podcast with a professional like Lenny Rachitsky is that his team know how to slice the resulting video up into TikTok-sized short form vertical videos. Here's one he shared on Twitter today which ended up attracting over 1.1m views! That was 48 seconds. Our full conver",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Willy Tarreau",
+      "link": "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
+      "date": "2026-04-03T21:48:22+00:00",
+      "excerpt": "On the kernel security list we've seen a huge bump of reports. We were between 2 and 3 per week maybe two years ago, then reached probably 10 a week over the last year with the only difference being only AI slop, and now since the beginning of the year we're around 5-10 per day depending on the days",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Daniel Stenberg",
+      "link": "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything",
+      "date": "2026-04-03T21:46:07+00:00",
+      "excerpt": "The challenge with AI in open source security has transitioned from an AI slop tsunami into more of a ... plain security report tsunami. Less slop but lots of reports. Many of them really good. I'm spending hours per day on this now. It's intense. — Daniel Stenberg , lead developer of cURL Tags: dan",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Quoting Greg Kroah-Hartman",
+      "link": "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything",
+      "date": "2026-04-03T21:44:41+00:00",
+      "excerpt": "Months ago, we were getting what we called 'AI slop,' AI-generated security reports that were obviously wrong or low quality. It was kind of funny. It didn't really worry us. Something happened a month ago, and the world switched. Now we have real reports. All open source projects have real reports ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
+      "link": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
+      "date": "2026-04-03T16:05:00+00:00",
+      "excerpt": "Research: Can JavaScript Escape a CSP Meta Tag Inside an Iframe? In trying to build my own version of Claude Artifacts I got curious about options for applying CSP headers to content in sandboxed iframes without using a separate domain to host the files. Turns out you can inject <meta http-equiv=\"Co",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "The Axios supply chain attack used individually targeted social engineering",
+      "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything",
+      "date": "2026-04-03T13:54:53+00:00",
+      "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+      "author": ""
     },
     {
       "feed": "Simon Willison",
@@ -255,294 +543,6 @@
       "link": "https://simonwillison.net/2026/Mar/30/llm-mrchatterbox-2/#atom-everything",
       "date": "2026-03-30T02:20:46+00:00",
       "excerpt": "Release: llm-mrchatterbox 0.1 See Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer . Tags: llm",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Pretext",
-      "link": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
-      "date": "2026-03-29T20:08:45+00:00",
-      "excerpt": "Pretext Exciting new browser library from Cheng Lou, previously a React core developer and the original creator of the react-motion animation library. Pretext solves the problem of calculating the height of a paragraph of line-wrapped text without touching the DOM . The usual way of doing this is to",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Pretext — Under the Hood",
-      "link": "https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything",
-      "date": "2026-03-29T19:59:28+00:00",
-      "excerpt": "Tool: Pretext — Under the Hood See my notes on Pretext here .",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Python Vulnerability Lookup",
-      "link": "https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything",
-      "date": "2026-03-29T18:46:16+00:00",
-      "excerpt": "Tool: Python Vulnerability Lookup I learned that the OSV.dev open source vulnerability database has an open CORS JSON API , so I had Claude Code build this HTML tool for pasting in a pyproject.toml or requirements.txt file (or name of a GitHub repo containing those) and seeing a list of all reported",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Matt Webb",
-      "link": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
-      "date": "2026-03-28T12:04:26+00:00",
-      "excerpt": "The thing about agentic coding is that agents grind problems into dust. Give an agent a problem and a while loop and - long term - it’ll solve that problem even if it means burning a trillion tokens and re-writing down to the silicon. [...] But we want AI agents to solve coding problems quickly and ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "datasette-showboat 0.1a2",
-      "link": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
-      "date": "2026-03-27T23:42:47+00:00",
-      "excerpt": "Release: datasette-showboat 0.1a2 I added an option to export a Markdown file from my app that lets Showboat incrementally publish updates to a remote server.",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Quoting Richard Fontana",
-      "link": "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything",
-      "date": "2026-03-27T21:11:17+00:00",
-      "excerpt": "FWIW, IANDBL, TINLA, etc., I don’t currently see any basis for concluding that chardet 7.0.0 is required to be released under the LGPL. AFAIK no one including Mark Pilgrim has identified persistence of copyrightable expressive material from earlier versions in 7.0.0 nor has anyone articulated some v",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Vibe coding SwiftUI apps is a lot of fun",
-      "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything",
-      "date": "2026-03-27T20:59:53+00:00",
-      "excerpt": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some alternative tools for monitoring performance and I'm very happy with the results. This is my second exper",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
-      "link": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
-      "date": "2026-03-27T00:35:01+00:00",
-      "excerpt": "We Rewrote JSONata with AI in a Day, Saved $500K/Year Bit of a hyperbolic framing but this looks like another case study of vibe porting , this time spinning up a new custom Go implementation of the JSONata JSON expression language - similar in focus to jq, and heavily associated with the Node-RED p",
-      "author": ""
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "AI and the Pointy Haired Boss",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
-      "date": "2026-03-01T11:44:35+05:30",
-      "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Mathematics as Natural Science in the Era of AI",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
-      "date": "2026-01-12T06:57:32+05:30",
-      "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Leanlang for Programmers",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
-      "date": "2025-12-10T10:09:51+00:00",
-      "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Integrating AI with the Lean Prover: How and Why",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
-      "date": "2025-11-12T09:22:22+00:00",
-      "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "When AI struck Gold at the Maths Olympiad",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
-      "date": "2025-10-09T08:50:40+00:00",
-      "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "AI for Mathematics: A Snapshot (July 2025)",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
-      "date": "2025-07-19T04:15:41+00:00",
-      "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "LeanAide: AI for Lean & Mathematics",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
-      "date": "2025-02-08T13:41:12+00:00",
-      "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Wishlist/ToDo List",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
-      "date": "2024-03-01T07:56:06+05:30",
-      "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Sieving chatGPT",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
-      "date": "2022-12-11T12:51:30+05:30",
-      "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
-      "date": "2022-06-07T06:50:53+05:30",
-      "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Some things I learnt from Dennis Sullivan",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
-      "date": "2022-03-24T11:10:36+05:30",
-      "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Forward Reasoning in Lean 4",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
-      "date": "2022-03-10T19:20:21+05:30",
-      "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "SAT Solver-Prover in Lean 4",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
-      "date": "2021-06-28T07:00:52+05:30",
-      "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "SAT Solving",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
-      "date": "2021-05-18T08:53:42+05:30",
-      "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Automating Mathematics India",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
-      "date": "2021-04-19T10:32:15+05:30",
-      "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Solving (but not proving?) Pappus",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
-      "date": "2021-04-19T06:53:09+05:30",
-      "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
-      "date": "2021-04-14T12:24:23+05:30",
-      "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Computer Assisted Proofs",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
-      "date": "2019-10-03T21:14:02+05:30",
-      "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Change your behavior",
-      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-      "date": "2024-01-14T12:14:05-06:00",
-      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Hello, Perceptron: An introduction to artificial neural networks",
-      "link": "http://matt.might.net/articles/hello-perceptron/",
-      "date": "2023-05-05T09:05:31-05:00",
-      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-      "date": "2023-04-01T10:48:44-05:00",
-      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "12 resolutions for programmers",
-      "link": "http://matt.might.net/articles/programmers-resolutions/",
-      "date": "2012-01-03T08:06:54-07:00",
-      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-      "link": "http://matt.might.net/articles/26-languages-part2/",
-      "date": "2022-12-31T12:36:56-07:00",
-      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-      "link": "http://matt.might.net/articles/26-languages-part1/",
-      "date": "2022-12-27T16:28:42-07:00",
-      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-      "date": "2022-11-28T06:16:39-06:00",
-      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Control yourself",
-      "link": "http://matt.might.net/articles/how-to-control-yourself/",
-      "date": "2022-11-01T13:05:08-05:00",
-      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Get tenure",
-      "link": "http://matt.might.net/articles/tenure/",
-      "date": "2015-08-18T10:33:03-06:00",
-      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Counting hash collisions with the birthday paradox",
-      "link": "http://matt.might.net/articles/counting-hash-collisions/",
-      "date": "2015-07-16T23:33:41-04:00",
-      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
       "author": ""
     },
     {
@@ -1812,6 +1812,156 @@
   ],
   "errors": {},
   "feedCache": {
+    "Automating Mathematics": {
+      "etag": "\"69a515ff-3f8e\"",
+      "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
+      "articles": [
+        {
+          "feed": "Automating Mathematics",
+          "title": "AI and the Pointy Haired Boss",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
+          "date": "2026-03-01T11:44:35+05:30",
+          "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Mathematics as Natural Science in the Era of AI",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
+          "date": "2026-01-12T06:57:32+05:30",
+          "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Leanlang for Programmers",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
+          "date": "2025-12-10T10:09:51+00:00",
+          "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Integrating AI with the Lean Prover: How and Why",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
+          "date": "2025-11-12T09:22:22+00:00",
+          "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "When AI struck Gold at the Maths Olympiad",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
+          "date": "2025-10-09T08:50:40+00:00",
+          "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "AI for Mathematics: A Snapshot (July 2025)",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
+          "date": "2025-07-19T04:15:41+00:00",
+          "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "LeanAide: AI for Lean & Mathematics",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
+          "date": "2025-02-08T13:41:12+00:00",
+          "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Wishlist/ToDo List",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
+          "date": "2024-03-01T07:56:06+05:30",
+          "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Sieving chatGPT",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
+          "date": "2022-12-11T12:51:30+05:30",
+          "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
+          "date": "2022-06-07T06:50:53+05:30",
+          "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Some things I learnt from Dennis Sullivan",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
+          "date": "2022-03-24T11:10:36+05:30",
+          "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Forward Reasoning in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
+          "date": "2022-03-10T19:20:21+05:30",
+          "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "SAT Solver-Prover in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
+          "date": "2021-06-28T07:00:52+05:30",
+          "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "SAT Solving",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
+          "date": "2021-05-18T08:53:42+05:30",
+          "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Automating Mathematics India",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
+          "date": "2021-04-19T10:32:15+05:30",
+          "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Solving (but not proving?) Pappus",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
+          "date": "2021-04-19T06:53:09+05:30",
+          "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
+          "date": "2021-04-14T12:24:23+05:30",
+          "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Computer Assisted Proofs",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
+          "date": "2019-10-03T21:14:02+05:30",
+          "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        }
+      ]
+    },
     "SIGPLAN Blog": {
       "etag": "\"b81c3faae47c51f5ae61264528cd420b\"",
       "last_modified": "Tue, 16 Sep 2025 13:09:36 GMT",
@@ -1898,10 +2048,160 @@
         }
       ]
     },
+    "Matt Might": {
+      "etag": "\"65a425c0-55cf\"",
+      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
+      "articles": [
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Change your behavior",
+          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+          "date": "2024-01-14T12:14:05-06:00",
+          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Hello, Perceptron: An introduction to artificial neural networks",
+          "link": "http://matt.might.net/articles/hello-perceptron/",
+          "date": "2023-05-05T09:05:31-05:00",
+          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+          "date": "2023-04-01T10:48:44-05:00",
+          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "12 resolutions for programmers",
+          "link": "http://matt.might.net/articles/programmers-resolutions/",
+          "date": "2012-01-03T08:06:54-07:00",
+          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+          "link": "http://matt.might.net/articles/26-languages-part2/",
+          "date": "2022-12-31T12:36:56-07:00",
+          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+          "link": "http://matt.might.net/articles/26-languages-part1/",
+          "date": "2022-12-27T16:28:42-07:00",
+          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+          "date": "2022-11-28T06:16:39-06:00",
+          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Control yourself",
+          "link": "http://matt.might.net/articles/how-to-control-yourself/",
+          "date": "2022-11-01T13:05:08-05:00",
+          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Get tenure",
+          "link": "http://matt.might.net/articles/tenure/",
+          "date": "2015-08-18T10:33:03-06:00",
+          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Counting hash collisions with the birthday paradox",
+          "link": "http://matt.might.net/articles/counting-hash-collisions/",
+          "date": "2015-07-16T23:33:41-04:00",
+          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
+          "author": ""
+        }
+      ]
+    },
     "Simon Willison": {
       "etag": null,
-      "last_modified": "Thu, 02 Apr 2026 20:40:47 GMT",
+      "last_modified": "Sat, 04 Apr 2026 02:20:17 GMT",
       "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Kyle Daigle",
+          "link": "https://simonwillison.net/2026/Apr/4/kyle-daigle/#atom-everything",
+          "date": "2026-04-04T02:20:17+00:00",
+          "excerpt": "[GitHub] platform activity is surging. There were 1 billion commits in 2025. Now, it's 275 million per week, on pace for 14 billion this year if growth remains linear (spoiler: it won't.) GitHub Actions has grown from 500M minutes/week in 2023 to 1B minutes/week in 2025, and now 2.1B minutes so far ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Vulnerability Research Is Cooked",
+          "link": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+          "date": "2026-04-03T23:59:08+00:00",
+          "excerpt": "Vulnerability Research Is Cooked Thomas Ptacek's take on the sudden and enormous impact the latest frontier models are having on the field of vulnerability research. Within the next few months, coding agents will drastically alter both the practice and the economics of exploit development. Frontier ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "The cognitive impact of coding agents",
+          "link": "https://simonwillison.net/2026/Apr/3/cognitive-cost/#atom-everything",
+          "date": "2026-04-03T23:57:04+00:00",
+          "excerpt": "A fun thing about recording a podcast with a professional like Lenny Rachitsky is that his team know how to slice the resulting video up into TikTok-sized short form vertical videos. Here's one he shared on Twitter today which ended up attracting over 1.1m views! That was 48 seconds. Our full conver",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Willy Tarreau",
+          "link": "https://simonwillison.net/2026/Apr/3/willy-tarreau/#atom-everything",
+          "date": "2026-04-03T21:48:22+00:00",
+          "excerpt": "On the kernel security list we've seen a huge bump of reports. We were between 2 and 3 per week maybe two years ago, then reached probably 10 a week over the last year with the only difference being only AI slop, and now since the beginning of the year we're around 5-10 per day depending on the days",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Daniel Stenberg",
+          "link": "https://simonwillison.net/2026/Apr/3/daniel-stenberg/#atom-everything",
+          "date": "2026-04-03T21:46:07+00:00",
+          "excerpt": "The challenge with AI in open source security has transitioned from an AI slop tsunami into more of a ... plain security report tsunami. Less slop but lots of reports. Many of them really good. I'm spending hours per day on this now. It's intense. — Daniel Stenberg , lead developer of cURL Tags: dan",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Quoting Greg Kroah-Hartman",
+          "link": "https://simonwillison.net/2026/Apr/3/greg-kroah-hartman/#atom-everything",
+          "date": "2026-04-03T21:44:41+00:00",
+          "excerpt": "Months ago, we were getting what we called 'AI slop,' AI-generated security reports that were obviously wrong or low quality. It was kind of funny. It didn't really worry us. Something happened a month ago, and the world switched. Now we have real reports. All open source projects have real reports ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Can JavaScript Escape a CSP Meta Tag Inside an Iframe?",
+          "link": "https://simonwillison.net/2026/Apr/3/test-csp-iframe-escape/#atom-everything",
+          "date": "2026-04-03T16:05:00+00:00",
+          "excerpt": "Research: Can JavaScript Escape a CSP Meta Tag Inside an Iframe? In trying to build my own version of Claude Artifacts I got curious about options for applying CSP headers to content in sandboxed iframes without using a separate domain to host the files. Turns out you can inject <meta http-equiv=\"Co",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "The Axios supply chain attack used individually targeted social engineering",
+          "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-everything",
+          "date": "2026-04-03T13:54:53+00:00",
+          "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+          "author": ""
+        },
         {
           "feed": "Simon Willison",
           "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
@@ -2077,312 +2377,12 @@
           "date": "2026-03-30T02:20:46+00:00",
           "excerpt": "Release: llm-mrchatterbox 0.1 See Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer . Tags: llm",
           "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Pretext",
-          "link": "https://simonwillison.net/2026/Mar/29/pretext/#atom-everything",
-          "date": "2026-03-29T20:08:45+00:00",
-          "excerpt": "Pretext Exciting new browser library from Cheng Lou, previously a React core developer and the original creator of the react-motion animation library. Pretext solves the problem of calculating the height of a paragraph of line-wrapped text without touching the DOM . The usual way of doing this is to",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Pretext — Under the Hood",
-          "link": "https://simonwillison.net/2026/Mar/29/pretext-explainer/#atom-everything",
-          "date": "2026-03-29T19:59:28+00:00",
-          "excerpt": "Tool: Pretext — Under the Hood See my notes on Pretext here .",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Python Vulnerability Lookup",
-          "link": "https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/#atom-everything",
-          "date": "2026-03-29T18:46:16+00:00",
-          "excerpt": "Tool: Python Vulnerability Lookup I learned that the OSV.dev open source vulnerability database has an open CORS JSON API , so I had Claude Code build this HTML tool for pasting in a pyproject.toml or requirements.txt file (or name of a GitHub repo containing those) and seeing a list of all reported",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Matt Webb",
-          "link": "https://simonwillison.net/2026/Mar/28/matt-webb/#atom-everything",
-          "date": "2026-03-28T12:04:26+00:00",
-          "excerpt": "The thing about agentic coding is that agents grind problems into dust. Give an agent a problem and a while loop and - long term - it’ll solve that problem even if it means burning a trillion tokens and re-writing down to the silicon. [...] But we want AI agents to solve coding problems quickly and ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "datasette-showboat 0.1a2",
-          "link": "https://simonwillison.net/2026/Mar/27/datasette-showboat/#atom-everything",
-          "date": "2026-03-27T23:42:47+00:00",
-          "excerpt": "Release: datasette-showboat 0.1a2 I added an option to export a Markdown file from my app that lets Showboat incrementally publish updates to a remote server.",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Quoting Richard Fontana",
-          "link": "https://simonwillison.net/2026/Mar/27/richard-fontana/#atom-everything",
-          "date": "2026-03-27T21:11:17+00:00",
-          "excerpt": "FWIW, IANDBL, TINLA, etc., I don’t currently see any basis for concluding that chardet 7.0.0 is required to be released under the LGPL. AFAIK no one including Mark Pilgrim has identified persistence of copyrightable expressive material from earlier versions in 7.0.0 nor has anyone articulated some v",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Vibe coding SwiftUI apps is a lot of fun",
-          "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-everything",
-          "date": "2026-03-27T20:59:53+00:00",
-          "excerpt": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some alternative tools for monitoring performance and I'm very happy with the results. This is my second exper",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "We Rewrote JSONata with AI in a Day, Saved $500K/Year",
-          "link": "https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything",
-          "date": "2026-03-27T00:35:01+00:00",
-          "excerpt": "We Rewrote JSONata with AI in a Day, Saved $500K/Year Bit of a hyperbolic framing but this looks like another case study of vibe porting , this time spinning up a new custom Go implementation of the JSONata JSON expression language - similar in focus to jq, and heavily associated with the Node-RED p",
-          "author": ""
-        }
-      ]
-    },
-    "Automating Mathematics": {
-      "etag": "\"69a515ff-3f8e\"",
-      "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
-      "articles": [
-        {
-          "feed": "Automating Mathematics",
-          "title": "AI and the Pointy Haired Boss",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
-          "date": "2026-03-01T11:44:35+05:30",
-          "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Mathematics as Natural Science in the Era of AI",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
-          "date": "2026-01-12T06:57:32+05:30",
-          "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Leanlang for Programmers",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
-          "date": "2025-12-10T10:09:51+00:00",
-          "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Integrating AI with the Lean Prover: How and Why",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
-          "date": "2025-11-12T09:22:22+00:00",
-          "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "When AI struck Gold at the Maths Olympiad",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
-          "date": "2025-10-09T08:50:40+00:00",
-          "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "AI for Mathematics: A Snapshot (July 2025)",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
-          "date": "2025-07-19T04:15:41+00:00",
-          "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "LeanAide: AI for Lean & Mathematics",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
-          "date": "2025-02-08T13:41:12+00:00",
-          "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Wishlist/ToDo List",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
-          "date": "2024-03-01T07:56:06+05:30",
-          "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Sieving chatGPT",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
-          "date": "2022-12-11T12:51:30+05:30",
-          "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
-          "date": "2022-06-07T06:50:53+05:30",
-          "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Some things I learnt from Dennis Sullivan",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
-          "date": "2022-03-24T11:10:36+05:30",
-          "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Forward Reasoning in Lean 4",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
-          "date": "2022-03-10T19:20:21+05:30",
-          "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "SAT Solver-Prover in Lean 4",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
-          "date": "2021-06-28T07:00:52+05:30",
-          "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "SAT Solving",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
-          "date": "2021-05-18T08:53:42+05:30",
-          "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Automating Mathematics India",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
-          "date": "2021-04-19T10:32:15+05:30",
-          "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Solving (but not proving?) Pappus",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
-          "date": "2021-04-19T06:53:09+05:30",
-          "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
-          "date": "2021-04-14T12:24:23+05:30",
-          "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Computer Assisted Proofs",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
-          "date": "2019-10-03T21:14:02+05:30",
-          "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        }
-      ]
-    },
-    "Matt Might": {
-      "etag": "\"65a425c0-55cf\"",
-      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
-      "articles": [
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Change your behavior",
-          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-          "date": "2024-01-14T12:14:05-06:00",
-          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Hello, Perceptron: An introduction to artificial neural networks",
-          "link": "http://matt.might.net/articles/hello-perceptron/",
-          "date": "2023-05-05T09:05:31-05:00",
-          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-          "date": "2023-04-01T10:48:44-05:00",
-          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "12 resolutions for programmers",
-          "link": "http://matt.might.net/articles/programmers-resolutions/",
-          "date": "2012-01-03T08:06:54-07:00",
-          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-          "link": "http://matt.might.net/articles/26-languages-part2/",
-          "date": "2022-12-31T12:36:56-07:00",
-          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-          "link": "http://matt.might.net/articles/26-languages-part1/",
-          "date": "2022-12-27T16:28:42-07:00",
-          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-          "date": "2022-11-28T06:16:39-06:00",
-          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Control yourself",
-          "link": "http://matt.might.net/articles/how-to-control-yourself/",
-          "date": "2022-11-01T13:05:08-05:00",
-          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Get tenure",
-          "link": "http://matt.might.net/articles/tenure/",
-          "date": "2015-08-18T10:33:03-06:00",
-          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Counting hash collisions with the birthday paradox",
-          "link": "http://matt.might.net/articles/counting-hash-collisions/",
-          "date": "2015-07-16T23:33:41-04:00",
-          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
-          "author": ""
         }
       ]
     },
     "Dan Luu": {
-      "etag": "W/\"69b8ff4f-5fbb28\"",
-      "last_modified": "Tue, 17 Mar 2026 07:14:23 GMT",
+      "etag": "W/\"69ba5f62-5fbb28\"",
+      "last_modified": "Wed, 18 Mar 2026 08:16:34 GMT",
       "articles": [
         {
           "feed": "Dan Luu",
