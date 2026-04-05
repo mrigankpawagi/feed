@@ -24,4 +24,8 @@ const FEEDS = [
     name: "Simon Willison",
     url: "https://simonwillison.net/atom/everything/",
   },
+  {
+    name: "Experimental History",
+    url: "https://www.experimental-history.com/feed",
+  },
 ];
