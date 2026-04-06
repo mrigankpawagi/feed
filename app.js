@@ -2,7 +2,7 @@
 // feed_data.json (same origin — no CORS proxies needed).
 
 let allArticles = []; // { feed, title, link, date, excerpt, author }
-let activeTab = "all";
+let selectedFeeds = new Set(); // populated on DOMContentLoaded with all feed names
 
 // ── Date / text helpers ───────────────────────────────────────────
 function parseDate(str) {
@@ -63,36 +63,83 @@ async function loadAllFeeds() {
   }
 }
 
-// ── Tabs ──────────────────────────────────────────────────────────
-function buildTabs() {
-  const tabs = document.getElementById("tabs");
-  tabs.innerHTML = "";
+// ── Filter ────────────────────────────────────────────────────────
+function buildFilter() {
+  const panel = document.getElementById("filter-panel");
+  panel.innerHTML = "";
 
-  // "All" tab
-  const allTab = document.createElement("button");
-  allTab.className = "tab" + (activeTab === "all" ? " active" : "");
-  allTab.setAttribute("role", "tab");
-  allTab.setAttribute("aria-selected", activeTab === "all" ? "true" : "false");
-  allTab.textContent = "All";
-  allTab.onclick = () => setTab("all");
-  tabs.appendChild(allTab);
+  // Select all / Deselect all
+  const actions = document.createElement("div");
+  actions.className = "filter-actions";
 
-  // Per-feed tabs
+  const selectAll = document.createElement("button");
+  selectAll.className = "filter-action-btn";
+  selectAll.textContent = "Select all";
+  selectAll.onclick = () => {
+    FEEDS.forEach((f) => selectedFeeds.add(f.name));
+    buildFilter();
+    updateFilterLabel();
+    renderArticles();
+  };
+
+  const deselectAll = document.createElement("button");
+  deselectAll.className = "filter-action-btn";
+  deselectAll.textContent = "Deselect all";
+  deselectAll.onclick = () => {
+    selectedFeeds.clear();
+    buildFilter();
+    updateFilterLabel();
+    renderArticles();
+  };
+
+  actions.appendChild(selectAll);
+  actions.appendChild(deselectAll);
+  panel.appendChild(actions);
+
+  // Checkbox per feed
   FEEDS.forEach((f) => {
-    const btn = document.createElement("button");
-    btn.className = "tab" + (activeTab === f.name ? " active" : "");
-    btn.setAttribute("role", "tab");
-    btn.setAttribute("aria-selected", activeTab === f.name ? "true" : "false");
-    btn.textContent = f.name;
-    btn.onclick = () => setTab(f.name);
-    tabs.appendChild(btn);
+    const label = document.createElement("label");
+    label.className = "filter-item";
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.checked = selectedFeeds.has(f.name);
+    checkbox.onchange = () => {
+      if (checkbox.checked) {
+        selectedFeeds.add(f.name);
+      } else {
+        selectedFeeds.delete(f.name);
+      }
+      updateFilterLabel();
+      renderArticles();
+    };
+
+    label.appendChild(checkbox);
+    label.appendChild(document.createTextNode(f.name));
+    panel.appendChild(label);
   });
 }
 
-function setTab(name) {
-  activeTab = name;
-  buildTabs();
-  renderArticles();
+function updateFilterLabel() {
+  const label = document.getElementById("filter-label");
+  const toggle = document.getElementById("filter-toggle");
+  const total = FEEDS.length;
+  if (selectedFeeds.size === 0) {
+    label.textContent = "No feeds";
+  } else if (selectedFeeds.size === total) {
+    label.textContent = "All feeds";
+  } else {
+    label.textContent = `${selectedFeeds.size} of ${total} ${selectedFeeds.size === 1 ? "feed" : "feeds"}`;
+  }
+  toggle.classList.toggle("is-filtered", selectedFeeds.size !== total);
+}
+
+function toggleFilter() {
+  const panel = document.getElementById("filter-panel");
+  const toggle = document.getElementById("filter-toggle");
+  const willOpen = panel.hidden;
+  panel.hidden = !willOpen;
+  toggle.setAttribute("aria-expanded", willOpen ? "true" : "false");
 }
 
 // ── Rendering ─────────────────────────────────────────────────────
@@ -100,15 +147,13 @@ function renderArticles() {
   const container = document.getElementById("articles-container");
   container.innerHTML = "";
 
-  const filtered =
-    activeTab === "all"
-      ? allArticles
-      : allArticles.filter((a) => a.feed === activeTab);
-
+  const filtered = allArticles.filter((a) => selectedFeeds.has(a.feed));
+  const showFeedBadge = selectedFeeds.size !== 1;
   if (filtered.length === 0) {
     const status = document.createElement("div");
     status.className = "status";
-    status.textContent = "No articles found.";
+    status.textContent =
+      selectedFeeds.size === 0 ? "No feeds selected." : "No articles found.";
     container.appendChild(status);
     return;
   }
@@ -116,7 +161,7 @@ function renderArticles() {
   const list = document.createElement("div");
   list.className = "articles";
   filtered.forEach((a) =>
-    list.appendChild(makeCard(a, activeTab === "all"))
+    list.appendChild(makeCard(a, showFeedBadge))
   );
   container.appendChild(list);
 }
@@ -169,6 +214,38 @@ function makeCard(article, showFeedBadge) {
 
 // ── Init ──────────────────────────────────────────────────────────
 document.addEventListener("DOMContentLoaded", () => {
-  buildTabs();
+  // Start with all feeds selected
+  selectedFeeds = new Set(FEEDS.map((f) => f.name));
+
+  // Toggle filter panel on button click
+  document.getElementById("filter-toggle").addEventListener("click", (e) => {
+    e.stopPropagation();
+    toggleFilter();
+  });
+
+  // Close panel when clicking outside
+  document.addEventListener("click", (e) => {
+    const panel = document.getElementById("filter-panel");
+    const toggle = document.getElementById("filter-toggle");
+    if (!panel.hidden && !panel.contains(e.target) && !toggle.contains(e.target)) {
+      panel.hidden = true;
+      toggle.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  // Close panel on Escape
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      const panel = document.getElementById("filter-panel");
+      const toggle = document.getElementById("filter-toggle");
+      if (!panel.hidden) {
+        panel.hidden = true;
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.focus();
+      }
+    }
+  });
+
+  buildFilter();
   loadAllFeeds();
 });
