@@ -23,7 +23,16 @@
       </div>
     </header>
 
-    <div class="feed-tabs" id="tabs" role="tablist" aria-label="Feed filter"></div>
+    <div class="filter-bar">
+      <div class="filter-bar-inner">
+        <button class="filter-toggle-btn" id="filter-toggle" aria-expanded="false" aria-controls="filter-panel">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+          <span id="filter-label">All feeds</span>
+          <svg class="filter-chevron" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="filter-panel" id="filter-panel" role="group" aria-label="Select feeds" hidden></div>
+      </div>
+    </div>
 
     <main>
       <div id="articles-container"></div>

@@ -87,26 +87,23 @@ header {
   color: var(--accent);
 }
 
-/* Feed filter tabs */
-.feed-tabs {
+/* Feed filter bar */
+.filter-bar {
   max-width: 900px;
   margin: 0 auto;
-  padding: 0 1.5rem;
-  display: flex;
+  padding: 0.75rem 1.5rem 0.5rem;
+  position: relative;
+}
+
+.filter-bar-inner {
+  position: relative;
+  display: inline-block;
+}
+
+.filter-toggle-btn {
+  display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  overflow-x: auto;
-  scrollbar-width: none;
-  padding-top: 1rem;
-  padding-bottom: 0.25rem;
-}
-
-.feed-tabs::-webkit-scrollbar {
-  display: none;
-}
-
-.tab {
-  flex-shrink: 0;
+  gap: 0.4rem;
   padding: 0.35rem 0.85rem;
   border-radius: 999px;
   border: 1px solid var(--border);
@@ -120,15 +117,91 @@ header {
   white-space: nowrap;
 }
 
-.tab:hover {
+.filter-toggle-btn:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
 
-.tab.active {
+.filter-toggle-btn[aria-expanded="true"] {
   background: var(--accent);
   border-color: var(--accent);
   color: #fff;
+}
+
+.filter-toggle-btn.is-filtered {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.filter-toggle-btn[aria-expanded="true"].is-filtered {
+  color: #fff;
+}
+
+.filter-chevron {
+  transition: transform 0.15s;
+}
+
+.filter-toggle-btn[aria-expanded="true"] .filter-chevron {
+  transform: rotate(180deg);
+}
+
+.filter-panel {
+  position: absolute;
+  top: calc(100% + 0.4rem);
+  left: 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-hover);
+  padding: 0.6rem;
+  z-index: 50;
+  min-width: 200px;
+  max-width: 320px;
+  max-height: 360px;
+  overflow-y: auto;
+}
+
+.filter-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.filter-action-btn {
+  font-family: var(--font);
+  font-size: 0.75rem;
+  color: var(--accent);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.filter-action-btn:hover {
+  text-decoration: underline;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.25rem 0.1rem;
+  font-size: 0.85rem;
+  color: var(--text-primary);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.filter-item:hover {
+  color: var(--accent);
+}
+
+.filter-item input[type="checkbox"] {
+  accent-color: var(--accent);
+  cursor: pointer;
+  flex-shrink: 0;
 }
 
 /* Main layout */
@@ -272,8 +345,8 @@ footer a:hover {
     padding: 1rem 1rem 3rem;
   }
 
-  .feed-tabs {
-    padding: 0.75rem 1rem 0.25rem;
+  .filter-bar {
+    padding: 0.6rem 1rem 0.4rem;
   }
 
   .article-title {
