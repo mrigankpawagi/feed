@@ -22,7 +22,7 @@ const FEEDS = [
   },
   {
     name: "Simon Willison",
-    url: "https://simonwillison.net/atom/everything/",
+    url: "https://simonwillison.net/atom/entries/",
   },
   {
     name: "Experimental History",
