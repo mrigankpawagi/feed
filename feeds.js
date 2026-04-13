@@ -28,4 +28,8 @@ const FEEDS = [
     name: "Experimental History",
     url: "https://www.experimental-history.com/feed",
   },
+  {
+    name: "Yukta Subramanian",
+    url: "https://medium.com/feed/@yukta.subramanian",
+  },
 ];
