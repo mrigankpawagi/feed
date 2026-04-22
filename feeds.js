@@ -32,4 +32,8 @@ const FEEDS = [
     name: "Yukta Subramanian",
     url: "https://medium.com/feed/@yukta.subramanian",
   },
+  {
+    name: "Leonardo de Moura",
+    url: "https://leodemoura.github.io/feed.xml",
+  },
 ];
