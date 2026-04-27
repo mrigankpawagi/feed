@@ -1,6 +1,342 @@
 {
-  "lastUpdated": "2026-04-26T07:17:43.134566+00:00",
+  "lastUpdated": "2026-04-27T08:07:35.877196+00:00",
   "articles": [
+    {
+      "feed": "Simon Willison",
+      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
+      "date": "2026-04-24T06:01:04+00:00",
+      "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Extract PDF text in your browser with LiteParse for the web",
+      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
+      "date": "2026-04-23T21:54:24+00:00",
+      "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+      "date": "2026-04-23T19:59:47+00:00",
+      "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
+      "date": "2026-04-22T02:07:34+00:00",
+      "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
+      "date": "2026-04-21T20:32:24+00:00",
+      "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
+      "date": "2026-04-18T23:59:40+00:00",
+      "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
+      "date": "2026-04-17T23:59:03+00:00",
+      "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
+      "date": "2026-04-16T17:16:52+00:00",
+      "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
+      "date": "2026-04-08T23:07:44+00:00",
+      "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
+      "date": "2026-04-07T20:52:54+00:00",
+      "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "The Axios supply chain attack used individually targeted social engineering",
+      "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
+      "date": "2026-04-03T13:54:53+00:00",
+      "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
+      "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-entries",
+      "date": "2026-04-02T20:40:47+00:00",
+      "excerpt": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available on YouTube , Spotify , and Apple Podcasts . Here are my highlights from our conversation, with relevan",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
+      "link": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-entries",
+      "date": "2026-03-30T14:28:34+00:00",
+      "excerpt": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in the model card : Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts publis",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Vibe coding SwiftUI apps is a lot of fun",
+      "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-entries",
+      "date": "2026-03-27T20:59:53+00:00",
+      "excerpt": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some alternative tools for monitoring performance and I'm very happy with the results. This is my second exper",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Experimenting with Starlette 1.0 with Claude skills",
+      "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-entries",
+      "date": "2026-03-22T23:57:44+00:00",
+      "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Signal Shot: The Platform Is Ready",
+      "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
+      "date": "2026-04-20T00:00:00+00:00",
+      "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Why Lean?",
+      "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
+      "date": "2026-04-02T00:00:00+00:00",
+      "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Cray Colloquium at the University of Minnesota",
+      "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
+      "date": "2026-03-28T00:00:00+00:00",
+      "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Who Watches the Provers?",
+      "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
+      "date": "2026-03-16T00:00:00+00:00",
+      "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "This website is now powered by Verso",
+      "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
+      "date": "2026-03-15T00:00:00+00:00",
+      "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Teaching AI to Make Proof Automation Work",
+      "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
+      "date": "2026-03-14T00:00:00+00:00",
+      "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "sym => : interactive mode for scalable verification",
+      "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
+      "date": "2026-03-13T00:00:00+00:00",
+      "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "When AI Writes the World's Software, Who Verifies It?",
+      "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+      "date": "2026-02-28T00:00:00+00:00",
+      "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Proof Assistants in the Age of AI",
+      "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
+      "date": "2026-02-18T00:00:00+00:00",
+      "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
+      "author": ""
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "AI and the Pointy Haired Boss",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
+      "date": "2026-03-01T11:44:35+05:30",
+      "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Mathematics as Natural Science in the Era of AI",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
+      "date": "2026-01-12T06:57:32+05:30",
+      "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Leanlang for Programmers",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
+      "date": "2025-12-10T10:09:51+00:00",
+      "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Integrating AI with the Lean Prover: How and Why",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
+      "date": "2025-11-12T09:22:22+00:00",
+      "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "When AI struck Gold at the Maths Olympiad",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
+      "date": "2025-10-09T08:50:40+00:00",
+      "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "AI for Mathematics: A Snapshot (July 2025)",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
+      "date": "2025-07-19T04:15:41+00:00",
+      "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "LeanAide: AI for Lean & Mathematics",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
+      "date": "2025-02-08T13:41:12+00:00",
+      "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Wishlist/ToDo List",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
+      "date": "2024-03-01T07:56:06+05:30",
+      "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Sieving chatGPT",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
+      "date": "2022-12-11T12:51:30+05:30",
+      "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
+      "date": "2022-06-07T06:50:53+05:30",
+      "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Some things I learnt from Dennis Sullivan",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
+      "date": "2022-03-24T11:10:36+05:30",
+      "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Forward Reasoning in Lean 4",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
+      "date": "2022-03-10T19:20:21+05:30",
+      "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "SAT Solver-Prover in Lean 4",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
+      "date": "2021-06-28T07:00:52+05:30",
+      "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "SAT Solving",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
+      "date": "2021-05-18T08:53:42+05:30",
+      "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Automating Mathematics India",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
+      "date": "2021-04-19T10:32:15+05:30",
+      "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Solving (but not proving?) Pappus",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
+      "date": "2021-04-19T06:53:09+05:30",
+      "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
+      "date": "2021-04-14T12:24:23+05:30",
+      "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Computer Assisted Proofs",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
+      "date": "2019-10-03T21:14:02+05:30",
+      "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
     {
       "feed": "Dan Luu",
       "title": "Steve Ballmer was an underrated CEO",
@@ -1026,348 +1362,20 @@
       "author": ""
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "Repositories Are Human/Agent Knowledge Factories",
-      "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-      "date": "2026-04-21T09:00:48+00:00",
-      "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-      "author": "Ben Zorn"
+      "feed": "Yukta Subramanian",
+      "title": "Cancer is getting on my nerves (literally!)",
+      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+      "date": "2026-02-24T19:06:27+00:00",
+      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+      "author": "Yukta Subramanian"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "Think Globally, Discuss PL Locally",
-      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-      "date": "2025-09-16T13:09:36+00:00",
-      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-      "author": "Harrison Goldstein"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Reserve Reviewer Policy",
-      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-      "date": "2025-09-09T15:59:52+00:00",
-      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-      "author": "Shriram Krishnamurthi"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "AI Models Need a Virtual Machine",
-      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-      "date": "2025-08-29T09:00:39+00:00",
-      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-      "date": "2025-05-19T13:43:38+00:00",
-      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-      "author": "Adrian Sampson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "How to Give a Good Talk",
-      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-      "date": "2025-03-31T13:00:03+00:00",
-      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-      "author": "Michael Greenberg"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-      "date": "2025-03-20T16:21:36+00:00",
-      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-      "date": "2025-01-29T13:00:02+00:00",
-      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-      "author": "Andreia Mordido"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Missing Mentoring Pillar",
-      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-      "date": "2025-01-13T14:00:31+00:00",
-      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-      "author": "Rachit Nigam"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
-      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
-      "date": "2025-01-02T13:00:44+00:00",
-      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
-      "author": "Alastair Donaldson"
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
-      "date": "2026-04-24T06:01:04+00:00",
-      "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Extract PDF text in your browser with LiteParse for the web",
-      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
-      "date": "2026-04-23T21:54:24+00:00",
-      "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
-      "date": "2026-04-23T19:59:47+00:00",
-      "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
-      "date": "2026-04-22T02:07:34+00:00",
-      "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
-      "date": "2026-04-21T20:32:24+00:00",
-      "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
-      "date": "2026-04-18T23:59:40+00:00",
-      "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
-      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
-      "date": "2026-04-17T23:59:03+00:00",
-      "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
-      "date": "2026-04-16T17:16:52+00:00",
-      "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
-      "date": "2026-04-08T23:07:44+00:00",
-      "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
-      "date": "2026-04-07T20:52:54+00:00",
-      "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "The Axios supply chain attack used individually targeted social engineering",
-      "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
-      "date": "2026-04-03T13:54:53+00:00",
-      "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
-      "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-entries",
-      "date": "2026-04-02T20:40:47+00:00",
-      "excerpt": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available on YouTube , Spotify , and Apple Podcasts . Here are my highlights from our conversation, with relevan",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
-      "link": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-entries",
-      "date": "2026-03-30T14:28:34+00:00",
-      "excerpt": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in the model card : Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts publis",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Vibe coding SwiftUI apps is a lot of fun",
-      "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-entries",
-      "date": "2026-03-27T20:59:53+00:00",
-      "excerpt": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some alternative tools for monitoring performance and I'm very happy with the results. This is my second exper",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Experimenting with Starlette 1.0 with Claude skills",
-      "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-entries",
-      "date": "2026-03-22T23:57:44+00:00",
-      "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
-      "author": ""
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "AI and the Pointy Haired Boss",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
-      "date": "2026-03-01T11:44:35+05:30",
-      "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Mathematics as Natural Science in the Era of AI",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
-      "date": "2026-01-12T06:57:32+05:30",
-      "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Leanlang for Programmers",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
-      "date": "2025-12-10T10:09:51+00:00",
-      "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Integrating AI with the Lean Prover: How and Why",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
-      "date": "2025-11-12T09:22:22+00:00",
-      "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "When AI struck Gold at the Maths Olympiad",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
-      "date": "2025-10-09T08:50:40+00:00",
-      "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "AI for Mathematics: A Snapshot (July 2025)",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
-      "date": "2025-07-19T04:15:41+00:00",
-      "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "LeanAide: AI for Lean & Mathematics",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
-      "date": "2025-02-08T13:41:12+00:00",
-      "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Wishlist/ToDo List",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
-      "date": "2024-03-01T07:56:06+05:30",
-      "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Sieving chatGPT",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
-      "date": "2022-12-11T12:51:30+05:30",
-      "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
-      "date": "2022-06-07T06:50:53+05:30",
-      "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Some things I learnt from Dennis Sullivan",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
-      "date": "2022-03-24T11:10:36+05:30",
-      "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Forward Reasoning in Lean 4",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
-      "date": "2022-03-10T19:20:21+05:30",
-      "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "SAT Solver-Prover in Lean 4",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
-      "date": "2021-06-28T07:00:52+05:30",
-      "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "SAT Solving",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
-      "date": "2021-05-18T08:53:42+05:30",
-      "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Automating Mathematics India",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
-      "date": "2021-04-19T10:32:15+05:30",
-      "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Solving (but not proving?) Pappus",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
-      "date": "2021-04-19T06:53:09+05:30",
-      "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
-      "date": "2021-04-14T12:24:23+05:30",
-      "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Computer Assisted Proofs",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
-      "date": "2019-10-03T21:14:02+05:30",
-      "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+      "feed": "Yukta Subramanian",
+      "title": "The Tick-Tock Within Us",
+      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+      "date": "2025-01-03T15:09:23+00:00",
+      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+      "author": "Yukta Subramanian"
     },
     {
       "feed": "Experimental History",
@@ -1530,78 +1538,6 @@
       "author": "Adam Mastroianni"
     },
     {
-      "feed": "Leonardo de Moura",
-      "title": "Signal Shot: The Platform Is Ready",
-      "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
-      "date": "2026-04-20T00:00:00+00:00",
-      "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Why Lean?",
-      "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
-      "date": "2026-04-02T00:00:00+00:00",
-      "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Cray Colloquium at the University of Minnesota",
-      "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
-      "date": "2026-03-28T00:00:00+00:00",
-      "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Who Watches the Provers?",
-      "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
-      "date": "2026-03-16T00:00:00+00:00",
-      "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "This website is now powered by Verso",
-      "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
-      "date": "2026-03-15T00:00:00+00:00",
-      "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Teaching AI to Make Proof Automation Work",
-      "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
-      "date": "2026-03-14T00:00:00+00:00",
-      "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "sym => : interactive mode for scalable verification",
-      "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
-      "date": "2026-03-13T00:00:00+00:00",
-      "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "When AI Writes the World's Software, Who Verifies It?",
-      "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
-      "date": "2026-02-28T00:00:00+00:00",
-      "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Proof Assistants in the Age of AI",
-      "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
-      "date": "2026-02-18T00:00:00+00:00",
-      "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
-      "author": ""
-    },
-    {
       "feed": "Matt Might",
       "title": "HOWTO: Change your behavior",
       "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
@@ -1680,22 +1616,6 @@
       "date": "2015-07-16T23:33:41-04:00",
       "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
       "author": ""
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "Cancer is getting on my nerves (literally!)",
-      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-      "date": "2026-02-24T19:06:27+00:00",
-      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "The Tick-Tock Within Us",
-      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-      "date": "2025-01-03T15:09:23+00:00",
-      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-      "author": "Yukta Subramanian"
     },
     {
       "feed": "Hillel Wayne",
@@ -1938,8 +1858,364 @@
       "author": ""
     }
   ],
-  "errors": {},
+  "errors": {
+    "SIGPLAN Blog": "XML parse error: mismatched tag: line 1, column 167"
+  },
   "feedCache": {
+    "Simon Willison": {
+      "etag": null,
+      "last_modified": "Fri, 24 Apr 2026 06:01:04 GMT",
+      "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
+          "date": "2026-04-24T06:01:04+00:00",
+          "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Extract PDF text in your browser with LiteParse for the web",
+          "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
+          "date": "2026-04-23T21:54:24+00:00",
+          "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+          "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+          "date": "2026-04-23T19:59:47+00:00",
+          "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+          "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
+          "date": "2026-04-22T02:07:34+00:00",
+          "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+          "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
+          "date": "2026-04-21T20:32:24+00:00",
+          "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+          "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
+          "date": "2026-04-18T23:59:40+00:00",
+          "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+          "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
+          "date": "2026-04-17T23:59:03+00:00",
+          "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+          "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
+          "date": "2026-04-16T17:16:52+00:00",
+          "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+          "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
+          "date": "2026-04-08T23:07:44+00:00",
+          "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+          "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
+          "date": "2026-04-07T20:52:54+00:00",
+          "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "The Axios supply chain attack used individually targeted social engineering",
+          "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
+          "date": "2026-04-03T13:54:53+00:00",
+          "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
+          "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-entries",
+          "date": "2026-04-02T20:40:47+00:00",
+          "excerpt": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available on YouTube , Spotify , and Apple Podcasts . Here are my highlights from our conversation, with relevan",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
+          "link": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-entries",
+          "date": "2026-03-30T14:28:34+00:00",
+          "excerpt": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in the model card : Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts publis",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Vibe coding SwiftUI apps is a lot of fun",
+          "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-entries",
+          "date": "2026-03-27T20:59:53+00:00",
+          "excerpt": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some alternative tools for monitoring performance and I'm very happy with the results. This is my second exper",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Experimenting with Starlette 1.0 with Claude skills",
+          "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-entries",
+          "date": "2026-03-22T23:57:44+00:00",
+          "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
+          "author": ""
+        }
+      ]
+    },
+    "Leonardo de Moura": {
+      "etag": "\"69eaa583-1e49\"",
+      "last_modified": "Thu, 23 Apr 2026 23:04:35 GMT",
+      "articles": [
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Signal Shot: The Platform Is Ready",
+          "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
+          "date": "2026-04-20T00:00:00+00:00",
+          "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Why Lean?",
+          "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
+          "date": "2026-04-02T00:00:00+00:00",
+          "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Cray Colloquium at the University of Minnesota",
+          "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
+          "date": "2026-03-28T00:00:00+00:00",
+          "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Who Watches the Provers?",
+          "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
+          "date": "2026-03-16T00:00:00+00:00",
+          "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "This website is now powered by Verso",
+          "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
+          "date": "2026-03-15T00:00:00+00:00",
+          "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Teaching AI to Make Proof Automation Work",
+          "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
+          "date": "2026-03-14T00:00:00+00:00",
+          "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "sym => : interactive mode for scalable verification",
+          "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
+          "date": "2026-03-13T00:00:00+00:00",
+          "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "When AI Writes the World's Software, Who Verifies It?",
+          "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+          "date": "2026-02-28T00:00:00+00:00",
+          "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Proof Assistants in the Age of AI",
+          "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
+          "date": "2026-02-18T00:00:00+00:00",
+          "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
+          "author": ""
+        }
+      ]
+    },
+    "Automating Mathematics": {
+      "etag": "\"69a515ff-3f8e\"",
+      "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
+      "articles": [
+        {
+          "feed": "Automating Mathematics",
+          "title": "AI and the Pointy Haired Boss",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
+          "date": "2026-03-01T11:44:35+05:30",
+          "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Mathematics as Natural Science in the Era of AI",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
+          "date": "2026-01-12T06:57:32+05:30",
+          "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Leanlang for Programmers",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
+          "date": "2025-12-10T10:09:51+00:00",
+          "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Integrating AI with the Lean Prover: How and Why",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
+          "date": "2025-11-12T09:22:22+00:00",
+          "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "When AI struck Gold at the Maths Olympiad",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
+          "date": "2025-10-09T08:50:40+00:00",
+          "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "AI for Mathematics: A Snapshot (July 2025)",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
+          "date": "2025-07-19T04:15:41+00:00",
+          "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "LeanAide: AI for Lean & Mathematics",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
+          "date": "2025-02-08T13:41:12+00:00",
+          "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Wishlist/ToDo List",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
+          "date": "2024-03-01T07:56:06+05:30",
+          "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Sieving chatGPT",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
+          "date": "2022-12-11T12:51:30+05:30",
+          "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
+          "date": "2022-06-07T06:50:53+05:30",
+          "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Some things I learnt from Dennis Sullivan",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
+          "date": "2022-03-24T11:10:36+05:30",
+          "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Forward Reasoning in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
+          "date": "2022-03-10T19:20:21+05:30",
+          "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "SAT Solver-Prover in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
+          "date": "2021-06-28T07:00:52+05:30",
+          "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "SAT Solving",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
+          "date": "2021-05-18T08:53:42+05:30",
+          "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Automating Mathematics India",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
+          "date": "2021-04-19T10:32:15+05:30",
+          "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Solving (but not proving?) Pappus",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
+          "date": "2021-04-19T06:53:09+05:30",
+          "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
+          "date": "2021-04-14T12:24:23+05:30",
+          "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Computer Assisted Proofs",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
+          "date": "2019-10-03T21:14:02+05:30",
+          "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        }
+      ]
+    },
     "Dan Luu": {
       "etag": "W/\"69d5e045-5fbb28\"",
       "last_modified": "Wed, 08 Apr 2026 04:57:41 GMT",
@@ -2970,370 +3246,30 @@
         }
       ]
     },
-    "SIGPLAN Blog": {
-      "etag": "\"904fa0d3784782e9b695e6bfce5cc5bb\"",
-      "last_modified": "Wed, 22 Apr 2026 17:23:43 GMT",
-      "articles": [
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Repositories Are Human/Agent Knowledge Factories",
-          "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-          "date": "2026-04-21T09:00:48+00:00",
-          "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Think Globally, Discuss PL Locally",
-          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-          "date": "2025-09-16T13:09:36+00:00",
-          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-          "author": "Harrison Goldstein"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Reserve Reviewer Policy",
-          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-          "date": "2025-09-09T15:59:52+00:00",
-          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-          "author": "Shriram Krishnamurthi"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "AI Models Need a Virtual Machine",
-          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-          "date": "2025-08-29T09:00:39+00:00",
-          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-          "date": "2025-05-19T13:43:38+00:00",
-          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-          "author": "Adrian Sampson"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "How to Give a Good Talk",
-          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-          "date": "2025-03-31T13:00:03+00:00",
-          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-          "author": "Michael Greenberg"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-          "date": "2025-03-20T16:21:36+00:00",
-          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-          "date": "2025-01-29T13:00:02+00:00",
-          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-          "author": "Andreia Mordido"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Missing Mentoring Pillar",
-          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-          "date": "2025-01-13T14:00:31+00:00",
-          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-          "author": "Rachit Nigam"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
-          "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
-          "date": "2025-01-02T13:00:44+00:00",
-          "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
-          "author": "Alastair Donaldson"
-        }
-      ]
-    },
-    "Simon Willison": {
+    "Yukta Subramanian": {
       "etag": null,
-      "last_modified": "Fri, 24 Apr 2026 06:01:04 GMT",
+      "last_modified": null,
       "articles": [
         {
-          "feed": "Simon Willison",
-          "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
-          "date": "2026-04-24T06:01:04+00:00",
-          "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
-          "author": ""
+          "feed": "Yukta Subramanian",
+          "title": "Cancer is getting on my nerves (literally!)",
+          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+          "date": "2026-02-24T19:06:27+00:00",
+          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+          "author": "Yukta Subramanian"
         },
         {
-          "feed": "Simon Willison",
-          "title": "Extract PDF text in your browser with LiteParse for the web",
-          "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
-          "date": "2026-04-23T21:54:24+00:00",
-          "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-          "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
-          "date": "2026-04-23T19:59:47+00:00",
-          "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-          "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
-          "date": "2026-04-22T02:07:34+00:00",
-          "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-          "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
-          "date": "2026-04-21T20:32:24+00:00",
-          "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-          "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
-          "date": "2026-04-18T23:59:40+00:00",
-          "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
-          "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
-          "date": "2026-04-17T23:59:03+00:00",
-          "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-          "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
-          "date": "2026-04-16T17:16:52+00:00",
-          "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-          "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
-          "date": "2026-04-08T23:07:44+00:00",
-          "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-          "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
-          "date": "2026-04-07T20:52:54+00:00",
-          "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "The Axios supply chain attack used individually targeted social engineering",
-          "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
-          "date": "2026-04-03T13:54:53+00:00",
-          "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
-          "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-entries",
-          "date": "2026-04-02T20:40:47+00:00",
-          "excerpt": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available on YouTube , Spotify , and Apple Podcasts . Here are my highlights from our conversation, with relevan",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
-          "link": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-entries",
-          "date": "2026-03-30T14:28:34+00:00",
-          "excerpt": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in the model card : Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts publis",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Vibe coding SwiftUI apps is a lot of fun",
-          "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-entries",
-          "date": "2026-03-27T20:59:53+00:00",
-          "excerpt": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some alternative tools for monitoring performance and I'm very happy with the results. This is my second exper",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Experimenting with Starlette 1.0 with Claude skills",
-          "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-entries",
-          "date": "2026-03-22T23:57:44+00:00",
-          "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
-          "author": ""
-        }
-      ]
-    },
-    "Automating Mathematics": {
-      "etag": "\"69a515ff-3f8e\"",
-      "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
-      "articles": [
-        {
-          "feed": "Automating Mathematics",
-          "title": "AI and the Pointy Haired Boss",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
-          "date": "2026-03-01T11:44:35+05:30",
-          "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Mathematics as Natural Science in the Era of AI",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
-          "date": "2026-01-12T06:57:32+05:30",
-          "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Leanlang for Programmers",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
-          "date": "2025-12-10T10:09:51+00:00",
-          "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Integrating AI with the Lean Prover: How and Why",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
-          "date": "2025-11-12T09:22:22+00:00",
-          "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "When AI struck Gold at the Maths Olympiad",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
-          "date": "2025-10-09T08:50:40+00:00",
-          "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "AI for Mathematics: A Snapshot (July 2025)",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
-          "date": "2025-07-19T04:15:41+00:00",
-          "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "LeanAide: AI for Lean & Mathematics",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
-          "date": "2025-02-08T13:41:12+00:00",
-          "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Wishlist/ToDo List",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
-          "date": "2024-03-01T07:56:06+05:30",
-          "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Sieving chatGPT",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
-          "date": "2022-12-11T12:51:30+05:30",
-          "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
-          "date": "2022-06-07T06:50:53+05:30",
-          "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Some things I learnt from Dennis Sullivan",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
-          "date": "2022-03-24T11:10:36+05:30",
-          "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Forward Reasoning in Lean 4",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
-          "date": "2022-03-10T19:20:21+05:30",
-          "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "SAT Solver-Prover in Lean 4",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
-          "date": "2021-06-28T07:00:52+05:30",
-          "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "SAT Solving",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
-          "date": "2021-05-18T08:53:42+05:30",
-          "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Automating Mathematics India",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
-          "date": "2021-04-19T10:32:15+05:30",
-          "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Solving (but not proving?) Pappus",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
-          "date": "2021-04-19T06:53:09+05:30",
-          "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
-          "date": "2021-04-14T12:24:23+05:30",
-          "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Computer Assisted Proofs",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
-          "date": "2019-10-03T21:14:02+05:30",
-          "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+          "feed": "Yukta Subramanian",
+          "title": "The Tick-Tock Within Us",
+          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+          "date": "2025-01-03T15:09:23+00:00",
+          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+          "author": "Yukta Subramanian"
         }
       ]
     },
     "Experimental History": {
-      "etag": "W/\"1137e2-dlW5KIWAtPOseoVB7hjrL8hTBec\"",
+      "etag": "W/\"1137e2-kQ2Bnuph27lK49abZTF9E+7MJ4M\"",
       "last_modified": null,
       "articles": [
         {
@@ -3498,84 +3434,6 @@
         }
       ]
     },
-    "Leonardo de Moura": {
-      "etag": "\"69eaa583-1e49\"",
-      "last_modified": "Thu, 23 Apr 2026 23:04:35 GMT",
-      "articles": [
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Signal Shot: The Platform Is Ready",
-          "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
-          "date": "2026-04-20T00:00:00+00:00",
-          "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Why Lean?",
-          "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
-          "date": "2026-04-02T00:00:00+00:00",
-          "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Cray Colloquium at the University of Minnesota",
-          "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
-          "date": "2026-03-28T00:00:00+00:00",
-          "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Who Watches the Provers?",
-          "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
-          "date": "2026-03-16T00:00:00+00:00",
-          "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "This website is now powered by Verso",
-          "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
-          "date": "2026-03-15T00:00:00+00:00",
-          "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Teaching AI to Make Proof Automation Work",
-          "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
-          "date": "2026-03-14T00:00:00+00:00",
-          "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "sym => : interactive mode for scalable verification",
-          "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
-          "date": "2026-03-13T00:00:00+00:00",
-          "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "When AI Writes the World's Software, Who Verifies It?",
-          "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
-          "date": "2026-02-28T00:00:00+00:00",
-          "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Proof Assistants in the Age of AI",
-          "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
-          "date": "2026-02-18T00:00:00+00:00",
-          "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
-          "author": ""
-        }
-      ]
-    },
     "Matt Might": {
       "etag": "\"65a425c0-55cf\"",
       "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
@@ -3659,28 +3517,6 @@
           "date": "2015-07-16T23:33:41-04:00",
           "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
           "author": ""
-        }
-      ]
-    },
-    "Yukta Subramanian": {
-      "etag": null,
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "Yukta Subramanian",
-          "title": "Cancer is getting on my nerves (literally!)",
-          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-          "date": "2026-02-24T19:06:27+00:00",
-          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-          "author": "Yukta Subramanian"
-        },
-        {
-          "feed": "Yukta Subramanian",
-          "title": "The Tick-Tock Within Us",
-          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-          "date": "2025-01-03T15:09:23+00:00",
-          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-          "author": "Yukta Subramanian"
         }
       ]
     },
