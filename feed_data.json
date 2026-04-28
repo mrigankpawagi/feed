@@ -1,6 +1,14 @@
 {
-  "lastUpdated": "2026-04-27T08:07:35.877196+00:00",
+  "lastUpdated": "2026-04-28T08:09:40.593882+00:00",
   "articles": [
+    {
+      "feed": "Simon Willison",
+      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
+      "date": "2026-04-27T18:38:17+00:00",
+      "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+      "author": ""
+    },
     {
       "feed": "Simon Willison",
       "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
@@ -111,14 +119,6 @@
       "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-entries",
       "date": "2026-03-27T20:59:53+00:00",
       "excerpt": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some alternative tools for monitoring performance and I'm very happy with the results. This is my second exper",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Experimenting with Starlette 1.0 with Claude skills",
-      "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-entries",
-      "date": "2026-03-22T23:57:44+00:00",
-      "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
       "author": ""
     },
     {
@@ -1362,22 +1362,6 @@
       "author": ""
     },
     {
-      "feed": "Yukta Subramanian",
-      "title": "Cancer is getting on my nerves (literally!)",
-      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-      "date": "2026-02-24T19:06:27+00:00",
-      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "The Tick-Tock Within Us",
-      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-      "date": "2025-01-03T15:09:23+00:00",
-      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-      "author": "Yukta Subramanian"
-    },
-    {
       "feed": "Experimental History",
       "title": "Nothing ever dies. It merely becomes embarrassing.",
       "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
@@ -1538,6 +1522,22 @@
       "author": "Adam Mastroianni"
     },
     {
+      "feed": "Yukta Subramanian",
+      "title": "Cancer is getting on my nerves (literally!)",
+      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+      "date": "2026-02-24T19:06:27+00:00",
+      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Yukta Subramanian",
+      "title": "The Tick-Tock Within Us",
+      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+      "date": "2025-01-03T15:09:23+00:00",
+      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+      "author": "Yukta Subramanian"
+    },
+    {
       "feed": "Matt Might",
       "title": "HOWTO: Change your behavior",
       "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
@@ -1616,6 +1616,86 @@
       "date": "2015-07-16T23:33:41-04:00",
       "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
       "author": ""
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Repositories Are Human/Agent Knowledge Factories",
+      "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
+      "date": "2026-04-21T09:00:48+00:00",
+      "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Think Globally, Discuss PL Locally",
+      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+      "date": "2025-09-16T13:09:36+00:00",
+      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+      "author": "Harrison Goldstein"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Reserve Reviewer Policy",
+      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+      "date": "2025-09-09T15:59:52+00:00",
+      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+      "author": "Shriram Krishnamurthi"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "AI Models Need a Virtual Machine",
+      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+      "date": "2025-08-29T09:00:39+00:00",
+      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+      "date": "2025-05-19T13:43:38+00:00",
+      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+      "author": "Adrian Sampson"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "How to Give a Good Talk",
+      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+      "date": "2025-03-31T13:00:03+00:00",
+      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+      "author": "Michael Greenberg"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+      "date": "2025-03-20T16:21:36+00:00",
+      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+      "date": "2025-01-29T13:00:02+00:00",
+      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+      "author": "Andreia Mordido"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Missing Mentoring Pillar",
+      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+      "date": "2025-01-13T14:00:31+00:00",
+      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+      "author": "Rachit Nigam"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+      "date": "2025-01-02T13:00:44+00:00",
+      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+      "author": "Alastair Donaldson"
     },
     {
       "feed": "Hillel Wayne",
@@ -1858,14 +1938,20 @@
       "author": ""
     }
   ],
-  "errors": {
-    "SIGPLAN Blog": "XML parse error: mismatched tag: line 1, column 167"
-  },
+  "errors": {},
   "feedCache": {
     "Simon Willison": {
       "etag": null,
-      "last_modified": "Fri, 24 Apr 2026 06:01:04 GMT",
+      "last_modified": "Mon, 27 Apr 2026 18:38:17 GMT",
       "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
+          "date": "2026-04-27T18:38:17+00:00",
+          "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+          "author": ""
+        },
         {
           "feed": "Simon Willison",
           "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
@@ -1976,14 +2062,6 @@
           "link": "https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/#atom-entries",
           "date": "2026-03-27T20:59:53+00:00",
           "excerpt": "I have a new laptop - a 128GB M5 MacBook Pro, which early impressions show to be very capable for running good local LLMs. I got frustrated with Activity Monitor and decided to vibe code up some alternative tools for monitoring performance and I'm very happy with the results. This is my second exper",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Experimenting with Starlette 1.0 with Claude skills",
-          "link": "https://simonwillison.net/2026/Mar/22/starlette/#atom-entries",
-          "date": "2026-03-22T23:57:44+00:00",
-          "excerpt": "Starlette 1.0 is out ! This is a really big deal. I think Starlette may be the Python framework with the most usage compared to its relatively low brand recognition because Starlette is the foundation of FastAPI , which has attracted a huge amount of buzz that seems to have overshadowed Starlette it",
           "author": ""
         }
       ]
@@ -3246,30 +3324,8 @@
         }
       ]
     },
-    "Yukta Subramanian": {
-      "etag": null,
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "Yukta Subramanian",
-          "title": "Cancer is getting on my nerves (literally!)",
-          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-          "date": "2026-02-24T19:06:27+00:00",
-          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-          "author": "Yukta Subramanian"
-        },
-        {
-          "feed": "Yukta Subramanian",
-          "title": "The Tick-Tock Within Us",
-          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-          "date": "2025-01-03T15:09:23+00:00",
-          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-          "author": "Yukta Subramanian"
-        }
-      ]
-    },
     "Experimental History": {
-      "etag": "W/\"1137e2-kQ2Bnuph27lK49abZTF9E+7MJ4M\"",
+      "etag": "W/\"1137e2-toIg0ACF1Oc90E6JjMjA1tr5wlk\"",
       "last_modified": null,
       "articles": [
         {
@@ -3434,6 +3490,28 @@
         }
       ]
     },
+    "Yukta Subramanian": {
+      "etag": null,
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "Yukta Subramanian",
+          "title": "Cancer is getting on my nerves (literally!)",
+          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+          "date": "2026-02-24T19:06:27+00:00",
+          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+          "author": "Yukta Subramanian"
+        },
+        {
+          "feed": "Yukta Subramanian",
+          "title": "The Tick-Tock Within Us",
+          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+          "date": "2025-01-03T15:09:23+00:00",
+          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+          "author": "Yukta Subramanian"
+        }
+      ]
+    },
     "Matt Might": {
       "etag": "\"65a425c0-55cf\"",
       "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
@@ -3517,6 +3595,92 @@
           "date": "2015-07-16T23:33:41-04:00",
           "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
           "author": ""
+        }
+      ]
+    },
+    "SIGPLAN Blog": {
+      "etag": "\"904fa0d3784782e9b695e6bfce5cc5bb\"",
+      "last_modified": "Wed, 22 Apr 2026 17:23:43 GMT",
+      "articles": [
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Repositories Are Human/Agent Knowledge Factories",
+          "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
+          "date": "2026-04-21T09:00:48+00:00",
+          "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Think Globally, Discuss PL Locally",
+          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+          "date": "2025-09-16T13:09:36+00:00",
+          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+          "author": "Harrison Goldstein"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Reserve Reviewer Policy",
+          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+          "date": "2025-09-09T15:59:52+00:00",
+          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+          "author": "Shriram Krishnamurthi"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "AI Models Need a Virtual Machine",
+          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+          "date": "2025-08-29T09:00:39+00:00",
+          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+          "date": "2025-05-19T13:43:38+00:00",
+          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+          "author": "Adrian Sampson"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "How to Give a Good Talk",
+          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+          "date": "2025-03-31T13:00:03+00:00",
+          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+          "author": "Michael Greenberg"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+          "date": "2025-03-20T16:21:36+00:00",
+          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+          "date": "2025-01-29T13:00:02+00:00",
+          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+          "author": "Andreia Mordido"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Missing Mentoring Pillar",
+          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+          "date": "2025-01-13T14:00:31+00:00",
+          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+          "author": "Rachit Nigam"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+          "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+          "date": "2025-01-02T13:00:44+00:00",
+          "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+          "author": "Alastair Donaldson"
         }
       ]
     },
