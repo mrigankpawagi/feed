@@ -1,126 +1,6 @@
 {
-  "lastUpdated": "2026-05-04T08:19:23.345365+00:00",
+  "lastUpdated": "2026-05-05T07:56:22.937549+00:00",
   "articles": [
-    {
-      "feed": "Simon Willison",
-      "title": "LLM 0.32a0  is a major backwards-compatible refactor",
-      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
-      "date": "2026-04-29T19:01:47+00:00",
-      "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
-      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
-      "date": "2026-04-27T18:38:17+00:00",
-      "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
-      "date": "2026-04-24T06:01:04+00:00",
-      "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Extract PDF text in your browser with LiteParse for the web",
-      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
-      "date": "2026-04-23T21:54:24+00:00",
-      "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
-      "date": "2026-04-23T19:59:47+00:00",
-      "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
-      "date": "2026-04-22T02:07:34+00:00",
-      "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
-      "date": "2026-04-21T20:32:24+00:00",
-      "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
-      "date": "2026-04-18T23:59:40+00:00",
-      "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
-      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
-      "date": "2026-04-17T23:59:03+00:00",
-      "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
-      "date": "2026-04-16T17:16:52+00:00",
-      "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
-      "date": "2026-04-08T23:07:44+00:00",
-      "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
-      "date": "2026-04-07T20:52:54+00:00",
-      "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "The Axios supply chain attack used individually targeted social engineering",
-      "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
-      "date": "2026-04-03T13:54:53+00:00",
-      "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
-      "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-entries",
-      "date": "2026-04-02T20:40:47+00:00",
-      "excerpt": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available on YouTube , Spotify , and Apple Podcasts . Here are my highlights from our conversation, with relevan",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
-      "link": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-entries",
-      "date": "2026-03-30T14:28:34+00:00",
-      "excerpt": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in the model card : Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts publis",
-      "author": ""
-    },
     {
       "feed": "Leonardo de Moura",
       "title": "Signal Shot: The Platform Is Ready",
@@ -192,86 +72,6 @@
       "date": "2026-02-18T00:00:00+00:00",
       "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
       "author": ""
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Repositories Are Human/Agent Knowledge Factories",
-      "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-      "date": "2026-04-21T09:00:48+00:00",
-      "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Think Globally, Discuss PL Locally",
-      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-      "date": "2025-09-16T13:09:36+00:00",
-      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-      "author": "Harrison Goldstein"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Reserve Reviewer Policy",
-      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-      "date": "2025-09-09T15:59:52+00:00",
-      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-      "author": "Shriram Krishnamurthi"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "AI Models Need a Virtual Machine",
-      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-      "date": "2025-08-29T09:00:39+00:00",
-      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-      "date": "2025-05-19T13:43:38+00:00",
-      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-      "author": "Adrian Sampson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "How to Give a Good Talk",
-      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-      "date": "2025-03-31T13:00:03+00:00",
-      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-      "author": "Michael Greenberg"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-      "date": "2025-03-20T16:21:36+00:00",
-      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-      "date": "2025-01-29T13:00:02+00:00",
-      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-      "author": "Andreia Mordido"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Missing Mentoring Pillar",
-      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-      "date": "2025-01-13T14:00:31+00:00",
-      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-      "author": "Rachit Nigam"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
-      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
-      "date": "2025-01-02T13:00:44+00:00",
-      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
-      "author": "Alastair Donaldson"
     },
     {
       "feed": "Automating Mathematics",
@@ -1442,6 +1242,126 @@
       "author": ""
     },
     {
+      "feed": "Simon Willison",
+      "title": "LLM 0.32a0  is a major backwards-compatible refactor",
+      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
+      "date": "2026-04-29T19:01:47+00:00",
+      "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
+      "date": "2026-04-27T18:38:17+00:00",
+      "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
+      "date": "2026-04-24T06:01:04+00:00",
+      "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Extract PDF text in your browser with LiteParse for the web",
+      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
+      "date": "2026-04-23T21:54:24+00:00",
+      "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+      "date": "2026-04-23T19:59:47+00:00",
+      "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
+      "date": "2026-04-22T02:07:34+00:00",
+      "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
+      "date": "2026-04-21T20:32:24+00:00",
+      "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
+      "date": "2026-04-18T23:59:40+00:00",
+      "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
+      "date": "2026-04-17T23:59:03+00:00",
+      "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
+      "date": "2026-04-16T17:16:52+00:00",
+      "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
+      "date": "2026-04-08T23:07:44+00:00",
+      "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
+      "date": "2026-04-07T20:52:54+00:00",
+      "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "The Axios supply chain attack used individually targeted social engineering",
+      "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
+      "date": "2026-04-03T13:54:53+00:00",
+      "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
+      "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-entries",
+      "date": "2026-04-02T20:40:47+00:00",
+      "excerpt": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available on YouTube , Spotify , and Apple Podcasts . Here are my highlights from our conversation, with relevan",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
+      "link": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-entries",
+      "date": "2026-03-30T14:28:34+00:00",
+      "excerpt": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in the model card : Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts publis",
+      "author": ""
+    },
+    {
       "feed": "Matt Might",
       "title": "HOWTO: Change your behavior",
       "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
@@ -1936,136 +1856,90 @@
       "date": "2025-07-17T19:08:27+00:00",
       "excerpt": "I'm a big (neo)vim buff. My config is over 1500 lines and I regularly write new scripts. I recently ported my neovim config to a new laptop. Before then, I was using VSCode to write, and when I switched back I immediately saw a big gain in productivity. People often pooh-pooh vim (and other assistiv",
       "author": ""
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Repositories Are Human/Agent Knowledge Factories",
+      "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
+      "date": "2026-04-21T09:00:48+00:00",
+      "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Think Globally, Discuss PL Locally",
+      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+      "date": "2025-09-16T13:09:36+00:00",
+      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+      "author": "Harrison Goldstein"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Reserve Reviewer Policy",
+      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+      "date": "2025-09-09T15:59:52+00:00",
+      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+      "author": "Shriram Krishnamurthi"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "AI Models Need a Virtual Machine",
+      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+      "date": "2025-08-29T09:00:39+00:00",
+      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+      "date": "2025-05-19T13:43:38+00:00",
+      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+      "author": "Adrian Sampson"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "How to Give a Good Talk",
+      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+      "date": "2025-03-31T13:00:03+00:00",
+      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+      "author": "Michael Greenberg"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+      "date": "2025-03-20T16:21:36+00:00",
+      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+      "date": "2025-01-29T13:00:02+00:00",
+      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+      "author": "Andreia Mordido"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Missing Mentoring Pillar",
+      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+      "date": "2025-01-13T14:00:31+00:00",
+      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+      "author": "Rachit Nigam"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+      "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+      "date": "2025-01-02T13:00:44+00:00",
+      "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+      "author": "Alastair Donaldson"
     }
   ],
   "errors": {},
   "feedCache": {
-    "Simon Willison": {
-      "etag": null,
-      "last_modified": "Wed, 29 Apr 2026 19:01:47 GMT",
-      "articles": [
-        {
-          "feed": "Simon Willison",
-          "title": "LLM 0.32a0  is a major backwards-compatible refactor",
-          "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
-          "date": "2026-04-29T19:01:47+00:00",
-          "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
-          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
-          "date": "2026-04-27T18:38:17+00:00",
-          "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
-          "date": "2026-04-24T06:01:04+00:00",
-          "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Extract PDF text in your browser with LiteParse for the web",
-          "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
-          "date": "2026-04-23T21:54:24+00:00",
-          "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-          "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
-          "date": "2026-04-23T19:59:47+00:00",
-          "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-          "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
-          "date": "2026-04-22T02:07:34+00:00",
-          "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-          "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
-          "date": "2026-04-21T20:32:24+00:00",
-          "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-          "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
-          "date": "2026-04-18T23:59:40+00:00",
-          "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
-          "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
-          "date": "2026-04-17T23:59:03+00:00",
-          "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-          "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
-          "date": "2026-04-16T17:16:52+00:00",
-          "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-          "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
-          "date": "2026-04-08T23:07:44+00:00",
-          "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-          "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
-          "date": "2026-04-07T20:52:54+00:00",
-          "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "The Axios supply chain attack used individually targeted social engineering",
-          "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
-          "date": "2026-04-03T13:54:53+00:00",
-          "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
-          "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-entries",
-          "date": "2026-04-02T20:40:47+00:00",
-          "excerpt": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available on YouTube , Spotify , and Apple Podcasts . Here are my highlights from our conversation, with relevan",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
-          "link": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-entries",
-          "date": "2026-03-30T14:28:34+00:00",
-          "excerpt": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in the model card : Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts publis",
-          "author": ""
-        }
-      ]
-    },
     "Leonardo de Moura": {
       "etag": "\"69f4a038-1e49\"",
       "last_modified": "Fri, 01 May 2026 12:44:40 GMT",
@@ -2141,92 +2015,6 @@
           "date": "2026-02-18T00:00:00+00:00",
           "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
           "author": ""
-        }
-      ]
-    },
-    "SIGPLAN Blog": {
-      "etag": "\"904fa0d3784782e9b695e6bfce5cc5bb\"",
-      "last_modified": "Wed, 22 Apr 2026 17:23:43 GMT",
-      "articles": [
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Repositories Are Human/Agent Knowledge Factories",
-          "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-          "date": "2026-04-21T09:00:48+00:00",
-          "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Think Globally, Discuss PL Locally",
-          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-          "date": "2025-09-16T13:09:36+00:00",
-          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-          "author": "Harrison Goldstein"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Reserve Reviewer Policy",
-          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-          "date": "2025-09-09T15:59:52+00:00",
-          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-          "author": "Shriram Krishnamurthi"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "AI Models Need a Virtual Machine",
-          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-          "date": "2025-08-29T09:00:39+00:00",
-          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-          "date": "2025-05-19T13:43:38+00:00",
-          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-          "author": "Adrian Sampson"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "How to Give a Good Talk",
-          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-          "date": "2025-03-31T13:00:03+00:00",
-          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-          "author": "Michael Greenberg"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-          "date": "2025-03-20T16:21:36+00:00",
-          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-          "date": "2025-01-29T13:00:02+00:00",
-          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-          "author": "Andreia Mordido"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Missing Mentoring Pillar",
-          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-          "date": "2025-01-13T14:00:31+00:00",
-          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-          "author": "Rachit Nigam"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
-          "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
-          "date": "2025-01-02T13:00:44+00:00",
-          "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
-          "author": "Alastair Donaldson"
         }
       ]
     },
@@ -3410,6 +3198,132 @@
         }
       ]
     },
+    "Simon Willison": {
+      "etag": null,
+      "last_modified": "Wed, 29 Apr 2026 19:01:47 GMT",
+      "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "LLM 0.32a0  is a major backwards-compatible refactor",
+          "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
+          "date": "2026-04-29T19:01:47+00:00",
+          "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
+          "date": "2026-04-27T18:38:17+00:00",
+          "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
+          "date": "2026-04-24T06:01:04+00:00",
+          "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Extract PDF text in your browser with LiteParse for the web",
+          "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
+          "date": "2026-04-23T21:54:24+00:00",
+          "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+          "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+          "date": "2026-04-23T19:59:47+00:00",
+          "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+          "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
+          "date": "2026-04-22T02:07:34+00:00",
+          "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+          "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
+          "date": "2026-04-21T20:32:24+00:00",
+          "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+          "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
+          "date": "2026-04-18T23:59:40+00:00",
+          "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+          "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
+          "date": "2026-04-17T23:59:03+00:00",
+          "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+          "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
+          "date": "2026-04-16T17:16:52+00:00",
+          "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+          "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
+          "date": "2026-04-08T23:07:44+00:00",
+          "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+          "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
+          "date": "2026-04-07T20:52:54+00:00",
+          "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "The Axios supply chain attack used individually targeted social engineering",
+          "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
+          "date": "2026-04-03T13:54:53+00:00",
+          "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Highlights from my conversation about agentic engineering on Lenny's Podcast",
+          "link": "https://simonwillison.net/2026/Apr/2/lennys-podcast/#atom-entries",
+          "date": "2026-04-02T20:40:47+00:00",
+          "excerpt": "I was a guest on Lenny Rachitsky's podcast, in a new episode titled An AI state of the union: We've passed the inflection point, dark factories are coming, and automation timelines . It's available on YouTube , Spotify , and Apple Podcasts . Here are my highlights from our conversation, with relevan",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Mr. Chatterbox is a (weak) Victorian-era ethically trained model you can run on your own computer",
+          "link": "https://simonwillison.net/2026/Mar/30/mr-chatterbox/#atom-entries",
+          "date": "2026-03-30T14:28:34+00:00",
+          "excerpt": "Trip Venturella released Mr. Chatterbox , a language model trained entirely on out-of-copyright text from the British Library. Here's how he describes it in the model card : Mr. Chatterbox is a language model trained entirely from scratch on a corpus of over 28,000 Victorian-era British texts publis",
+          "author": ""
+        }
+      ]
+    },
     "Matt Might": {
       "etag": "\"65a425c0-55cf\"",
       "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
@@ -3497,7 +3411,7 @@
       ]
     },
     "Experimental History": {
-      "etag": "W/\"109d14-LHQNvPDrkjolcLefxnWGnn1E9nE\"",
+      "etag": "W/\"109d14-D6NEow/doAbBUzvDzxLmE4MMZTY\"",
       "last_modified": null,
       "articles": [
         {
@@ -3927,6 +3841,92 @@
           "date": "2025-07-17T19:08:27+00:00",
           "excerpt": "I'm a big (neo)vim buff. My config is over 1500 lines and I regularly write new scripts. I recently ported my neovim config to a new laptop. Before then, I was using VSCode to write, and when I switched back I immediately saw a big gain in productivity. People often pooh-pooh vim (and other assistiv",
           "author": ""
+        }
+      ]
+    },
+    "SIGPLAN Blog": {
+      "etag": "\"904fa0d3784782e9b695e6bfce5cc5bb\"",
+      "last_modified": "Wed, 22 Apr 2026 17:23:43 GMT",
+      "articles": [
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Repositories Are Human/Agent Knowledge Factories",
+          "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
+          "date": "2026-04-21T09:00:48+00:00",
+          "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Think Globally, Discuss PL Locally",
+          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+          "date": "2025-09-16T13:09:36+00:00",
+          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+          "author": "Harrison Goldstein"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Reserve Reviewer Policy",
+          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+          "date": "2025-09-09T15:59:52+00:00",
+          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+          "author": "Shriram Krishnamurthi"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "AI Models Need a Virtual Machine",
+          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+          "date": "2025-08-29T09:00:39+00:00",
+          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+          "date": "2025-05-19T13:43:38+00:00",
+          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+          "author": "Adrian Sampson"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "How to Give a Good Talk",
+          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+          "date": "2025-03-31T13:00:03+00:00",
+          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+          "author": "Michael Greenberg"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+          "date": "2025-03-20T16:21:36+00:00",
+          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+          "date": "2025-01-29T13:00:02+00:00",
+          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+          "author": "Andreia Mordido"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Missing Mentoring Pillar",
+          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+          "date": "2025-01-13T14:00:31+00:00",
+          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+          "author": "Rachit Nigam"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "“Should PLDI return to in-person Program Committee meetings?” – Survey results",
+          "link": "https://blog.sigplan.org/2025/01/02/should-pldi-return-to-in-person-program-committee-meetings-survey-results/",
+          "date": "2025-01-02T13:00:44+00:00",
+          "excerpt": "[Note: Since PLDI joined the PACM-PL journal, what was previously called Program Committee is now called Review Committee. In the following, we use the term Program Committee (PC) because it is a better-known term.] Prior to PLDI 2021, the PLDI conference always held in-person program committee meet",
+          "author": "Alastair Donaldson"
         }
       ]
     }
