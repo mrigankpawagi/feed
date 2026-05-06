@@ -36,4 +36,8 @@ const FEEDS = [
     name: "Leonardo de Moura",
     url: "https://leodemoura.github.io/feed.xml",
   },
+  {
+    name: "Mike Hicks",
+    url: "https://mhicks.me/blog/index.xml",
+  },
 ];
