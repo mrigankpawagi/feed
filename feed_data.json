@@ -1,6 +1,126 @@
 {
-  "lastUpdated": "2026-05-06T18:33:05.559854+00:00",
+  "lastUpdated": "2026-05-07T08:19:21.934427+00:00",
   "articles": [
+    {
+      "feed": "Simon Willison",
+      "title": "Live blog: Code w/ Claude 2026",
+      "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-entries",
+      "date": "2026-05-06T15:58:27+00:00",
+      "excerpt": "I'm at Anthropic's Code w/ Claude event in 2026, and I'll be live blogging the keynote and a few other notes throughout the day. You are only seeing the long-form articles from my blog. Subscribe to /atom/everything/ to get all of my posts, or take a look at my other subscription options .",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
+      "date": "2026-05-06T14:24:08+00:00",
+      "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "LLM 0.32a0  is a major backwards-compatible refactor",
+      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
+      "date": "2026-04-29T19:01:47+00:00",
+      "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
+      "date": "2026-04-27T18:38:17+00:00",
+      "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
+      "date": "2026-04-24T06:01:04+00:00",
+      "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Extract PDF text in your browser with LiteParse for the web",
+      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
+      "date": "2026-04-23T21:54:24+00:00",
+      "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+      "date": "2026-04-23T19:59:47+00:00",
+      "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
+      "date": "2026-04-22T02:07:34+00:00",
+      "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
+      "date": "2026-04-21T20:32:24+00:00",
+      "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
+      "date": "2026-04-18T23:59:40+00:00",
+      "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
+      "date": "2026-04-17T23:59:03+00:00",
+      "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
+      "date": "2026-04-16T17:16:52+00:00",
+      "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
+      "date": "2026-04-08T23:07:44+00:00",
+      "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
+      "date": "2026-04-07T20:52:54+00:00",
+      "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "The Axios supply chain attack used individually targeted social engineering",
+      "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
+      "date": "2026-04-03T13:54:53+00:00",
+      "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+      "author": ""
+    },
     {
       "feed": "Automating Mathematics",
       "title": "AI and the Pointy Haired Boss",
@@ -1258,6 +1378,22 @@
       "author": ""
     },
     {
+      "feed": "Yukta Subramanian",
+      "title": "Cancer is getting on my nerves (literally!)",
+      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+      "date": "2026-02-24T19:06:27+00:00",
+      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Yukta Subramanian",
+      "title": "The Tick-Tock Within Us",
+      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+      "date": "2025-01-03T15:09:23+00:00",
+      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+      "author": "Yukta Subramanian"
+    },
+    {
       "feed": "Hillel Wayne",
       "title": "New Logic for Programmers (and the future of this newsletter)",
       "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/",
@@ -1498,139 +1634,83 @@
       "author": ""
     },
     {
-      "feed": "Yukta Subramanian",
-      "title": "Cancer is getting on my nerves (literally!)",
-      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-      "date": "2026-02-24T19:06:27+00:00",
-      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "The Tick-Tock Within Us",
-      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-      "date": "2025-01-03T15:09:23+00:00",
-      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Live blog: Code w/ Claude 2026",
-      "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-entries",
-      "date": "2026-05-06T15:58:27+00:00",
-      "excerpt": "I'm at Anthropic's Code w/ Claude event in 2026, and I'll be live blogging the keynote and a few other notes throughout the day. You are only seeing the long-form articles from my blog. Subscribe to /atom/everything/ to get all of my posts, or take a look at my other subscription options .",
+      "feed": "Matt Might",
+      "title": "HOWTO: Change your behavior",
+      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+      "date": "2024-01-14T12:14:05-06:00",
+      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
-      "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
-      "date": "2026-05-06T14:24:08+00:00",
-      "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own ",
+      "feed": "Matt Might",
+      "title": "Hello, Perceptron: An introduction to artificial neural networks",
+      "link": "http://matt.might.net/articles/hello-perceptron/",
+      "date": "2023-05-05T09:05:31-05:00",
+      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "LLM 0.32a0  is a major backwards-compatible refactor",
-      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
-      "date": "2026-04-29T19:01:47+00:00",
-      "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
+      "feed": "Matt Might",
+      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+      "date": "2023-04-01T10:48:44-05:00",
+      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
-      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
-      "date": "2026-04-27T18:38:17+00:00",
-      "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+      "feed": "Matt Might",
+      "title": "12 resolutions for programmers",
+      "link": "http://matt.might.net/articles/programmers-resolutions/",
+      "date": "2012-01-03T08:06:54-07:00",
+      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
-      "date": "2026-04-24T06:01:04+00:00",
-      "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+      "link": "http://matt.might.net/articles/26-languages-part2/",
+      "date": "2022-12-31T12:36:56-07:00",
+      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "Extract PDF text in your browser with LiteParse for the web",
-      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
-      "date": "2026-04-23T21:54:24+00:00",
-      "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+      "link": "http://matt.might.net/articles/26-languages-part1/",
+      "date": "2022-12-27T16:28:42-07:00",
+      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
-      "date": "2026-04-23T19:59:47+00:00",
-      "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+      "feed": "Matt Might",
+      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+      "date": "2022-11-28T06:16:39-06:00",
+      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
-      "date": "2026-04-22T02:07:34+00:00",
-      "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+      "feed": "Matt Might",
+      "title": "HOWTO: Control yourself",
+      "link": "http://matt.might.net/articles/how-to-control-yourself/",
+      "date": "2022-11-01T13:05:08-05:00",
+      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
-      "date": "2026-04-21T20:32:24+00:00",
-      "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+      "feed": "Matt Might",
+      "title": "HOWTO: Get tenure",
+      "link": "http://matt.might.net/articles/tenure/",
+      "date": "2015-08-18T10:33:03-06:00",
+      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
       "author": ""
     },
     {
-      "feed": "Simon Willison",
-      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
-      "date": "2026-04-18T23:59:40+00:00",
-      "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
-      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
-      "date": "2026-04-17T23:59:03+00:00",
-      "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
-      "date": "2026-04-16T17:16:52+00:00",
-      "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
-      "date": "2026-04-08T23:07:44+00:00",
-      "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
-      "date": "2026-04-07T20:52:54+00:00",
-      "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "The Axios supply chain attack used individually targeted social engineering",
-      "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
-      "date": "2026-04-03T13:54:53+00:00",
-      "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+      "feed": "Matt Might",
+      "title": "Counting hash collisions with the birthday paradox",
+      "link": "http://matt.might.net/articles/counting-hash-collisions/",
+      "date": "2015-07-16T23:33:41-04:00",
+      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
       "author": ""
     },
     {
@@ -1794,86 +1874,6 @@
       "author": "Adam Mastroianni"
     },
     {
-      "feed": "Matt Might",
-      "title": "HOWTO: Change your behavior",
-      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-      "date": "2024-01-14T12:14:05-06:00",
-      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Hello, Perceptron: An introduction to artificial neural networks",
-      "link": "http://matt.might.net/articles/hello-perceptron/",
-      "date": "2023-05-05T09:05:31-05:00",
-      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-      "date": "2023-04-01T10:48:44-05:00",
-      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "12 resolutions for programmers",
-      "link": "http://matt.might.net/articles/programmers-resolutions/",
-      "date": "2012-01-03T08:06:54-07:00",
-      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-      "link": "http://matt.might.net/articles/26-languages-part2/",
-      "date": "2022-12-31T12:36:56-07:00",
-      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-      "link": "http://matt.might.net/articles/26-languages-part1/",
-      "date": "2022-12-27T16:28:42-07:00",
-      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-      "date": "2022-11-28T06:16:39-06:00",
-      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Control yourself",
-      "link": "http://matt.might.net/articles/how-to-control-yourself/",
-      "date": "2022-11-01T13:05:08-05:00",
-      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Get tenure",
-      "link": "http://matt.might.net/articles/tenure/",
-      "date": "2015-08-18T10:33:03-06:00",
-      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Counting hash collisions with the birthday paradox",
-      "link": "http://matt.might.net/articles/counting-hash-collisions/",
-      "date": "2015-07-16T23:33:41-04:00",
-      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
-      "author": ""
-    },
-    {
       "feed": "SIGPLAN Blog",
       "title": "Repositories Are Human/Agent Knowledge Factories",
       "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
@@ -1956,6 +1956,132 @@
   ],
   "errors": {},
   "feedCache": {
+    "Simon Willison": {
+      "etag": null,
+      "last_modified": "Wed, 06 May 2026 15:58:27 GMT",
+      "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "Live blog: Code w/ Claude 2026",
+          "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-entries",
+          "date": "2026-05-06T15:58:27+00:00",
+          "excerpt": "I'm at Anthropic's Code w/ Claude event in 2026, and I'll be live blogging the keynote and a few other notes throughout the day. You are only seeing the long-form articles from my blog. Subscribe to /atom/everything/ to get all of my posts, or take a look at my other subscription options .",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+          "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
+          "date": "2026-05-06T14:24:08+00:00",
+          "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "LLM 0.32a0  is a major backwards-compatible refactor",
+          "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
+          "date": "2026-04-29T19:01:47+00:00",
+          "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
+          "date": "2026-04-27T18:38:17+00:00",
+          "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
+          "date": "2026-04-24T06:01:04+00:00",
+          "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Extract PDF text in your browser with LiteParse for the web",
+          "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
+          "date": "2026-04-23T21:54:24+00:00",
+          "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+          "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+          "date": "2026-04-23T19:59:47+00:00",
+          "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+          "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
+          "date": "2026-04-22T02:07:34+00:00",
+          "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+          "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
+          "date": "2026-04-21T20:32:24+00:00",
+          "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+          "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
+          "date": "2026-04-18T23:59:40+00:00",
+          "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+          "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
+          "date": "2026-04-17T23:59:03+00:00",
+          "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+          "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
+          "date": "2026-04-16T17:16:52+00:00",
+          "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+          "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
+          "date": "2026-04-08T23:07:44+00:00",
+          "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+          "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
+          "date": "2026-04-07T20:52:54+00:00",
+          "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "The Axios supply chain attack used individually targeted social engineering",
+          "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
+          "date": "2026-04-03T13:54:53+00:00",
+          "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+          "author": ""
+        }
+      ]
+    },
     "Automating Mathematics": {
       "etag": "\"69a515ff-3f8e\"",
       "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
@@ -3236,6 +3362,28 @@
         }
       ]
     },
+    "Yukta Subramanian": {
+      "etag": null,
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "Yukta Subramanian",
+          "title": "Cancer is getting on my nerves (literally!)",
+          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+          "date": "2026-02-24T19:06:27+00:00",
+          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+          "author": "Yukta Subramanian"
+        },
+        {
+          "feed": "Yukta Subramanian",
+          "title": "The Tick-Tock Within Us",
+          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+          "date": "2025-01-03T15:09:23+00:00",
+          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+          "author": "Yukta Subramanian"
+        }
+      ]
+    },
     "Hillel Wayne": {
       "etag": null,
       "last_modified": "Wed, 06 May 2026 17:03:46 GMT",
@@ -3482,156 +3630,94 @@
         }
       ]
     },
-    "Yukta Subramanian": {
-      "etag": null,
-      "last_modified": null,
+    "Matt Might": {
+      "etag": "\"65a425c0-55cf\"",
+      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
       "articles": [
         {
-          "feed": "Yukta Subramanian",
-          "title": "Cancer is getting on my nerves (literally!)",
-          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-          "date": "2026-02-24T19:06:27+00:00",
-          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-          "author": "Yukta Subramanian"
-        },
-        {
-          "feed": "Yukta Subramanian",
-          "title": "The Tick-Tock Within Us",
-          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-          "date": "2025-01-03T15:09:23+00:00",
-          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-          "author": "Yukta Subramanian"
-        }
-      ]
-    },
-    "Simon Willison": {
-      "etag": null,
-      "last_modified": "Wed, 06 May 2026 15:58:27 GMT",
-      "articles": [
-        {
-          "feed": "Simon Willison",
-          "title": "Live blog: Code w/ Claude 2026",
-          "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-entries",
-          "date": "2026-05-06T15:58:27+00:00",
-          "excerpt": "I'm at Anthropic's Code w/ Claude event in 2026, and I'll be live blogging the keynote and a few other notes throughout the day. You are only seeing the long-form articles from my blog. Subscribe to /atom/everything/ to get all of my posts, or take a look at my other subscription options .",
+          "feed": "Matt Might",
+          "title": "HOWTO: Change your behavior",
+          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+          "date": "2024-01-14T12:14:05-06:00",
+          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
           "author": ""
         },
         {
-          "feed": "Simon Willison",
-          "title": "Vibe coding and agentic engineering are getting closer than I'd like",
-          "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
-          "date": "2026-05-06T14:24:08+00:00",
-          "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own ",
+          "feed": "Matt Might",
+          "title": "Hello, Perceptron: An introduction to artificial neural networks",
+          "link": "http://matt.might.net/articles/hello-perceptron/",
+          "date": "2023-05-05T09:05:31-05:00",
+          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
           "author": ""
         },
         {
-          "feed": "Simon Willison",
-          "title": "LLM 0.32a0  is a major backwards-compatible refactor",
-          "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
-          "date": "2026-04-29T19:01:47+00:00",
-          "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
+          "feed": "Matt Might",
+          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+          "date": "2023-04-01T10:48:44-05:00",
+          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
           "author": ""
         },
         {
-          "feed": "Simon Willison",
-          "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
-          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
-          "date": "2026-04-27T18:38:17+00:00",
-          "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+          "feed": "Matt Might",
+          "title": "12 resolutions for programmers",
+          "link": "http://matt.might.net/articles/programmers-resolutions/",
+          "date": "2012-01-03T08:06:54-07:00",
+          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
           "author": ""
         },
         {
-          "feed": "Simon Willison",
-          "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
-          "date": "2026-04-24T06:01:04+00:00",
-          "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+          "link": "http://matt.might.net/articles/26-languages-part2/",
+          "date": "2022-12-31T12:36:56-07:00",
+          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
           "author": ""
         },
         {
-          "feed": "Simon Willison",
-          "title": "Extract PDF text in your browser with LiteParse for the web",
-          "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
-          "date": "2026-04-23T21:54:24+00:00",
-          "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+          "link": "http://matt.might.net/articles/26-languages-part1/",
+          "date": "2022-12-27T16:28:42-07:00",
+          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
           "author": ""
         },
         {
-          "feed": "Simon Willison",
-          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-          "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
-          "date": "2026-04-23T19:59:47+00:00",
-          "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+          "feed": "Matt Might",
+          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+          "date": "2022-11-28T06:16:39-06:00",
+          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
           "author": ""
         },
         {
-          "feed": "Simon Willison",
-          "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-          "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
-          "date": "2026-04-22T02:07:34+00:00",
-          "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+          "feed": "Matt Might",
+          "title": "HOWTO: Control yourself",
+          "link": "http://matt.might.net/articles/how-to-control-yourself/",
+          "date": "2022-11-01T13:05:08-05:00",
+          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
           "author": ""
         },
         {
-          "feed": "Simon Willison",
-          "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-          "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
-          "date": "2026-04-21T20:32:24+00:00",
-          "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+          "feed": "Matt Might",
+          "title": "HOWTO: Get tenure",
+          "link": "http://matt.might.net/articles/tenure/",
+          "date": "2015-08-18T10:33:03-06:00",
+          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
           "author": ""
         },
         {
-          "feed": "Simon Willison",
-          "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-          "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
-          "date": "2026-04-18T23:59:40+00:00",
-          "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
-          "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
-          "date": "2026-04-17T23:59:03+00:00",
-          "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-          "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
-          "date": "2026-04-16T17:16:52+00:00",
-          "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-          "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
-          "date": "2026-04-08T23:07:44+00:00",
-          "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-          "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
-          "date": "2026-04-07T20:52:54+00:00",
-          "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "The Axios supply chain attack used individually targeted social engineering",
-          "link": "https://simonwillison.net/2026/Apr/3/supply-chain-social-engineering/#atom-entries",
-          "date": "2026-04-03T13:54:53+00:00",
-          "excerpt": "The Axios team have published a full postmortem on the supply chain attack which resulted in a malware dependency going out in a release the other day , and it involved a sophisticated social engineering campaign targeting one of their maintainers directly. Here's Jason Saayman'a description of how ",
+          "feed": "Matt Might",
+          "title": "Counting hash collisions with the birthday paradox",
+          "link": "http://matt.might.net/articles/counting-hash-collisions/",
+          "date": "2015-07-16T23:33:41-04:00",
+          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
           "author": ""
         }
       ]
     },
     "Experimental History": {
-      "etag": "W/\"109d14-jDS989kh0O0VCKFqBVXCvCXIcXc\"",
+      "etag": "W/\"109d14-mV94HAJ+Sg46lx25VXYN8cbaACo\"",
       "last_modified": null,
       "articles": [
         {
@@ -3793,92 +3879,6 @@
           "date": "2025-07-22T18:11:25+00:00",
           "excerpt": "photo cred: my dad Years ago, I was getting ready for a party and I suddenly realized something: I didn’t want to go to the party. Inevitably, I knew, I was going to get stuck talking to someone, and there wouldn’t be any way to end the conversation without embarrassing both of us (“It’s been great ",
           "author": "Adam Mastroianni"
-        }
-      ]
-    },
-    "Matt Might": {
-      "etag": "\"65a425c0-55cf\"",
-      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
-      "articles": [
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Change your behavior",
-          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-          "date": "2024-01-14T12:14:05-06:00",
-          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Hello, Perceptron: An introduction to artificial neural networks",
-          "link": "http://matt.might.net/articles/hello-perceptron/",
-          "date": "2023-05-05T09:05:31-05:00",
-          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-          "date": "2023-04-01T10:48:44-05:00",
-          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "12 resolutions for programmers",
-          "link": "http://matt.might.net/articles/programmers-resolutions/",
-          "date": "2012-01-03T08:06:54-07:00",
-          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-          "link": "http://matt.might.net/articles/26-languages-part2/",
-          "date": "2022-12-31T12:36:56-07:00",
-          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-          "link": "http://matt.might.net/articles/26-languages-part1/",
-          "date": "2022-12-27T16:28:42-07:00",
-          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-          "date": "2022-11-28T06:16:39-06:00",
-          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Control yourself",
-          "link": "http://matt.might.net/articles/how-to-control-yourself/",
-          "date": "2022-11-01T13:05:08-05:00",
-          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Get tenure",
-          "link": "http://matt.might.net/articles/tenure/",
-          "date": "2015-08-18T10:33:03-06:00",
-          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Counting hash collisions with the birthday paradox",
-          "link": "http://matt.might.net/articles/counting-hash-collisions/",
-          "date": "2015-07-16T23:33:41-04:00",
-          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
-          "author": ""
         }
       ]
     },
