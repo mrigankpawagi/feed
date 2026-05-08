@@ -40,4 +40,8 @@ const FEEDS = [
     name: "Mike Hicks",
     url: "https://mhicks.me/blog/index.xml",
   },
+  {
+    name: "The ReadME Project",
+    url: "https://github.com/readme.rss",
+  },
 ];
