@@ -1,94 +1,6 @@
 {
-  "lastUpdated": "2026-05-09T07:44:56.821714+00:00",
+  "lastUpdated": "2026-05-10T07:58:38.277976+00:00",
   "articles": [
-    {
-      "feed": "Mike Hicks",
-      "title": "Beyond Penetrate-and-Patch",
-      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-      "date": "2026-05-05T00:00:00+00:00",
-      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-      "author": ""
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Hello, World: A New Blog",
-      "link": "https://mhicks.me/blog/hello-world/",
-      "date": "2026-03-12T00:00:00+00:00",
-      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Signal Shot: The Platform Is Ready",
-      "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
-      "date": "2026-04-20T00:00:00+00:00",
-      "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Why Lean?",
-      "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
-      "date": "2026-04-02T00:00:00+00:00",
-      "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Cray Colloquium at the University of Minnesota",
-      "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
-      "date": "2026-03-28T00:00:00+00:00",
-      "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Who Watches the Provers?",
-      "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
-      "date": "2026-03-16T00:00:00+00:00",
-      "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "This website is now powered by Verso",
-      "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
-      "date": "2026-03-15T00:00:00+00:00",
-      "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Teaching AI to Make Proof Automation Work",
-      "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
-      "date": "2026-03-14T00:00:00+00:00",
-      "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "sym => : interactive mode for scalable verification",
-      "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
-      "date": "2026-03-13T00:00:00+00:00",
-      "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "When AI Writes the World's Software, Who Verifies It?",
-      "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
-      "date": "2026-02-28T00:00:00+00:00",
-      "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Proof Assistants in the Age of AI",
-      "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
-      "date": "2026-02-18T00:00:00+00:00",
-      "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
-      "author": ""
-    },
     {
       "feed": "Simon Willison",
       "title": "Notes on the xAI/Anthropic data center deal",
@@ -352,6 +264,94 @@
       "date": "2019-10-03T21:14:02+05:30",
       "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
       "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Signal Shot: The Platform Is Ready",
+      "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
+      "date": "2026-04-20T00:00:00+00:00",
+      "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Why Lean?",
+      "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
+      "date": "2026-04-02T00:00:00+00:00",
+      "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Cray Colloquium at the University of Minnesota",
+      "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
+      "date": "2026-03-28T00:00:00+00:00",
+      "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Who Watches the Provers?",
+      "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
+      "date": "2026-03-16T00:00:00+00:00",
+      "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "This website is now powered by Verso",
+      "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
+      "date": "2026-03-15T00:00:00+00:00",
+      "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Teaching AI to Make Proof Automation Work",
+      "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
+      "date": "2026-03-14T00:00:00+00:00",
+      "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "sym => : interactive mode for scalable verification",
+      "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
+      "date": "2026-03-13T00:00:00+00:00",
+      "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "When AI Writes the World's Software, Who Verifies It?",
+      "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+      "date": "2026-02-28T00:00:00+00:00",
+      "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Proof Assistants in the Age of AI",
+      "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
+      "date": "2026-02-18T00:00:00+00:00",
+      "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
+      "author": ""
+    },
+    {
+      "feed": "Mike Hicks",
+      "title": "Beyond Penetrate-and-Patch",
+      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+      "date": "2026-05-05T00:00:00+00:00",
+      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+      "author": ""
+    },
+    {
+      "feed": "Mike Hicks",
+      "title": "Hello, World: A New Blog",
+      "link": "https://mhicks.me/blog/hello-world/",
+      "date": "2026-03-12T00:00:00+00:00",
+      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+      "author": ""
     },
     {
       "feed": "The ReadME Project",
@@ -1618,20 +1618,164 @@
       "author": ""
     },
     {
-      "feed": "Yukta Subramanian",
-      "title": "Cancer is getting on my nerves (literally!)",
-      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-      "date": "2026-02-24T19:06:27+00:00",
-      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-      "author": "Yukta Subramanian"
+      "feed": "Experimental History",
+      "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
+      "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
+      "date": "2026-04-28T17:48:50+00:00",
+      "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
+      "author": "Adam Mastroianni"
     },
     {
-      "feed": "Yukta Subramanian",
-      "title": "The Tick-Tock Within Us",
-      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-      "date": "2025-01-03T15:09:23+00:00",
-      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-      "author": "Yukta Subramanian"
+      "feed": "Experimental History",
+      "title": "Nothing ever dies. It merely becomes embarrassing.",
+      "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
+      "date": "2026-04-14T16:16:42+00:00",
+      "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Infinite midwit",
+      "link": "https://www.experimental-history.com/p/infinite-midwit",
+      "date": "2026-03-31T16:05:29+00:00",
+      "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Help I'm being persecuted",
+      "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
+      "date": "2026-03-17T13:33:13+00:00",
+      "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The one science reform we can all agree on, but we're too cowardly to do",
+      "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
+      "date": "2026-03-03T17:47:57+00:00",
+      "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "I swear the UFO is coming any minute",
+      "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
+      "date": "2026-02-17T16:15:11+00:00",
+      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Underrated ways to change the world, vol. II",
+      "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
+      "date": "2026-02-03T16:28:19+00:00",
+      "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "I know your secret",
+      "link": "https://www.experimental-history.com/p/i-know-your-secret",
+      "date": "2026-01-27T16:22:32+00:00",
+      "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Text is king",
+      "link": "https://www.experimental-history.com/p/text-is-king",
+      "date": "2026-01-20T18:55:47+00:00",
+      "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "How to be less awkward",
+      "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
+      "date": "2026-01-06T16:45:44+00:00",
+      "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The drug that taught me how much I should suffer",
+      "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
+      "date": "2025-12-09T17:46:17+00:00",
+      "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Secrets of the ancient memelords",
+      "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
+      "date": "2025-11-25T19:17:23+00:00",
+      "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "You say potato, I say leprosy",
+      "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
+      "date": "2025-11-12T00:45:53+00:00",
+      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The Decline of Deviance",
+      "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
+      "date": "2025-10-28T15:21:32+00:00",
+      "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Bamboozle me, daddy",
+      "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
+      "date": "2025-10-14T15:48:04+00:00",
+      "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Thank you for being annoying",
+      "link": "https://www.experimental-history.com/p/thank-you-for-being-annoying",
+      "date": "2025-09-30T14:35:46+00:00",
+      "excerpt": "photo cred: my dad “Do what you love” is the most dangerous sentence in the English language. We send kids into the world with that mantra in their heads, and then they return shellshocked and ashamed, because they couldn’t do it. Many of them end up believing that they are the one person on Earth w",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Blog Extravaganza 2025: the winners",
+      "link": "https://www.experimental-history.com/p/blog-extravaganza-2025-the-winners",
+      "date": "2025-09-16T14:14:58+00:00",
+      "excerpt": "photo cred: my dad Back in May, I announced the Second Annual Experimental History Blog Post Competition, Extravaganza, and Jamboree. The prompt was “send me a never-before-published blog post, and if I like it I’ll post about it and send you cash.” I got 109 submissions from folks all over the worl",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Use this magic bullet to shoot yourself in the foot",
+      "link": "https://www.experimental-history.com/p/use-this-magic-bullet-to-shoot-yourself",
+      "date": "2025-09-02T16:48:01+00:00",
+      "excerpt": "photo cred: my dad Everyone I know has given up. That’s how it feels, at least. There’s a creeping sense that the jig is up, the fix is in, and the party’s over. The Earth is burning, democracies are backsliding, AI is advancing, cities are crumbling—somehow everything sucks and it’s more expensive ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Bag of words, have mercy on us",
+      "link": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
+      "date": "2025-08-05T20:06:09+00:00",
+      "excerpt": "photo cred: my dad Look, I don’t know if AI is gonna kill us or make us all rich or whatever, but I do know we’ve got the wrong metaphor. We want to understand these things as people . When you type a question to ChatGPT and it types back the answer in complete sentences, it feels like there must be",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Do conversations end when people want them to?",
+      "link": "https://www.experimental-history.com/p/do-conversations-end-when-people",
+      "date": "2025-07-22T18:11:25+00:00",
+      "excerpt": "photo cred: my dad Years ago, I was getting ready for a party and I suddenly realized something: I didn’t want to go to the party. Inevitably, I knew, I was going to get stuck talking to someone, and there wouldn’t be any way to end the conversation without embarrassing both of us (“It’s been great ",
+      "author": "Adam Mastroianni"
     },
     {
       "feed": "Hillel Wayne",
@@ -1874,164 +2018,20 @@
       "author": ""
     },
     {
-      "feed": "Experimental History",
-      "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
-      "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
-      "date": "2026-04-28T17:48:50+00:00",
-      "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
-      "author": "Adam Mastroianni"
+      "feed": "Yukta Subramanian",
+      "title": "Cancer is getting on my nerves (literally!)",
+      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+      "date": "2026-02-24T19:06:27+00:00",
+      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+      "author": "Yukta Subramanian"
     },
     {
-      "feed": "Experimental History",
-      "title": "Nothing ever dies. It merely becomes embarrassing.",
-      "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
-      "date": "2026-04-14T16:16:42+00:00",
-      "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Infinite midwit",
-      "link": "https://www.experimental-history.com/p/infinite-midwit",
-      "date": "2026-03-31T16:05:29+00:00",
-      "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Help I'm being persecuted",
-      "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
-      "date": "2026-03-17T13:33:13+00:00",
-      "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The one science reform we can all agree on, but we're too cowardly to do",
-      "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
-      "date": "2026-03-03T17:47:57+00:00",
-      "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "I swear the UFO is coming any minute",
-      "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
-      "date": "2026-02-17T16:15:11+00:00",
-      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Underrated ways to change the world, vol. II",
-      "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
-      "date": "2026-02-03T16:28:19+00:00",
-      "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "I know your secret",
-      "link": "https://www.experimental-history.com/p/i-know-your-secret",
-      "date": "2026-01-27T16:22:32+00:00",
-      "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Text is king",
-      "link": "https://www.experimental-history.com/p/text-is-king",
-      "date": "2026-01-20T18:55:47+00:00",
-      "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "How to be less awkward",
-      "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
-      "date": "2026-01-06T16:45:44+00:00",
-      "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The drug that taught me how much I should suffer",
-      "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
-      "date": "2025-12-09T17:46:17+00:00",
-      "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Secrets of the ancient memelords",
-      "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
-      "date": "2025-11-25T19:17:23+00:00",
-      "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "You say potato, I say leprosy",
-      "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
-      "date": "2025-11-12T00:45:53+00:00",
-      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The Decline of Deviance",
-      "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
-      "date": "2025-10-28T15:21:32+00:00",
-      "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Bamboozle me, daddy",
-      "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
-      "date": "2025-10-14T15:48:04+00:00",
-      "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Thank you for being annoying",
-      "link": "https://www.experimental-history.com/p/thank-you-for-being-annoying",
-      "date": "2025-09-30T14:35:46+00:00",
-      "excerpt": "photo cred: my dad “Do what you love” is the most dangerous sentence in the English language. We send kids into the world with that mantra in their heads, and then they return shellshocked and ashamed, because they couldn’t do it. Many of them end up believing that they are the one person on Earth w",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Blog Extravaganza 2025: the winners",
-      "link": "https://www.experimental-history.com/p/blog-extravaganza-2025-the-winners",
-      "date": "2025-09-16T14:14:58+00:00",
-      "excerpt": "photo cred: my dad Back in May, I announced the Second Annual Experimental History Blog Post Competition, Extravaganza, and Jamboree. The prompt was “send me a never-before-published blog post, and if I like it I’ll post about it and send you cash.” I got 109 submissions from folks all over the worl",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Use this magic bullet to shoot yourself in the foot",
-      "link": "https://www.experimental-history.com/p/use-this-magic-bullet-to-shoot-yourself",
-      "date": "2025-09-02T16:48:01+00:00",
-      "excerpt": "photo cred: my dad Everyone I know has given up. That’s how it feels, at least. There’s a creeping sense that the jig is up, the fix is in, and the party’s over. The Earth is burning, democracies are backsliding, AI is advancing, cities are crumbling—somehow everything sucks and it’s more expensive ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Bag of words, have mercy on us",
-      "link": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
-      "date": "2025-08-05T20:06:09+00:00",
-      "excerpt": "photo cred: my dad Look, I don’t know if AI is gonna kill us or make us all rich or whatever, but I do know we’ve got the wrong metaphor. We want to understand these things as people . When you type a question to ChatGPT and it types back the answer in complete sentences, it feels like there must be",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Do conversations end when people want them to?",
-      "link": "https://www.experimental-history.com/p/do-conversations-end-when-people",
-      "date": "2025-07-22T18:11:25+00:00",
-      "excerpt": "photo cred: my dad Years ago, I was getting ready for a party and I suddenly realized something: I didn’t want to go to the party. Inevitably, I knew, I was going to get stuck talking to someone, and there wouldn’t be any way to end the conversation without embarrassing both of us (“It’s been great ",
-      "author": "Adam Mastroianni"
+      "feed": "Yukta Subramanian",
+      "title": "The Tick-Tock Within Us",
+      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+      "date": "2025-01-03T15:09:23+00:00",
+      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+      "author": "Yukta Subramanian"
     },
     {
       "feed": "Matt Might",
@@ -2196,106 +2196,6 @@
   ],
   "errors": {},
   "feedCache": {
-    "Mike Hicks": {
-      "etag": "\"69f9dbc7-b0f\"",
-      "last_modified": "Tue, 05 May 2026 12:00:07 GMT",
-      "articles": [
-        {
-          "feed": "Mike Hicks",
-          "title": "Beyond Penetrate-and-Patch",
-          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-          "date": "2026-05-05T00:00:00+00:00",
-          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-          "author": ""
-        },
-        {
-          "feed": "Mike Hicks",
-          "title": "Hello, World: A New Blog",
-          "link": "https://mhicks.me/blog/hello-world/",
-          "date": "2026-03-12T00:00:00+00:00",
-          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-          "author": ""
-        }
-      ]
-    },
-    "Leonardo de Moura": {
-      "etag": "\"69fd5e2e-1e49\"",
-      "last_modified": "Fri, 08 May 2026 03:53:18 GMT",
-      "articles": [
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Signal Shot: The Platform Is Ready",
-          "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
-          "date": "2026-04-20T00:00:00+00:00",
-          "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Why Lean?",
-          "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
-          "date": "2026-04-02T00:00:00+00:00",
-          "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Cray Colloquium at the University of Minnesota",
-          "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
-          "date": "2026-03-28T00:00:00+00:00",
-          "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Who Watches the Provers?",
-          "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
-          "date": "2026-03-16T00:00:00+00:00",
-          "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "This website is now powered by Verso",
-          "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
-          "date": "2026-03-15T00:00:00+00:00",
-          "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Teaching AI to Make Proof Automation Work",
-          "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
-          "date": "2026-03-14T00:00:00+00:00",
-          "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "sym => : interactive mode for scalable verification",
-          "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
-          "date": "2026-03-13T00:00:00+00:00",
-          "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "When AI Writes the World's Software, Who Verifies It?",
-          "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
-          "date": "2026-02-28T00:00:00+00:00",
-          "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Proof Assistants in the Age of AI",
-          "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
-          "date": "2026-02-18T00:00:00+00:00",
-          "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
-          "author": ""
-        }
-      ]
-    },
     "Simon Willison": {
       "etag": null,
       "last_modified": "Thu, 07 May 2026 17:09:28 GMT",
@@ -2569,6 +2469,106 @@
           "date": "2019-10-03T21:14:02+05:30",
           "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
           "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        }
+      ]
+    },
+    "Leonardo de Moura": {
+      "etag": "\"69fd5e2e-1e49\"",
+      "last_modified": "Fri, 08 May 2026 03:53:18 GMT",
+      "articles": [
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Signal Shot: The Platform Is Ready",
+          "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
+          "date": "2026-04-20T00:00:00+00:00",
+          "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Why Lean?",
+          "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
+          "date": "2026-04-02T00:00:00+00:00",
+          "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Cray Colloquium at the University of Minnesota",
+          "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
+          "date": "2026-03-28T00:00:00+00:00",
+          "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Who Watches the Provers?",
+          "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
+          "date": "2026-03-16T00:00:00+00:00",
+          "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "This website is now powered by Verso",
+          "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
+          "date": "2026-03-15T00:00:00+00:00",
+          "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Teaching AI to Make Proof Automation Work",
+          "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
+          "date": "2026-03-14T00:00:00+00:00",
+          "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "sym => : interactive mode for scalable verification",
+          "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
+          "date": "2026-03-13T00:00:00+00:00",
+          "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "When AI Writes the World's Software, Who Verifies It?",
+          "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+          "date": "2026-02-28T00:00:00+00:00",
+          "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Proof Assistants in the Age of AI",
+          "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
+          "date": "2026-02-18T00:00:00+00:00",
+          "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
+          "author": ""
+        }
+      ]
+    },
+    "Mike Hicks": {
+      "etag": "\"69f9dbc7-b0f\"",
+      "last_modified": "Tue, 05 May 2026 12:00:07 GMT",
+      "articles": [
+        {
+          "feed": "Mike Hicks",
+          "title": "Beyond Penetrate-and-Patch",
+          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+          "date": "2026-05-05T00:00:00+00:00",
+          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+          "author": ""
+        },
+        {
+          "feed": "Mike Hicks",
+          "title": "Hello, World: A New Blog",
+          "link": "https://mhicks.me/blog/hello-world/",
+          "date": "2026-03-12T00:00:00+00:00",
+          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+          "author": ""
         }
       ]
     },
@@ -3848,25 +3848,169 @@
         }
       ]
     },
-    "Yukta Subramanian": {
-      "etag": null,
+    "Experimental History": {
+      "etag": "W/\"109d14-dLElA7OmjvUWr6A1Fv2vnPXl3EE\"",
       "last_modified": null,
       "articles": [
         {
-          "feed": "Yukta Subramanian",
-          "title": "Cancer is getting on my nerves (literally!)",
-          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-          "date": "2026-02-24T19:06:27+00:00",
-          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-          "author": "Yukta Subramanian"
+          "feed": "Experimental History",
+          "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
+          "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
+          "date": "2026-04-28T17:48:50+00:00",
+          "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
+          "author": "Adam Mastroianni"
         },
         {
-          "feed": "Yukta Subramanian",
-          "title": "The Tick-Tock Within Us",
-          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-          "date": "2025-01-03T15:09:23+00:00",
-          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-          "author": "Yukta Subramanian"
+          "feed": "Experimental History",
+          "title": "Nothing ever dies. It merely becomes embarrassing.",
+          "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
+          "date": "2026-04-14T16:16:42+00:00",
+          "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Infinite midwit",
+          "link": "https://www.experimental-history.com/p/infinite-midwit",
+          "date": "2026-03-31T16:05:29+00:00",
+          "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Help I'm being persecuted",
+          "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
+          "date": "2026-03-17T13:33:13+00:00",
+          "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The one science reform we can all agree on, but we're too cowardly to do",
+          "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
+          "date": "2026-03-03T17:47:57+00:00",
+          "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "I swear the UFO is coming any minute",
+          "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
+          "date": "2026-02-17T16:15:11+00:00",
+          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Underrated ways to change the world, vol. II",
+          "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
+          "date": "2026-02-03T16:28:19+00:00",
+          "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "I know your secret",
+          "link": "https://www.experimental-history.com/p/i-know-your-secret",
+          "date": "2026-01-27T16:22:32+00:00",
+          "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Text is king",
+          "link": "https://www.experimental-history.com/p/text-is-king",
+          "date": "2026-01-20T18:55:47+00:00",
+          "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "How to be less awkward",
+          "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
+          "date": "2026-01-06T16:45:44+00:00",
+          "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The drug that taught me how much I should suffer",
+          "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
+          "date": "2025-12-09T17:46:17+00:00",
+          "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Secrets of the ancient memelords",
+          "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
+          "date": "2025-11-25T19:17:23+00:00",
+          "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "You say potato, I say leprosy",
+          "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
+          "date": "2025-11-12T00:45:53+00:00",
+          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The Decline of Deviance",
+          "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
+          "date": "2025-10-28T15:21:32+00:00",
+          "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Bamboozle me, daddy",
+          "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
+          "date": "2025-10-14T15:48:04+00:00",
+          "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Thank you for being annoying",
+          "link": "https://www.experimental-history.com/p/thank-you-for-being-annoying",
+          "date": "2025-09-30T14:35:46+00:00",
+          "excerpt": "photo cred: my dad “Do what you love” is the most dangerous sentence in the English language. We send kids into the world with that mantra in their heads, and then they return shellshocked and ashamed, because they couldn’t do it. Many of them end up believing that they are the one person on Earth w",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Blog Extravaganza 2025: the winners",
+          "link": "https://www.experimental-history.com/p/blog-extravaganza-2025-the-winners",
+          "date": "2025-09-16T14:14:58+00:00",
+          "excerpt": "photo cred: my dad Back in May, I announced the Second Annual Experimental History Blog Post Competition, Extravaganza, and Jamboree. The prompt was “send me a never-before-published blog post, and if I like it I’ll post about it and send you cash.” I got 109 submissions from folks all over the worl",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Use this magic bullet to shoot yourself in the foot",
+          "link": "https://www.experimental-history.com/p/use-this-magic-bullet-to-shoot-yourself",
+          "date": "2025-09-02T16:48:01+00:00",
+          "excerpt": "photo cred: my dad Everyone I know has given up. That’s how it feels, at least. There’s a creeping sense that the jig is up, the fix is in, and the party’s over. The Earth is burning, democracies are backsliding, AI is advancing, cities are crumbling—somehow everything sucks and it’s more expensive ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Bag of words, have mercy on us",
+          "link": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
+          "date": "2025-08-05T20:06:09+00:00",
+          "excerpt": "photo cred: my dad Look, I don’t know if AI is gonna kill us or make us all rich or whatever, but I do know we’ve got the wrong metaphor. We want to understand these things as people . When you type a question to ChatGPT and it types back the answer in complete sentences, it feels like there must be",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Do conversations end when people want them to?",
+          "link": "https://www.experimental-history.com/p/do-conversations-end-when-people",
+          "date": "2025-07-22T18:11:25+00:00",
+          "excerpt": "photo cred: my dad Years ago, I was getting ready for a party and I suddenly realized something: I didn’t want to go to the party. Inevitably, I knew, I was going to get stuck talking to someone, and there wouldn’t be any way to end the conversation without embarrassing both of us (“It’s been great ",
+          "author": "Adam Mastroianni"
         }
       ]
     },
@@ -4116,169 +4260,25 @@
         }
       ]
     },
-    "Experimental History": {
-      "etag": "W/\"109d14-G1f8p2v2gkn8XQ9/5Y+U6KYGOsQ\"",
+    "Yukta Subramanian": {
+      "etag": null,
       "last_modified": null,
       "articles": [
         {
-          "feed": "Experimental History",
-          "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
-          "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
-          "date": "2026-04-28T17:48:50+00:00",
-          "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
-          "author": "Adam Mastroianni"
+          "feed": "Yukta Subramanian",
+          "title": "Cancer is getting on my nerves (literally!)",
+          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+          "date": "2026-02-24T19:06:27+00:00",
+          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+          "author": "Yukta Subramanian"
         },
         {
-          "feed": "Experimental History",
-          "title": "Nothing ever dies. It merely becomes embarrassing.",
-          "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
-          "date": "2026-04-14T16:16:42+00:00",
-          "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Infinite midwit",
-          "link": "https://www.experimental-history.com/p/infinite-midwit",
-          "date": "2026-03-31T16:05:29+00:00",
-          "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Help I'm being persecuted",
-          "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
-          "date": "2026-03-17T13:33:13+00:00",
-          "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The one science reform we can all agree on, but we're too cowardly to do",
-          "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
-          "date": "2026-03-03T17:47:57+00:00",
-          "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "I swear the UFO is coming any minute",
-          "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
-          "date": "2026-02-17T16:15:11+00:00",
-          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Underrated ways to change the world, vol. II",
-          "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
-          "date": "2026-02-03T16:28:19+00:00",
-          "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "I know your secret",
-          "link": "https://www.experimental-history.com/p/i-know-your-secret",
-          "date": "2026-01-27T16:22:32+00:00",
-          "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Text is king",
-          "link": "https://www.experimental-history.com/p/text-is-king",
-          "date": "2026-01-20T18:55:47+00:00",
-          "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "How to be less awkward",
-          "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
-          "date": "2026-01-06T16:45:44+00:00",
-          "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The drug that taught me how much I should suffer",
-          "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
-          "date": "2025-12-09T17:46:17+00:00",
-          "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Secrets of the ancient memelords",
-          "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
-          "date": "2025-11-25T19:17:23+00:00",
-          "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "You say potato, I say leprosy",
-          "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
-          "date": "2025-11-12T00:45:53+00:00",
-          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The Decline of Deviance",
-          "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
-          "date": "2025-10-28T15:21:32+00:00",
-          "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Bamboozle me, daddy",
-          "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
-          "date": "2025-10-14T15:48:04+00:00",
-          "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Thank you for being annoying",
-          "link": "https://www.experimental-history.com/p/thank-you-for-being-annoying",
-          "date": "2025-09-30T14:35:46+00:00",
-          "excerpt": "photo cred: my dad “Do what you love” is the most dangerous sentence in the English language. We send kids into the world with that mantra in their heads, and then they return shellshocked and ashamed, because they couldn’t do it. Many of them end up believing that they are the one person on Earth w",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Blog Extravaganza 2025: the winners",
-          "link": "https://www.experimental-history.com/p/blog-extravaganza-2025-the-winners",
-          "date": "2025-09-16T14:14:58+00:00",
-          "excerpt": "photo cred: my dad Back in May, I announced the Second Annual Experimental History Blog Post Competition, Extravaganza, and Jamboree. The prompt was “send me a never-before-published blog post, and if I like it I’ll post about it and send you cash.” I got 109 submissions from folks all over the worl",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Use this magic bullet to shoot yourself in the foot",
-          "link": "https://www.experimental-history.com/p/use-this-magic-bullet-to-shoot-yourself",
-          "date": "2025-09-02T16:48:01+00:00",
-          "excerpt": "photo cred: my dad Everyone I know has given up. That’s how it feels, at least. There’s a creeping sense that the jig is up, the fix is in, and the party’s over. The Earth is burning, democracies are backsliding, AI is advancing, cities are crumbling—somehow everything sucks and it’s more expensive ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Bag of words, have mercy on us",
-          "link": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
-          "date": "2025-08-05T20:06:09+00:00",
-          "excerpt": "photo cred: my dad Look, I don’t know if AI is gonna kill us or make us all rich or whatever, but I do know we’ve got the wrong metaphor. We want to understand these things as people . When you type a question to ChatGPT and it types back the answer in complete sentences, it feels like there must be",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Do conversations end when people want them to?",
-          "link": "https://www.experimental-history.com/p/do-conversations-end-when-people",
-          "date": "2025-07-22T18:11:25+00:00",
-          "excerpt": "photo cred: my dad Years ago, I was getting ready for a party and I suddenly realized something: I didn’t want to go to the party. Inevitably, I knew, I was going to get stuck talking to someone, and there wouldn’t be any way to end the conversation without embarrassing both of us (“It’s been great ",
-          "author": "Adam Mastroianni"
+          "feed": "Yukta Subramanian",
+          "title": "The Tick-Tock Within Us",
+          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+          "date": "2025-01-03T15:09:23+00:00",
+          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+          "author": "Yukta Subramanian"
         }
       ]
     },
