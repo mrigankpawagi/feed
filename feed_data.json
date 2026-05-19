@@ -1,198 +1,6 @@
 {
-  "lastUpdated": "2026-05-18T09:42:46.922321+00:00",
+  "lastUpdated": "2026-05-19T09:27:54.349876+00:00",
   "articles": [
-    {
-      "feed": "Simon Willison",
-      "title": "Notes on the xAI/Anthropic data center deal",
-      "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-entries",
-      "date": "2026-05-07T17:09:28+00:00",
-      "excerpt": "There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use \"all of the capacity of their Colossus data center\". As I mentioned in my live blog of the keynote , that's the one with the part",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Live blog: Code w/ Claude 2026",
-      "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-entries",
-      "date": "2026-05-06T15:58:27+00:00",
-      "excerpt": "I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions. You are only seeing the long-form articles from my blog. Subscribe to /atom/everything/ to get all of my posts, or take a look at my other subscription options .",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
-      "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
-      "date": "2026-05-06T14:24:08+00:00",
-      "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "LLM 0.32a0  is a major backwards-compatible refactor",
-      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
-      "date": "2026-04-29T19:01:47+00:00",
-      "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
-      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
-      "date": "2026-04-27T18:38:17+00:00",
-      "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
-      "date": "2026-04-24T06:01:04+00:00",
-      "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Extract PDF text in your browser with LiteParse for the web",
-      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
-      "date": "2026-04-23T21:54:24+00:00",
-      "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
-      "date": "2026-04-23T19:59:47+00:00",
-      "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
-      "date": "2026-04-22T02:07:34+00:00",
-      "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
-      "date": "2026-04-21T20:32:24+00:00",
-      "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
-      "date": "2026-04-18T23:59:40+00:00",
-      "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
-      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
-      "date": "2026-04-17T23:59:03+00:00",
-      "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
-      "date": "2026-04-16T17:16:52+00:00",
-      "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
-      "date": "2026-04-08T23:07:44+00:00",
-      "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-      "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
-      "date": "2026-04-07T20:52:54+00:00",
-      "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Signal Shot: The Platform Is Ready",
-      "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
-      "date": "2026-04-20T00:00:00+00:00",
-      "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Why Lean?",
-      "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
-      "date": "2026-04-02T00:00:00+00:00",
-      "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Cray Colloquium at the University of Minnesota",
-      "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
-      "date": "2026-03-28T00:00:00+00:00",
-      "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Who Watches the Provers?",
-      "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
-      "date": "2026-03-16T00:00:00+00:00",
-      "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "This website is now powered by Verso",
-      "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
-      "date": "2026-03-15T00:00:00+00:00",
-      "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Teaching AI to Make Proof Automation Work",
-      "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
-      "date": "2026-03-14T00:00:00+00:00",
-      "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "sym => : interactive mode for scalable verification",
-      "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
-      "date": "2026-03-13T00:00:00+00:00",
-      "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "When AI Writes the World's Software, Who Verifies It?",
-      "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
-      "date": "2026-02-28T00:00:00+00:00",
-      "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Proof Assistants in the Age of AI",
-      "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
-      "date": "2026-02-18T00:00:00+00:00",
-      "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
-      "author": ""
-    },
     {
       "feed": "SIGPLAN Blog",
       "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
@@ -272,262 +80,6 @@
       "date": "2025-01-13T14:00:31+00:00",
       "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
       "author": "Rachit Nigam"
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Beyond Penetrate-and-Patch",
-      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-      "date": "2026-05-05T00:00:00+00:00",
-      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-      "author": ""
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Hello, World: A New Blog",
-      "link": "https://mhicks.me/blog/hello-world/",
-      "date": "2026-03-12T00:00:00+00:00",
-      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Coding accessibility: Software by the blind, for the blind",
-      "link": "https://github.com/readme/featured/nvda-coding-accessibility-software-blind",
-      "date": "2024-05-16T02:00:00+00:00",
-      "excerpt": "NVDA and OSARA provide access to information, employment, community, and more, as well as empower a new generation to build a more accessible world.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Coding accessibility: How Della found her voice with open source AAC",
-      "link": "https://github.com/readme/featured/open-source-aac",
-      "date": "2023-12-03T02:00:00+00:00",
-      "excerpt": "Discover FreeSpeechAAC, an open source assistive communication tool thoughtfully designed by Archer Calder, his nonspeaking sister Della, and the open source community.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "A beginner’s guide to running and managing custom CodeQL queries",
-      "link": "https://github.com/readme/guides/custom-codeql-queries",
-      "date": "2023-10-24T02:00:00+00:00",
-      "excerpt": "Learn how to transform your code with custom CodeQL queries that empower you to surface security vulnerabilities and discover new insights.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Scaling standards and community in your organization",
-      "link": "https://github.com/readme/guides/federated-model",
-      "date": "2023-10-24T02:00:00+00:00",
-      "excerpt": "Learn how to apply open source community ideas to your organization to spread standards and best practices without sacrificing autonomy and innovation.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Coding accessibility: Building autonomy with AI",
-      "link": "https://github.com/readme/featured/accessibility-artificial-intelligence",
-      "date": "2023-10-10T17:45:00+00:00",
-      "excerpt": "After bringing Braille to the digital world in the 1980s and creating the first screen reader for the web in the 1990s, Dr. Chieko Asakawa is now working on an AI-enabled suitcase—and says collaboration is the key to more accessible tech.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Treat accessibility issues as bugs, not feature requests",
-      "link": "https://github.com/readme/guides/fix-accessibility-bugs",
-      "date": "2023-08-08T02:00:00+00:00",
-      "excerpt": "It takes leadership to treat accessibility issues as bugs, and prioritize them before a project is released. Learn how they do it at Drupal.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Provisioning self-hosted GitHub Actions runners on demand",
-      "link": "https://github.com/readme/guides/github-runners-philips",
-      "date": "2023-08-08T02:00:00+00:00",
-      "excerpt": "Unlock the secrets of scaling GitHub self-hosted runners in the enterprise cloud. Dive into Philips' method with Terraform and GitHub Actions to elevate your CI/CD game.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Is Laravel the happiest developer community on the planet?",
-      "link": "https://github.com/readme/featured/laravel-community",
-      "date": "2023-08-08T02:00:00+00:00",
-      "excerpt": "How the PHP framework Laravel prioritizes developer experience by focusing on details and avoiding the hype cycle",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Realizing potential with AI",
-      "link": "https://github.com/readme/stories/anton-mirhorodchenko",
-      "date": "2023-08-08T02:00:00+00:00",
-      "excerpt": "Neither keyboards nor voice-to-text work well for Anton, a developer with cerebral palsy. He uses AI and LLMs to pursue his passion for programming and shows others how they can harness these technologies to accomplish more.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Secure cloud deployment and delivery",
-      "link": "https://github.com/readme/guides/github-actions-eli-lilly",
-      "date": "2023-07-11T02:00:00+00:00",
-      "excerpt": "Pharmaceutical giant Eli Lilly shows how they used GitHub to build a better developer environment and increase speed to delivery.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Make your first open source contribution in four easy steps",
-      "link": "https://github.com/readme/guides/first-oss-contribution",
-      "date": "2023-07-11T02:00:00+00:00",
-      "excerpt": "This guide demystifies open source software and provides a comprehensive roadmap for making your first contribution. Enhance your skills, grow your network, and make a real difference in the tech community.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Turbulent times call for adaptive leadership",
-      "link": "https://github.com/readme/guides/adaptive-leadership",
-      "date": "2023-07-11T02:00:00+00:00",
-      "excerpt": "Learn what adaptive leadership is, how it compares to other leadership styles, and how you can adopt its principles.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "TypeScript and the dawn of gradual types",
-      "link": "https://github.com/readme/featured/typescript-gradual-types",
-      "date": "2023-07-11T02:00:00+00:00",
-      "excerpt": "TypeScript ushered in an era of gradual typing, where developers don’t have to choose between the agility of dynamic languages and the type safety of static languages, all while helping avoid the pitfalls of both.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "From fixing computers on farms to democratizing DevOps",
-      "link": "https://github.com/readme/stories/kyler-middleton",
-      "date": "2023-07-11T02:00:00+00:00",
-      "excerpt": "Kyler Middleton’s journey from a small farm in Nebraska to the tech industry is a testament to resilience and empowerment. Read her story of overcoming adversity and democratizing DevOps.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Finish your projects",
-      "link": "https://github.com/readme/guides/finish-your-projects",
-      "date": "2023-06-13T02:00:00+00:00",
-      "excerpt": "Starting a project can be full of excitement, hope, and blissful productivity. Finishing that last ten percent, however, can feel like too much. Here’s how to get past that and actually finish.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "From chaos to clarity: Use code visibility to illuminate unfamiliar code",
-      "link": "https://github.com/readme/guides/code-visibility-codesee",
-      "date": "2023-06-13T02:00:00+00:00",
-      "excerpt": "What code visibility is, why it matters, and how you can make your code more visible.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Do your part to secure the open source supply chain",
-      "link": "https://github.com/readme/guides/dependency-risk",
-      "date": "2023-06-13T02:00:00+00:00",
-      "excerpt": "Understanding the security risks within the open source ecosystem, from supply chain attacks to protestware, and the tools and methods to mitigate them.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Non-code contributions are the secret to open source success",
-      "link": "https://github.com/readme/featured/open-source-non-code-contributions",
-      "date": "2023-06-13T02:00:00+00:00",
-      "excerpt": "Why non-code contributions like documentation and support are so important to open source, why even experienced programmers should make non-code contributions, and how your project can attract more non-code contributions.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Advancing inclusion with progressive enhancement",
-      "link": "https://github.com/readme/stories/aaron-gustafson",
-      "date": "2023-06-13T02:00:00+00:00",
-      "excerpt": "Aaron Gustafson, web standards and accessibility advocate, shares his evolution from early internet user to champion of progressive enhancement—and how we can all work to create a more inclusive digital landscape.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "How ‘open’ should your open source be?",
-      "link": "https://github.com/readme/featured/how-open-is-open-source",
-      "date": "2023-05-09T02:00:00+00:00",
-      "excerpt": "Open source isn’t one size fits all. Some is open, some closed, and most is in-between. From Litestream to Lua to Prometheus and more, maintainers explain their reasons for where they lie on the spectrum from open to closed, and why there’s more to contributions than code.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Coding accessibility: Disability as catalyst for creativity",
-      "link": "https://github.com/readme/featured/disability-creativity",
-      "date": "2023-05-09T02:00:00+00:00",
-      "excerpt": "When faced with accessibility barriers, developer Paul Chiou gets creative, building custom hardware interfaces and innovative software solutions for himself and others. Read how Chiou works to increase access for all.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Champion accessibility to unleash untapped potential",
-      "link": "https://github.com/readme/stories/annalu-waller",
-      "date": "2023-05-09T02:00:00+00:00",
-      "excerpt": "Dr. Annalu Waller, rehabilitation engineer and Professor of Human Communication Technologies at Dundee University, shares her path to overcoming barriers and empowering others to reach their full potential.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Open source is fueling the future of nuclear physics",
-      "link": "https://github.com/readme/featured/nuclear-fusion-open-source",
-      "date": "2023-04-11T02:00:00+00:00",
-      "excerpt": "A look at the open source artificial intelligence (AI), machine learning (ML), and high performance computing (HPC) tools used in the nuclear fusion ignition breakthrough at Lawerence Livermore Labs.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Putting the African open source community on the map",
-      "link": "https://github.com/readme/stories/ruth-ikegah",
-      "date": "2023-04-11T02:00:00+00:00",
-      "excerpt": "Once indifferent about computers, Ruth Ikegah put in the time, patience, and work to become a force for change in open source, and is now connecting other Africans with the resources they need to succeed, too.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "From gaming with your eyes to coding with AI: New frontiers for accessibility",
-      "link": "https://github.com/readme/featured/open-source-accessibility",
-      "date": "2023-03-14T02:00:00+00:00",
-      "excerpt": "Open source offers developers with disabilities the flexibility needed to participate and collaborate. Their contributions and involvement in the research, design, and development of software are integral to making technology accessible to all.",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Invite the critics and keep learning",
-      "link": "https://github.com/readme/stories/rohan-gupta",
-      "date": "2023-03-14T02:00:00+00:00",
-      "excerpt": "When Windows 11 debuted with limited access, @blueedgetechno created a *very* convincing clone. Hear why he has a female avatar, maintains a growth mindset, and more on The ReadME Project:",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Out of the slums and into open source",
-      "link": "https://github.com/readme/stories/santosh-yadav",
-      "date": "2023-02-14T02:00:00+00:00",
-      "excerpt": "From a slum in India to a Google Developer Expert in Germany, @SantoshYadavDev shares how he leveraged software development as a path out of poverty in The ReadME Project:",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Raising the bar for open source standards",
-      "link": "https://github.com/readme/stories/leonardo-javier-russo",
-      "date": "2023-01-17T02:00:00+00:00",
-      "excerpt": "After seeing first-hand how stifling inaccessibility is, Leonardo strives to create an open source world where everyone can seamlessly participate. He shares his full story on The ReadME Project:",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "Building super fans through genuine human connections",
-      "link": "https://github.com/readme/stories/jana-iris",
-      "date": "2022-12-13T02:00:00+00:00",
-      "excerpt": "She never considered tech as a potential career path, but @janaboruta leveraged her empathy to successfully build open source communities of super fans. Her full story, now on The ReadME Project:",
-      "author": ""
-    },
-    {
-      "feed": "The ReadME Project",
-      "title": "The purest form of collaboration",
-      "link": "https://github.com/readme/stories/avi-press",
-      "date": "2022-11-15T02:00:00+00:00",
-      "excerpt": "Fueled by the versatility of computer science, @avi_press learned by doing, then started a company to help clear the roadblocks he ran into. Get his full story on The ReadME Project:",
-      "author": ""
     },
     {
       "feed": "Dan Luu",
@@ -1554,22 +1106,6 @@
       "author": ""
     },
     {
-      "feed": "Yukta Subramanian",
-      "title": "Cancer is getting on my nerves (literally!)",
-      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-      "date": "2026-02-24T19:06:27+00:00",
-      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "The Tick-Tock Within Us",
-      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-      "date": "2025-01-03T15:09:23+00:00",
-      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-      "author": "Yukta Subramanian"
-    },
-    {
       "feed": "Automating Mathematics",
       "title": "AI and the Pointy Haired Boss",
       "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
@@ -1712,86 +1248,6 @@
       "date": "2019-10-03T21:14:02+05:30",
       "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
       "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Change your behavior",
-      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-      "date": "2024-01-14T12:14:05-06:00",
-      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Hello, Perceptron: An introduction to artificial neural networks",
-      "link": "http://matt.might.net/articles/hello-perceptron/",
-      "date": "2023-05-05T09:05:31-05:00",
-      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-      "date": "2023-04-01T10:48:44-05:00",
-      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "12 resolutions for programmers",
-      "link": "http://matt.might.net/articles/programmers-resolutions/",
-      "date": "2012-01-03T08:06:54-07:00",
-      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-      "link": "http://matt.might.net/articles/26-languages-part2/",
-      "date": "2022-12-31T12:36:56-07:00",
-      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-      "link": "http://matt.might.net/articles/26-languages-part1/",
-      "date": "2022-12-27T16:28:42-07:00",
-      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-      "date": "2022-11-28T06:16:39-06:00",
-      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Control yourself",
-      "link": "http://matt.might.net/articles/how-to-control-yourself/",
-      "date": "2022-11-01T13:05:08-05:00",
-      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Get tenure",
-      "link": "http://matt.might.net/articles/tenure/",
-      "date": "2015-08-18T10:33:03-06:00",
-      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Counting hash collisions with the birthday paradox",
-      "link": "http://matt.might.net/articles/counting-hash-collisions/",
-      "date": "2015-07-16T23:33:41-04:00",
-      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
-      "author": ""
     },
     {
       "feed": "Experimental History",
@@ -1952,6 +1408,550 @@
       "date": "2025-08-05T20:06:09+00:00",
       "excerpt": "photo cred: my dad Look, I don’t know if AI is gonna kill us or make us all rich or whatever, but I do know we’ve got the wrong metaphor. We want to understand these things as people . When you type a question to ChatGPT and it types back the answer in complete sentences, it feels like there must be",
       "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "The last six months in LLMs in five minutes",
+      "link": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-entries",
+      "date": "2026-05-19T01:09:44+00:00",
+      "excerpt": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . # I presented this lightning talk at PyCon US 2026, attempting to summarize the last six months of developments in LLMs in five minutes. # Six mon",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Notes on the xAI/Anthropic data center deal",
+      "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-entries",
+      "date": "2026-05-07T17:09:28+00:00",
+      "excerpt": "There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use \"all of the capacity of their Colossus data center\". As I mentioned in my live blog of the keynote , that's the one with the part",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Live blog: Code w/ Claude 2026",
+      "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-entries",
+      "date": "2026-05-06T15:58:27+00:00",
+      "excerpt": "I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions. You are only seeing the long-form articles from my blog. Subscribe to /atom/everything/ to get all of my posts, or take a look at my other subscription options .",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
+      "date": "2026-05-06T14:24:08+00:00",
+      "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "LLM 0.32a0  is a major backwards-compatible refactor",
+      "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
+      "date": "2026-04-29T19:01:47+00:00",
+      "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+      "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
+      "date": "2026-04-27T18:38:17+00:00",
+      "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+      "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
+      "date": "2026-04-24T06:01:04+00:00",
+      "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Extract PDF text in your browser with LiteParse for the web",
+      "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
+      "date": "2026-04-23T21:54:24+00:00",
+      "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+      "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+      "date": "2026-04-23T19:59:47+00:00",
+      "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+      "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
+      "date": "2026-04-22T02:07:34+00:00",
+      "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+      "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
+      "date": "2026-04-21T20:32:24+00:00",
+      "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+      "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
+      "date": "2026-04-18T23:59:40+00:00",
+      "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+      "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
+      "date": "2026-04-17T23:59:03+00:00",
+      "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+      "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
+      "date": "2026-04-16T17:16:52+00:00",
+      "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+      "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
+      "date": "2026-04-08T23:07:44+00:00",
+      "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Signal Shot: The Platform Is Ready",
+      "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
+      "date": "2026-04-20T00:00:00+00:00",
+      "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Why Lean?",
+      "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
+      "date": "2026-04-02T00:00:00+00:00",
+      "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Cray Colloquium at the University of Minnesota",
+      "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
+      "date": "2026-03-28T00:00:00+00:00",
+      "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Who Watches the Provers?",
+      "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
+      "date": "2026-03-16T00:00:00+00:00",
+      "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "This website is now powered by Verso",
+      "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
+      "date": "2026-03-15T00:00:00+00:00",
+      "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Teaching AI to Make Proof Automation Work",
+      "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
+      "date": "2026-03-14T00:00:00+00:00",
+      "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "sym => : interactive mode for scalable verification",
+      "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
+      "date": "2026-03-13T00:00:00+00:00",
+      "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "When AI Writes the World's Software, Who Verifies It?",
+      "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+      "date": "2026-02-28T00:00:00+00:00",
+      "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Proof Assistants in the Age of AI",
+      "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
+      "date": "2026-02-18T00:00:00+00:00",
+      "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
+      "author": ""
+    },
+    {
+      "feed": "Mike Hicks",
+      "title": "Beyond Penetrate-and-Patch",
+      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+      "date": "2026-05-05T00:00:00+00:00",
+      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+      "author": ""
+    },
+    {
+      "feed": "Mike Hicks",
+      "title": "Hello, World: A New Blog",
+      "link": "https://mhicks.me/blog/hello-world/",
+      "date": "2026-03-12T00:00:00+00:00",
+      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Coding accessibility: Software by the blind, for the blind",
+      "link": "https://github.com/readme/featured/nvda-coding-accessibility-software-blind",
+      "date": "2024-05-16T02:00:00+00:00",
+      "excerpt": "NVDA and OSARA provide access to information, employment, community, and more, as well as empower a new generation to build a more accessible world.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Coding accessibility: How Della found her voice with open source AAC",
+      "link": "https://github.com/readme/featured/open-source-aac",
+      "date": "2023-12-03T02:00:00+00:00",
+      "excerpt": "Discover FreeSpeechAAC, an open source assistive communication tool thoughtfully designed by Archer Calder, his nonspeaking sister Della, and the open source community.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "A beginner’s guide to running and managing custom CodeQL queries",
+      "link": "https://github.com/readme/guides/custom-codeql-queries",
+      "date": "2023-10-24T02:00:00+00:00",
+      "excerpt": "Learn how to transform your code with custom CodeQL queries that empower you to surface security vulnerabilities and discover new insights.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Scaling standards and community in your organization",
+      "link": "https://github.com/readme/guides/federated-model",
+      "date": "2023-10-24T02:00:00+00:00",
+      "excerpt": "Learn how to apply open source community ideas to your organization to spread standards and best practices without sacrificing autonomy and innovation.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Coding accessibility: Building autonomy with AI",
+      "link": "https://github.com/readme/featured/accessibility-artificial-intelligence",
+      "date": "2023-10-10T17:45:00+00:00",
+      "excerpt": "After bringing Braille to the digital world in the 1980s and creating the first screen reader for the web in the 1990s, Dr. Chieko Asakawa is now working on an AI-enabled suitcase—and says collaboration is the key to more accessible tech.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Treat accessibility issues as bugs, not feature requests",
+      "link": "https://github.com/readme/guides/fix-accessibility-bugs",
+      "date": "2023-08-08T02:00:00+00:00",
+      "excerpt": "It takes leadership to treat accessibility issues as bugs, and prioritize them before a project is released. Learn how they do it at Drupal.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Provisioning self-hosted GitHub Actions runners on demand",
+      "link": "https://github.com/readme/guides/github-runners-philips",
+      "date": "2023-08-08T02:00:00+00:00",
+      "excerpt": "Unlock the secrets of scaling GitHub self-hosted runners in the enterprise cloud. Dive into Philips' method with Terraform and GitHub Actions to elevate your CI/CD game.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Is Laravel the happiest developer community on the planet?",
+      "link": "https://github.com/readme/featured/laravel-community",
+      "date": "2023-08-08T02:00:00+00:00",
+      "excerpt": "How the PHP framework Laravel prioritizes developer experience by focusing on details and avoiding the hype cycle",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Realizing potential with AI",
+      "link": "https://github.com/readme/stories/anton-mirhorodchenko",
+      "date": "2023-08-08T02:00:00+00:00",
+      "excerpt": "Neither keyboards nor voice-to-text work well for Anton, a developer with cerebral palsy. He uses AI and LLMs to pursue his passion for programming and shows others how they can harness these technologies to accomplish more.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Secure cloud deployment and delivery",
+      "link": "https://github.com/readme/guides/github-actions-eli-lilly",
+      "date": "2023-07-11T02:00:00+00:00",
+      "excerpt": "Pharmaceutical giant Eli Lilly shows how they used GitHub to build a better developer environment and increase speed to delivery.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Make your first open source contribution in four easy steps",
+      "link": "https://github.com/readme/guides/first-oss-contribution",
+      "date": "2023-07-11T02:00:00+00:00",
+      "excerpt": "This guide demystifies open source software and provides a comprehensive roadmap for making your first contribution. Enhance your skills, grow your network, and make a real difference in the tech community.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Turbulent times call for adaptive leadership",
+      "link": "https://github.com/readme/guides/adaptive-leadership",
+      "date": "2023-07-11T02:00:00+00:00",
+      "excerpt": "Learn what adaptive leadership is, how it compares to other leadership styles, and how you can adopt its principles.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "TypeScript and the dawn of gradual types",
+      "link": "https://github.com/readme/featured/typescript-gradual-types",
+      "date": "2023-07-11T02:00:00+00:00",
+      "excerpt": "TypeScript ushered in an era of gradual typing, where developers don’t have to choose between the agility of dynamic languages and the type safety of static languages, all while helping avoid the pitfalls of both.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "From fixing computers on farms to democratizing DevOps",
+      "link": "https://github.com/readme/stories/kyler-middleton",
+      "date": "2023-07-11T02:00:00+00:00",
+      "excerpt": "Kyler Middleton’s journey from a small farm in Nebraska to the tech industry is a testament to resilience and empowerment. Read her story of overcoming adversity and democratizing DevOps.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Finish your projects",
+      "link": "https://github.com/readme/guides/finish-your-projects",
+      "date": "2023-06-13T02:00:00+00:00",
+      "excerpt": "Starting a project can be full of excitement, hope, and blissful productivity. Finishing that last ten percent, however, can feel like too much. Here’s how to get past that and actually finish.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "From chaos to clarity: Use code visibility to illuminate unfamiliar code",
+      "link": "https://github.com/readme/guides/code-visibility-codesee",
+      "date": "2023-06-13T02:00:00+00:00",
+      "excerpt": "What code visibility is, why it matters, and how you can make your code more visible.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Do your part to secure the open source supply chain",
+      "link": "https://github.com/readme/guides/dependency-risk",
+      "date": "2023-06-13T02:00:00+00:00",
+      "excerpt": "Understanding the security risks within the open source ecosystem, from supply chain attacks to protestware, and the tools and methods to mitigate them.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Non-code contributions are the secret to open source success",
+      "link": "https://github.com/readme/featured/open-source-non-code-contributions",
+      "date": "2023-06-13T02:00:00+00:00",
+      "excerpt": "Why non-code contributions like documentation and support are so important to open source, why even experienced programmers should make non-code contributions, and how your project can attract more non-code contributions.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Advancing inclusion with progressive enhancement",
+      "link": "https://github.com/readme/stories/aaron-gustafson",
+      "date": "2023-06-13T02:00:00+00:00",
+      "excerpt": "Aaron Gustafson, web standards and accessibility advocate, shares his evolution from early internet user to champion of progressive enhancement—and how we can all work to create a more inclusive digital landscape.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "How ‘open’ should your open source be?",
+      "link": "https://github.com/readme/featured/how-open-is-open-source",
+      "date": "2023-05-09T02:00:00+00:00",
+      "excerpt": "Open source isn’t one size fits all. Some is open, some closed, and most is in-between. From Litestream to Lua to Prometheus and more, maintainers explain their reasons for where they lie on the spectrum from open to closed, and why there’s more to contributions than code.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Coding accessibility: Disability as catalyst for creativity",
+      "link": "https://github.com/readme/featured/disability-creativity",
+      "date": "2023-05-09T02:00:00+00:00",
+      "excerpt": "When faced with accessibility barriers, developer Paul Chiou gets creative, building custom hardware interfaces and innovative software solutions for himself and others. Read how Chiou works to increase access for all.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Champion accessibility to unleash untapped potential",
+      "link": "https://github.com/readme/stories/annalu-waller",
+      "date": "2023-05-09T02:00:00+00:00",
+      "excerpt": "Dr. Annalu Waller, rehabilitation engineer and Professor of Human Communication Technologies at Dundee University, shares her path to overcoming barriers and empowering others to reach their full potential.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Open source is fueling the future of nuclear physics",
+      "link": "https://github.com/readme/featured/nuclear-fusion-open-source",
+      "date": "2023-04-11T02:00:00+00:00",
+      "excerpt": "A look at the open source artificial intelligence (AI), machine learning (ML), and high performance computing (HPC) tools used in the nuclear fusion ignition breakthrough at Lawerence Livermore Labs.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Putting the African open source community on the map",
+      "link": "https://github.com/readme/stories/ruth-ikegah",
+      "date": "2023-04-11T02:00:00+00:00",
+      "excerpt": "Once indifferent about computers, Ruth Ikegah put in the time, patience, and work to become a force for change in open source, and is now connecting other Africans with the resources they need to succeed, too.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "From gaming with your eyes to coding with AI: New frontiers for accessibility",
+      "link": "https://github.com/readme/featured/open-source-accessibility",
+      "date": "2023-03-14T02:00:00+00:00",
+      "excerpt": "Open source offers developers with disabilities the flexibility needed to participate and collaborate. Their contributions and involvement in the research, design, and development of software are integral to making technology accessible to all.",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Invite the critics and keep learning",
+      "link": "https://github.com/readme/stories/rohan-gupta",
+      "date": "2023-03-14T02:00:00+00:00",
+      "excerpt": "When Windows 11 debuted with limited access, @blueedgetechno created a *very* convincing clone. Hear why he has a female avatar, maintains a growth mindset, and more on The ReadME Project:",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Out of the slums and into open source",
+      "link": "https://github.com/readme/stories/santosh-yadav",
+      "date": "2023-02-14T02:00:00+00:00",
+      "excerpt": "From a slum in India to a Google Developer Expert in Germany, @SantoshYadavDev shares how he leveraged software development as a path out of poverty in The ReadME Project:",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Raising the bar for open source standards",
+      "link": "https://github.com/readme/stories/leonardo-javier-russo",
+      "date": "2023-01-17T02:00:00+00:00",
+      "excerpt": "After seeing first-hand how stifling inaccessibility is, Leonardo strives to create an open source world where everyone can seamlessly participate. He shares his full story on The ReadME Project:",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "Building super fans through genuine human connections",
+      "link": "https://github.com/readme/stories/jana-iris",
+      "date": "2022-12-13T02:00:00+00:00",
+      "excerpt": "She never considered tech as a potential career path, but @janaboruta leveraged her empathy to successfully build open source communities of super fans. Her full story, now on The ReadME Project:",
+      "author": ""
+    },
+    {
+      "feed": "The ReadME Project",
+      "title": "The purest form of collaboration",
+      "link": "https://github.com/readme/stories/avi-press",
+      "date": "2022-11-15T02:00:00+00:00",
+      "excerpt": "Fueled by the versatility of computer science, @avi_press learned by doing, then started a company to help clear the roadblocks he ran into. Get his full story on The ReadME Project:",
+      "author": ""
+    },
+    {
+      "feed": "Yukta Subramanian",
+      "title": "Cancer is getting on my nerves (literally!)",
+      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+      "date": "2026-02-24T19:06:27+00:00",
+      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Yukta Subramanian",
+      "title": "The Tick-Tock Within Us",
+      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+      "date": "2025-01-03T15:09:23+00:00",
+      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Change your behavior",
+      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+      "date": "2024-01-14T12:14:05-06:00",
+      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Hello, Perceptron: An introduction to artificial neural networks",
+      "link": "http://matt.might.net/articles/hello-perceptron/",
+      "date": "2023-05-05T09:05:31-05:00",
+      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+      "date": "2023-04-01T10:48:44-05:00",
+      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "12 resolutions for programmers",
+      "link": "http://matt.might.net/articles/programmers-resolutions/",
+      "date": "2012-01-03T08:06:54-07:00",
+      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+      "link": "http://matt.might.net/articles/26-languages-part2/",
+      "date": "2022-12-31T12:36:56-07:00",
+      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+      "link": "http://matt.might.net/articles/26-languages-part1/",
+      "date": "2022-12-27T16:28:42-07:00",
+      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+      "date": "2022-11-28T06:16:39-06:00",
+      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Control yourself",
+      "link": "http://matt.might.net/articles/how-to-control-yourself/",
+      "date": "2022-11-01T13:05:08-05:00",
+      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Get tenure",
+      "link": "http://matt.might.net/articles/tenure/",
+      "date": "2015-08-18T10:33:03-06:00",
+      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Counting hash collisions with the birthday paradox",
+      "link": "http://matt.might.net/articles/counting-hash-collisions/",
+      "date": "2015-07-16T23:33:41-04:00",
+      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
+      "author": ""
     },
     {
       "feed": "Hillel Wayne",
@@ -2196,213 +2196,9 @@
   ],
   "errors": {},
   "feedCache": {
-    "Simon Willison": {
-      "etag": null,
-      "last_modified": "Thu, 07 May 2026 17:09:28 GMT",
-      "articles": [
-        {
-          "feed": "Simon Willison",
-          "title": "Notes on the xAI/Anthropic data center deal",
-          "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-entries",
-          "date": "2026-05-07T17:09:28+00:00",
-          "excerpt": "There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use \"all of the capacity of their Colossus data center\". As I mentioned in my live blog of the keynote , that's the one with the part",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Live blog: Code w/ Claude 2026",
-          "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-entries",
-          "date": "2026-05-06T15:58:27+00:00",
-          "excerpt": "I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions. You are only seeing the long-form articles from my blog. Subscribe to /atom/everything/ to get all of my posts, or take a look at my other subscription options .",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Vibe coding and agentic engineering are getting closer than I'd like",
-          "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
-          "date": "2026-05-06T14:24:08+00:00",
-          "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "LLM 0.32a0  is a major backwards-compatible refactor",
-          "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
-          "date": "2026-04-29T19:01:47+00:00",
-          "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
-          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
-          "date": "2026-04-27T18:38:17+00:00",
-          "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
-          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
-          "date": "2026-04-24T06:01:04+00:00",
-          "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Extract PDF text in your browser with LiteParse for the web",
-          "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
-          "date": "2026-04-23T21:54:24+00:00",
-          "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
-          "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
-          "date": "2026-04-23T19:59:47+00:00",
-          "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
-          "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
-          "date": "2026-04-22T02:07:34+00:00",
-          "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
-          "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
-          "date": "2026-04-21T20:32:24+00:00",
-          "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
-          "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
-          "date": "2026-04-18T23:59:40+00:00",
-          "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
-          "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
-          "date": "2026-04-17T23:59:03+00:00",
-          "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
-          "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
-          "date": "2026-04-16T17:16:52+00:00",
-          "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
-          "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
-          "date": "2026-04-08T23:07:44+00:00",
-          "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
-          "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-entries",
-          "date": "2026-04-07T20:52:54+00:00",
-          "excerpt": "Anthropic didn't release their latest model, Claude Mythos ( system card PDF ), today. They have instead made it available to a very restricted set of preview partners under their newly announced Project Glasswing . The model is a general purpose model, similar to Claude Opus 4.6, but Anthropic clai",
-          "author": ""
-        }
-      ]
-    },
-    "Leonardo de Moura": {
-      "etag": "\"6a032da7-1e49\"",
-      "last_modified": "Tue, 12 May 2026 13:39:51 GMT",
-      "articles": [
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Signal Shot: The Platform Is Ready",
-          "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
-          "date": "2026-04-20T00:00:00+00:00",
-          "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Why Lean?",
-          "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
-          "date": "2026-04-02T00:00:00+00:00",
-          "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Cray Colloquium at the University of Minnesota",
-          "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
-          "date": "2026-03-28T00:00:00+00:00",
-          "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Who Watches the Provers?",
-          "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
-          "date": "2026-03-16T00:00:00+00:00",
-          "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "This website is now powered by Verso",
-          "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
-          "date": "2026-03-15T00:00:00+00:00",
-          "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Teaching AI to Make Proof Automation Work",
-          "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
-          "date": "2026-03-14T00:00:00+00:00",
-          "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "sym => : interactive mode for scalable verification",
-          "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
-          "date": "2026-03-13T00:00:00+00:00",
-          "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "When AI Writes the World's Software, Who Verifies It?",
-          "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
-          "date": "2026-02-28T00:00:00+00:00",
-          "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Proof Assistants in the Age of AI",
-          "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
-          "date": "2026-02-18T00:00:00+00:00",
-          "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
-          "author": ""
-        }
-      ]
-    },
     "SIGPLAN Blog": {
-      "etag": "\"49549dea05d0f65c3c7ed07ffd932498\"",
-      "last_modified": "Fri, 15 May 2026 15:30:25 GMT",
+      "etag": "\"ce78d2930b95246d18255a22dc3cbf69\"",
+      "last_modified": "Mon, 18 May 2026 22:24:50 GMT",
       "articles": [
         {
           "feed": "SIGPLAN Blog",
@@ -2483,274 +2279,6 @@
           "date": "2025-01-13T14:00:31+00:00",
           "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
           "author": "Rachit Nigam"
-        }
-      ]
-    },
-    "Mike Hicks": {
-      "etag": "\"6a05afa4-b0f\"",
-      "last_modified": "Thu, 14 May 2026 11:19:00 GMT",
-      "articles": [
-        {
-          "feed": "Mike Hicks",
-          "title": "Beyond Penetrate-and-Patch",
-          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-          "date": "2026-05-05T00:00:00+00:00",
-          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-          "author": ""
-        },
-        {
-          "feed": "Mike Hicks",
-          "title": "Hello, World: A New Blog",
-          "link": "https://mhicks.me/blog/hello-world/",
-          "date": "2026-03-12T00:00:00+00:00",
-          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-          "author": ""
-        }
-      ]
-    },
-    "The ReadME Project": {
-      "etag": "W/\"f6662c637e233124ad79ca19c14b90bd\"",
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "The ReadME Project",
-          "title": "Coding accessibility: Software by the blind, for the blind",
-          "link": "https://github.com/readme/featured/nvda-coding-accessibility-software-blind",
-          "date": "2024-05-16T02:00:00+00:00",
-          "excerpt": "NVDA and OSARA provide access to information, employment, community, and more, as well as empower a new generation to build a more accessible world.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Coding accessibility: How Della found her voice with open source AAC",
-          "link": "https://github.com/readme/featured/open-source-aac",
-          "date": "2023-12-03T02:00:00+00:00",
-          "excerpt": "Discover FreeSpeechAAC, an open source assistive communication tool thoughtfully designed by Archer Calder, his nonspeaking sister Della, and the open source community.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "A beginner’s guide to running and managing custom CodeQL queries",
-          "link": "https://github.com/readme/guides/custom-codeql-queries",
-          "date": "2023-10-24T02:00:00+00:00",
-          "excerpt": "Learn how to transform your code with custom CodeQL queries that empower you to surface security vulnerabilities and discover new insights.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Scaling standards and community in your organization",
-          "link": "https://github.com/readme/guides/federated-model",
-          "date": "2023-10-24T02:00:00+00:00",
-          "excerpt": "Learn how to apply open source community ideas to your organization to spread standards and best practices without sacrificing autonomy and innovation.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Coding accessibility: Building autonomy with AI",
-          "link": "https://github.com/readme/featured/accessibility-artificial-intelligence",
-          "date": "2023-10-10T17:45:00+00:00",
-          "excerpt": "After bringing Braille to the digital world in the 1980s and creating the first screen reader for the web in the 1990s, Dr. Chieko Asakawa is now working on an AI-enabled suitcase—and says collaboration is the key to more accessible tech.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Treat accessibility issues as bugs, not feature requests",
-          "link": "https://github.com/readme/guides/fix-accessibility-bugs",
-          "date": "2023-08-08T02:00:00+00:00",
-          "excerpt": "It takes leadership to treat accessibility issues as bugs, and prioritize them before a project is released. Learn how they do it at Drupal.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Provisioning self-hosted GitHub Actions runners on demand",
-          "link": "https://github.com/readme/guides/github-runners-philips",
-          "date": "2023-08-08T02:00:00+00:00",
-          "excerpt": "Unlock the secrets of scaling GitHub self-hosted runners in the enterprise cloud. Dive into Philips' method with Terraform and GitHub Actions to elevate your CI/CD game.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Is Laravel the happiest developer community on the planet?",
-          "link": "https://github.com/readme/featured/laravel-community",
-          "date": "2023-08-08T02:00:00+00:00",
-          "excerpt": "How the PHP framework Laravel prioritizes developer experience by focusing on details and avoiding the hype cycle",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Realizing potential with AI",
-          "link": "https://github.com/readme/stories/anton-mirhorodchenko",
-          "date": "2023-08-08T02:00:00+00:00",
-          "excerpt": "Neither keyboards nor voice-to-text work well for Anton, a developer with cerebral palsy. He uses AI and LLMs to pursue his passion for programming and shows others how they can harness these technologies to accomplish more.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Secure cloud deployment and delivery",
-          "link": "https://github.com/readme/guides/github-actions-eli-lilly",
-          "date": "2023-07-11T02:00:00+00:00",
-          "excerpt": "Pharmaceutical giant Eli Lilly shows how they used GitHub to build a better developer environment and increase speed to delivery.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Make your first open source contribution in four easy steps",
-          "link": "https://github.com/readme/guides/first-oss-contribution",
-          "date": "2023-07-11T02:00:00+00:00",
-          "excerpt": "This guide demystifies open source software and provides a comprehensive roadmap for making your first contribution. Enhance your skills, grow your network, and make a real difference in the tech community.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Turbulent times call for adaptive leadership",
-          "link": "https://github.com/readme/guides/adaptive-leadership",
-          "date": "2023-07-11T02:00:00+00:00",
-          "excerpt": "Learn what adaptive leadership is, how it compares to other leadership styles, and how you can adopt its principles.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "TypeScript and the dawn of gradual types",
-          "link": "https://github.com/readme/featured/typescript-gradual-types",
-          "date": "2023-07-11T02:00:00+00:00",
-          "excerpt": "TypeScript ushered in an era of gradual typing, where developers don’t have to choose between the agility of dynamic languages and the type safety of static languages, all while helping avoid the pitfalls of both.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "From fixing computers on farms to democratizing DevOps",
-          "link": "https://github.com/readme/stories/kyler-middleton",
-          "date": "2023-07-11T02:00:00+00:00",
-          "excerpt": "Kyler Middleton’s journey from a small farm in Nebraska to the tech industry is a testament to resilience and empowerment. Read her story of overcoming adversity and democratizing DevOps.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Finish your projects",
-          "link": "https://github.com/readme/guides/finish-your-projects",
-          "date": "2023-06-13T02:00:00+00:00",
-          "excerpt": "Starting a project can be full of excitement, hope, and blissful productivity. Finishing that last ten percent, however, can feel like too much. Here’s how to get past that and actually finish.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "From chaos to clarity: Use code visibility to illuminate unfamiliar code",
-          "link": "https://github.com/readme/guides/code-visibility-codesee",
-          "date": "2023-06-13T02:00:00+00:00",
-          "excerpt": "What code visibility is, why it matters, and how you can make your code more visible.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Do your part to secure the open source supply chain",
-          "link": "https://github.com/readme/guides/dependency-risk",
-          "date": "2023-06-13T02:00:00+00:00",
-          "excerpt": "Understanding the security risks within the open source ecosystem, from supply chain attacks to protestware, and the tools and methods to mitigate them.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Non-code contributions are the secret to open source success",
-          "link": "https://github.com/readme/featured/open-source-non-code-contributions",
-          "date": "2023-06-13T02:00:00+00:00",
-          "excerpt": "Why non-code contributions like documentation and support are so important to open source, why even experienced programmers should make non-code contributions, and how your project can attract more non-code contributions.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Advancing inclusion with progressive enhancement",
-          "link": "https://github.com/readme/stories/aaron-gustafson",
-          "date": "2023-06-13T02:00:00+00:00",
-          "excerpt": "Aaron Gustafson, web standards and accessibility advocate, shares his evolution from early internet user to champion of progressive enhancement—and how we can all work to create a more inclusive digital landscape.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "How ‘open’ should your open source be?",
-          "link": "https://github.com/readme/featured/how-open-is-open-source",
-          "date": "2023-05-09T02:00:00+00:00",
-          "excerpt": "Open source isn’t one size fits all. Some is open, some closed, and most is in-between. From Litestream to Lua to Prometheus and more, maintainers explain their reasons for where they lie on the spectrum from open to closed, and why there’s more to contributions than code.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Coding accessibility: Disability as catalyst for creativity",
-          "link": "https://github.com/readme/featured/disability-creativity",
-          "date": "2023-05-09T02:00:00+00:00",
-          "excerpt": "When faced with accessibility barriers, developer Paul Chiou gets creative, building custom hardware interfaces and innovative software solutions for himself and others. Read how Chiou works to increase access for all.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Champion accessibility to unleash untapped potential",
-          "link": "https://github.com/readme/stories/annalu-waller",
-          "date": "2023-05-09T02:00:00+00:00",
-          "excerpt": "Dr. Annalu Waller, rehabilitation engineer and Professor of Human Communication Technologies at Dundee University, shares her path to overcoming barriers and empowering others to reach their full potential.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Open source is fueling the future of nuclear physics",
-          "link": "https://github.com/readme/featured/nuclear-fusion-open-source",
-          "date": "2023-04-11T02:00:00+00:00",
-          "excerpt": "A look at the open source artificial intelligence (AI), machine learning (ML), and high performance computing (HPC) tools used in the nuclear fusion ignition breakthrough at Lawerence Livermore Labs.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Putting the African open source community on the map",
-          "link": "https://github.com/readme/stories/ruth-ikegah",
-          "date": "2023-04-11T02:00:00+00:00",
-          "excerpt": "Once indifferent about computers, Ruth Ikegah put in the time, patience, and work to become a force for change in open source, and is now connecting other Africans with the resources they need to succeed, too.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "From gaming with your eyes to coding with AI: New frontiers for accessibility",
-          "link": "https://github.com/readme/featured/open-source-accessibility",
-          "date": "2023-03-14T02:00:00+00:00",
-          "excerpt": "Open source offers developers with disabilities the flexibility needed to participate and collaborate. Their contributions and involvement in the research, design, and development of software are integral to making technology accessible to all.",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Invite the critics and keep learning",
-          "link": "https://github.com/readme/stories/rohan-gupta",
-          "date": "2023-03-14T02:00:00+00:00",
-          "excerpt": "When Windows 11 debuted with limited access, @blueedgetechno created a *very* convincing clone. Hear why he has a female avatar, maintains a growth mindset, and more on The ReadME Project:",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Out of the slums and into open source",
-          "link": "https://github.com/readme/stories/santosh-yadav",
-          "date": "2023-02-14T02:00:00+00:00",
-          "excerpt": "From a slum in India to a Google Developer Expert in Germany, @SantoshYadavDev shares how he leveraged software development as a path out of poverty in The ReadME Project:",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Raising the bar for open source standards",
-          "link": "https://github.com/readme/stories/leonardo-javier-russo",
-          "date": "2023-01-17T02:00:00+00:00",
-          "excerpt": "After seeing first-hand how stifling inaccessibility is, Leonardo strives to create an open source world where everyone can seamlessly participate. He shares his full story on The ReadME Project:",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "Building super fans through genuine human connections",
-          "link": "https://github.com/readme/stories/jana-iris",
-          "date": "2022-12-13T02:00:00+00:00",
-          "excerpt": "She never considered tech as a potential career path, but @janaboruta leveraged her empathy to successfully build open source communities of super fans. Her full story, now on The ReadME Project:",
-          "author": ""
-        },
-        {
-          "feed": "The ReadME Project",
-          "title": "The purest form of collaboration",
-          "link": "https://github.com/readme/stories/avi-press",
-          "date": "2022-11-15T02:00:00+00:00",
-          "excerpt": "Fueled by the versatility of computer science, @avi_press learned by doing, then started a company to help clear the roadblocks he ran into. Get his full story on The ReadME Project:",
-          "author": ""
         }
       ]
     },
@@ -3784,28 +3312,6 @@
         }
       ]
     },
-    "Yukta Subramanian": {
-      "etag": null,
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "Yukta Subramanian",
-          "title": "Cancer is getting on my nerves (literally!)",
-          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-          "date": "2026-02-24T19:06:27+00:00",
-          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-          "author": "Yukta Subramanian"
-        },
-        {
-          "feed": "Yukta Subramanian",
-          "title": "The Tick-Tock Within Us",
-          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-          "date": "2025-01-03T15:09:23+00:00",
-          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-          "author": "Yukta Subramanian"
-        }
-      ]
-    },
     "Automating Mathematics": {
       "etag": "\"69a515ff-3f8e\"",
       "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
@@ -3956,94 +3462,8 @@
         }
       ]
     },
-    "Matt Might": {
-      "etag": "\"65a425c0-55cf\"",
-      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
-      "articles": [
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Change your behavior",
-          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-          "date": "2024-01-14T12:14:05-06:00",
-          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Hello, Perceptron: An introduction to artificial neural networks",
-          "link": "http://matt.might.net/articles/hello-perceptron/",
-          "date": "2023-05-05T09:05:31-05:00",
-          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-          "date": "2023-04-01T10:48:44-05:00",
-          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "12 resolutions for programmers",
-          "link": "http://matt.might.net/articles/programmers-resolutions/",
-          "date": "2012-01-03T08:06:54-07:00",
-          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-          "link": "http://matt.might.net/articles/26-languages-part2/",
-          "date": "2022-12-31T12:36:56-07:00",
-          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-          "link": "http://matt.might.net/articles/26-languages-part1/",
-          "date": "2022-12-27T16:28:42-07:00",
-          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-          "date": "2022-11-28T06:16:39-06:00",
-          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Control yourself",
-          "link": "http://matt.might.net/articles/how-to-control-yourself/",
-          "date": "2022-11-01T13:05:08-05:00",
-          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Get tenure",
-          "link": "http://matt.might.net/articles/tenure/",
-          "date": "2015-08-18T10:33:03-06:00",
-          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Counting hash collisions with the birthday paradox",
-          "link": "http://matt.might.net/articles/counting-hash-collisions/",
-          "date": "2015-07-16T23:33:41-04:00",
-          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
-          "author": ""
-        }
-      ]
-    },
     "Experimental History": {
-      "etag": "W/\"105719-uls6LmwEzWUuHllh+iG0XlfCFNk\"",
+      "etag": "W/\"105719-/1FjggC8VxZVu+mIwjH2UTiWuXo\"",
       "last_modified": null,
       "articles": [
         {
@@ -4205,6 +3625,586 @@
           "date": "2025-08-05T20:06:09+00:00",
           "excerpt": "photo cred: my dad Look, I don’t know if AI is gonna kill us or make us all rich or whatever, but I do know we’ve got the wrong metaphor. We want to understand these things as people . When you type a question to ChatGPT and it types back the answer in complete sentences, it feels like there must be",
           "author": "Adam Mastroianni"
+        }
+      ]
+    },
+    "Simon Willison": {
+      "etag": null,
+      "last_modified": "Tue, 19 May 2026 01:09:44 GMT",
+      "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "The last six months in LLMs in five minutes",
+          "link": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-entries",
+          "date": "2026-05-19T01:09:44+00:00",
+          "excerpt": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . # I presented this lightning talk at PyCon US 2026, attempting to summarize the last six months of developments in LLMs in five minutes. # Six mon",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Notes on the xAI/Anthropic data center deal",
+          "link": "https://simonwillison.net/2026/May/7/xai-anthropic/#atom-entries",
+          "date": "2026-05-07T17:09:28+00:00",
+          "excerpt": "There weren't a lot of big new announcements from Anthropic at yesterday's Code w/ Claude event, but the biggest by far was the deal they've struck with SpaceX/xAI to use \"all of the capacity of their Colossus data center\". As I mentioned in my live blog of the keynote , that's the one with the part",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Live blog: Code w/ Claude 2026",
+          "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-entries",
+          "date": "2026-05-06T15:58:27+00:00",
+          "excerpt": "I'm at Anthropic's Code w/ Claude event today. Here's my live blog of the morning keynote sessions. You are only seeing the long-form articles from my blog. Subscribe to /atom/everything/ to get all of my posts, or take a look at my other subscription options .",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+          "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-entries",
+          "date": "2026-05-06T14:24:08+00:00",
+          "excerpt": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "LLM 0.32a0  is a major backwards-compatible refactor",
+          "link": "https://simonwillison.net/2026/Apr/29/llm/#atom-entries",
+          "date": "2026-04-29T19:01:47+00:00",
+          "excerpt": "I just released LLM 0.32a0 , an alpha release of my LLM Python library and CLI tool for accessing LLMs, with some consequential changes that I've been working towards for quite a while. Previous versions of LLM modeled the world in terms of prompts and responses. Send the model a text prompt, get ba",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Tracking the history of the now-deceased OpenAI Microsoft AGI clause",
+          "link": "https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/#atom-entries",
+          "date": "2026-04-27T18:38:17+00:00",
+          "excerpt": "For many years, Microsoft and OpenAI's relationship has included a weird clause saying that, should AGI be achieved, Microsoft's commercial IP rights to OpenAI's technology would be null and void. That clause appeared to end today. I decided to try and track its expression over time on openai.com . ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "DeepSeek V4 - almost on the frontier, a fraction of the price",
+          "link": "https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-entries",
+          "date": "2026-04-24T06:01:04+00:00",
+          "excerpt": "Chinese AI lab DeepSeek's last model release was V3.2 (and V3.2 Speciale) last December . They just dropped the first of their hotly anticipated V4 series in the shape of two preview models, DeepSeek-V4-Pro and DeepSeek-V4-Flash . Both models are 1 million token context Mixture of Experts. Pro is 1.",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Extract PDF text in your browser with LiteParse for the web",
+          "link": "https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-entries",
+          "date": "2026-04-23T21:54:24+00:00",
+          "excerpt": "LlamaIndex have a most excellent open source project called LiteParse , which provides a Node.js CLI tool for extracting text from PDFs. I got a version of LiteParse working entirely in the browser, using most of the same libraries that LiteParse uses to run in Node.js. Spatial text parsing Refreshi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+          "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-entries",
+          "date": "2026-04-23T19:59:47+00:00",
+          "excerpt": "GPT-5.5 is out . It's available in OpenAI Codex and is rolling out to paid ChatGPT subscribers. I've had some preview access and found it to be a fast, effective and highly capable model. As is usually the case these days, it's hard to put into words what's good about it - I ask it to build things a",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Is Claude Code going to cost $100/month? Probably not - it's all very confusing",
+          "link": "https://simonwillison.net/2026/Apr/22/claude-code-confusion/#atom-entries",
+          "date": "2026-04-22T02:07:34+00:00",
+          "excerpt": "Anthropic today quietly (as in silently , no announcement anywhere at all) updated their claude.com/pricing page (but not their Choosing a Claude plan page , which shows up first for me on Google) to add this tiny but significant detail (arrow is mine, and it's already reverted ): The Internet Archi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Where's the raccoon with the ham radio? (ChatGPT Images 2.0)",
+          "link": "https://simonwillison.net/2026/Apr/21/gpt-image-2/#atom-entries",
+          "date": "2026-04-21T20:32:24+00:00",
+          "excerpt": "OpenAI released ChatGPT Images 2.0 today , their latest image generation model. On the livestream Sam Altman said that the leap from gpt-image-1 to gpt-image-2 was equivalent to jumping from GPT-3 to GPT-5. Here's how I put it to the test. My prompt: Do a where's Waldo style image but it's where is ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Changes in the system prompt between Claude Opus 4.6 and 4.7",
+          "link": "https://simonwillison.net/2026/Apr/18/opus-system-prompt/#atom-entries",
+          "date": "2026-04-18T23:59:40+00:00",
+          "excerpt": "Anthropic are the only major AI lab to publish the system prompts for their user-facing chat systems. Their system prompt archive now dates all the way back to Claude 3 in July 2024 and it's always interesting to see how the system prompt evolves as they publish new models. Opus 4.7 shipped the othe",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Join us at PyCon US 2026 in Long Beach - we have new AI and security tracks this year",
+          "link": "https://simonwillison.net/2026/Apr/17/pycon-us-2026/#atom-entries",
+          "date": "2026-04-17T23:59:03+00:00",
+          "excerpt": "This year's PyCon US is coming up next month from May 13th to May 19th, with the core conference talks from Friday 15th to Sunday 17th and tutorial and sprint days either side. It's in Long Beach, California this year, the first time PyCon US has come to the West Coast since Portland, Oregon in 2017",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Qwen3.6-35B-A3B on my laptop drew me a better pelican than Claude Opus 4.7",
+          "link": "https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-entries",
+          "date": "2026-04-16T17:16:52+00:00",
+          "excerpt": "For anyone who has been (inadvisably) taking my pelican riding a bicycle benchmark seriously as a robust way to test models, here are pelicans from this morning's two big model releases - Qwen3.6-35B-A3B from Alibaba and Claude Opus 4.7 from Anthropic . Here's the Qwen 3.6 pelican, generated using t",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+          "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-entries",
+          "date": "2026-04-08T23:07:44+00:00",
+          "excerpt": "Meta announced Muse Spark today, their first model release since Llama 4 almost exactly a year ago . It's hosted, not open weights, and the API is currently \"a private API preview to select users\", but you can try it out today on meta.ai (Facebook or Instagram login required). Meta's self-reported b",
+          "author": ""
+        }
+      ]
+    },
+    "Leonardo de Moura": {
+      "etag": "\"6a032da7-1e49\"",
+      "last_modified": "Tue, 12 May 2026 13:39:51 GMT",
+      "articles": [
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Signal Shot: The Platform Is Ready",
+          "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
+          "date": "2026-04-20T00:00:00+00:00",
+          "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Why Lean?",
+          "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
+          "date": "2026-04-02T00:00:00+00:00",
+          "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Cray Colloquium at the University of Minnesota",
+          "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
+          "date": "2026-03-28T00:00:00+00:00",
+          "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Who Watches the Provers?",
+          "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
+          "date": "2026-03-16T00:00:00+00:00",
+          "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "This website is now powered by Verso",
+          "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
+          "date": "2026-03-15T00:00:00+00:00",
+          "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Teaching AI to Make Proof Automation Work",
+          "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
+          "date": "2026-03-14T00:00:00+00:00",
+          "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "sym => : interactive mode for scalable verification",
+          "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
+          "date": "2026-03-13T00:00:00+00:00",
+          "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "When AI Writes the World's Software, Who Verifies It?",
+          "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+          "date": "2026-02-28T00:00:00+00:00",
+          "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Proof Assistants in the Age of AI",
+          "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
+          "date": "2026-02-18T00:00:00+00:00",
+          "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
+          "author": ""
+        }
+      ]
+    },
+    "Mike Hicks": {
+      "etag": "\"6a05afa5-b0f\"",
+      "last_modified": "Thu, 14 May 2026 11:19:01 GMT",
+      "articles": [
+        {
+          "feed": "Mike Hicks",
+          "title": "Beyond Penetrate-and-Patch",
+          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+          "date": "2026-05-05T00:00:00+00:00",
+          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+          "author": ""
+        },
+        {
+          "feed": "Mike Hicks",
+          "title": "Hello, World: A New Blog",
+          "link": "https://mhicks.me/blog/hello-world/",
+          "date": "2026-03-12T00:00:00+00:00",
+          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+          "author": ""
+        }
+      ]
+    },
+    "The ReadME Project": {
+      "etag": "W/\"f6662c637e233124ad79ca19c14b90bd\"",
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "The ReadME Project",
+          "title": "Coding accessibility: Software by the blind, for the blind",
+          "link": "https://github.com/readme/featured/nvda-coding-accessibility-software-blind",
+          "date": "2024-05-16T02:00:00+00:00",
+          "excerpt": "NVDA and OSARA provide access to information, employment, community, and more, as well as empower a new generation to build a more accessible world.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Coding accessibility: How Della found her voice with open source AAC",
+          "link": "https://github.com/readme/featured/open-source-aac",
+          "date": "2023-12-03T02:00:00+00:00",
+          "excerpt": "Discover FreeSpeechAAC, an open source assistive communication tool thoughtfully designed by Archer Calder, his nonspeaking sister Della, and the open source community.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "A beginner’s guide to running and managing custom CodeQL queries",
+          "link": "https://github.com/readme/guides/custom-codeql-queries",
+          "date": "2023-10-24T02:00:00+00:00",
+          "excerpt": "Learn how to transform your code with custom CodeQL queries that empower you to surface security vulnerabilities and discover new insights.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Scaling standards and community in your organization",
+          "link": "https://github.com/readme/guides/federated-model",
+          "date": "2023-10-24T02:00:00+00:00",
+          "excerpt": "Learn how to apply open source community ideas to your organization to spread standards and best practices without sacrificing autonomy and innovation.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Coding accessibility: Building autonomy with AI",
+          "link": "https://github.com/readme/featured/accessibility-artificial-intelligence",
+          "date": "2023-10-10T17:45:00+00:00",
+          "excerpt": "After bringing Braille to the digital world in the 1980s and creating the first screen reader for the web in the 1990s, Dr. Chieko Asakawa is now working on an AI-enabled suitcase—and says collaboration is the key to more accessible tech.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Treat accessibility issues as bugs, not feature requests",
+          "link": "https://github.com/readme/guides/fix-accessibility-bugs",
+          "date": "2023-08-08T02:00:00+00:00",
+          "excerpt": "It takes leadership to treat accessibility issues as bugs, and prioritize them before a project is released. Learn how they do it at Drupal.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Provisioning self-hosted GitHub Actions runners on demand",
+          "link": "https://github.com/readme/guides/github-runners-philips",
+          "date": "2023-08-08T02:00:00+00:00",
+          "excerpt": "Unlock the secrets of scaling GitHub self-hosted runners in the enterprise cloud. Dive into Philips' method with Terraform and GitHub Actions to elevate your CI/CD game.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Is Laravel the happiest developer community on the planet?",
+          "link": "https://github.com/readme/featured/laravel-community",
+          "date": "2023-08-08T02:00:00+00:00",
+          "excerpt": "How the PHP framework Laravel prioritizes developer experience by focusing on details and avoiding the hype cycle",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Realizing potential with AI",
+          "link": "https://github.com/readme/stories/anton-mirhorodchenko",
+          "date": "2023-08-08T02:00:00+00:00",
+          "excerpt": "Neither keyboards nor voice-to-text work well for Anton, a developer with cerebral palsy. He uses AI and LLMs to pursue his passion for programming and shows others how they can harness these technologies to accomplish more.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Secure cloud deployment and delivery",
+          "link": "https://github.com/readme/guides/github-actions-eli-lilly",
+          "date": "2023-07-11T02:00:00+00:00",
+          "excerpt": "Pharmaceutical giant Eli Lilly shows how they used GitHub to build a better developer environment and increase speed to delivery.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Make your first open source contribution in four easy steps",
+          "link": "https://github.com/readme/guides/first-oss-contribution",
+          "date": "2023-07-11T02:00:00+00:00",
+          "excerpt": "This guide demystifies open source software and provides a comprehensive roadmap for making your first contribution. Enhance your skills, grow your network, and make a real difference in the tech community.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Turbulent times call for adaptive leadership",
+          "link": "https://github.com/readme/guides/adaptive-leadership",
+          "date": "2023-07-11T02:00:00+00:00",
+          "excerpt": "Learn what adaptive leadership is, how it compares to other leadership styles, and how you can adopt its principles.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "TypeScript and the dawn of gradual types",
+          "link": "https://github.com/readme/featured/typescript-gradual-types",
+          "date": "2023-07-11T02:00:00+00:00",
+          "excerpt": "TypeScript ushered in an era of gradual typing, where developers don’t have to choose between the agility of dynamic languages and the type safety of static languages, all while helping avoid the pitfalls of both.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "From fixing computers on farms to democratizing DevOps",
+          "link": "https://github.com/readme/stories/kyler-middleton",
+          "date": "2023-07-11T02:00:00+00:00",
+          "excerpt": "Kyler Middleton’s journey from a small farm in Nebraska to the tech industry is a testament to resilience and empowerment. Read her story of overcoming adversity and democratizing DevOps.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Finish your projects",
+          "link": "https://github.com/readme/guides/finish-your-projects",
+          "date": "2023-06-13T02:00:00+00:00",
+          "excerpt": "Starting a project can be full of excitement, hope, and blissful productivity. Finishing that last ten percent, however, can feel like too much. Here’s how to get past that and actually finish.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "From chaos to clarity: Use code visibility to illuminate unfamiliar code",
+          "link": "https://github.com/readme/guides/code-visibility-codesee",
+          "date": "2023-06-13T02:00:00+00:00",
+          "excerpt": "What code visibility is, why it matters, and how you can make your code more visible.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Do your part to secure the open source supply chain",
+          "link": "https://github.com/readme/guides/dependency-risk",
+          "date": "2023-06-13T02:00:00+00:00",
+          "excerpt": "Understanding the security risks within the open source ecosystem, from supply chain attacks to protestware, and the tools and methods to mitigate them.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Non-code contributions are the secret to open source success",
+          "link": "https://github.com/readme/featured/open-source-non-code-contributions",
+          "date": "2023-06-13T02:00:00+00:00",
+          "excerpt": "Why non-code contributions like documentation and support are so important to open source, why even experienced programmers should make non-code contributions, and how your project can attract more non-code contributions.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Advancing inclusion with progressive enhancement",
+          "link": "https://github.com/readme/stories/aaron-gustafson",
+          "date": "2023-06-13T02:00:00+00:00",
+          "excerpt": "Aaron Gustafson, web standards and accessibility advocate, shares his evolution from early internet user to champion of progressive enhancement—and how we can all work to create a more inclusive digital landscape.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "How ‘open’ should your open source be?",
+          "link": "https://github.com/readme/featured/how-open-is-open-source",
+          "date": "2023-05-09T02:00:00+00:00",
+          "excerpt": "Open source isn’t one size fits all. Some is open, some closed, and most is in-between. From Litestream to Lua to Prometheus and more, maintainers explain their reasons for where they lie on the spectrum from open to closed, and why there’s more to contributions than code.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Coding accessibility: Disability as catalyst for creativity",
+          "link": "https://github.com/readme/featured/disability-creativity",
+          "date": "2023-05-09T02:00:00+00:00",
+          "excerpt": "When faced with accessibility barriers, developer Paul Chiou gets creative, building custom hardware interfaces and innovative software solutions for himself and others. Read how Chiou works to increase access for all.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Champion accessibility to unleash untapped potential",
+          "link": "https://github.com/readme/stories/annalu-waller",
+          "date": "2023-05-09T02:00:00+00:00",
+          "excerpt": "Dr. Annalu Waller, rehabilitation engineer and Professor of Human Communication Technologies at Dundee University, shares her path to overcoming barriers and empowering others to reach their full potential.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Open source is fueling the future of nuclear physics",
+          "link": "https://github.com/readme/featured/nuclear-fusion-open-source",
+          "date": "2023-04-11T02:00:00+00:00",
+          "excerpt": "A look at the open source artificial intelligence (AI), machine learning (ML), and high performance computing (HPC) tools used in the nuclear fusion ignition breakthrough at Lawerence Livermore Labs.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Putting the African open source community on the map",
+          "link": "https://github.com/readme/stories/ruth-ikegah",
+          "date": "2023-04-11T02:00:00+00:00",
+          "excerpt": "Once indifferent about computers, Ruth Ikegah put in the time, patience, and work to become a force for change in open source, and is now connecting other Africans with the resources they need to succeed, too.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "From gaming with your eyes to coding with AI: New frontiers for accessibility",
+          "link": "https://github.com/readme/featured/open-source-accessibility",
+          "date": "2023-03-14T02:00:00+00:00",
+          "excerpt": "Open source offers developers with disabilities the flexibility needed to participate and collaborate. Their contributions and involvement in the research, design, and development of software are integral to making technology accessible to all.",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Invite the critics and keep learning",
+          "link": "https://github.com/readme/stories/rohan-gupta",
+          "date": "2023-03-14T02:00:00+00:00",
+          "excerpt": "When Windows 11 debuted with limited access, @blueedgetechno created a *very* convincing clone. Hear why he has a female avatar, maintains a growth mindset, and more on The ReadME Project:",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Out of the slums and into open source",
+          "link": "https://github.com/readme/stories/santosh-yadav",
+          "date": "2023-02-14T02:00:00+00:00",
+          "excerpt": "From a slum in India to a Google Developer Expert in Germany, @SantoshYadavDev shares how he leveraged software development as a path out of poverty in The ReadME Project:",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Raising the bar for open source standards",
+          "link": "https://github.com/readme/stories/leonardo-javier-russo",
+          "date": "2023-01-17T02:00:00+00:00",
+          "excerpt": "After seeing first-hand how stifling inaccessibility is, Leonardo strives to create an open source world where everyone can seamlessly participate. He shares his full story on The ReadME Project:",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "Building super fans through genuine human connections",
+          "link": "https://github.com/readme/stories/jana-iris",
+          "date": "2022-12-13T02:00:00+00:00",
+          "excerpt": "She never considered tech as a potential career path, but @janaboruta leveraged her empathy to successfully build open source communities of super fans. Her full story, now on The ReadME Project:",
+          "author": ""
+        },
+        {
+          "feed": "The ReadME Project",
+          "title": "The purest form of collaboration",
+          "link": "https://github.com/readme/stories/avi-press",
+          "date": "2022-11-15T02:00:00+00:00",
+          "excerpt": "Fueled by the versatility of computer science, @avi_press learned by doing, then started a company to help clear the roadblocks he ran into. Get his full story on The ReadME Project:",
+          "author": ""
+        }
+      ]
+    },
+    "Yukta Subramanian": {
+      "etag": null,
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "Yukta Subramanian",
+          "title": "Cancer is getting on my nerves (literally!)",
+          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+          "date": "2026-02-24T19:06:27+00:00",
+          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+          "author": "Yukta Subramanian"
+        },
+        {
+          "feed": "Yukta Subramanian",
+          "title": "The Tick-Tock Within Us",
+          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+          "date": "2025-01-03T15:09:23+00:00",
+          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+          "author": "Yukta Subramanian"
+        }
+      ]
+    },
+    "Matt Might": {
+      "etag": "\"65a425c0-55cf\"",
+      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
+      "articles": [
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Change your behavior",
+          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+          "date": "2024-01-14T12:14:05-06:00",
+          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Hello, Perceptron: An introduction to artificial neural networks",
+          "link": "http://matt.might.net/articles/hello-perceptron/",
+          "date": "2023-05-05T09:05:31-05:00",
+          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+          "date": "2023-04-01T10:48:44-05:00",
+          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "12 resolutions for programmers",
+          "link": "http://matt.might.net/articles/programmers-resolutions/",
+          "date": "2012-01-03T08:06:54-07:00",
+          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+          "link": "http://matt.might.net/articles/26-languages-part2/",
+          "date": "2022-12-31T12:36:56-07:00",
+          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+          "link": "http://matt.might.net/articles/26-languages-part1/",
+          "date": "2022-12-27T16:28:42-07:00",
+          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+          "date": "2022-11-28T06:16:39-06:00",
+          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Control yourself",
+          "link": "http://matt.might.net/articles/how-to-control-yourself/",
+          "date": "2022-11-01T13:05:08-05:00",
+          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Get tenure",
+          "link": "http://matt.might.net/articles/tenure/",
+          "date": "2015-08-18T10:33:03-06:00",
+          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Counting hash collisions with the birthday paradox",
+          "link": "http://matt.might.net/articles/counting-hash-collisions/",
+          "date": "2015-07-16T23:33:41-04:00",
+          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
+          "author": ""
         }
       ]
     },
