@@ -44,4 +44,8 @@ const FEEDS = [
     name: "The ReadME Project",
     url: "https://github.com/readme.rss",
   },
+  {
+    name: "Daniel Stenberg",
+    url: "https://daniel.haxx.se/blog/feed/",
+  },
 ];
