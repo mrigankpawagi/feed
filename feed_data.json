@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T09:37:40.257615+00:00",
+  "lastUpdated": "2026-05-27T09:30:58.858701+00:00",
   "articles": [
     {
       "feed": "Leonardo de Moura",
@@ -71,22 +71,6 @@
       "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
       "date": "2026-02-18T00:00:00+00:00",
       "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
-      "author": ""
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Beyond Penetrate-and-Patch",
-      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-      "date": "2026-05-05T00:00:00+00:00",
-      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-      "author": ""
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Hello, World: A New Blog",
-      "link": "https://mhicks.me/blog/hello-world/",
-      "date": "2026-03-12T00:00:00+00:00",
-      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
       "author": ""
     },
     {
@@ -232,6 +216,22 @@
       "date": "2019-10-03T21:14:02+05:30",
       "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
       "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Mike Hicks",
+      "title": "Beyond Penetrate-and-Patch",
+      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+      "date": "2026-05-05T00:00:00+00:00",
+      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+      "author": ""
+    },
+    {
+      "feed": "Mike Hicks",
+      "title": "Hello, World: A New Blog",
+      "link": "https://mhicks.me/blog/hello-world/",
+      "date": "2026-03-12T00:00:00+00:00",
+      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+      "author": ""
     },
     {
       "feed": "Simon Willison",
@@ -1618,342 +1618,6 @@
       "author": ""
     },
     {
-      "feed": "Yukta Subramanian",
-      "title": "Cancer is getting on my nerves (literally!)",
-      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-      "date": "2026-02-24T19:06:27+00:00",
-      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "The Tick-Tock Within Us",
-      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-      "date": "2025-01-03T15:09:23+00:00",
-      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Change your behavior",
-      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-      "date": "2024-01-14T12:14:05-06:00",
-      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Hello, Perceptron: An introduction to artificial neural networks",
-      "link": "http://matt.might.net/articles/hello-perceptron/",
-      "date": "2023-05-05T09:05:31-05:00",
-      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-      "date": "2023-04-01T10:48:44-05:00",
-      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "12 resolutions for programmers",
-      "link": "http://matt.might.net/articles/programmers-resolutions/",
-      "date": "2012-01-03T08:06:54-07:00",
-      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-      "link": "http://matt.might.net/articles/26-languages-part2/",
-      "date": "2022-12-31T12:36:56-07:00",
-      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-      "link": "http://matt.might.net/articles/26-languages-part1/",
-      "date": "2022-12-27T16:28:42-07:00",
-      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-      "date": "2022-11-28T06:16:39-06:00",
-      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Control yourself",
-      "link": "http://matt.might.net/articles/how-to-control-yourself/",
-      "date": "2022-11-01T13:05:08-05:00",
-      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "HOWTO: Get tenure",
-      "link": "http://matt.might.net/articles/tenure/",
-      "date": "2015-08-18T10:33:03-06:00",
-      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-      "author": ""
-    },
-    {
-      "feed": "Matt Might",
-      "title": "Counting hash collisions with the birthday paradox",
-      "link": "http://matt.might.net/articles/counting-hash-collisions/",
-      "date": "2015-07-16T23:33:41-04:00",
-      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
-      "author": ""
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Shame them, shun them, ban them, beat them!",
-      "link": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
-      "date": "2026-05-12T13:23:30+00:00",
-      "excerpt": "photo cred: my dad 1. Say what you will about the Union of Soviet Socialist Republics, its 1936 constitution was a banger. It guaranteed freedom of speech, the press, assembly, and protest. It extended equal rights to all citizens, regardless of race or gender. It shortened the working day to seven ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
-      "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
-      "date": "2026-04-28T17:48:50+00:00",
-      "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Nothing ever dies. It merely becomes embarrassing.",
-      "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
-      "date": "2026-04-14T16:16:42+00:00",
-      "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Infinite midwit",
-      "link": "https://www.experimental-history.com/p/infinite-midwit",
-      "date": "2026-03-31T16:05:29+00:00",
-      "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Help I'm being persecuted",
-      "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
-      "date": "2026-03-17T13:33:13+00:00",
-      "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The one science reform we can all agree on, but we're too cowardly to do",
-      "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
-      "date": "2026-03-03T17:47:57+00:00",
-      "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "I swear the UFO is coming any minute",
-      "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
-      "date": "2026-02-17T16:15:11+00:00",
-      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Underrated ways to change the world, vol. II",
-      "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
-      "date": "2026-02-03T16:28:19+00:00",
-      "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "I know your secret",
-      "link": "https://www.experimental-history.com/p/i-know-your-secret",
-      "date": "2026-01-27T16:22:32+00:00",
-      "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Text is king",
-      "link": "https://www.experimental-history.com/p/text-is-king",
-      "date": "2026-01-20T18:55:47+00:00",
-      "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "How to be less awkward",
-      "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
-      "date": "2026-01-06T16:45:44+00:00",
-      "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The drug that taught me how much I should suffer",
-      "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
-      "date": "2025-12-09T17:46:17+00:00",
-      "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Secrets of the ancient memelords",
-      "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
-      "date": "2025-11-25T19:17:23+00:00",
-      "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "You say potato, I say leprosy",
-      "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
-      "date": "2025-11-12T00:45:53+00:00",
-      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The Decline of Deviance",
-      "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
-      "date": "2025-10-28T15:21:32+00:00",
-      "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Bamboozle me, daddy",
-      "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
-      "date": "2025-10-14T15:48:04+00:00",
-      "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Thank you for being annoying",
-      "link": "https://www.experimental-history.com/p/thank-you-for-being-annoying",
-      "date": "2025-09-30T14:35:46+00:00",
-      "excerpt": "photo cred: my dad “Do what you love” is the most dangerous sentence in the English language. We send kids into the world with that mantra in their heads, and then they return shellshocked and ashamed, because they couldn’t do it. Many of them end up believing that they are the one person on Earth w",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Blog Extravaganza 2025: the winners",
-      "link": "https://www.experimental-history.com/p/blog-extravaganza-2025-the-winners",
-      "date": "2025-09-16T14:14:58+00:00",
-      "excerpt": "photo cred: my dad Back in May, I announced the Second Annual Experimental History Blog Post Competition, Extravaganza, and Jamboree. The prompt was “send me a never-before-published blog post, and if I like it I’ll post about it and send you cash.” I got 109 submissions from folks all over the worl",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Use this magic bullet to shoot yourself in the foot",
-      "link": "https://www.experimental-history.com/p/use-this-magic-bullet-to-shoot-yourself",
-      "date": "2025-09-02T16:48:01+00:00",
-      "excerpt": "photo cred: my dad Everyone I know has given up. That’s how it feels, at least. There’s a creeping sense that the jig is up, the fix is in, and the party’s over. The Earth is burning, democracies are backsliding, AI is advancing, cities are crumbling—somehow everything sucks and it’s more expensive ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Bag of words, have mercy on us",
-      "link": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
-      "date": "2025-08-05T20:06:09+00:00",
-      "excerpt": "photo cred: my dad Look, I don’t know if AI is gonna kill us or make us all rich or whatever, but I do know we’ve got the wrong metaphor. We want to understand these things as people . When you type a question to ChatGPT and it types back the answer in complete sentences, it feels like there must be",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "The pressure",
-      "link": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
-      "date": "2026-05-26T06:01:39+00:00",
-      "excerpt": "I’m doing Open Source primarily because I love it. The social aspects, the for-the-good angle and for the challenge of engineering this to work for everyone. I also do it because it is my full-time job and getting food on the table and provide for my family is not unimportant. It may come as a shock",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "named globs with curl",
-      "link": "https://daniel.haxx.se/blog/2026/05/16/named-globs-with-curl/",
-      "date": "2026-05-16T20:58:26+00:00",
-      "excerpt": "One of the established power features of the curl command line tool is its support for “globbing”. It is a built-in way to specify ranges and sets in different ways and have curl iterate over them to simplify repeated transfers. For example, you can easily download three images from the same host wi",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Mythos finds a curl vulnerability",
-      "link": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
-      "date": "2026-05-11T06:01:35+00:00",
-      "excerpt": "yes, as in singular one . Back in April 2026 Anthropic caused a lot of media noise when they concluded that their new AI model Mythos is dangerously good at finding security flaws in source code. Apparently Mythos was so good at this that Anthropic would not release this model to the public yet but ",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Approaching zero bugs?",
-      "link": "https://daniel.haxx.se/blog/2026/04/30/approaching-zero-bugs/",
-      "date": "2026-04-30T08:08:34+00:00",
-      "excerpt": "In this era of powerful tools to find software bugs , we now see tools find a lot of problems at a high speed. This causes problems for developers, as dealing with the growing list of issues is hard. It may take a longer time to address the problems than to find them – not to mention to put them int",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Inspired",
-      "link": "https://daniel.haxx.se/blog/2026/04/30/inspired/",
-      "date": "2026-04-30T06:49:47+00:00",
-      "excerpt": "The picture was taken by mr Nasser and shared on social media In appendix A of the book Root cause: Stories and lessons from two decades of Backend Engineering Bugs , author Hussein Nasser has these wonderful words to say about me: Daniel Stenberg is a Swedish engineer and the creator of curl (cURL)",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "curl 8.20.0",
-      "link": "https://daniel.haxx.se/blog/2026/04/29/curl-8-20-0/",
-      "date": "2026-04-29T06:27:01+00:00",
-      "excerpt": "You always find the new curl releases on the curl site ! Release presentation Numbers the 274th release 8 changes 49 days (total: 10,761) 282 bugfixes (total: 13,922) 521 commits (total: 38,545) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 0 new curl comman",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "High-Quality Chaos",
-      "link": "https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/",
-      "date": "2026-04-22T11:44:40+00:00",
-      "excerpt": "As I have been preparing slides for my coming talk at foss-north on April 28, 2026 I figured I could take the opportunity and share a glimpse of the current reality here on my blog. The high quality chaos era, as I call it. No more AI slop I complained and I complained about the high frequency junk ",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Don’t trust, verify",
-      "link": "https://daniel.haxx.se/blog/2026/03/26/dont-trust-verify/",
-      "date": "2026-03-26T10:09:07+00:00",
-      "excerpt": "Software and digital security should rely on verification , rather than trust. I want to strongly encourage more users and consumers of software to verify curl. And ideally require that you could do at least this level of verification of other software components in your dependency chains. Attacks a",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "One hundred weirdo emails",
-      "link": "https://daniel.haxx.se/blog/2026/03/25/one-hundred-weirdo-emails/",
-      "date": "2026-03-25T08:05:41+00:00",
-      "excerpt": "My email address is spelled out in the curl license The curl license appears in many products Some people have problems with their products and need someone to email A few of these discover my email in their product Occasionally, the person in need of help emails me about their product. I collect so",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "NTLM and SMB go opt-in",
-      "link": "https://daniel.haxx.se/blog/2026/03/22/ntlm-and-smb-go-opt-in/",
-      "date": "2026-03-22T11:41:09+00:00",
-      "excerpt": "The NTLM authentication method was always a beast. It is a proprietary protocol designed by Microsoft which was reverse engineered a long time ago. That effort resulted in the online documentation that I based the curl implementation on back in 2003. I then also wrote the NTLM code for wget while at",
-      "author": "Daniel Stenberg"
-    },
-    {
       "feed": "Hillel Wayne",
       "title": "Assumptions weaken properties",
       "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/",
@@ -2194,6 +1858,342 @@
       "author": ""
     },
     {
+      "feed": "Matt Might",
+      "title": "HOWTO: Change your behavior",
+      "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+      "date": "2024-01-14T12:14:05-06:00",
+      "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Hello, Perceptron: An introduction to artificial neural networks",
+      "link": "http://matt.might.net/articles/hello-perceptron/",
+      "date": "2023-05-05T09:05:31-05:00",
+      "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+      "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+      "date": "2023-04-01T10:48:44-05:00",
+      "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "12 resolutions for programmers",
+      "link": "http://matt.might.net/articles/programmers-resolutions/",
+      "date": "2012-01-03T08:06:54-07:00",
+      "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+      "link": "http://matt.might.net/articles/26-languages-part2/",
+      "date": "2022-12-31T12:36:56-07:00",
+      "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+      "link": "http://matt.might.net/articles/26-languages-part1/",
+      "date": "2022-12-27T16:28:42-07:00",
+      "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+      "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+      "date": "2022-11-28T06:16:39-06:00",
+      "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Control yourself",
+      "link": "http://matt.might.net/articles/how-to-control-yourself/",
+      "date": "2022-11-01T13:05:08-05:00",
+      "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "HOWTO: Get tenure",
+      "link": "http://matt.might.net/articles/tenure/",
+      "date": "2015-08-18T10:33:03-06:00",
+      "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
+      "author": ""
+    },
+    {
+      "feed": "Matt Might",
+      "title": "Counting hash collisions with the birthday paradox",
+      "link": "http://matt.might.net/articles/counting-hash-collisions/",
+      "date": "2015-07-16T23:33:41-04:00",
+      "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
+      "author": ""
+    },
+    {
+      "feed": "Yukta Subramanian",
+      "title": "Cancer is getting on my nerves (literally!)",
+      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+      "date": "2026-02-24T19:06:27+00:00",
+      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Yukta Subramanian",
+      "title": "The Tick-Tock Within Us",
+      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+      "date": "2025-01-03T15:09:23+00:00",
+      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Only insane people use the internet",
+      "link": "https://www.experimental-history.com/p/only-insane-people-use-the-internet",
+      "date": "2026-05-26T16:02:14+00:00",
+      "excerpt": "photo cred: my dad There’s a guy who sends me a nasty reply to every one of my posts. Within 24 hours of an email going out, he arrives in my inbox like: you had me at “has the capability to articulate thoughts well” 😍😍😍😍😍😍 Read more",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Shame them, shun them, ban them, beat them!",
+      "link": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
+      "date": "2026-05-12T13:23:30+00:00",
+      "excerpt": "photo cred: my dad 1. Say what you will about the Union of Soviet Socialist Republics, its 1936 constitution was a banger. It guaranteed freedom of speech, the press, assembly, and protest. It extended equal rights to all citizens, regardless of race or gender. It shortened the working day to seven ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
+      "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
+      "date": "2026-04-28T17:48:50+00:00",
+      "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Nothing ever dies. It merely becomes embarrassing.",
+      "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
+      "date": "2026-04-14T16:16:42+00:00",
+      "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Infinite midwit",
+      "link": "https://www.experimental-history.com/p/infinite-midwit",
+      "date": "2026-03-31T16:05:29+00:00",
+      "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Help I'm being persecuted",
+      "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
+      "date": "2026-03-17T13:33:13+00:00",
+      "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The one science reform we can all agree on, but we're too cowardly to do",
+      "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
+      "date": "2026-03-03T17:47:57+00:00",
+      "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "I swear the UFO is coming any minute",
+      "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
+      "date": "2026-02-17T16:15:11+00:00",
+      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Underrated ways to change the world, vol. II",
+      "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
+      "date": "2026-02-03T16:28:19+00:00",
+      "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "I know your secret",
+      "link": "https://www.experimental-history.com/p/i-know-your-secret",
+      "date": "2026-01-27T16:22:32+00:00",
+      "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Text is king",
+      "link": "https://www.experimental-history.com/p/text-is-king",
+      "date": "2026-01-20T18:55:47+00:00",
+      "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "How to be less awkward",
+      "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
+      "date": "2026-01-06T16:45:44+00:00",
+      "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The drug that taught me how much I should suffer",
+      "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
+      "date": "2025-12-09T17:46:17+00:00",
+      "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Secrets of the ancient memelords",
+      "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
+      "date": "2025-11-25T19:17:23+00:00",
+      "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "You say potato, I say leprosy",
+      "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
+      "date": "2025-11-12T00:45:53+00:00",
+      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The Decline of Deviance",
+      "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
+      "date": "2025-10-28T15:21:32+00:00",
+      "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Bamboozle me, daddy",
+      "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
+      "date": "2025-10-14T15:48:04+00:00",
+      "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Thank you for being annoying",
+      "link": "https://www.experimental-history.com/p/thank-you-for-being-annoying",
+      "date": "2025-09-30T14:35:46+00:00",
+      "excerpt": "photo cred: my dad “Do what you love” is the most dangerous sentence in the English language. We send kids into the world with that mantra in their heads, and then they return shellshocked and ashamed, because they couldn’t do it. Many of them end up believing that they are the one person on Earth w",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Blog Extravaganza 2025: the winners",
+      "link": "https://www.experimental-history.com/p/blog-extravaganza-2025-the-winners",
+      "date": "2025-09-16T14:14:58+00:00",
+      "excerpt": "photo cred: my dad Back in May, I announced the Second Annual Experimental History Blog Post Competition, Extravaganza, and Jamboree. The prompt was “send me a never-before-published blog post, and if I like it I’ll post about it and send you cash.” I got 109 submissions from folks all over the worl",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Use this magic bullet to shoot yourself in the foot",
+      "link": "https://www.experimental-history.com/p/use-this-magic-bullet-to-shoot-yourself",
+      "date": "2025-09-02T16:48:01+00:00",
+      "excerpt": "photo cred: my dad Everyone I know has given up. That’s how it feels, at least. There’s a creeping sense that the jig is up, the fix is in, and the party’s over. The Earth is burning, democracies are backsliding, AI is advancing, cities are crumbling—somehow everything sucks and it’s more expensive ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "The pressure",
+      "link": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
+      "date": "2026-05-26T06:01:39+00:00",
+      "excerpt": "I’m doing Open Source primarily because I love it. The social aspects, the for-the-good angle and for the challenge of engineering this to work for everyone. I also do it because it is my full-time job and getting food on the table and provide for my family is not unimportant. It may come as a shock",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "named globs with curl",
+      "link": "https://daniel.haxx.se/blog/2026/05/16/named-globs-with-curl/",
+      "date": "2026-05-16T20:58:26+00:00",
+      "excerpt": "One of the established power features of the curl command line tool is its support for “globbing”. It is a built-in way to specify ranges and sets in different ways and have curl iterate over them to simplify repeated transfers. For example, you can easily download three images from the same host wi",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Mythos finds a curl vulnerability",
+      "link": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+      "date": "2026-05-11T06:01:35+00:00",
+      "excerpt": "yes, as in singular one . Back in April 2026 Anthropic caused a lot of media noise when they concluded that their new AI model Mythos is dangerously good at finding security flaws in source code. Apparently Mythos was so good at this that Anthropic would not release this model to the public yet but ",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Approaching zero bugs?",
+      "link": "https://daniel.haxx.se/blog/2026/04/30/approaching-zero-bugs/",
+      "date": "2026-04-30T08:08:34+00:00",
+      "excerpt": "In this era of powerful tools to find software bugs , we now see tools find a lot of problems at a high speed. This causes problems for developers, as dealing with the growing list of issues is hard. It may take a longer time to address the problems than to find them – not to mention to put them int",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Inspired",
+      "link": "https://daniel.haxx.se/blog/2026/04/30/inspired/",
+      "date": "2026-04-30T06:49:47+00:00",
+      "excerpt": "The picture was taken by mr Nasser and shared on social media In appendix A of the book Root cause: Stories and lessons from two decades of Backend Engineering Bugs , author Hussein Nasser has these wonderful words to say about me: Daniel Stenberg is a Swedish engineer and the creator of curl (cURL)",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "curl 8.20.0",
+      "link": "https://daniel.haxx.se/blog/2026/04/29/curl-8-20-0/",
+      "date": "2026-04-29T06:27:01+00:00",
+      "excerpt": "You always find the new curl releases on the curl site ! Release presentation Numbers the 274th release 8 changes 49 days (total: 10,761) 282 bugfixes (total: 13,922) 521 commits (total: 38,545) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 0 new curl comman",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "High-Quality Chaos",
+      "link": "https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/",
+      "date": "2026-04-22T11:44:40+00:00",
+      "excerpt": "As I have been preparing slides for my coming talk at foss-north on April 28, 2026 I figured I could take the opportunity and share a glimpse of the current reality here on my blog. The high quality chaos era, as I call it. No more AI slop I complained and I complained about the high frequency junk ",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Don’t trust, verify",
+      "link": "https://daniel.haxx.se/blog/2026/03/26/dont-trust-verify/",
+      "date": "2026-03-26T10:09:07+00:00",
+      "excerpt": "Software and digital security should rely on verification , rather than trust. I want to strongly encourage more users and consumers of software to verify curl. And ideally require that you could do at least this level of verification of other software components in your dependency chains. Attacks a",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "One hundred weirdo emails",
+      "link": "https://daniel.haxx.se/blog/2026/03/25/one-hundred-weirdo-emails/",
+      "date": "2026-03-25T08:05:41+00:00",
+      "excerpt": "My email address is spelled out in the curl license The curl license appears in many products Some people have problems with their products and need someone to email A few of these discover my email in their product Occasionally, the person in need of help emails me about their product. I collect so",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "NTLM and SMB go opt-in",
+      "link": "https://daniel.haxx.se/blog/2026/03/22/ntlm-and-smb-go-opt-in/",
+      "date": "2026-03-22T11:41:09+00:00",
+      "excerpt": "The NTLM authentication method was always a beast. It is a proprietary protocol designed by Microsoft which was reverse engineered a long time ago. That effort resulted in the online documentation that I based the curl implementation on back in 2003. I then also wrote the NTLM code for wget while at",
+      "author": "Daniel Stenberg"
+    },
+    {
       "feed": "SIGPLAN Blog",
       "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
       "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
@@ -2354,28 +2354,6 @@
         }
       ]
     },
-    "Mike Hicks": {
-      "etag": "\"6a05afa5-b0f\"",
-      "last_modified": "Thu, 14 May 2026 11:19:01 GMT",
-      "articles": [
-        {
-          "feed": "Mike Hicks",
-          "title": "Beyond Penetrate-and-Patch",
-          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-          "date": "2026-05-05T00:00:00+00:00",
-          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-          "author": ""
-        },
-        {
-          "feed": "Mike Hicks",
-          "title": "Hello, World: A New Blog",
-          "link": "https://mhicks.me/blog/hello-world/",
-          "date": "2026-03-12T00:00:00+00:00",
-          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-          "author": ""
-        }
-      ]
-    },
     "Automating Mathematics": {
       "etag": "\"69a515ff-3f8e\"",
       "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
@@ -2523,6 +2501,28 @@
           "date": "2019-10-03T21:14:02+05:30",
           "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
           "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        }
+      ]
+    },
+    "Mike Hicks": {
+      "etag": "\"6a05afa5-b0f\"",
+      "last_modified": "Thu, 14 May 2026 11:19:01 GMT",
+      "articles": [
+        {
+          "feed": "Mike Hicks",
+          "title": "Beyond Penetrate-and-Patch",
+          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+          "date": "2026-05-05T00:00:00+00:00",
+          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+          "author": ""
+        },
+        {
+          "feed": "Mike Hicks",
+          "title": "Hello, World: A New Blog",
+          "link": "https://mhicks.me/blog/hello-world/",
+          "date": "2026-03-12T00:00:00+00:00",
+          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+          "author": ""
         }
       ]
     },
@@ -3928,366 +3928,6 @@
         }
       ]
     },
-    "Yukta Subramanian": {
-      "etag": null,
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "Yukta Subramanian",
-          "title": "Cancer is getting on my nerves (literally!)",
-          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-          "date": "2026-02-24T19:06:27+00:00",
-          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-          "author": "Yukta Subramanian"
-        },
-        {
-          "feed": "Yukta Subramanian",
-          "title": "The Tick-Tock Within Us",
-          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-          "date": "2025-01-03T15:09:23+00:00",
-          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-          "author": "Yukta Subramanian"
-        }
-      ]
-    },
-    "Matt Might": {
-      "etag": "\"65a425c0-55cf\"",
-      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
-      "articles": [
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Change your behavior",
-          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
-          "date": "2024-01-14T12:14:05-06:00",
-          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Hello, Perceptron: An introduction to artificial neural networks",
-          "link": "http://matt.might.net/articles/hello-perceptron/",
-          "date": "2023-05-05T09:05:31-05:00",
-          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
-          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
-          "date": "2023-04-01T10:48:44-05:00",
-          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "12 resolutions for programmers",
-          "link": "http://matt.might.net/articles/programmers-resolutions/",
-          "date": "2012-01-03T08:06:54-07:00",
-          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
-          "link": "http://matt.might.net/articles/26-languages-part2/",
-          "date": "2022-12-31T12:36:56-07:00",
-          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
-          "link": "http://matt.might.net/articles/26-languages-part1/",
-          "date": "2022-12-27T16:28:42-07:00",
-          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
-          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
-          "date": "2022-11-28T06:16:39-06:00",
-          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Control yourself",
-          "link": "http://matt.might.net/articles/how-to-control-yourself/",
-          "date": "2022-11-01T13:05:08-05:00",
-          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "HOWTO: Get tenure",
-          "link": "http://matt.might.net/articles/tenure/",
-          "date": "2015-08-18T10:33:03-06:00",
-          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
-          "author": ""
-        },
-        {
-          "feed": "Matt Might",
-          "title": "Counting hash collisions with the birthday paradox",
-          "link": "http://matt.might.net/articles/counting-hash-collisions/",
-          "date": "2015-07-16T23:33:41-04:00",
-          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
-          "author": ""
-        }
-      ]
-    },
-    "Experimental History": {
-      "etag": "W/\"10571a-IKtDPJ1fPd59PzRdDfsdWUzARBc\"",
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "Experimental History",
-          "title": "Shame them, shun them, ban them, beat them!",
-          "link": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
-          "date": "2026-05-12T13:23:30+00:00",
-          "excerpt": "photo cred: my dad 1. Say what you will about the Union of Soviet Socialist Republics, its 1936 constitution was a banger. It guaranteed freedom of speech, the press, assembly, and protest. It extended equal rights to all citizens, regardless of race or gender. It shortened the working day to seven ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
-          "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
-          "date": "2026-04-28T17:48:50+00:00",
-          "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Nothing ever dies. It merely becomes embarrassing.",
-          "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
-          "date": "2026-04-14T16:16:42+00:00",
-          "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Infinite midwit",
-          "link": "https://www.experimental-history.com/p/infinite-midwit",
-          "date": "2026-03-31T16:05:29+00:00",
-          "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Help I'm being persecuted",
-          "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
-          "date": "2026-03-17T13:33:13+00:00",
-          "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The one science reform we can all agree on, but we're too cowardly to do",
-          "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
-          "date": "2026-03-03T17:47:57+00:00",
-          "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "I swear the UFO is coming any minute",
-          "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
-          "date": "2026-02-17T16:15:11+00:00",
-          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Underrated ways to change the world, vol. II",
-          "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
-          "date": "2026-02-03T16:28:19+00:00",
-          "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "I know your secret",
-          "link": "https://www.experimental-history.com/p/i-know-your-secret",
-          "date": "2026-01-27T16:22:32+00:00",
-          "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Text is king",
-          "link": "https://www.experimental-history.com/p/text-is-king",
-          "date": "2026-01-20T18:55:47+00:00",
-          "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "How to be less awkward",
-          "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
-          "date": "2026-01-06T16:45:44+00:00",
-          "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The drug that taught me how much I should suffer",
-          "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
-          "date": "2025-12-09T17:46:17+00:00",
-          "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Secrets of the ancient memelords",
-          "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
-          "date": "2025-11-25T19:17:23+00:00",
-          "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "You say potato, I say leprosy",
-          "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
-          "date": "2025-11-12T00:45:53+00:00",
-          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The Decline of Deviance",
-          "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
-          "date": "2025-10-28T15:21:32+00:00",
-          "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Bamboozle me, daddy",
-          "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
-          "date": "2025-10-14T15:48:04+00:00",
-          "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Thank you for being annoying",
-          "link": "https://www.experimental-history.com/p/thank-you-for-being-annoying",
-          "date": "2025-09-30T14:35:46+00:00",
-          "excerpt": "photo cred: my dad “Do what you love” is the most dangerous sentence in the English language. We send kids into the world with that mantra in their heads, and then they return shellshocked and ashamed, because they couldn’t do it. Many of them end up believing that they are the one person on Earth w",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Blog Extravaganza 2025: the winners",
-          "link": "https://www.experimental-history.com/p/blog-extravaganza-2025-the-winners",
-          "date": "2025-09-16T14:14:58+00:00",
-          "excerpt": "photo cred: my dad Back in May, I announced the Second Annual Experimental History Blog Post Competition, Extravaganza, and Jamboree. The prompt was “send me a never-before-published blog post, and if I like it I’ll post about it and send you cash.” I got 109 submissions from folks all over the worl",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Use this magic bullet to shoot yourself in the foot",
-          "link": "https://www.experimental-history.com/p/use-this-magic-bullet-to-shoot-yourself",
-          "date": "2025-09-02T16:48:01+00:00",
-          "excerpt": "photo cred: my dad Everyone I know has given up. That’s how it feels, at least. There’s a creeping sense that the jig is up, the fix is in, and the party’s over. The Earth is burning, democracies are backsliding, AI is advancing, cities are crumbling—somehow everything sucks and it’s more expensive ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Bag of words, have mercy on us",
-          "link": "https://www.experimental-history.com/p/bag-of-words-have-mercy-on-us",
-          "date": "2025-08-05T20:06:09+00:00",
-          "excerpt": "photo cred: my dad Look, I don’t know if AI is gonna kill us or make us all rich or whatever, but I do know we’ve got the wrong metaphor. We want to understand these things as people . When you type a question to ChatGPT and it types back the answer in complete sentences, it feels like there must be",
-          "author": "Adam Mastroianni"
-        }
-      ]
-    },
-    "Daniel Stenberg": {
-      "etag": "\"7a058e9c53f53e1367d5e7720f4bdaf4\"",
-      "last_modified": "Tue, 26 May 2026 06:01:39 GMT",
-      "articles": [
-        {
-          "feed": "Daniel Stenberg",
-          "title": "The pressure",
-          "link": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
-          "date": "2026-05-26T06:01:39+00:00",
-          "excerpt": "I’m doing Open Source primarily because I love it. The social aspects, the for-the-good angle and for the challenge of engineering this to work for everyone. I also do it because it is my full-time job and getting food on the table and provide for my family is not unimportant. It may come as a shock",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "named globs with curl",
-          "link": "https://daniel.haxx.se/blog/2026/05/16/named-globs-with-curl/",
-          "date": "2026-05-16T20:58:26+00:00",
-          "excerpt": "One of the established power features of the curl command line tool is its support for “globbing”. It is a built-in way to specify ranges and sets in different ways and have curl iterate over them to simplify repeated transfers. For example, you can easily download three images from the same host wi",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Mythos finds a curl vulnerability",
-          "link": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
-          "date": "2026-05-11T06:01:35+00:00",
-          "excerpt": "yes, as in singular one . Back in April 2026 Anthropic caused a lot of media noise when they concluded that their new AI model Mythos is dangerously good at finding security flaws in source code. Apparently Mythos was so good at this that Anthropic would not release this model to the public yet but ",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Approaching zero bugs?",
-          "link": "https://daniel.haxx.se/blog/2026/04/30/approaching-zero-bugs/",
-          "date": "2026-04-30T08:08:34+00:00",
-          "excerpt": "In this era of powerful tools to find software bugs , we now see tools find a lot of problems at a high speed. This causes problems for developers, as dealing with the growing list of issues is hard. It may take a longer time to address the problems than to find them – not to mention to put them int",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Inspired",
-          "link": "https://daniel.haxx.se/blog/2026/04/30/inspired/",
-          "date": "2026-04-30T06:49:47+00:00",
-          "excerpt": "The picture was taken by mr Nasser and shared on social media In appendix A of the book Root cause: Stories and lessons from two decades of Backend Engineering Bugs , author Hussein Nasser has these wonderful words to say about me: Daniel Stenberg is a Swedish engineer and the creator of curl (cURL)",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "curl 8.20.0",
-          "link": "https://daniel.haxx.se/blog/2026/04/29/curl-8-20-0/",
-          "date": "2026-04-29T06:27:01+00:00",
-          "excerpt": "You always find the new curl releases on the curl site ! Release presentation Numbers the 274th release 8 changes 49 days (total: 10,761) 282 bugfixes (total: 13,922) 521 commits (total: 38,545) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 0 new curl comman",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "High-Quality Chaos",
-          "link": "https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/",
-          "date": "2026-04-22T11:44:40+00:00",
-          "excerpt": "As I have been preparing slides for my coming talk at foss-north on April 28, 2026 I figured I could take the opportunity and share a glimpse of the current reality here on my blog. The high quality chaos era, as I call it. No more AI slop I complained and I complained about the high frequency junk ",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Don’t trust, verify",
-          "link": "https://daniel.haxx.se/blog/2026/03/26/dont-trust-verify/",
-          "date": "2026-03-26T10:09:07+00:00",
-          "excerpt": "Software and digital security should rely on verification , rather than trust. I want to strongly encourage more users and consumers of software to verify curl. And ideally require that you could do at least this level of verification of other software components in your dependency chains. Attacks a",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "One hundred weirdo emails",
-          "link": "https://daniel.haxx.se/blog/2026/03/25/one-hundred-weirdo-emails/",
-          "date": "2026-03-25T08:05:41+00:00",
-          "excerpt": "My email address is spelled out in the curl license The curl license appears in many products Some people have problems with their products and need someone to email A few of these discover my email in their product Occasionally, the person in need of help emails me about their product. I collect so",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "NTLM and SMB go opt-in",
-          "link": "https://daniel.haxx.se/blog/2026/03/22/ntlm-and-smb-go-opt-in/",
-          "date": "2026-03-22T11:41:09+00:00",
-          "excerpt": "The NTLM authentication method was always a beast. It is a proprietary protocol designed by Microsoft which was reverse engineered a long time ago. That effort resulted in the online documentation that I based the curl implementation on back in 2003. I then also wrote the NTLM code for wget while at",
-          "author": "Daniel Stenberg"
-        }
-      ]
-    },
     "Hillel Wayne": {
       "etag": null,
       "last_modified": "Wed, 20 May 2026 15:13:16 GMT",
@@ -4531,6 +4171,366 @@
           "date": "2025-08-06T13:00:00+00:00",
           "excerpt": "New Logic for Programmers Release! v0.11 is now available ! This is over 20% longer than v0.10, with a new chapter on code proofs, three chapter overhauls, and more! Full release notes here . Software books I wish I could read I'm writing Logic for Programmers because it's a book I wanted to have te",
           "author": ""
+        }
+      ]
+    },
+    "Matt Might": {
+      "etag": "\"65a425c0-55cf\"",
+      "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
+      "articles": [
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Change your behavior",
+          "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
+          "date": "2024-01-14T12:14:05-06:00",
+          "excerpt": "In theory, behavior change should be easy. At first glance, it seems like you control your behavior. So, if you desire different behavior, why doesn’t your behavior change as instantly as your desire to change it? In short, lasting change of habitual behaviors is a multi-stage process. In 1977, as p",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Hello, Perceptron: An introduction to artificial neural networks",
+          "link": "http://matt.might.net/articles/hello-perceptron/",
+          "date": "2023-05-05T09:05:31-05:00",
+          "excerpt": "Generative AI tools like ChatGPT and Midjournery are able to replicate (and often exceed) human-like performance on tasks like taking exams, generating text and making art. Even to seasoned programmers, their abilities can seem magical. But, obviously, there is no magic. These things are “just” arti",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Make a fun, infinitely replayable game in 5 minutes with GPT-4",
+          "link": "http://matt.might.net/articles/make-a-text-game-with-generative-ai/",
+          "date": "2023-04-01T10:48:44-05:00",
+          "excerpt": "Compared to prior versions, GPT-4 is more capable at writing fiction. Combined with its advances in reasoning, this allows it to maintain a consistent state in a fictional universe as it emulates a text-based adventure game like the classic Zork. In this article, I’ll explain how to convert GPT-4 in",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "12 resolutions for programmers",
+          "link": "http://matt.might.net/articles/programmers-resolutions/",
+          "date": "2012-01-03T08:06:54-07:00",
+          "excerpt": "It’s important for programmers to continuously challenge themselves in order to avoid creative and technical stagnation. In the spirit of the new year, back in 2012, I compiled twelve month-sized resolutions to help avoid that stagnation. I’ve updated that list for 2023. Each month is an annually re",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 2: Reflections on language design",
+          "link": "http://matt.might.net/articles/26-languages-part2/",
+          "date": "2022-12-31T12:36:56-07:00",
+          "excerpt": "I recently wrote about completing Advent of Code 2022 using a different programming language (or two) every day for 25 days. That note focused on the strategy, tactics and logistics involved in using 26 languages in 25 days without saying much about the languages or the experience itself. Using so m",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "26 programming languages in 25 days, Part 1: Strategy, tactics and logistics",
+          "link": "http://matt.might.net/articles/26-languages-part1/",
+          "date": "2022-12-27T16:28:42-07:00",
+          "excerpt": "Since making a sudden leap from computer science to academic medicine about seven years ago, I haven’t programmed as much. I love what I do in medicine and biology, and I love helping patients. But, I have missed programming – and programming languages. Then I came across the Advent of Code on Masto",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Avoid temptation -- why avoiding temptation is harder than you think",
+          "link": "http://matt.might.net/articles/how-to-avoid-temptation/",
+          "date": "2022-11-28T06:16:39-06:00",
+          "excerpt": "The ability to avoid temptation is a modern superpower. With temptation ubiquitous, avoiding it is essential in fighting procrastination; keeping finances healthy; managing diet and weight; boosting productivity; and maintaining healthy relationships. Avoiding temptation hard because before you are ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Control yourself",
+          "link": "http://matt.might.net/articles/how-to-control-yourself/",
+          "date": "2022-11-01T13:05:08-05:00",
+          "excerpt": "Why is self-control so hard? Even though you have control over what you choose to do, you may find yourself in the puzzling position of regretting the decisions of your prior self. For instance, if you need to lose weight but you bust your calorie budget with that extra piece of cake, you appear to ",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "HOWTO: Get tenure",
+          "link": "http://matt.might.net/articles/tenure/",
+          "date": "2015-08-18T10:33:03-06:00",
+          "excerpt": "Even before I got tenure, folks have told me they’re “looking forward to an academic advice post on tenure.” From how to get a Ph.D. to monthly resolutions for grad students , I’ve found it easy to write academic posts on just about every topic. Except this one. I got tenure over a year ago, yet eve",
+          "author": ""
+        },
+        {
+          "feed": "Matt Might",
+          "title": "Counting hash collisions with the birthday paradox",
+          "link": "http://matt.might.net/articles/counting-hash-collisions/",
+          "date": "2015-07-16T23:33:41-04:00",
+          "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
+          "author": ""
+        }
+      ]
+    },
+    "Yukta Subramanian": {
+      "etag": null,
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "Yukta Subramanian",
+          "title": "Cancer is getting on my nerves (literally!)",
+          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+          "date": "2026-02-24T19:06:27+00:00",
+          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+          "author": "Yukta Subramanian"
+        },
+        {
+          "feed": "Yukta Subramanian",
+          "title": "The Tick-Tock Within Us",
+          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+          "date": "2025-01-03T15:09:23+00:00",
+          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+          "author": "Yukta Subramanian"
+        }
+      ]
+    },
+    "Experimental History": {
+      "etag": "W/\"f79d3-pjXcBaAurtlRwCtx/boT9YlNmz8\"",
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "Experimental History",
+          "title": "Only insane people use the internet",
+          "link": "https://www.experimental-history.com/p/only-insane-people-use-the-internet",
+          "date": "2026-05-26T16:02:14+00:00",
+          "excerpt": "photo cred: my dad There’s a guy who sends me a nasty reply to every one of my posts. Within 24 hours of an email going out, he arrives in my inbox like: you had me at “has the capability to articulate thoughts well” 😍😍😍😍😍😍 Read more",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Shame them, shun them, ban them, beat them!",
+          "link": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
+          "date": "2026-05-12T13:23:30+00:00",
+          "excerpt": "photo cred: my dad 1. Say what you will about the Union of Soviet Socialist Republics, its 1936 constitution was a banger. It guaranteed freedom of speech, the press, assembly, and protest. It extended equal rights to all citizens, regardless of race or gender. It shortened the working day to seven ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
+          "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
+          "date": "2026-04-28T17:48:50+00:00",
+          "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Nothing ever dies. It merely becomes embarrassing.",
+          "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
+          "date": "2026-04-14T16:16:42+00:00",
+          "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Infinite midwit",
+          "link": "https://www.experimental-history.com/p/infinite-midwit",
+          "date": "2026-03-31T16:05:29+00:00",
+          "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Help I'm being persecuted",
+          "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
+          "date": "2026-03-17T13:33:13+00:00",
+          "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The one science reform we can all agree on, but we're too cowardly to do",
+          "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
+          "date": "2026-03-03T17:47:57+00:00",
+          "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "I swear the UFO is coming any minute",
+          "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
+          "date": "2026-02-17T16:15:11+00:00",
+          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Underrated ways to change the world, vol. II",
+          "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
+          "date": "2026-02-03T16:28:19+00:00",
+          "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "I know your secret",
+          "link": "https://www.experimental-history.com/p/i-know-your-secret",
+          "date": "2026-01-27T16:22:32+00:00",
+          "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Text is king",
+          "link": "https://www.experimental-history.com/p/text-is-king",
+          "date": "2026-01-20T18:55:47+00:00",
+          "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "How to be less awkward",
+          "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
+          "date": "2026-01-06T16:45:44+00:00",
+          "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The drug that taught me how much I should suffer",
+          "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
+          "date": "2025-12-09T17:46:17+00:00",
+          "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Secrets of the ancient memelords",
+          "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
+          "date": "2025-11-25T19:17:23+00:00",
+          "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "You say potato, I say leprosy",
+          "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
+          "date": "2025-11-12T00:45:53+00:00",
+          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The Decline of Deviance",
+          "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
+          "date": "2025-10-28T15:21:32+00:00",
+          "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Bamboozle me, daddy",
+          "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
+          "date": "2025-10-14T15:48:04+00:00",
+          "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Thank you for being annoying",
+          "link": "https://www.experimental-history.com/p/thank-you-for-being-annoying",
+          "date": "2025-09-30T14:35:46+00:00",
+          "excerpt": "photo cred: my dad “Do what you love” is the most dangerous sentence in the English language. We send kids into the world with that mantra in their heads, and then they return shellshocked and ashamed, because they couldn’t do it. Many of them end up believing that they are the one person on Earth w",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Blog Extravaganza 2025: the winners",
+          "link": "https://www.experimental-history.com/p/blog-extravaganza-2025-the-winners",
+          "date": "2025-09-16T14:14:58+00:00",
+          "excerpt": "photo cred: my dad Back in May, I announced the Second Annual Experimental History Blog Post Competition, Extravaganza, and Jamboree. The prompt was “send me a never-before-published blog post, and if I like it I’ll post about it and send you cash.” I got 109 submissions from folks all over the worl",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Use this magic bullet to shoot yourself in the foot",
+          "link": "https://www.experimental-history.com/p/use-this-magic-bullet-to-shoot-yourself",
+          "date": "2025-09-02T16:48:01+00:00",
+          "excerpt": "photo cred: my dad Everyone I know has given up. That’s how it feels, at least. There’s a creeping sense that the jig is up, the fix is in, and the party’s over. The Earth is burning, democracies are backsliding, AI is advancing, cities are crumbling—somehow everything sucks and it’s more expensive ",
+          "author": "Adam Mastroianni"
+        }
+      ]
+    },
+    "Daniel Stenberg": {
+      "etag": "\"7a058e9c53f53e1367d5e7720f4bdaf4\"",
+      "last_modified": "Tue, 26 May 2026 06:01:39 GMT",
+      "articles": [
+        {
+          "feed": "Daniel Stenberg",
+          "title": "The pressure",
+          "link": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
+          "date": "2026-05-26T06:01:39+00:00",
+          "excerpt": "I’m doing Open Source primarily because I love it. The social aspects, the for-the-good angle and for the challenge of engineering this to work for everyone. I also do it because it is my full-time job and getting food on the table and provide for my family is not unimportant. It may come as a shock",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "named globs with curl",
+          "link": "https://daniel.haxx.se/blog/2026/05/16/named-globs-with-curl/",
+          "date": "2026-05-16T20:58:26+00:00",
+          "excerpt": "One of the established power features of the curl command line tool is its support for “globbing”. It is a built-in way to specify ranges and sets in different ways and have curl iterate over them to simplify repeated transfers. For example, you can easily download three images from the same host wi",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Mythos finds a curl vulnerability",
+          "link": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+          "date": "2026-05-11T06:01:35+00:00",
+          "excerpt": "yes, as in singular one . Back in April 2026 Anthropic caused a lot of media noise when they concluded that their new AI model Mythos is dangerously good at finding security flaws in source code. Apparently Mythos was so good at this that Anthropic would not release this model to the public yet but ",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Approaching zero bugs?",
+          "link": "https://daniel.haxx.se/blog/2026/04/30/approaching-zero-bugs/",
+          "date": "2026-04-30T08:08:34+00:00",
+          "excerpt": "In this era of powerful tools to find software bugs , we now see tools find a lot of problems at a high speed. This causes problems for developers, as dealing with the growing list of issues is hard. It may take a longer time to address the problems than to find them – not to mention to put them int",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Inspired",
+          "link": "https://daniel.haxx.se/blog/2026/04/30/inspired/",
+          "date": "2026-04-30T06:49:47+00:00",
+          "excerpt": "The picture was taken by mr Nasser and shared on social media In appendix A of the book Root cause: Stories and lessons from two decades of Backend Engineering Bugs , author Hussein Nasser has these wonderful words to say about me: Daniel Stenberg is a Swedish engineer and the creator of curl (cURL)",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "curl 8.20.0",
+          "link": "https://daniel.haxx.se/blog/2026/04/29/curl-8-20-0/",
+          "date": "2026-04-29T06:27:01+00:00",
+          "excerpt": "You always find the new curl releases on the curl site ! Release presentation Numbers the 274th release 8 changes 49 days (total: 10,761) 282 bugfixes (total: 13,922) 521 commits (total: 38,545) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 0 new curl comman",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "High-Quality Chaos",
+          "link": "https://daniel.haxx.se/blog/2026/04/22/high-quality-chaos/",
+          "date": "2026-04-22T11:44:40+00:00",
+          "excerpt": "As I have been preparing slides for my coming talk at foss-north on April 28, 2026 I figured I could take the opportunity and share a glimpse of the current reality here on my blog. The high quality chaos era, as I call it. No more AI slop I complained and I complained about the high frequency junk ",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Don’t trust, verify",
+          "link": "https://daniel.haxx.se/blog/2026/03/26/dont-trust-verify/",
+          "date": "2026-03-26T10:09:07+00:00",
+          "excerpt": "Software and digital security should rely on verification , rather than trust. I want to strongly encourage more users and consumers of software to verify curl. And ideally require that you could do at least this level of verification of other software components in your dependency chains. Attacks a",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "One hundred weirdo emails",
+          "link": "https://daniel.haxx.se/blog/2026/03/25/one-hundred-weirdo-emails/",
+          "date": "2026-03-25T08:05:41+00:00",
+          "excerpt": "My email address is spelled out in the curl license The curl license appears in many products Some people have problems with their products and need someone to email A few of these discover my email in their product Occasionally, the person in need of help emails me about their product. I collect so",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "NTLM and SMB go opt-in",
+          "link": "https://daniel.haxx.se/blog/2026/03/22/ntlm-and-smb-go-opt-in/",
+          "date": "2026-03-22T11:41:09+00:00",
+          "excerpt": "The NTLM authentication method was always a beast. It is a proprietary protocol designed by Microsoft which was reverse engineered a long time ago. That effort resulted in the online documentation that I based the curl implementation on back in 2003. I then also wrote the NTLM code for wget while at",
+          "author": "Daniel Stenberg"
         }
       ]
     },
