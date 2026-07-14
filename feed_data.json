@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T08:51:54.625997+00:00",
+  "lastUpdated": "2026-07-14T07:48:46.710487+00:00",
   "articles": [
     {
       "feed": "Leonardo de Moura",
@@ -72,6 +72,150 @@
       "date": "2026-02-18T00:00:00+00:00",
       "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
       "author": ""
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "AI and the Pointy Haired Boss",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
+      "date": "2026-03-01T11:44:35+05:30",
+      "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Mathematics as Natural Science in the Era of AI",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
+      "date": "2026-01-12T06:57:32+05:30",
+      "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Leanlang for Programmers",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
+      "date": "2025-12-10T10:09:51+00:00",
+      "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Integrating AI with the Lean Prover: How and Why",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
+      "date": "2025-11-12T09:22:22+00:00",
+      "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "When AI struck Gold at the Maths Olympiad",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
+      "date": "2025-10-09T08:50:40+00:00",
+      "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "AI for Mathematics: A Snapshot (July 2025)",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
+      "date": "2025-07-19T04:15:41+00:00",
+      "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "LeanAide: AI for Lean & Mathematics",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
+      "date": "2025-02-08T13:41:12+00:00",
+      "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Wishlist/ToDo List",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
+      "date": "2024-03-01T07:56:06+05:30",
+      "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Sieving chatGPT",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
+      "date": "2022-12-11T12:51:30+05:30",
+      "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
+      "date": "2022-06-07T06:50:53+05:30",
+      "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Some things I learnt from Dennis Sullivan",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
+      "date": "2022-03-24T11:10:36+05:30",
+      "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Forward Reasoning in Lean 4",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
+      "date": "2022-03-10T19:20:21+05:30",
+      "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "SAT Solver-Prover in Lean 4",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
+      "date": "2021-06-28T07:00:52+05:30",
+      "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "SAT Solving",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
+      "date": "2021-05-18T08:53:42+05:30",
+      "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Automating Mathematics India",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
+      "date": "2021-04-19T10:32:15+05:30",
+      "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Solving (but not proving?) Pappus",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
+      "date": "2021-04-19T06:53:09+05:30",
+      "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
+      "date": "2021-04-14T12:24:23+05:30",
+      "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Computer Assisted Proofs",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
+      "date": "2019-10-03T21:14:02+05:30",
+      "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
       "feed": "The ReadME Project",
@@ -314,166 +458,6 @@
       "author": ""
     },
     {
-      "feed": "Mike Hicks",
-      "title": "Beyond Penetrate-and-Patch",
-      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-      "date": "2026-05-05T00:00:00+00:00",
-      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-      "author": ""
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Hello, World: A New Blog",
-      "link": "https://mhicks.me/blog/hello-world/",
-      "date": "2026-03-12T00:00:00+00:00",
-      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-      "author": ""
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "AI and the Pointy Haired Boss",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
-      "date": "2026-03-01T11:44:35+05:30",
-      "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Mathematics as Natural Science in the Era of AI",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
-      "date": "2026-01-12T06:57:32+05:30",
-      "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Leanlang for Programmers",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
-      "date": "2025-12-10T10:09:51+00:00",
-      "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Integrating AI with the Lean Prover: How and Why",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
-      "date": "2025-11-12T09:22:22+00:00",
-      "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "When AI struck Gold at the Maths Olympiad",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
-      "date": "2025-10-09T08:50:40+00:00",
-      "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "AI for Mathematics: A Snapshot (July 2025)",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
-      "date": "2025-07-19T04:15:41+00:00",
-      "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "LeanAide: AI for Lean & Mathematics",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
-      "date": "2025-02-08T13:41:12+00:00",
-      "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Wishlist/ToDo List",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
-      "date": "2024-03-01T07:56:06+05:30",
-      "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Sieving chatGPT",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
-      "date": "2022-12-11T12:51:30+05:30",
-      "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
-      "date": "2022-06-07T06:50:53+05:30",
-      "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Some things I learnt from Dennis Sullivan",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
-      "date": "2022-03-24T11:10:36+05:30",
-      "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Forward Reasoning in Lean 4",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
-      "date": "2022-03-10T19:20:21+05:30",
-      "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "SAT Solver-Prover in Lean 4",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
-      "date": "2021-06-28T07:00:52+05:30",
-      "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "SAT Solving",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
-      "date": "2021-05-18T08:53:42+05:30",
-      "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Automating Mathematics India",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
-      "date": "2021-04-19T10:32:15+05:30",
-      "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Solving (but not proving?) Pappus",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
-      "date": "2021-04-19T06:53:09+05:30",
-      "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
-      "date": "2021-04-14T12:24:23+05:30",
-      "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
-      "feed": "Automating Mathematics",
-      "title": "Computer Assisted Proofs",
-      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
-      "date": "2019-10-03T21:14:02+05:30",
-      "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
-      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-    },
-    {
       "feed": "Simon Willison",
       "title": "The new GPT-5.6 family: Luna, Terra, Sol",
       "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries",
@@ -594,6 +578,22 @@
       "author": ""
     },
     {
+      "feed": "Mike Hicks",
+      "title": "Beyond Penetrate-and-Patch",
+      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+      "date": "2026-05-05T00:00:00+00:00",
+      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+      "author": ""
+    },
+    {
+      "feed": "Mike Hicks",
+      "title": "Hello, World: A New Blog",
+      "link": "https://mhicks.me/blog/hello-world/",
+      "date": "2026-03-12T00:00:00+00:00",
+      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+      "author": ""
+    },
+    {
       "feed": "Yukta Subramanian",
       "title": "Cancer is getting on my nerves (literally!)",
       "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
@@ -608,6 +608,166 @@
       "date": "2025-01-03T15:09:23+00:00",
       "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
       "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Do excellent vulnerability reports",
+      "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
+      "date": "2026-06-29T07:47:43+00:00",
+      "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "A curl mountain movie",
+      "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
+      "date": "2026-06-26T11:34:00+00:00",
+      "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Trailing dots are the worst",
+      "link": "https://daniel.haxx.se/blog/2026/06/25/trailing-dots-are-the-worst/",
+      "date": "2026-06-25T07:48:02+00:00",
+      "excerpt": "Trailing dots after hostnames in URLs remain my worst enemies. I wrote about several problems with them in the past that involved those nasty things. They are still painful. When we shipped curl 8.21.0 on June 24 2026 we fixed at least three brand new problems that involved trailing dots. C’mon, fol",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "a CVE dispute",
+      "link": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
+      "date": "2026-06-24T21:38:52+00:00",
+      "excerpt": "A few years years ago the curl project signed up and became a CNA . This means that we are masters of and can allocate our own CVE identifiers. For any security problems within our territory, it is we who decides if the issue should get a CVE or not. No more bogus CVEs . 57 CVEs During these years w",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "curl 8.21.0",
+      "link": "https://daniel.haxx.se/blog/2026/06/24/curl-8-21-0/",
+      "date": "2026-06-24T06:00:23+00:00",
+      "excerpt": "Release presentation Numbers the 275th release 6 changes 56 days (total: 10,817) 276 bugfixes (total: 14,187) 531 commits (total: 39,077) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 1 new curl command line option (total: 274) 102 contributors, 69 new (tota",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "QUERY with curl",
+      "link": "https://daniel.haxx.se/blog/2026/06/21/query-with-curl/",
+      "date": "2026-06-20T22:34:25+00:00",
+      "excerpt": "RFC 10008 is brand new a specification detailing the new HTTP method called QUERY: This specification defines the QUERY method for HTTP. A QUERY requests that the request target process the enclosed content in a safe and idempotent manner and then respond with the result of that processing. This is ",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "curl summer of bliss",
+      "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+      "date": "2026-06-15T05:56:00+00:00",
+      "excerpt": "The curl project will not accept or otherwise handle any vulnerability reports during the month of July 2026 . We call it the curl summer of bliss . curl’s submission form on Hackerone will be paused starting July 1, 2026. Summer of bliss starts: July 1, 2026 . 00:00 CEST Submissions resume: August ",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "A human in control",
+      "link": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
+      "date": "2026-06-10T07:08:26+00:00",
+      "excerpt": "There seems to be a fair amount of people in either extremes in the current AI landscape. At one side we see the “vibe coders” who use agents and allow them to merge code without any person even looking at the source, while on the other side of the field there are people who are against everything a",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "curl up 2026 summary",
+      "link": "https://daniel.haxx.se/blog/2026/05/28/curl-up-2026-summary/",
+      "date": "2026-05-28T15:25:02+00:00",
+      "excerpt": "Getting curl developers and related enthusiasts into a single room to hang out in the real world for a whole weekend once a year is awesome. We find inspiration, we share experiences, we learn from each other and we dream and plan of future endeavors and things to work on. Seeing faces, hearing voic",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "The pressure",
+      "link": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
+      "date": "2026-05-26T06:01:39+00:00",
+      "excerpt": "I’m doing Open Source primarily because I love it. The social aspects, the for-the-good angle and for the challenge of engineering this to work for everyone. I also do it because it is my full-time job and getting food on the table and provide for my family is not unimportant. It may come as a shock",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
+      "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
+      "date": "2026-05-15T15:30:25+00:00",
+      "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Repositories Are Human/Agent Knowledge Factories",
+      "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
+      "date": "2026-04-21T09:00:48+00:00",
+      "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Think Globally, Discuss PL Locally",
+      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+      "date": "2025-09-16T13:09:36+00:00",
+      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+      "author": "Harrison Goldstein"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Reserve Reviewer Policy",
+      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+      "date": "2025-09-09T15:59:52+00:00",
+      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+      "author": "Shriram Krishnamurthi"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "AI Models Need a Virtual Machine",
+      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+      "date": "2025-08-29T09:00:39+00:00",
+      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+      "date": "2025-05-19T13:43:38+00:00",
+      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+      "author": "Adrian Sampson"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "How to Give a Good Talk",
+      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+      "date": "2025-03-31T13:00:03+00:00",
+      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+      "author": "Michael Greenberg"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+      "date": "2025-03-20T16:21:36+00:00",
+      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+      "author": "Ben Zorn"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+      "date": "2025-01-29T13:00:02+00:00",
+      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+      "author": "Andreia Mordido"
+    },
+    {
+      "feed": "SIGPLAN Blog",
+      "title": "The Missing Mentoring Pillar",
+      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+      "date": "2025-01-13T14:00:31+00:00",
+      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+      "author": "Rachit Nigam"
     },
     {
       "feed": "Matt Might",
@@ -688,166 +848,6 @@
       "date": "2015-07-16T23:33:41-04:00",
       "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
       "author": ""
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The Decline of Deviance 2",
-      "link": "https://www.experimental-history.com/p/the-decline-of-deviance-2",
-      "date": "2026-07-08T16:10:54+00:00",
-      "excerpt": "photo cred: my dad In The Decline of Deviance , I argued that: Many forms of risk-taking and rule-breaking have declined since the 1990s. This is both good (less crime) and bad (less innovation). Deviance is declining because prosperity has increased—people have more to lose, and they’re acting like",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The most wonderful thing that happened to Tommy McHugh",
-      "link": "https://www.experimental-history.com/p/the-most-wonderful-thing-that-happened",
-      "date": "2026-06-23T15:57:56+00:00",
-      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) THE MOST WONDERFUL THING THAT HAPPENED TO TOMMY MCHUGH A British man named Tommy McHugh was on the toilet pooping when apparently he strained too hard, had",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Stop eating Lady Gaga's Oreos",
-      "link": "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos",
-      "date": "2026-06-09T16:58:56+00:00",
-      "excerpt": "photo cred: my dad Here’s a story from 30 years ago that would make no sense today. It’s 1992. Pearl Jam’s debut album Ten is selling well. But then MTV puts the music video for their song “Jeremy” in heavy rotation, and the band rockets into superstardom—shows suddenly sold out, fans smashing recor",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Only insane people use the internet",
-      "link": "https://www.experimental-history.com/p/only-insane-people-use-the-internet",
-      "date": "2026-05-26T16:02:14+00:00",
-      "excerpt": "photo cred: my dad There’s a guy who sends me a nasty reply to every one of my posts. Within 24 hours of an email going out, he arrives in my inbox like: you had me at “has the capability to articulate thoughts well” 😍😍😍😍😍😍 Read more",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Shame them, shun them, ban them, beat them!",
-      "link": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
-      "date": "2026-05-12T13:23:30+00:00",
-      "excerpt": "photo cred: my dad 1. Say what you will about the Union of Soviet Socialist Republics, its 1936 constitution was a banger. It guaranteed freedom of speech, the press, assembly, and protest. It extended equal rights to all citizens, regardless of race or gender. It shortened the working day to seven ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
-      "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
-      "date": "2026-04-28T17:48:50+00:00",
-      "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Nothing ever dies. It merely becomes embarrassing.",
-      "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
-      "date": "2026-04-14T16:16:42+00:00",
-      "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Infinite midwit",
-      "link": "https://www.experimental-history.com/p/infinite-midwit",
-      "date": "2026-03-31T16:05:29+00:00",
-      "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Help I'm being persecuted",
-      "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
-      "date": "2026-03-17T13:33:13+00:00",
-      "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The one science reform we can all agree on, but we're too cowardly to do",
-      "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
-      "date": "2026-03-03T17:47:57+00:00",
-      "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "I swear the UFO is coming any minute",
-      "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
-      "date": "2026-02-17T16:15:11+00:00",
-      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Underrated ways to change the world, vol. II",
-      "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
-      "date": "2026-02-03T16:28:19+00:00",
-      "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "I know your secret",
-      "link": "https://www.experimental-history.com/p/i-know-your-secret",
-      "date": "2026-01-27T16:22:32+00:00",
-      "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Text is king",
-      "link": "https://www.experimental-history.com/p/text-is-king",
-      "date": "2026-01-20T18:55:47+00:00",
-      "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "How to be less awkward",
-      "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
-      "date": "2026-01-06T16:45:44+00:00",
-      "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The drug that taught me how much I should suffer",
-      "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
-      "date": "2025-12-09T17:46:17+00:00",
-      "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Secrets of the ancient memelords",
-      "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
-      "date": "2025-11-25T19:17:23+00:00",
-      "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "You say potato, I say leprosy",
-      "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
-      "date": "2025-11-12T00:45:53+00:00",
-      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "The Decline of Deviance",
-      "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
-      "date": "2025-10-28T15:21:32+00:00",
-      "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
-      "author": "Adam Mastroianni"
-    },
-    {
-      "feed": "Experimental History",
-      "title": "Bamboozle me, daddy",
-      "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
-      "date": "2025-10-14T15:48:04+00:00",
-      "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
-      "author": "Adam Mastroianni"
     },
     {
       "feed": "Hillel Wayne",
@@ -1088,166 +1088,6 @@
       "date": "2025-09-10T13:00:00+00:00",
       "excerpt": "In my first interview out of college I was asked the change counter problem: Given a set of coin denominations, find the minimum number of coins required to make change for a given number. IE for USA coinage and 37 cents, the minimum number is four (quarter, dime, 2 pennies). I implemented the simpl",
       "author": ""
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
-      "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
-      "date": "2026-05-15T15:30:25+00:00",
-      "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Repositories Are Human/Agent Knowledge Factories",
-      "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-      "date": "2026-04-21T09:00:48+00:00",
-      "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Think Globally, Discuss PL Locally",
-      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-      "date": "2025-09-16T13:09:36+00:00",
-      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-      "author": "Harrison Goldstein"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Reserve Reviewer Policy",
-      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-      "date": "2025-09-09T15:59:52+00:00",
-      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-      "author": "Shriram Krishnamurthi"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "AI Models Need a Virtual Machine",
-      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-      "date": "2025-08-29T09:00:39+00:00",
-      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-      "date": "2025-05-19T13:43:38+00:00",
-      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-      "author": "Adrian Sampson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "How to Give a Good Talk",
-      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-      "date": "2025-03-31T13:00:03+00:00",
-      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-      "author": "Michael Greenberg"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-      "date": "2025-03-20T16:21:36+00:00",
-      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-      "date": "2025-01-29T13:00:02+00:00",
-      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-      "author": "Andreia Mordido"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Missing Mentoring Pillar",
-      "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-      "date": "2025-01-13T14:00:31+00:00",
-      "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-      "author": "Rachit Nigam"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Do excellent vulnerability reports",
-      "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
-      "date": "2026-06-29T07:47:43+00:00",
-      "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "A curl mountain movie",
-      "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
-      "date": "2026-06-26T11:34:00+00:00",
-      "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Trailing dots are the worst",
-      "link": "https://daniel.haxx.se/blog/2026/06/25/trailing-dots-are-the-worst/",
-      "date": "2026-06-25T07:48:02+00:00",
-      "excerpt": "Trailing dots after hostnames in URLs remain my worst enemies. I wrote about several problems with them in the past that involved those nasty things. They are still painful. When we shipped curl 8.21.0 on June 24 2026 we fixed at least three brand new problems that involved trailing dots. C’mon, fol",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "a CVE dispute",
-      "link": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
-      "date": "2026-06-24T21:38:52+00:00",
-      "excerpt": "A few years years ago the curl project signed up and became a CNA . This means that we are masters of and can allocate our own CVE identifiers. For any security problems within our territory, it is we who decides if the issue should get a CVE or not. No more bogus CVEs . 57 CVEs During these years w",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "curl 8.21.0",
-      "link": "https://daniel.haxx.se/blog/2026/06/24/curl-8-21-0/",
-      "date": "2026-06-24T06:00:23+00:00",
-      "excerpt": "Release presentation Numbers the 275th release 6 changes 56 days (total: 10,817) 276 bugfixes (total: 14,187) 531 commits (total: 39,077) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 1 new curl command line option (total: 274) 102 contributors, 69 new (tota",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "QUERY with curl",
-      "link": "https://daniel.haxx.se/blog/2026/06/21/query-with-curl/",
-      "date": "2026-06-20T22:34:25+00:00",
-      "excerpt": "RFC 10008 is brand new a specification detailing the new HTTP method called QUERY: This specification defines the QUERY method for HTTP. A QUERY requests that the request target process the enclosed content in a safe and idempotent manner and then respond with the result of that processing. This is ",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "curl summer of bliss",
-      "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
-      "date": "2026-06-15T05:56:00+00:00",
-      "excerpt": "The curl project will not accept or otherwise handle any vulnerability reports during the month of July 2026 . We call it the curl summer of bliss . curl’s submission form on Hackerone will be paused starting July 1, 2026. Summer of bliss starts: July 1, 2026 . 00:00 CEST Submissions resume: August ",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "A human in control",
-      "link": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
-      "date": "2026-06-10T07:08:26+00:00",
-      "excerpt": "There seems to be a fair amount of people in either extremes in the current AI landscape. At one side we see the “vibe coders” who use agents and allow them to merge code without any person even looking at the source, while on the other side of the field there are people who are against everything a",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "curl up 2026 summary",
-      "link": "https://daniel.haxx.se/blog/2026/05/28/curl-up-2026-summary/",
-      "date": "2026-05-28T15:25:02+00:00",
-      "excerpt": "Getting curl developers and related enthusiasts into a single room to hang out in the real world for a whole weekend once a year is awesome. We find inspiration, we share experiences, we learn from each other and we dream and plan of future endeavors and things to work on. Seeing faces, hearing voic",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "The pressure",
-      "link": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
-      "date": "2026-05-26T06:01:39+00:00",
-      "excerpt": "I’m doing Open Source primarily because I love it. The social aspects, the for-the-good angle and for the challenge of engineering this to work for everyone. I also do it because it is my full-time job and getting food on the table and provide for my family is not unimportant. It may come as a shock",
-      "author": "Daniel Stenberg"
     },
     {
       "feed": "Dan Luu",
@@ -2272,13 +2112,173 @@
       "date": "2007-11-16T00:00:00+00:00",
       "excerpt": "This is an archive of Dan Weinreb's comments on Symbolics and Lisp machines. Rebuttal to Stallman’s Story About The Formation of Symbolics and LMI Richard Stallman has been telling a story about the origins of the Lisp machine companies, and the effects on the M.I.T. Artificial Intelligence Lab, for",
       "author": ""
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The Decline of Deviance 2",
+      "link": "https://www.experimental-history.com/p/the-decline-of-deviance-2",
+      "date": "2026-07-08T16:10:54+00:00",
+      "excerpt": "photo cred: my dad In The Decline of Deviance , I argued that: Many forms of risk-taking and rule-breaking have declined since the 1990s. This is both good (less crime) and bad (less innovation). Deviance is declining because prosperity has increased—people have more to lose, and they’re acting like",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The most wonderful thing that happened to Tommy McHugh",
+      "link": "https://www.experimental-history.com/p/the-most-wonderful-thing-that-happened",
+      "date": "2026-06-23T15:57:56+00:00",
+      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) THE MOST WONDERFUL THING THAT HAPPENED TO TOMMY MCHUGH A British man named Tommy McHugh was on the toilet pooping when apparently he strained too hard, had",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Stop eating Lady Gaga's Oreos",
+      "link": "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos",
+      "date": "2026-06-09T16:58:56+00:00",
+      "excerpt": "photo cred: my dad Here’s a story from 30 years ago that would make no sense today. It’s 1992. Pearl Jam’s debut album Ten is selling well. But then MTV puts the music video for their song “Jeremy” in heavy rotation, and the band rockets into superstardom—shows suddenly sold out, fans smashing recor",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Only insane people use the internet",
+      "link": "https://www.experimental-history.com/p/only-insane-people-use-the-internet",
+      "date": "2026-05-26T16:02:14+00:00",
+      "excerpt": "photo cred: my dad There’s a guy who sends me a nasty reply to every one of my posts. Within 24 hours of an email going out, he arrives in my inbox like: you had me at “has the capability to articulate thoughts well” 😍😍😍😍😍😍 Read more",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Shame them, shun them, ban them, beat them!",
+      "link": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
+      "date": "2026-05-12T13:23:30+00:00",
+      "excerpt": "photo cred: my dad 1. Say what you will about the Union of Soviet Socialist Republics, its 1936 constitution was a banger. It guaranteed freedom of speech, the press, assembly, and protest. It extended equal rights to all citizens, regardless of race or gender. It shortened the working day to seven ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
+      "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
+      "date": "2026-04-28T17:48:50+00:00",
+      "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Nothing ever dies. It merely becomes embarrassing.",
+      "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
+      "date": "2026-04-14T16:16:42+00:00",
+      "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Infinite midwit",
+      "link": "https://www.experimental-history.com/p/infinite-midwit",
+      "date": "2026-03-31T16:05:29+00:00",
+      "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Help I'm being persecuted",
+      "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
+      "date": "2026-03-17T13:33:13+00:00",
+      "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The one science reform we can all agree on, but we're too cowardly to do",
+      "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
+      "date": "2026-03-03T17:47:57+00:00",
+      "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "I swear the UFO is coming any minute",
+      "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
+      "date": "2026-02-17T16:15:11+00:00",
+      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Underrated ways to change the world, vol. II",
+      "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
+      "date": "2026-02-03T16:28:19+00:00",
+      "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "I know your secret",
+      "link": "https://www.experimental-history.com/p/i-know-your-secret",
+      "date": "2026-01-27T16:22:32+00:00",
+      "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Text is king",
+      "link": "https://www.experimental-history.com/p/text-is-king",
+      "date": "2026-01-20T18:55:47+00:00",
+      "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "How to be less awkward",
+      "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
+      "date": "2026-01-06T16:45:44+00:00",
+      "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The drug that taught me how much I should suffer",
+      "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
+      "date": "2025-12-09T17:46:17+00:00",
+      "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Secrets of the ancient memelords",
+      "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
+      "date": "2025-11-25T19:17:23+00:00",
+      "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "You say potato, I say leprosy",
+      "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
+      "date": "2025-11-12T00:45:53+00:00",
+      "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "The Decline of Deviance",
+      "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
+      "date": "2025-10-28T15:21:32+00:00",
+      "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
+      "title": "Bamboozle me, daddy",
+      "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
+      "date": "2025-10-14T15:48:04+00:00",
+      "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
+      "author": "Adam Mastroianni"
     }
   ],
   "errors": {},
   "feedCache": {
     "Leonardo de Moura": {
-      "etag": "\"6a503503-1e49\"",
-      "last_modified": "Thu, 09 Jul 2026 23:55:47 GMT",
+      "etag": "\"6a503502-1e49\"",
+      "last_modified": "Thu, 09 Jul 2026 23:55:46 GMT",
       "articles": [
         {
           "feed": "Leonardo de Moura",
@@ -2351,6 +2351,156 @@
           "date": "2026-02-18T00:00:00+00:00",
           "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
           "author": ""
+        }
+      ]
+    },
+    "Automating Mathematics": {
+      "etag": "\"69a515ff-3f8e\"",
+      "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
+      "articles": [
+        {
+          "feed": "Automating Mathematics",
+          "title": "AI and the Pointy Haired Boss",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
+          "date": "2026-03-01T11:44:35+05:30",
+          "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Mathematics as Natural Science in the Era of AI",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
+          "date": "2026-01-12T06:57:32+05:30",
+          "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Leanlang for Programmers",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
+          "date": "2025-12-10T10:09:51+00:00",
+          "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Integrating AI with the Lean Prover: How and Why",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
+          "date": "2025-11-12T09:22:22+00:00",
+          "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "When AI struck Gold at the Maths Olympiad",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
+          "date": "2025-10-09T08:50:40+00:00",
+          "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "AI for Mathematics: A Snapshot (July 2025)",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
+          "date": "2025-07-19T04:15:41+00:00",
+          "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "LeanAide: AI for Lean & Mathematics",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
+          "date": "2025-02-08T13:41:12+00:00",
+          "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Wishlist/ToDo List",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
+          "date": "2024-03-01T07:56:06+05:30",
+          "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Sieving chatGPT",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
+          "date": "2022-12-11T12:51:30+05:30",
+          "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
+          "date": "2022-06-07T06:50:53+05:30",
+          "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Some things I learnt from Dennis Sullivan",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
+          "date": "2022-03-24T11:10:36+05:30",
+          "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Forward Reasoning in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
+          "date": "2022-03-10T19:20:21+05:30",
+          "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "SAT Solver-Prover in Lean 4",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
+          "date": "2021-06-28T07:00:52+05:30",
+          "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "SAT Solving",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
+          "date": "2021-05-18T08:53:42+05:30",
+          "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Automating Mathematics India",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
+          "date": "2021-04-19T10:32:15+05:30",
+          "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Solving (but not proving?) Pappus",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
+          "date": "2021-04-19T06:53:09+05:30",
+          "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
+          "date": "2021-04-14T12:24:23+05:30",
+          "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
+        {
+          "feed": "Automating Mathematics",
+          "title": "Computer Assisted Proofs",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
+          "date": "2019-10-03T21:14:02+05:30",
+          "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
         }
       ]
     },
@@ -2600,178 +2750,6 @@
         }
       ]
     },
-    "Mike Hicks": {
-      "etag": "\"6a30b319-b0f\"",
-      "last_modified": "Tue, 16 Jun 2026 02:21:13 GMT",
-      "articles": [
-        {
-          "feed": "Mike Hicks",
-          "title": "Beyond Penetrate-and-Patch",
-          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-          "date": "2026-05-05T00:00:00+00:00",
-          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-          "author": ""
-        },
-        {
-          "feed": "Mike Hicks",
-          "title": "Hello, World: A New Blog",
-          "link": "https://mhicks.me/blog/hello-world/",
-          "date": "2026-03-12T00:00:00+00:00",
-          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-          "author": ""
-        }
-      ]
-    },
-    "Automating Mathematics": {
-      "etag": "\"69a515ff-3f8e\"",
-      "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
-      "articles": [
-        {
-          "feed": "Automating Mathematics",
-          "title": "AI and the Pointy Haired Boss",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
-          "date": "2026-03-01T11:44:35+05:30",
-          "excerpt": "As Artificial Intelligence gains momentum a natural question is whether it is worth acquiring knowledge and cognitive skills since these will be on tap. Of course this depends on how far AI will go, so let me begin by stating my views.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Mathematics as Natural Science in the Era of AI",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/mathematics-as-natural-science-in-ai-era/",
-          "date": "2026-01-12T06:57:32+05:30",
-          "excerpt": "What is mathematics? This is a question those working (or interested) in mathematics return to many times. While this is no doubt an interesting question, its answer has at most a modest effect on the practice of mathematics.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Leanlang for Programmers",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanlang-for-programmers/",
-          "date": "2025-12-10T10:09:51+00:00",
-          "excerpt": "This is an announcement for the following workshop. Informal Workshop: LeanLang for Programmers Lean (or Lean Prover) is an open-source programming language and proof assistant that enables correct, maintainable, and formally verified code.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Integrating AI with the Lean Prover: How and Why",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/integrating-ai-lean/",
-          "date": "2025-11-12T09:22:22+00:00",
-          "excerpt": "Generative AI is famous for being both powerful and unreliable, though more recently it has become more reliable even as it has grown in power. A natural way to attempt to overcome issues with its reliability are by using a Formal Proof System such as the Lean Prover to verify the correctness of out",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "When AI struck Gold at the Maths Olympiad",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/when-ai-struck-maths-gold/",
-          "date": "2025-10-09T08:50:40+00:00",
-          "excerpt": "The International Mathematical Olympiad (IMO) is arguably the leading mathematical problem solving competition. Every year, high school students from around the world attempt 6 problems over the span of 3 hours.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "AI for Mathematics: A Snapshot (July 2025)",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-math-snapsot-july-2025/",
-          "date": "2025-07-19T04:15:41+00:00",
-          "excerpt": "Artificial Intelligence in Mathematics has advanced at such a rapid pace that anything we say becomes obsolete soon (see the note below for this happening with this post 😄). But it is useful to take snapshots.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "LeanAide: AI for Lean & Mathematics",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/leanaide-autoformalization/",
-          "date": "2025-02-08T13:41:12+00:00",
-          "excerpt": "LeanAide or LeanAIde (accidental pun) is work (in progress) to build AI based tools to work with the Lean Theorem Prover. Our goal is to build tools for: Users of the Lean Prover by using AI tools.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Wishlist/ToDo List",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/wishlist-or-todo-list/",
-          "date": "2024-03-01T07:56:06+05:30",
-          "excerpt": "There is a bunch of topics related to the Lean Theorem Prover and Artificial Intelligence for Mathematics that I hope I will work on someday (i.e., ToDo list) and I would also be happy if somebody does them (i.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Sieving chatGPT",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sieving-chatgpt/",
-          "date": "2022-12-11T12:51:30+05:30",
-          "excerpt": "I had my first chat with chatGPT , the latest large language model sensation. It is amusing, very chatty, and in many ways impressive. But it is often a little (or very) wrong and misses the subtleties. This happened in many topics, with more gross errors in more specialized topics. I have gathered ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Formalizing Gardam's disproof of Kaplansky's Unit Conjecture",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/formalizing-gardam-disproof-kaplansky-conjecture/",
-          "date": "2022-06-07T06:50:53+05:30",
-          "excerpt": "A little over an year ago, Giles Gardam disproved a long-standing conjecture, often called the Kaplansky Unit Conjecture . This was a striking result – the statement was a simple and basic one, it had a long history, and it was one of a cluster of related conjectures with important relations to many",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Some things I learnt from Dennis Sullivan",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/some-lessons-from-sullivan/",
-          "date": "2022-03-24T11:10:36+05:30",
-          "excerpt": "This post is to celebrate the Abel prize awarded to Dennis Sullivan. Sullivan is not only one of the deepest and broadest mathematicians, but also one of the most inspiring – in particular to me. I learnt much from him during my three years at Stony Brook and during his two visits to India. This is ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Forward Reasoning in Lean 4",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/forward-reasoning-in-lean4/",
-          "date": "2022-03-10T19:20:21+05:30",
-          "excerpt": "I describe here my experiments with forward reasoning (reasoning from the premises), as well as mixed reasoning (reasoning both from the premises and from the conclusion) in Lean 4. The code for this is in the Lean-Loris repository. This code (and especially the ideas in it) is a successor to my sca",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "SAT Solver-Prover in Lean 4",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-prover-lean/",
-          "date": "2021-06-28T07:00:52+05:30",
-          "excerpt": "The Boolean satisfiability problem (SAT) asks whether a finite set of formulas in Boolean (i.e., true or false valued) variables $P$, $Q$,… has a solution. The formulas are built from the variables using logical operations such as $\\vee$ (and), $\\wedge$ (or) and $\\neg$ (not).",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "SAT Solving",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/sat-solving/",
-          "date": "2021-05-18T08:53:42+05:30",
-          "excerpt": "To better understand the SAT (i.e., boolean satisfiability ) problem and SAT solvers, I decided to implement a basic one. I was pleasantly surprised that wikipedia has enough details to implement the so called DPLL algorithm quite easily, with even some improvements described in wikipedia. Even bett",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Automating Mathematics India",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/automating-mathematics-india/",
-          "date": "2021-04-19T10:32:15+05:30",
-          "excerpt": "I have created a google group meant for informal discussions among those interested in Automated Theorem Proving. This is aimed mainly at those in/from India, but everyone interested in the topic is of course welcome.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Solving (but not proving?) Pappus",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/solving-pappus/",
-          "date": "2021-04-19T06:53:09+05:30",
-          "excerpt": "Thanks to some very nice work done by Anand Tadipatri after he read the previous post on proving theorems using SMT solvers, we find that in a sense the theorem of Pappus can be solved (but, so far at least, in some sense not proved ) by Z3 — a happier conclusion than last time. I make this precise ",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Knot so easy: Mathematical Proofs from High-performance Solvers?",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/proving-by-solving/",
-          "date": "2021-04-14T12:24:23+05:30",
-          "excerpt": "Computers are able to solve an increasing range of problems, many of which were believed not long ago to require human intelligence. Yet there are fundamental limitations to what problems can be solved algorithmically, some known and other conjectured.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        },
-        {
-          "feed": "Automating Mathematics",
-          "title": "Computer Assisted Proofs",
-          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/computer-assisted-proofs/",
-          "date": "2019-10-03T21:14:02+05:30",
-          "excerpt": "Formal verification, a rapidly growing young field, is the computer assisted proving of results - ordinary mathematical theorems, as well as claims that pieces of hardware or software, network protocols, and mechanical and hybrid systems meet their specifications.",
-          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
-        }
-      ]
-    },
     "Simon Willison": {
       "etag": null,
       "last_modified": "Thu, 09 Jul 2026 19:46:38 GMT",
@@ -2898,6 +2876,28 @@
         }
       ]
     },
+    "Mike Hicks": {
+      "etag": "\"6a30b319-b0f\"",
+      "last_modified": "Tue, 16 Jun 2026 02:21:13 GMT",
+      "articles": [
+        {
+          "feed": "Mike Hicks",
+          "title": "Beyond Penetrate-and-Patch",
+          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+          "date": "2026-05-05T00:00:00+00:00",
+          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+          "author": ""
+        },
+        {
+          "feed": "Mike Hicks",
+          "title": "Hello, World: A New Blog",
+          "link": "https://mhicks.me/blog/hello-world/",
+          "date": "2026-03-12T00:00:00+00:00",
+          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+          "author": ""
+        }
+      ]
+    },
     "Yukta Subramanian": {
       "etag": null,
       "last_modified": null,
@@ -2917,6 +2917,178 @@
           "date": "2025-01-03T15:09:23+00:00",
           "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
           "author": "Yukta Subramanian"
+        }
+      ]
+    },
+    "Daniel Stenberg": {
+      "etag": "\"dba073e5b7a7a1c862021f3aef5a283c\"",
+      "last_modified": "Thu, 02 Jul 2026 12:39:50 GMT",
+      "articles": [
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Do excellent vulnerability reports",
+          "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
+          "date": "2026-06-29T07:47:43+00:00",
+          "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "A curl mountain movie",
+          "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
+          "date": "2026-06-26T11:34:00+00:00",
+          "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Trailing dots are the worst",
+          "link": "https://daniel.haxx.se/blog/2026/06/25/trailing-dots-are-the-worst/",
+          "date": "2026-06-25T07:48:02+00:00",
+          "excerpt": "Trailing dots after hostnames in URLs remain my worst enemies. I wrote about several problems with them in the past that involved those nasty things. They are still painful. When we shipped curl 8.21.0 on June 24 2026 we fixed at least three brand new problems that involved trailing dots. C’mon, fol",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "a CVE dispute",
+          "link": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
+          "date": "2026-06-24T21:38:52+00:00",
+          "excerpt": "A few years years ago the curl project signed up and became a CNA . This means that we are masters of and can allocate our own CVE identifiers. For any security problems within our territory, it is we who decides if the issue should get a CVE or not. No more bogus CVEs . 57 CVEs During these years w",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "curl 8.21.0",
+          "link": "https://daniel.haxx.se/blog/2026/06/24/curl-8-21-0/",
+          "date": "2026-06-24T06:00:23+00:00",
+          "excerpt": "Release presentation Numbers the 275th release 6 changes 56 days (total: 10,817) 276 bugfixes (total: 14,187) 531 commits (total: 39,077) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 1 new curl command line option (total: 274) 102 contributors, 69 new (tota",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "QUERY with curl",
+          "link": "https://daniel.haxx.se/blog/2026/06/21/query-with-curl/",
+          "date": "2026-06-20T22:34:25+00:00",
+          "excerpt": "RFC 10008 is brand new a specification detailing the new HTTP method called QUERY: This specification defines the QUERY method for HTTP. A QUERY requests that the request target process the enclosed content in a safe and idempotent manner and then respond with the result of that processing. This is ",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "curl summer of bliss",
+          "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+          "date": "2026-06-15T05:56:00+00:00",
+          "excerpt": "The curl project will not accept or otherwise handle any vulnerability reports during the month of July 2026 . We call it the curl summer of bliss . curl’s submission form on Hackerone will be paused starting July 1, 2026. Summer of bliss starts: July 1, 2026 . 00:00 CEST Submissions resume: August ",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "A human in control",
+          "link": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
+          "date": "2026-06-10T07:08:26+00:00",
+          "excerpt": "There seems to be a fair amount of people in either extremes in the current AI landscape. At one side we see the “vibe coders” who use agents and allow them to merge code without any person even looking at the source, while on the other side of the field there are people who are against everything a",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "curl up 2026 summary",
+          "link": "https://daniel.haxx.se/blog/2026/05/28/curl-up-2026-summary/",
+          "date": "2026-05-28T15:25:02+00:00",
+          "excerpt": "Getting curl developers and related enthusiasts into a single room to hang out in the real world for a whole weekend once a year is awesome. We find inspiration, we share experiences, we learn from each other and we dream and plan of future endeavors and things to work on. Seeing faces, hearing voic",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "The pressure",
+          "link": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
+          "date": "2026-05-26T06:01:39+00:00",
+          "excerpt": "I’m doing Open Source primarily because I love it. The social aspects, the for-the-good angle and for the challenge of engineering this to work for everyone. I also do it because it is my full-time job and getting food on the table and provide for my family is not unimportant. It may come as a shock",
+          "author": "Daniel Stenberg"
+        }
+      ]
+    },
+    "SIGPLAN Blog": {
+      "etag": "\"ce78d2930b95246d18255a22dc3cbf69\"",
+      "last_modified": "Mon, 18 May 2026 22:24:50 GMT",
+      "articles": [
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
+          "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
+          "date": "2026-05-15T15:30:25+00:00",
+          "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Repositories Are Human/Agent Knowledge Factories",
+          "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
+          "date": "2026-04-21T09:00:48+00:00",
+          "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Think Globally, Discuss PL Locally",
+          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
+          "date": "2025-09-16T13:09:36+00:00",
+          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
+          "author": "Harrison Goldstein"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Reserve Reviewer Policy",
+          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
+          "date": "2025-09-09T15:59:52+00:00",
+          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
+          "author": "Shriram Krishnamurthi"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "AI Models Need a Virtual Machine",
+          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
+          "date": "2025-08-29T09:00:39+00:00",
+          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
+          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
+          "date": "2025-05-19T13:43:38+00:00",
+          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
+          "author": "Adrian Sampson"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "How to Give a Good Talk",
+          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
+          "date": "2025-03-31T13:00:03+00:00",
+          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
+          "author": "Michael Greenberg"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
+          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
+          "date": "2025-03-20T16:21:36+00:00",
+          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
+          "author": "Ben Zorn"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
+          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
+          "date": "2025-01-29T13:00:02+00:00",
+          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
+          "author": "Andreia Mordido"
+        },
+        {
+          "feed": "SIGPLAN Blog",
+          "title": "The Missing Mentoring Pillar",
+          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
+          "date": "2025-01-13T14:00:31+00:00",
+          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
+          "author": "Rachit Nigam"
         }
       ]
     },
@@ -3003,172 +3175,6 @@
           "date": "2015-07-16T23:33:41-04:00",
           "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
           "author": ""
-        }
-      ]
-    },
-    "Experimental History": {
-      "etag": "W/\"11fbf6-vfyDzk/J3pBGvL/3uKZ9FoAa3Uw\"",
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "Experimental History",
-          "title": "The Decline of Deviance 2",
-          "link": "https://www.experimental-history.com/p/the-decline-of-deviance-2",
-          "date": "2026-07-08T16:10:54+00:00",
-          "excerpt": "photo cred: my dad In The Decline of Deviance , I argued that: Many forms of risk-taking and rule-breaking have declined since the 1990s. This is both good (less crime) and bad (less innovation). Deviance is declining because prosperity has increased—people have more to lose, and they’re acting like",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The most wonderful thing that happened to Tommy McHugh",
-          "link": "https://www.experimental-history.com/p/the-most-wonderful-thing-that-happened",
-          "date": "2026-06-23T15:57:56+00:00",
-          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) THE MOST WONDERFUL THING THAT HAPPENED TO TOMMY MCHUGH A British man named Tommy McHugh was on the toilet pooping when apparently he strained too hard, had",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Stop eating Lady Gaga's Oreos",
-          "link": "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos",
-          "date": "2026-06-09T16:58:56+00:00",
-          "excerpt": "photo cred: my dad Here’s a story from 30 years ago that would make no sense today. It’s 1992. Pearl Jam’s debut album Ten is selling well. But then MTV puts the music video for their song “Jeremy” in heavy rotation, and the band rockets into superstardom—shows suddenly sold out, fans smashing recor",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Only insane people use the internet",
-          "link": "https://www.experimental-history.com/p/only-insane-people-use-the-internet",
-          "date": "2026-05-26T16:02:14+00:00",
-          "excerpt": "photo cred: my dad There’s a guy who sends me a nasty reply to every one of my posts. Within 24 hours of an email going out, he arrives in my inbox like: you had me at “has the capability to articulate thoughts well” 😍😍😍😍😍😍 Read more",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Shame them, shun them, ban them, beat them!",
-          "link": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
-          "date": "2026-05-12T13:23:30+00:00",
-          "excerpt": "photo cred: my dad 1. Say what you will about the Union of Soviet Socialist Republics, its 1936 constitution was a banger. It guaranteed freedom of speech, the press, assembly, and protest. It extended equal rights to all citizens, regardless of race or gender. It shortened the working day to seven ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
-          "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
-          "date": "2026-04-28T17:48:50+00:00",
-          "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Nothing ever dies. It merely becomes embarrassing.",
-          "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
-          "date": "2026-04-14T16:16:42+00:00",
-          "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Infinite midwit",
-          "link": "https://www.experimental-history.com/p/infinite-midwit",
-          "date": "2026-03-31T16:05:29+00:00",
-          "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Help I'm being persecuted",
-          "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
-          "date": "2026-03-17T13:33:13+00:00",
-          "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The one science reform we can all agree on, but we're too cowardly to do",
-          "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
-          "date": "2026-03-03T17:47:57+00:00",
-          "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "I swear the UFO is coming any minute",
-          "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
-          "date": "2026-02-17T16:15:11+00:00",
-          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Underrated ways to change the world, vol. II",
-          "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
-          "date": "2026-02-03T16:28:19+00:00",
-          "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "I know your secret",
-          "link": "https://www.experimental-history.com/p/i-know-your-secret",
-          "date": "2026-01-27T16:22:32+00:00",
-          "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Text is king",
-          "link": "https://www.experimental-history.com/p/text-is-king",
-          "date": "2026-01-20T18:55:47+00:00",
-          "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "How to be less awkward",
-          "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
-          "date": "2026-01-06T16:45:44+00:00",
-          "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The drug that taught me how much I should suffer",
-          "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
-          "date": "2025-12-09T17:46:17+00:00",
-          "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Secrets of the ancient memelords",
-          "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
-          "date": "2025-11-25T19:17:23+00:00",
-          "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "You say potato, I say leprosy",
-          "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
-          "date": "2025-11-12T00:45:53+00:00",
-          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "The Decline of Deviance",
-          "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
-          "date": "2025-10-28T15:21:32+00:00",
-          "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
-          "author": "Adam Mastroianni"
-        },
-        {
-          "feed": "Experimental History",
-          "title": "Bamboozle me, daddy",
-          "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
-          "date": "2025-10-14T15:48:04+00:00",
-          "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
-          "author": "Adam Mastroianni"
         }
       ]
     },
@@ -3418,181 +3424,9 @@
         }
       ]
     },
-    "SIGPLAN Blog": {
-      "etag": "\"ce78d2930b95246d18255a22dc3cbf69\"",
-      "last_modified": "Mon, 18 May 2026 22:24:50 GMT",
-      "articles": [
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
-          "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
-          "date": "2026-05-15T15:30:25+00:00",
-          "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Repositories Are Human/Agent Knowledge Factories",
-          "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-          "date": "2026-04-21T09:00:48+00:00",
-          "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Think Globally, Discuss PL Locally",
-          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-          "date": "2025-09-16T13:09:36+00:00",
-          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-          "author": "Harrison Goldstein"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Reserve Reviewer Policy",
-          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-          "date": "2025-09-09T15:59:52+00:00",
-          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-          "author": "Shriram Krishnamurthi"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "AI Models Need a Virtual Machine",
-          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-          "date": "2025-08-29T09:00:39+00:00",
-          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-          "date": "2025-05-19T13:43:38+00:00",
-          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-          "author": "Adrian Sampson"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "How to Give a Good Talk",
-          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-          "date": "2025-03-31T13:00:03+00:00",
-          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-          "author": "Michael Greenberg"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-          "date": "2025-03-20T16:21:36+00:00",
-          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-          "date": "2025-01-29T13:00:02+00:00",
-          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-          "author": "Andreia Mordido"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Missing Mentoring Pillar",
-          "link": "https://blog.sigplan.org/2025/01/13/the-missing-mentoring-pillar/",
-          "date": "2025-01-13T14:00:31+00:00",
-          "excerpt": "The Missing Mentoring Pillar The programming languages (PL) community has developed a whole host of mentoring pillars to help new research become a part of our community The Programming Languages Mentoring Workshop (PLMW), our 1-2 day workshop before each of our four flagship conferences, answers: H",
-          "author": "Rachit Nigam"
-        }
-      ]
-    },
-    "Daniel Stenberg": {
-      "etag": "\"dba073e5b7a7a1c862021f3aef5a283c\"",
-      "last_modified": "Thu, 02 Jul 2026 12:39:50 GMT",
-      "articles": [
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Do excellent vulnerability reports",
-          "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
-          "date": "2026-06-29T07:47:43+00:00",
-          "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "A curl mountain movie",
-          "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
-          "date": "2026-06-26T11:34:00+00:00",
-          "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Trailing dots are the worst",
-          "link": "https://daniel.haxx.se/blog/2026/06/25/trailing-dots-are-the-worst/",
-          "date": "2026-06-25T07:48:02+00:00",
-          "excerpt": "Trailing dots after hostnames in URLs remain my worst enemies. I wrote about several problems with them in the past that involved those nasty things. They are still painful. When we shipped curl 8.21.0 on June 24 2026 we fixed at least three brand new problems that involved trailing dots. C’mon, fol",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "a CVE dispute",
-          "link": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
-          "date": "2026-06-24T21:38:52+00:00",
-          "excerpt": "A few years years ago the curl project signed up and became a CNA . This means that we are masters of and can allocate our own CVE identifiers. For any security problems within our territory, it is we who decides if the issue should get a CVE or not. No more bogus CVEs . 57 CVEs During these years w",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "curl 8.21.0",
-          "link": "https://daniel.haxx.se/blog/2026/06/24/curl-8-21-0/",
-          "date": "2026-06-24T06:00:23+00:00",
-          "excerpt": "Release presentation Numbers the 275th release 6 changes 56 days (total: 10,817) 276 bugfixes (total: 14,187) 531 commits (total: 39,077) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 1 new curl command line option (total: 274) 102 contributors, 69 new (tota",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "QUERY with curl",
-          "link": "https://daniel.haxx.se/blog/2026/06/21/query-with-curl/",
-          "date": "2026-06-20T22:34:25+00:00",
-          "excerpt": "RFC 10008 is brand new a specification detailing the new HTTP method called QUERY: This specification defines the QUERY method for HTTP. A QUERY requests that the request target process the enclosed content in a safe and idempotent manner and then respond with the result of that processing. This is ",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "curl summer of bliss",
-          "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
-          "date": "2026-06-15T05:56:00+00:00",
-          "excerpt": "The curl project will not accept or otherwise handle any vulnerability reports during the month of July 2026 . We call it the curl summer of bliss . curl’s submission form on Hackerone will be paused starting July 1, 2026. Summer of bliss starts: July 1, 2026 . 00:00 CEST Submissions resume: August ",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "A human in control",
-          "link": "https://daniel.haxx.se/blog/2026/06/10/a-human-in-control/",
-          "date": "2026-06-10T07:08:26+00:00",
-          "excerpt": "There seems to be a fair amount of people in either extremes in the current AI landscape. At one side we see the “vibe coders” who use agents and allow them to merge code without any person even looking at the source, while on the other side of the field there are people who are against everything a",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "curl up 2026 summary",
-          "link": "https://daniel.haxx.se/blog/2026/05/28/curl-up-2026-summary/",
-          "date": "2026-05-28T15:25:02+00:00",
-          "excerpt": "Getting curl developers and related enthusiasts into a single room to hang out in the real world for a whole weekend once a year is awesome. We find inspiration, we share experiences, we learn from each other and we dream and plan of future endeavors and things to work on. Seeing faces, hearing voic",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "The pressure",
-          "link": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
-          "date": "2026-05-26T06:01:39+00:00",
-          "excerpt": "I’m doing Open Source primarily because I love it. The social aspects, the for-the-good angle and for the challenge of engineering this to work for everyone. I also do it because it is my full-time job and getting food on the table and provide for my family is not unimportant. It may come as a shock",
-          "author": "Daniel Stenberg"
-        }
-      ]
-    },
     "Dan Luu": {
-      "etag": "W/\"6a51f394-97cf33\"",
-      "last_modified": "Sat, 11 Jul 2026 07:41:08 GMT",
+      "etag": "W/\"6a4dcb60-97cd14\"",
+      "last_modified": "Wed, 08 Jul 2026 04:00:32 GMT",
       "articles": [
         {
           "feed": "Dan Luu",
@@ -4617,6 +4451,172 @@
           "date": "2007-11-16T00:00:00+00:00",
           "excerpt": "This is an archive of Dan Weinreb's comments on Symbolics and Lisp machines. Rebuttal to Stallman’s Story About The Formation of Symbolics and LMI Richard Stallman has been telling a story about the origins of the Lisp machine companies, and the effects on the M.I.T. Artificial Intelligence Lab, for",
           "author": ""
+        }
+      ]
+    },
+    "Experimental History": {
+      "etag": "W/\"11fbf6-llZax0MWkJMQB4D9koAxFxkmsx8\"",
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "Experimental History",
+          "title": "The Decline of Deviance 2",
+          "link": "https://www.experimental-history.com/p/the-decline-of-deviance-2",
+          "date": "2026-07-08T16:10:54+00:00",
+          "excerpt": "photo cred: my dad In The Decline of Deviance , I argued that: Many forms of risk-taking and rule-breaking have declined since the 1990s. This is both good (less crime) and bad (less innovation). Deviance is declining because prosperity has increased—people have more to lose, and they’re acting like",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The most wonderful thing that happened to Tommy McHugh",
+          "link": "https://www.experimental-history.com/p/the-most-wonderful-thing-that-happened",
+          "date": "2026-06-23T15:57:56+00:00",
+          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) THE MOST WONDERFUL THING THAT HAPPENED TO TOMMY MCHUGH A British man named Tommy McHugh was on the toilet pooping when apparently he strained too hard, had",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Stop eating Lady Gaga's Oreos",
+          "link": "https://www.experimental-history.com/p/stop-eating-lady-gagas-oreos",
+          "date": "2026-06-09T16:58:56+00:00",
+          "excerpt": "photo cred: my dad Here’s a story from 30 years ago that would make no sense today. It’s 1992. Pearl Jam’s debut album Ten is selling well. But then MTV puts the music video for their song “Jeremy” in heavy rotation, and the band rockets into superstardom—shows suddenly sold out, fans smashing recor",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Only insane people use the internet",
+          "link": "https://www.experimental-history.com/p/only-insane-people-use-the-internet",
+          "date": "2026-05-26T16:02:14+00:00",
+          "excerpt": "photo cred: my dad There’s a guy who sends me a nasty reply to every one of my posts. Within 24 hours of an email going out, he arrives in my inbox like: you had me at “has the capability to articulate thoughts well” 😍😍😍😍😍😍 Read more",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Shame them, shun them, ban them, beat them!",
+          "link": "https://www.experimental-history.com/p/shame-them-shun-them-ban-them-beat",
+          "date": "2026-05-12T13:23:30+00:00",
+          "excerpt": "photo cred: my dad 1. Say what you will about the Union of Soviet Socialist Republics, its 1936 constitution was a banger. It guaranteed freedom of speech, the press, assembly, and protest. It extended equal rights to all citizens, regardless of race or gender. It shortened the working day to seven ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The 3rd Annual Blog Post Competition, Extravaganza, and Jamboree",
+          "link": "https://www.experimental-history.com/p/the-3rd-annual-blog-post-competition",
+          "date": "2026-04-28T17:48:50+00:00",
+          "excerpt": "photo cred: my dad It’s time for the annual Experimental History Blog Competition, Extravaganza, and Jamboree! Send me your best unpublished blog post, and if I pick yours, I’ll send you real cash money and tell everybody how great you are. You can see last year’s winners and honorable mentions here",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Nothing ever dies. It merely becomes embarrassing.",
+          "link": "https://www.experimental-history.com/p/nothing-ever-dies-it-merely-becomes",
+          "date": "2026-04-14T16:16:42+00:00",
+          "excerpt": "photo cred: my dad Here’s a reasonable thought: as the replication crisis has unfolded over the past 10-15 years, a bunch of psychological phenomena have been debunked and discarded forever. Power posing , ego depletion , growth mindset , stereotype threat , walking slower after reading the word “Fl",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Infinite midwit",
+          "link": "https://www.experimental-history.com/p/infinite-midwit",
+          "date": "2026-03-31T16:05:29+00:00",
+          "excerpt": "photo cred: my dad The better AI has gotten, the less anxious I’ve become. A few years ago, when the computers first started talking, it was reasonable to believe that we would soon be in the presence of omnipotent machines. For someone like me, whose job is to produce words on the internet, it seem",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Help I'm being persecuted",
+          "link": "https://www.experimental-history.com/p/help-im-being-persecuted",
+          "date": "2026-03-17T13:33:13+00:00",
+          "excerpt": "photo cred: my dad If they labeled it explicitly, one of the biggest categories on Substack would be called something like, “People Pretending to Be Persecuted”. Browse any genre and you’ll find writers touting their exile from polite society with titles like “DR. BOB’S POLITICALLY INCORRECT HOEDOWN",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The one science reform we can all agree on, but we're too cowardly to do",
+          "link": "https://www.experimental-history.com/p/the-one-science-reform-we-can-all",
+          "date": "2026-03-03T17:47:57+00:00",
+          "excerpt": "photo cred: my dad If you ever want a good laugh, ask an academic to explain what they get paid to do, and who pays them to do it. In STEM fields, it works like this: the university pays you to teach, but unless you’re at a liberal arts college, you don’t actually get promoted or recognized for your",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "I swear the UFO is coming any minute",
+          "link": "https://www.experimental-history.com/p/i-swear-the-ufo-is-coming-any-minute",
+          "date": "2026-02-17T16:15:11+00:00",
+          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a selection of things I’ve been reading and doing for the past few months. First up, a series of unfortunate events in science: (1) WHEN WHEN PROPHECY FAILS FAILS When Prophecy Fails is supposed to be a classic case study of cognitive ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Underrated ways to change the world, vol. II",
+          "link": "https://www.experimental-history.com/p/underrated-ways-to-change-the-world-b64",
+          "date": "2026-02-03T16:28:19+00:00",
+          "excerpt": "photo cred: my dad Underrated Ways to Change the World is one of my most-read posts of all time, I think because people see the state of the world and they’re like, “Oh no, someone should do something about this!” and then they’re like “But what should I do about this?” Every problem seems so imposs",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "I know your secret",
+          "link": "https://www.experimental-history.com/p/i-know-your-secret",
+          "date": "2026-01-27T16:22:32+00:00",
+          "excerpt": "photo cred: my dad 1. A few months ago, I got to interview a bunch of bloggers at a writing retreat. I discovered that they all had one thing in common: each one was in possession of a secret. I don’t mean that they, like, murdered their boyfriend and got away with it, or that they’re sexually attra",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Text is king",
+          "link": "https://www.experimental-history.com/p/text-is-king",
+          "date": "2026-01-20T18:55:47+00:00",
+          "excerpt": "photo cred: my dad The hot new theory online is that reading is kaput, and therefore civilization is too. The rise of hyper-addictive digital technologies has shattered our attention spans and extinguished our taste for text. Books are disappearing from our culture, and so are our capacities for com",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "How to be less awkward",
+          "link": "https://www.experimental-history.com/p/how-to-be-less-awkward",
+          "date": "2026-01-06T16:45:44+00:00",
+          "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The drug that taught me how much I should suffer",
+          "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
+          "date": "2025-12-09T17:46:17+00:00",
+          "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Secrets of the ancient memelords",
+          "link": "https://www.experimental-history.com/p/secrets-of-the-ancient-memelords",
+          "date": "2025-11-25T19:17:23+00:00",
+          "excerpt": "photo cred: my dad I say this with tremendous respect: it’s kinda surprising that the three largest religions in the world are Christianity, Islam, and Hinduism. None of them are very sexy or fun, they come with all kinds of rules, and if they promise you any happiness at all, it’s either after you’",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "You say potato, I say leprosy",
+          "link": "https://www.experimental-history.com/p/you-say-potato-i-say-leprosy",
+          "date": "2025-11-12T00:45:53+00:00",
+          "excerpt": "photo cred: my dad This is the quarterly links ‘n’ updates post, a collection of things I’ve been reading and doing for the past few months. (1) YOU SAY POTATO, I SAY LEPROSY As late as 1813, some parts of the European medical establishment believed that potatoes cause leprosy . (Don’t even get ‘em ",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "The Decline of Deviance",
+          "link": "https://www.experimental-history.com/p/the-decline-of-deviance",
+          "date": "2025-10-28T15:21:32+00:00",
+          "excerpt": "photo cred: my dad People are less weird than they used to be. That might sound odd, but data from every sector of society is pointing strongly in the same direction: we’re in a recession of mischief, a crisis of conventionality, and an epidemic of the mundane. Deviance is on the decline. I’m not th",
+          "author": "Adam Mastroianni"
+        },
+        {
+          "feed": "Experimental History",
+          "title": "Bamboozle me, daddy",
+          "link": "https://www.experimental-history.com/p/bamboozle-me-daddy",
+          "date": "2025-10-14T15:48:04+00:00",
+          "excerpt": "photo cred: my dad Daniel Kahneman and Amos Tversky were two of the greatest psychologists of all time. Maybe the greatest. The fields we now call “behavioral economics” and “judgement and decision-making” are basically just people doing knockoff Kahneman and Tversky studies from the 70s and 80s. (Y",
+          "author": "Adam Mastroianni"
         }
       ]
     }
