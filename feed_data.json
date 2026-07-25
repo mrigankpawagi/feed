@@ -1,126 +1,6 @@
 {
-  "lastUpdated": "2026-07-24T08:09:42.924160+00:00",
+  "lastUpdated": "2026-07-25T07:51:59.433087+00:00",
   "articles": [
-    {
-      "feed": "Simon Willison",
-      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
-      "link": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-entries",
-      "date": "2026-07-22T23:51:33+00:00",
-      "excerpt": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break in to Hugging Face, all so it could c",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
-      "link": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-entries",
-      "date": "2026-07-21T12:54:02+00:00",
-      "excerpt": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full vid",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
-      "link": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-entries",
-      "date": "2026-07-16T20:19:30+00:00",
-      "excerpt": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-cl",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "The new GPT-5.6 family: Luna, Terra, Sol",
-      "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries",
-      "date": "2026-07-09T19:46:38+00:00",
-      "excerpt": "OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "sqlite-utils 4.0, now with database schema migrations",
-      "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-entries",
-      "date": "2026-07-07T19:32:57+00:00",
-      "excerpt": "This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide ), this version introduces three major features: database migrations ,",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
-      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-entries",
-      "date": "2026-07-05T01:00:48+00:00",
-      "excerpt": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompati",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Have your agent record video demos of its work with shot-scraper video",
-      "link": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-entries",
-      "date": "2026-06-30T16:54:26+00:00",
-      "excerpt": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of having coding agents produce ",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
-      "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-entries",
-      "date": "2026-06-22T23:43:51+00:00",
-      "excerpt": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model - a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model requi",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
-      "link": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-entries",
-      "date": "2026-06-21T23:35:47+00:00",
-      "excerpt": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package , including support for complex table transformations , automatic table creation from JSON data and a whole lo",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Datasette Apps: Host custom HTML applications inside Datasette",
-      "link": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-entries",
-      "date": "2026-06-18T23:58:38+00:00",
-      "excerpt": "Today we launched a new plugin for Datasette, datasette-apps , with this launch announcement post on the Datasette project blog. That post has the what , but I'm going to expand on that a little bit here to provide the why . The TL;DR Datasette Apps are self-contained HTML+JavaScript applications th",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
-      "link": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-entries",
-      "date": "2026-06-17T23:58:39+00:00",
-      "excerpt": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases this is a 753B parameter, 1.51TB monster - with 40 active parameters (M",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Publishing WASM wheels to PyPI for use with Pyodide",
-      "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-entries",
-      "date": "2026-06-13T23:55:18+00:00",
-      "excerpt": "The Pyodide 314.0 release announcement (via Hacker News ) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783 ) directly to PyPI and install them at runti",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Claude Fable is relentlessly proactive",
-      "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-entries",
-      "date": "2026-06-11T23:35:17+00:00",
-      "excerpt": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I'll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Initial impressions of Claude Fable 5",
-      "link": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-entries",
-      "date": "2026-06-09T23:59:54+00:00",
-      "excerpt": "I didn't have early access to today's Claude Fable 5 release, but I've spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is something of a beast . It's slow, expensive and has been quite happily churning through everything I've thrown at it so far. As is fr",
-      "author": ""
-    },
-    {
-      "feed": "Simon Willison",
-      "title": "Running Python code in a sandbox with MicroPython and WASM",
-      "link": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-entries",
-      "date": "2026-06-06T03:53:34+00:00",
-      "excerpt": "I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called micropython-wasm , and I'm using it for a code ex",
-      "author": ""
-    },
     {
       "feed": "Leonardo de Moura",
       "title": "Signal Shot: The Platform Is Ready",
@@ -434,246 +314,6 @@
       "author": ""
     },
     {
-      "feed": "Hillel Wayne",
-      "title": "I'm still alive",
-      "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/",
-      "date": "2026-07-14T16:15:07+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Logic for Programmers v0.15, Livecoding",
-      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/",
-      "date": "2026-06-17T16:40:09+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Nontrailing separators do not spark joy",
-      "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/",
-      "date": "2026-06-10T12:22:04+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Logic for Programmers extra credits",
-      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/",
-      "date": "2026-06-02T14:48:48+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Knowing about things is cheaper than knowing things",
-      "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/",
-      "date": "2026-05-28T16:03:01+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Assumptions weaken properties",
-      "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/",
-      "date": "2026-05-20T15:13:16+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Points are a weird and inconsistent unit of measure",
-      "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/",
-      "date": "2026-05-13T15:56:37+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "New Logic for Programmers (and the future of this newsletter)",
-      "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/",
-      "date": "2026-05-06T17:03:46+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Illegal vs Unwanted States",
-      "link": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/",
-      "date": "2026-04-28T15:14:09+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "People get confused when language implementations break language guarantees",
-      "link": "https://buttondown.com/hillelwayne/archive/people-get-confused-when-language-implementations/",
-      "date": "2026-04-21T17:40:17+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "A sufficiently comprehensive spec is not (necessarily) code",
-      "link": "https://buttondown.com/hillelwayne/archive/a-sufficiently-comprehensive-spec-is-not/",
-      "date": "2026-04-15T16:18:02+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "April Cools Post: New York vs Chicago Pizza",
-      "link": "https://buttondown.com/hillelwayne/archive/april-cools-post-new-york-vs-chicago-pizza/",
-      "date": "2026-04-01T17:53:29+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Choose Boring Technology and Innovative Practices",
-      "link": "https://buttondown.com/hillelwayne/archive/choose-boring-technology-and-innovative-practices/",
-      "date": "2026-03-24T14:38:06+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "LLMs are bad at vibing specifications",
-      "link": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
-      "date": "2026-03-10T17:12:30+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Free Books",
-      "link": "https://buttondown.com/hillelwayne/archive/free-books/",
-      "date": "2026-03-03T16:34:33+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "New Blog Post: Some Silly Z3 Scripts I Wrote",
-      "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-some-silly-z3-scripts-i-wrote/",
-      "date": "2026-02-23T16:49:10+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Stream of Consciousness Driven Development",
-      "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/",
-      "date": "2026-02-18T16:33:08+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Proving What's Possible",
-      "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/",
-      "date": "2026-02-11T18:36:53+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Logic for Programmers New Release and Next Steps",
-      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/",
-      "date": "2026-02-04T14:00:00+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Refinement without Specification",
-      "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/",
-      "date": "2026-01-20T17:49:07+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "My Gripes with Prolog",
-      "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
-      "date": "2026-01-14T16:48:51+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "The Liskov Substitution Principle does more than you think",
-      "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/",
-      "date": "2026-01-06T16:51:26+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Some Fun Software Facts",
-      "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/",
-      "date": "2025-12-10T18:45:37+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "One more week to the Logic for Programmers Food Drive",
-      "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/",
-      "date": "2025-11-24T18:21:49+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
-      "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/",
-      "date": "2025-11-10T16:31:11+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "I'm taking a break",
-      "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/",
-      "date": "2025-10-27T21:02:37+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
-      "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/",
-      "date": "2025-10-21T16:46:24+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "The Phase Change",
-      "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/",
-      "date": "2025-10-16T14:59:25+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "Three ways formally verified code can go wrong in practice",
-      "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
-      "date": "2025-10-10T17:06:19+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
-      "feed": "Hillel Wayne",
-      "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
-      "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/",
-      "date": "2025-09-25T16:50:58+00:00",
-      "excerpt": "",
-      "author": ""
-    },
-    {
       "feed": "Automating Mathematics",
       "title": "AI and the Pointy Haired Boss",
       "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/ai-and-the-pointy-haired-boss/",
@@ -818,6 +458,238 @@
       "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
+      "feed": "Yukta Subramanian",
+      "title": "Cancer is getting on my nerves (literally!)",
+      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+      "date": "2026-02-24T19:06:27+00:00",
+      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Yukta Subramanian",
+      "title": "The Tick-Tock Within Us",
+      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+      "date": "2025-01-03T15:09:23+00:00",
+      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+      "link": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-entries",
+      "date": "2026-07-22T23:51:33+00:00",
+      "excerpt": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break in to Hugging Face, all so it could c",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+      "link": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-entries",
+      "date": "2026-07-21T12:54:02+00:00",
+      "excerpt": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full vid",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "link": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-entries",
+      "date": "2026-07-16T20:19:30+00:00",
+      "excerpt": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-cl",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "The new GPT-5.6 family: Luna, Terra, Sol",
+      "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries",
+      "date": "2026-07-09T19:46:38+00:00",
+      "excerpt": "OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "sqlite-utils 4.0, now with database schema migrations",
+      "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-entries",
+      "date": "2026-07-07T19:32:57+00:00",
+      "excerpt": "This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide ), this version introduces three major features: database migrations ,",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-entries",
+      "date": "2026-07-05T01:00:48+00:00",
+      "excerpt": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompati",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Have your agent record video demos of its work with shot-scraper video",
+      "link": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-entries",
+      "date": "2026-06-30T16:54:26+00:00",
+      "excerpt": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of having coding agents produce ",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+      "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-entries",
+      "date": "2026-06-22T23:43:51+00:00",
+      "excerpt": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model - a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model requi",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+      "link": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-entries",
+      "date": "2026-06-21T23:35:47+00:00",
+      "excerpt": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package , including support for complex table transformations , automatic table creation from JSON data and a whole lo",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+      "link": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-entries",
+      "date": "2026-06-18T23:58:38+00:00",
+      "excerpt": "Today we launched a new plugin for Datasette, datasette-apps , with this launch announcement post on the Datasette project blog. That post has the what , but I'm going to expand on that a little bit here to provide the why . The TL;DR Datasette Apps are self-contained HTML+JavaScript applications th",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+      "link": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-entries",
+      "date": "2026-06-17T23:58:39+00:00",
+      "excerpt": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases this is a 753B parameter, 1.51TB monster - with 40 active parameters (M",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+      "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-entries",
+      "date": "2026-06-13T23:55:18+00:00",
+      "excerpt": "The Pyodide 314.0 release announcement (via Hacker News ) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783 ) directly to PyPI and install them at runti",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Claude Fable is relentlessly proactive",
+      "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-entries",
+      "date": "2026-06-11T23:35:17+00:00",
+      "excerpt": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I'll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Initial impressions of Claude Fable 5",
+      "link": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-entries",
+      "date": "2026-06-09T23:59:54+00:00",
+      "excerpt": "I didn't have early access to today's Claude Fable 5 release, but I've spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is something of a beast . It's slow, expensive and has been quite happily churning through everything I've thrown at it so far. As is fr",
+      "author": ""
+    },
+    {
+      "feed": "Simon Willison",
+      "title": "Running Python code in a sandbox with MicroPython and WASM",
+      "link": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-entries",
+      "date": "2026-06-06T03:53:34+00:00",
+      "excerpt": "I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called micropython-wasm , and I'm using it for a code ex",
+      "author": ""
+    },
+    {
+      "feed": "Mike Hicks",
+      "title": "Beyond Penetrate-and-Patch",
+      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+      "date": "2026-05-05T00:00:00+00:00",
+      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+      "author": ""
+    },
+    {
+      "feed": "Mike Hicks",
+      "title": "Hello, World: A New Blog",
+      "link": "https://mhicks.me/blog/hello-world/",
+      "date": "2026-03-12T00:00:00+00:00",
+      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+      "author": ""
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Workshop Basel day three",
+      "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
+      "date": "2026-07-16T20:01:14+00:00",
+      "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Workshop Basel day two",
+      "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
+      "date": "2026-07-15T20:07:14+00:00",
+      "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Workshop Basel day one",
+      "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
+      "date": "2026-07-14T20:25:28+00:00",
+      "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Do excellent vulnerability reports",
+      "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
+      "date": "2026-06-29T07:47:43+00:00",
+      "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "A curl mountain movie",
+      "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
+      "date": "2026-06-26T11:34:00+00:00",
+      "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Trailing dots are the worst",
+      "link": "https://daniel.haxx.se/blog/2026/06/25/trailing-dots-are-the-worst/",
+      "date": "2026-06-25T07:48:02+00:00",
+      "excerpt": "Trailing dots after hostnames in URLs remain my worst enemies. I wrote about several problems with them in the past that involved those nasty things. They are still painful. When we shipped curl 8.21.0 on June 24 2026 we fixed at least three brand new problems that involved trailing dots. C’mon, fol",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "a CVE dispute",
+      "link": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
+      "date": "2026-06-24T21:38:52+00:00",
+      "excerpt": "A few years years ago the curl project signed up and became a CNA . This means that we are masters of and can allocate our own CVE identifiers. For any security problems within our territory, it is we who decides if the issue should get a CVE or not. No more bogus CVEs . 57 CVEs During these years w",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "curl 8.21.0",
+      "link": "https://daniel.haxx.se/blog/2026/06/24/curl-8-21-0/",
+      "date": "2026-06-24T06:00:23+00:00",
+      "excerpt": "Release presentation Numbers the 275th release 6 changes 56 days (total: 10,817) 276 bugfixes (total: 14,187) 531 commits (total: 39,077) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 1 new curl command line option (total: 274) 102 contributors, 69 new (tota",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "QUERY with curl",
+      "link": "https://daniel.haxx.se/blog/2026/06/21/query-with-curl/",
+      "date": "2026-06-20T22:34:25+00:00",
+      "excerpt": "RFC 10008 is brand new a specification detailing the new HTTP method called QUERY: This specification defines the QUERY method for HTTP. A QUERY requests that the request target process the enclosed content in a safe and idempotent manner and then respond with the result of that processing. This is ",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "curl summer of bliss",
+      "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+      "date": "2026-06-15T05:56:00+00:00",
+      "excerpt": "The curl project will not accept or otherwise handle any vulnerability reports during the month of July 2026 . We call it the curl summer of bliss . curl’s submission form on Hackerone will be paused starting July 1, 2026. Summer of bliss starts: July 1, 2026 . 00:00 CEST Submissions resume: August ",
+      "author": "Daniel Stenberg"
+    },
+    {
       "feed": "Matt Might",
       "title": "HOWTO: Change your behavior",
       "link": "http://matt.might.net/articles/how-to-change-your-behavior/",
@@ -896,22 +768,6 @@
       "date": "2015-07-16T23:33:41-04:00",
       "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
       "author": ""
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "Cancer is getting on my nerves (literally!)",
-      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-      "date": "2026-02-24T19:06:27+00:00",
-      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "The Tick-Tock Within Us",
-      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-      "date": "2025-01-03T15:09:23+00:00",
-      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-      "author": "Yukta Subramanian"
     },
     {
       "feed": "Dan Luu",
@@ -1938,102 +1794,6 @@
       "author": ""
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "How the SIGPLAN Budget Works",
-      "link": "https://blog.sigplan.org/2026/07/20/sigplan-budget/",
-      "date": "2026-07-20T13:00:04+00:00",
-      "excerpt": "When I started as a SIGPLAN elected Member-at-Large and was given the position of Treasurer, we were coming off the COVID times, and the conferences were just returning to full in-person attendance with venues booked in more tumultuous prior years. I live far away from the typical US or EU-based SIG",
-      "author": "Alex Potanin"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
-      "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
-      "date": "2026-05-15T15:30:25+00:00",
-      "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Repositories Are Human/Agent Knowledge Factories",
-      "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-      "date": "2026-04-21T09:00:48+00:00",
-      "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Think Globally, Discuss PL Locally",
-      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-      "date": "2025-09-16T13:09:36+00:00",
-      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-      "author": "Harrison Goldstein"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Reserve Reviewer Policy",
-      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-      "date": "2025-09-09T15:59:52+00:00",
-      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-      "author": "Shriram Krishnamurthi"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "AI Models Need a Virtual Machine",
-      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-      "date": "2025-08-29T09:00:39+00:00",
-      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-      "date": "2025-05-19T13:43:38+00:00",
-      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-      "author": "Adrian Sampson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "How to Give a Good Talk",
-      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-      "date": "2025-03-31T13:00:03+00:00",
-      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-      "author": "Michael Greenberg"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-      "date": "2025-03-20T16:21:36+00:00",
-      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-      "date": "2025-01-29T13:00:02+00:00",
-      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-      "author": "Andreia Mordido"
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Beyond Penetrate-and-Patch",
-      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-      "date": "2026-05-05T00:00:00+00:00",
-      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-      "author": ""
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Hello, World: A New Blog",
-      "link": "https://mhicks.me/blog/hello-world/",
-      "date": "2026-03-12T00:00:00+00:00",
-      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-      "author": ""
-    },
-    {
       "feed": "Experimental History",
       "title": "Blog Jamboree 2026: The Winners",
       "link": "https://www.experimental-history.com/p/blog-jamboree-2026-the-winners",
@@ -2194,217 +1954,253 @@
       "author": "Adam Mastroianni"
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "Workshop Basel day three",
-      "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
-      "date": "2026-07-16T20:01:14+00:00",
-      "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "I'm still alive",
+      "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/",
+      "date": "2026-07-14T16:15:07+00:00",
+      "excerpt": "",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "Workshop Basel day two",
-      "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
-      "date": "2026-07-15T20:07:14+00:00",
-      "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "Logic for Programmers v0.15, Livecoding",
+      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/",
+      "date": "2026-06-17T16:40:09+00:00",
+      "excerpt": "",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "Workshop Basel day one",
-      "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
-      "date": "2026-07-14T20:25:28+00:00",
-      "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "Nontrailing separators do not spark joy",
+      "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/",
+      "date": "2026-06-10T12:22:04+00:00",
+      "excerpt": "",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "Do excellent vulnerability reports",
-      "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
-      "date": "2026-06-29T07:47:43+00:00",
-      "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "Logic for Programmers extra credits",
+      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/",
+      "date": "2026-06-02T14:48:48+00:00",
+      "excerpt": "",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "A curl mountain movie",
-      "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
-      "date": "2026-06-26T11:34:00+00:00",
-      "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "Knowing about things is cheaper than knowing things",
+      "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/",
+      "date": "2026-05-28T16:03:01+00:00",
+      "excerpt": "",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "Trailing dots are the worst",
-      "link": "https://daniel.haxx.se/blog/2026/06/25/trailing-dots-are-the-worst/",
-      "date": "2026-06-25T07:48:02+00:00",
-      "excerpt": "Trailing dots after hostnames in URLs remain my worst enemies. I wrote about several problems with them in the past that involved those nasty things. They are still painful. When we shipped curl 8.21.0 on June 24 2026 we fixed at least three brand new problems that involved trailing dots. C’mon, fol",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "Assumptions weaken properties",
+      "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/",
+      "date": "2026-05-20T15:13:16+00:00",
+      "excerpt": "",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "a CVE dispute",
-      "link": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
-      "date": "2026-06-24T21:38:52+00:00",
-      "excerpt": "A few years years ago the curl project signed up and became a CNA . This means that we are masters of and can allocate our own CVE identifiers. For any security problems within our territory, it is we who decides if the issue should get a CVE or not. No more bogus CVEs . 57 CVEs During these years w",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "Points are a weird and inconsistent unit of measure",
+      "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/",
+      "date": "2026-05-13T15:56:37+00:00",
+      "excerpt": "",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "curl 8.21.0",
-      "link": "https://daniel.haxx.se/blog/2026/06/24/curl-8-21-0/",
-      "date": "2026-06-24T06:00:23+00:00",
-      "excerpt": "Release presentation Numbers the 275th release 6 changes 56 days (total: 10,817) 276 bugfixes (total: 14,187) 531 commits (total: 39,077) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 1 new curl command line option (total: 274) 102 contributors, 69 new (tota",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "New Logic for Programmers (and the future of this newsletter)",
+      "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/",
+      "date": "2026-05-06T17:03:46+00:00",
+      "excerpt": "",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "QUERY with curl",
-      "link": "https://daniel.haxx.se/blog/2026/06/21/query-with-curl/",
-      "date": "2026-06-20T22:34:25+00:00",
-      "excerpt": "RFC 10008 is brand new a specification detailing the new HTTP method called QUERY: This specification defines the QUERY method for HTTP. A QUERY requests that the request target process the enclosed content in a safe and idempotent manner and then respond with the result of that processing. This is ",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "Illegal vs Unwanted States",
+      "link": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/",
+      "date": "2026-04-28T15:14:09+00:00",
+      "excerpt": "",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "curl summer of bliss",
-      "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
-      "date": "2026-06-15T05:56:00+00:00",
-      "excerpt": "The curl project will not accept or otherwise handle any vulnerability reports during the month of July 2026 . We call it the curl summer of bliss . curl’s submission form on Hackerone will be paused starting July 1, 2026. Summer of bliss starts: July 1, 2026 . 00:00 CEST Submissions resume: August ",
-      "author": "Daniel Stenberg"
+      "feed": "Hillel Wayne",
+      "title": "People get confused when language implementations break language guarantees",
+      "link": "https://buttondown.com/hillelwayne/archive/people-get-confused-when-language-implementations/",
+      "date": "2026-04-21T17:40:17+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "A sufficiently comprehensive spec is not (necessarily) code",
+      "link": "https://buttondown.com/hillelwayne/archive/a-sufficiently-comprehensive-spec-is-not/",
+      "date": "2026-04-15T16:18:02+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "April Cools Post: New York vs Chicago Pizza",
+      "link": "https://buttondown.com/hillelwayne/archive/april-cools-post-new-york-vs-chicago-pizza/",
+      "date": "2026-04-01T17:53:29+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Choose Boring Technology and Innovative Practices",
+      "link": "https://buttondown.com/hillelwayne/archive/choose-boring-technology-and-innovative-practices/",
+      "date": "2026-03-24T14:38:06+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "LLMs are bad at vibing specifications",
+      "link": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
+      "date": "2026-03-10T17:12:30+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Free Books",
+      "link": "https://buttondown.com/hillelwayne/archive/free-books/",
+      "date": "2026-03-03T16:34:33+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "New Blog Post: Some Silly Z3 Scripts I Wrote",
+      "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-some-silly-z3-scripts-i-wrote/",
+      "date": "2026-02-23T16:49:10+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Stream of Consciousness Driven Development",
+      "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/",
+      "date": "2026-02-18T16:33:08+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Proving What's Possible",
+      "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/",
+      "date": "2026-02-11T18:36:53+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Logic for Programmers New Release and Next Steps",
+      "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/",
+      "date": "2026-02-04T14:00:00+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Refinement without Specification",
+      "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/",
+      "date": "2026-01-20T17:49:07+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "My Gripes with Prolog",
+      "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
+      "date": "2026-01-14T16:48:51+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "The Liskov Substitution Principle does more than you think",
+      "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/",
+      "date": "2026-01-06T16:51:26+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Some Fun Software Facts",
+      "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/",
+      "date": "2025-12-10T18:45:37+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "One more week to the Logic for Programmers Food Drive",
+      "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/",
+      "date": "2025-11-24T18:21:49+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
+      "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/",
+      "date": "2025-11-10T16:31:11+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "I'm taking a break",
+      "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/",
+      "date": "2025-10-27T21:02:37+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
+      "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/",
+      "date": "2025-10-21T16:46:24+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "The Phase Change",
+      "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/",
+      "date": "2025-10-16T14:59:25+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "Three ways formally verified code can go wrong in practice",
+      "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
+      "date": "2025-10-10T17:06:19+00:00",
+      "excerpt": "",
+      "author": ""
+    },
+    {
+      "feed": "Hillel Wayne",
+      "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+      "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/",
+      "date": "2025-09-25T16:50:58+00:00",
+      "excerpt": "",
+      "author": ""
     }
   ],
-  "errors": {},
+  "errors": {
+    "SIGPLAN Blog": "XML parse error: mismatched tag: line 1, column 167"
+  },
   "feedCache": {
-    "Simon Willison": {
-      "etag": null,
-      "last_modified": "Wed, 22 Jul 2026 23:51:33 GMT",
-      "articles": [
-        {
-          "feed": "Simon Willison",
-          "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
-          "link": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-entries",
-          "date": "2026-07-22T23:51:33+00:00",
-          "excerpt": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break in to Hugging Face, all so it could c",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
-          "link": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-entries",
-          "date": "2026-07-21T12:54:02+00:00",
-          "excerpt": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full vid",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Kimi K3, and what we can still learn from the pelican benchmark",
-          "link": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-entries",
-          "date": "2026-07-16T20:19:30+00:00",
-          "excerpt": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-cl",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "The new GPT-5.6 family: Luna, Terra, Sol",
-          "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries",
-          "date": "2026-07-09T19:46:38+00:00",
-          "excerpt": "OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "sqlite-utils 4.0, now with database schema migrations",
-          "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-entries",
-          "date": "2026-07-07T19:32:57+00:00",
-          "excerpt": "This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide ), this version introduces three major features: database migrations ,",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
-          "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-entries",
-          "date": "2026-07-05T01:00:48+00:00",
-          "excerpt": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompati",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Have your agent record video demos of its work with shot-scraper video",
-          "link": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-entries",
-          "date": "2026-06-30T16:54:26+00:00",
-          "excerpt": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of having coding agents produce ",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
-          "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-entries",
-          "date": "2026-06-22T23:43:51+00:00",
-          "excerpt": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model - a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model requi",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
-          "link": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-entries",
-          "date": "2026-06-21T23:35:47+00:00",
-          "excerpt": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package , including support for complex table transformations , automatic table creation from JSON data and a whole lo",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Datasette Apps: Host custom HTML applications inside Datasette",
-          "link": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-entries",
-          "date": "2026-06-18T23:58:38+00:00",
-          "excerpt": "Today we launched a new plugin for Datasette, datasette-apps , with this launch announcement post on the Datasette project blog. That post has the what , but I'm going to expand on that a little bit here to provide the why . The TL;DR Datasette Apps are self-contained HTML+JavaScript applications th",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
-          "link": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-entries",
-          "date": "2026-06-17T23:58:39+00:00",
-          "excerpt": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases this is a 753B parameter, 1.51TB monster - with 40 active parameters (M",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Publishing WASM wheels to PyPI for use with Pyodide",
-          "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-entries",
-          "date": "2026-06-13T23:55:18+00:00",
-          "excerpt": "The Pyodide 314.0 release announcement (via Hacker News ) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783 ) directly to PyPI and install them at runti",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Claude Fable is relentlessly proactive",
-          "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-entries",
-          "date": "2026-06-11T23:35:17+00:00",
-          "excerpt": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I'll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Initial impressions of Claude Fable 5",
-          "link": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-entries",
-          "date": "2026-06-09T23:59:54+00:00",
-          "excerpt": "I didn't have early access to today's Claude Fable 5 release, but I've spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is something of a beast . It's slow, expensive and has been quite happily churning through everything I've thrown at it so far. As is fr",
-          "author": ""
-        },
-        {
-          "feed": "Simon Willison",
-          "title": "Running Python code in a sandbox with MicroPython and WASM",
-          "link": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-entries",
-          "date": "2026-06-06T03:53:34+00:00",
-          "excerpt": "I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called micropython-wasm , and I'm using it for a code ex",
-          "author": ""
-        }
-      ]
-    },
     "Leonardo de Moura": {
-      "etag": "\"6a503503-1e49\"",
-      "last_modified": "Thu, 09 Jul 2026 23:55:47 GMT",
+      "etag": "\"6a63b4f3-1e49\"",
+      "last_modified": "Fri, 24 Jul 2026 18:54:43 GMT",
       "articles": [
         {
           "feed": "Leonardo de Moura",
@@ -2726,252 +2522,6 @@
         }
       ]
     },
-    "Hillel Wayne": {
-      "etag": null,
-      "last_modified": "Tue, 14 Jul 2026 16:15:07 GMT",
-      "articles": [
-        {
-          "feed": "Hillel Wayne",
-          "title": "I'm still alive",
-          "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/",
-          "date": "2026-07-14T16:15:07+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Logic for Programmers v0.15, Livecoding",
-          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/",
-          "date": "2026-06-17T16:40:09+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Nontrailing separators do not spark joy",
-          "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/",
-          "date": "2026-06-10T12:22:04+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Logic for Programmers extra credits",
-          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/",
-          "date": "2026-06-02T14:48:48+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Knowing about things is cheaper than knowing things",
-          "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/",
-          "date": "2026-05-28T16:03:01+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Assumptions weaken properties",
-          "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/",
-          "date": "2026-05-20T15:13:16+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Points are a weird and inconsistent unit of measure",
-          "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/",
-          "date": "2026-05-13T15:56:37+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "New Logic for Programmers (and the future of this newsletter)",
-          "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/",
-          "date": "2026-05-06T17:03:46+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Illegal vs Unwanted States",
-          "link": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/",
-          "date": "2026-04-28T15:14:09+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "People get confused when language implementations break language guarantees",
-          "link": "https://buttondown.com/hillelwayne/archive/people-get-confused-when-language-implementations/",
-          "date": "2026-04-21T17:40:17+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "A sufficiently comprehensive spec is not (necessarily) code",
-          "link": "https://buttondown.com/hillelwayne/archive/a-sufficiently-comprehensive-spec-is-not/",
-          "date": "2026-04-15T16:18:02+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "April Cools Post: New York vs Chicago Pizza",
-          "link": "https://buttondown.com/hillelwayne/archive/april-cools-post-new-york-vs-chicago-pizza/",
-          "date": "2026-04-01T17:53:29+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Choose Boring Technology and Innovative Practices",
-          "link": "https://buttondown.com/hillelwayne/archive/choose-boring-technology-and-innovative-practices/",
-          "date": "2026-03-24T14:38:06+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "LLMs are bad at vibing specifications",
-          "link": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
-          "date": "2026-03-10T17:12:30+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Free Books",
-          "link": "https://buttondown.com/hillelwayne/archive/free-books/",
-          "date": "2026-03-03T16:34:33+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "New Blog Post: Some Silly Z3 Scripts I Wrote",
-          "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-some-silly-z3-scripts-i-wrote/",
-          "date": "2026-02-23T16:49:10+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Stream of Consciousness Driven Development",
-          "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/",
-          "date": "2026-02-18T16:33:08+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Proving What's Possible",
-          "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/",
-          "date": "2026-02-11T18:36:53+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Logic for Programmers New Release and Next Steps",
-          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/",
-          "date": "2026-02-04T14:00:00+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Refinement without Specification",
-          "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/",
-          "date": "2026-01-20T17:49:07+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "My Gripes with Prolog",
-          "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
-          "date": "2026-01-14T16:48:51+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "The Liskov Substitution Principle does more than you think",
-          "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/",
-          "date": "2026-01-06T16:51:26+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Some Fun Software Facts",
-          "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/",
-          "date": "2025-12-10T18:45:37+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "One more week to the Logic for Programmers Food Drive",
-          "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/",
-          "date": "2025-11-24T18:21:49+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
-          "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/",
-          "date": "2025-11-10T16:31:11+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "I'm taking a break",
-          "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/",
-          "date": "2025-10-27T21:02:37+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
-          "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/",
-          "date": "2025-10-21T16:46:24+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "The Phase Change",
-          "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/",
-          "date": "2025-10-16T14:59:25+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "Three ways formally verified code can go wrong in practice",
-          "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
-          "date": "2025-10-10T17:06:19+00:00",
-          "excerpt": "",
-          "author": ""
-        },
-        {
-          "feed": "Hillel Wayne",
-          "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
-          "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/",
-          "date": "2025-09-25T16:50:58+00:00",
-          "excerpt": "",
-          "author": ""
-        }
-      ]
-    },
     "Automating Mathematics": {
       "etag": "\"69a515ff-3f8e\"",
       "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
@@ -3122,6 +2672,262 @@
         }
       ]
     },
+    "Yukta Subramanian": {
+      "etag": null,
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "Yukta Subramanian",
+          "title": "Cancer is getting on my nerves (literally!)",
+          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+          "date": "2026-02-24T19:06:27+00:00",
+          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+          "author": "Yukta Subramanian"
+        },
+        {
+          "feed": "Yukta Subramanian",
+          "title": "The Tick-Tock Within Us",
+          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+          "date": "2025-01-03T15:09:23+00:00",
+          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+          "author": "Yukta Subramanian"
+        }
+      ]
+    },
+    "Simon Willison": {
+      "etag": null,
+      "last_modified": "Wed, 22 Jul 2026 23:51:33 GMT",
+      "articles": [
+        {
+          "feed": "Simon Willison",
+          "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+          "link": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-entries",
+          "date": "2026-07-22T23:51:33+00:00",
+          "excerpt": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break in to Hugging Face, all so it could c",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+          "link": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-entries",
+          "date": "2026-07-21T12:54:02+00:00",
+          "excerpt": "Earlier this month I hosted a fireside chat session at the AI Engineer World's Fair with Cat Wu and Thariq Shihipar from Anthropic's Claude Code team. We talked about Claude Code, Claude Tag, Fable, coding agent security, evals, tool design, and how Anthropic use these tools themselves. The full vid",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+          "link": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-entries",
+          "date": "2026-07-16T20:19:30+00:00",
+          "excerpt": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight release is promised \"by July 27, 2026\". Moonshot are calling this the first \"open 3T-cl",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "The new GPT-5.6 family: Luna, Terra, Sol",
+          "link": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-entries",
+          "date": "2026-07-09T19:46:38+00:00",
+          "excerpt": "OpenAI's latest flagship model hit general availability this morning , and comes in three sizes: Luna, Terra, and Sol (from smallest to largest). The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "sqlite-utils 4.0, now with database schema migrations",
+          "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-entries",
+          "date": "2026-07-07T19:32:57+00:00",
+          "excerpt": "This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upgrade guide ), this version introduces three major features: database migrations ,",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+          "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-entries",
+          "date": "2026-07-05T01:00:48+00:00",
+          "excerpt": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I felt truly comfortable about, since I try to keep to SemVer and like my incompati",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Have your agent record video demos of its work with shot-scraper video",
+          "link": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-entries",
+          "date": "2026-06-30T16:54:26+00:00",
+          "excerpt": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of having coding agents produce ",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+          "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-entries",
+          "date": "2026-06-22T23:43:51+00:00",
+          "excerpt": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model - a model where you can mark regions of an image to remove and the model imagines what should fill the space. The released model requi",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+          "link": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-entries",
+          "date": "2026-06-21T23:35:47+00:00",
+          "excerpt": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package , including support for complex table transformations , automatic table creation from JSON data and a whole lo",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Datasette Apps: Host custom HTML applications inside Datasette",
+          "link": "https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-entries",
+          "date": "2026-06-18T23:58:38+00:00",
+          "excerpt": "Today we launched a new plugin for Datasette, datasette-apps , with this launch announcement post on the Datasette project blog. That post has the what , but I'm going to expand on that a little bit here to provide the why . The TL;DR Datasette Apps are self-contained HTML+JavaScript applications th",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+          "link": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-entries",
+          "date": "2026-06-17T23:58:39+00:00",
+          "excerpt": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases this is a 753B parameter, 1.51TB monster - with 40 active parameters (M",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+          "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-entries",
+          "date": "2026-06-13T23:55:18+00:00",
+          "excerpt": "The Pyodide 314.0 release announcement (via Hacker News ) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783 ) directly to PyPI and install them at runti",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Claude Fable is relentlessly proactive",
+          "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-entries",
+          "date": "2026-06-11T23:35:17+00:00",
+          "excerpt": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I'll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Initial impressions of Claude Fable 5",
+          "link": "https://simonwillison.net/2026/Jun/9/claude-fable-5/#atom-entries",
+          "date": "2026-06-09T23:59:54+00:00",
+          "excerpt": "I didn't have early access to today's Claude Fable 5 release, but I've spent the past ~5.5 hours putting it through its paces. My initial impressions are that this is something of a beast . It's slow, expensive and has been quite happily churning through everything I've thrown at it so far. As is fr",
+          "author": ""
+        },
+        {
+          "feed": "Simon Willison",
+          "title": "Running Python code in a sandbox with MicroPython and WASM",
+          "link": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-entries",
+          "date": "2026-06-06T03:53:34+00:00",
+          "excerpt": "I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called micropython-wasm , and I'm using it for a code ex",
+          "author": ""
+        }
+      ]
+    },
+    "Mike Hicks": {
+      "etag": "\"6a30b31a-b0f\"",
+      "last_modified": "Tue, 16 Jun 2026 02:21:14 GMT",
+      "articles": [
+        {
+          "feed": "Mike Hicks",
+          "title": "Beyond Penetrate-and-Patch",
+          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+          "date": "2026-05-05T00:00:00+00:00",
+          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+          "author": ""
+        },
+        {
+          "feed": "Mike Hicks",
+          "title": "Hello, World: A New Blog",
+          "link": "https://mhicks.me/blog/hello-world/",
+          "date": "2026-03-12T00:00:00+00:00",
+          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+          "author": ""
+        }
+      ]
+    },
+    "Daniel Stenberg": {
+      "etag": "\"e39da761631ed33487f602ce0ece7b4c\"",
+      "last_modified": "Thu, 16 Jul 2026 20:18:33 GMT",
+      "articles": [
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Workshop Basel day three",
+          "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
+          "date": "2026-07-16T20:01:14+00:00",
+          "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Workshop Basel day two",
+          "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
+          "date": "2026-07-15T20:07:14+00:00",
+          "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Workshop Basel day one",
+          "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
+          "date": "2026-07-14T20:25:28+00:00",
+          "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Do excellent vulnerability reports",
+          "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
+          "date": "2026-06-29T07:47:43+00:00",
+          "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "A curl mountain movie",
+          "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
+          "date": "2026-06-26T11:34:00+00:00",
+          "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Trailing dots are the worst",
+          "link": "https://daniel.haxx.se/blog/2026/06/25/trailing-dots-are-the-worst/",
+          "date": "2026-06-25T07:48:02+00:00",
+          "excerpt": "Trailing dots after hostnames in URLs remain my worst enemies. I wrote about several problems with them in the past that involved those nasty things. They are still painful. When we shipped curl 8.21.0 on June 24 2026 we fixed at least three brand new problems that involved trailing dots. C’mon, fol",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "a CVE dispute",
+          "link": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
+          "date": "2026-06-24T21:38:52+00:00",
+          "excerpt": "A few years years ago the curl project signed up and became a CNA . This means that we are masters of and can allocate our own CVE identifiers. For any security problems within our territory, it is we who decides if the issue should get a CVE or not. No more bogus CVEs . 57 CVEs During these years w",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "curl 8.21.0",
+          "link": "https://daniel.haxx.se/blog/2026/06/24/curl-8-21-0/",
+          "date": "2026-06-24T06:00:23+00:00",
+          "excerpt": "Release presentation Numbers the 275th release 6 changes 56 days (total: 10,817) 276 bugfixes (total: 14,187) 531 commits (total: 39,077) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 1 new curl command line option (total: 274) 102 contributors, 69 new (tota",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "QUERY with curl",
+          "link": "https://daniel.haxx.se/blog/2026/06/21/query-with-curl/",
+          "date": "2026-06-20T22:34:25+00:00",
+          "excerpt": "RFC 10008 is brand new a specification detailing the new HTTP method called QUERY: This specification defines the QUERY method for HTTP. A QUERY requests that the request target process the enclosed content in a safe and idempotent manner and then respond with the result of that processing. This is ",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "curl summer of bliss",
+          "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+          "date": "2026-06-15T05:56:00+00:00",
+          "excerpt": "The curl project will not accept or otherwise handle any vulnerability reports during the month of July 2026 . We call it the curl summer of bliss . curl’s submission form on Hackerone will be paused starting July 1, 2026. Summer of bliss starts: July 1, 2026 . 00:00 CEST Submissions resume: August ",
+          "author": "Daniel Stenberg"
+        }
+      ]
+    },
     "Matt Might": {
       "etag": "\"65a425c0-55cf\"",
       "last_modified": "Sun, 14 Jan 2024 18:19:44 GMT",
@@ -3208,31 +3014,9 @@
         }
       ]
     },
-    "Yukta Subramanian": {
-      "etag": null,
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "Yukta Subramanian",
-          "title": "Cancer is getting on my nerves (literally!)",
-          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-          "date": "2026-02-24T19:06:27+00:00",
-          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-          "author": "Yukta Subramanian"
-        },
-        {
-          "feed": "Yukta Subramanian",
-          "title": "The Tick-Tock Within Us",
-          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-          "date": "2025-01-03T15:09:23+00:00",
-          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-          "author": "Yukta Subramanian"
-        }
-      ]
-    },
     "Dan Luu": {
-      "etag": "W/\"6a4c9f1a-97cb8d\"",
-      "last_modified": "Tue, 07 Jul 2026 06:39:22 GMT",
+      "etag": "W/\"6a548e62-a90217\"",
+      "last_modified": "Mon, 13 Jul 2026 07:06:10 GMT",
       "articles": [
         {
           "feed": "Dan Luu",
@@ -4260,116 +4044,8 @@
         }
       ]
     },
-    "SIGPLAN Blog": {
-      "etag": "\"6e4c39f617f56b209ff4d1dd9f14c72b\"",
-      "last_modified": "Mon, 20 Jul 2026 13:00:04 GMT",
-      "articles": [
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "How the SIGPLAN Budget Works",
-          "link": "https://blog.sigplan.org/2026/07/20/sigplan-budget/",
-          "date": "2026-07-20T13:00:04+00:00",
-          "excerpt": "When I started as a SIGPLAN elected Member-at-Large and was given the position of Treasurer, we were coming off the COVID times, and the conferences were just returning to full in-person attendance with venues booked in more tumultuous prior years. I live far away from the typical US or EU-based SIG",
-          "author": "Alex Potanin"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
-          "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
-          "date": "2026-05-15T15:30:25+00:00",
-          "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Repositories Are Human/Agent Knowledge Factories",
-          "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-          "date": "2026-04-21T09:00:48+00:00",
-          "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Think Globally, Discuss PL Locally",
-          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-          "date": "2025-09-16T13:09:36+00:00",
-          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-          "author": "Harrison Goldstein"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Reserve Reviewer Policy",
-          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-          "date": "2025-09-09T15:59:52+00:00",
-          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-          "author": "Shriram Krishnamurthi"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "AI Models Need a Virtual Machine",
-          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-          "date": "2025-08-29T09:00:39+00:00",
-          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-          "date": "2025-05-19T13:43:38+00:00",
-          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-          "author": "Adrian Sampson"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "How to Give a Good Talk",
-          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-          "date": "2025-03-31T13:00:03+00:00",
-          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-          "author": "Michael Greenberg"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-          "date": "2025-03-20T16:21:36+00:00",
-          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-          "date": "2025-01-29T13:00:02+00:00",
-          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-          "author": "Andreia Mordido"
-        }
-      ]
-    },
-    "Mike Hicks": {
-      "etag": "\"6a30b319-b0f\"",
-      "last_modified": "Tue, 16 Jun 2026 02:21:13 GMT",
-      "articles": [
-        {
-          "feed": "Mike Hicks",
-          "title": "Beyond Penetrate-and-Patch",
-          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-          "date": "2026-05-05T00:00:00+00:00",
-          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-          "author": ""
-        },
-        {
-          "feed": "Mike Hicks",
-          "title": "Hello, World: A New Blog",
-          "link": "https://mhicks.me/blog/hello-world/",
-          "date": "2026-03-12T00:00:00+00:00",
-          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-          "author": ""
-        }
-      ]
-    },
     "Experimental History": {
-      "etag": "W/\"121bb9-l3wrVQ6GUZNGfKpItNO1zoQ9siY\"",
+      "etag": "W/\"121a23-uXzgW2IPY15h4EMMz20OQMvbR+s\"",
       "last_modified": null,
       "articles": [
         {
@@ -4534,89 +4210,249 @@
         }
       ]
     },
-    "Daniel Stenberg": {
-      "etag": "\"e39da761631ed33487f602ce0ece7b4c\"",
-      "last_modified": "Thu, 16 Jul 2026 20:18:33 GMT",
+    "Hillel Wayne": {
+      "etag": null,
+      "last_modified": "Tue, 14 Jul 2026 16:15:07 GMT",
       "articles": [
         {
-          "feed": "Daniel Stenberg",
-          "title": "Workshop Basel day three",
-          "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
-          "date": "2026-07-16T20:01:14+00:00",
-          "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "I'm still alive",
+          "link": "https://buttondown.com/hillelwayne/archive/im-still-alive/",
+          "date": "2026-07-14T16:15:07+00:00",
+          "excerpt": "",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "Workshop Basel day two",
-          "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
-          "date": "2026-07-15T20:07:14+00:00",
-          "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "Logic for Programmers v0.15, Livecoding",
+          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-v015-livecoding/",
+          "date": "2026-06-17T16:40:09+00:00",
+          "excerpt": "",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "Workshop Basel day one",
-          "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
-          "date": "2026-07-14T20:25:28+00:00",
-          "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "Nontrailing separators do not spark joy",
+          "link": "https://buttondown.com/hillelwayne/archive/nontrailing-separators-do-not-spark-joy/",
+          "date": "2026-06-10T12:22:04+00:00",
+          "excerpt": "",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "Do excellent vulnerability reports",
-          "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
-          "date": "2026-06-29T07:47:43+00:00",
-          "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "Logic for Programmers extra credits",
+          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-extra-credits/",
+          "date": "2026-06-02T14:48:48+00:00",
+          "excerpt": "",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "A curl mountain movie",
-          "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
-          "date": "2026-06-26T11:34:00+00:00",
-          "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "Knowing about things is cheaper than knowing things",
+          "link": "https://buttondown.com/hillelwayne/archive/knowing-about-things-is-cheaper-than-knowing/",
+          "date": "2026-05-28T16:03:01+00:00",
+          "excerpt": "",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "Trailing dots are the worst",
-          "link": "https://daniel.haxx.se/blog/2026/06/25/trailing-dots-are-the-worst/",
-          "date": "2026-06-25T07:48:02+00:00",
-          "excerpt": "Trailing dots after hostnames in URLs remain my worst enemies. I wrote about several problems with them in the past that involved those nasty things. They are still painful. When we shipped curl 8.21.0 on June 24 2026 we fixed at least three brand new problems that involved trailing dots. C’mon, fol",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "Assumptions weaken properties",
+          "link": "https://buttondown.com/hillelwayne/archive/assumptions-weaken-properties/",
+          "date": "2026-05-20T15:13:16+00:00",
+          "excerpt": "",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "a CVE dispute",
-          "link": "https://daniel.haxx.se/blog/2026/06/24/a-cve-dispute/",
-          "date": "2026-06-24T21:38:52+00:00",
-          "excerpt": "A few years years ago the curl project signed up and became a CNA . This means that we are masters of and can allocate our own CVE identifiers. For any security problems within our territory, it is we who decides if the issue should get a CVE or not. No more bogus CVEs . 57 CVEs During these years w",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "Points are a weird and inconsistent unit of measure",
+          "link": "https://buttondown.com/hillelwayne/archive/points-are-a-weird-and-inconsistent-unit-of/",
+          "date": "2026-05-13T15:56:37+00:00",
+          "excerpt": "",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "curl 8.21.0",
-          "link": "https://daniel.haxx.se/blog/2026/06/24/curl-8-21-0/",
-          "date": "2026-06-24T06:00:23+00:00",
-          "excerpt": "Release presentation Numbers the 275th release 6 changes 56 days (total: 10,817) 276 bugfixes (total: 14,187) 531 commits (total: 39,077) 0 new public libcurl function (total: 100) 0 new curl_easy_setopt() option (total: 308) 1 new curl command line option (total: 274) 102 contributors, 69 new (tota",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "New Logic for Programmers (and the future of this newsletter)",
+          "link": "https://buttondown.com/hillelwayne/archive/new-logic-for-programmers-and-the-future-of-this/",
+          "date": "2026-05-06T17:03:46+00:00",
+          "excerpt": "",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "QUERY with curl",
-          "link": "https://daniel.haxx.se/blog/2026/06/21/query-with-curl/",
-          "date": "2026-06-20T22:34:25+00:00",
-          "excerpt": "RFC 10008 is brand new a specification detailing the new HTTP method called QUERY: This specification defines the QUERY method for HTTP. A QUERY requests that the request target process the enclosed content in a safe and idempotent manner and then respond with the result of that processing. This is ",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "Illegal vs Unwanted States",
+          "link": "https://buttondown.com/hillelwayne/archive/illegal-vs-unwanted-states/",
+          "date": "2026-04-28T15:14:09+00:00",
+          "excerpt": "",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "curl summer of bliss",
-          "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
-          "date": "2026-06-15T05:56:00+00:00",
-          "excerpt": "The curl project will not accept or otherwise handle any vulnerability reports during the month of July 2026 . We call it the curl summer of bliss . curl’s submission form on Hackerone will be paused starting July 1, 2026. Summer of bliss starts: July 1, 2026 . 00:00 CEST Submissions resume: August ",
-          "author": "Daniel Stenberg"
+          "feed": "Hillel Wayne",
+          "title": "People get confused when language implementations break language guarantees",
+          "link": "https://buttondown.com/hillelwayne/archive/people-get-confused-when-language-implementations/",
+          "date": "2026-04-21T17:40:17+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "A sufficiently comprehensive spec is not (necessarily) code",
+          "link": "https://buttondown.com/hillelwayne/archive/a-sufficiently-comprehensive-spec-is-not/",
+          "date": "2026-04-15T16:18:02+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "April Cools Post: New York vs Chicago Pizza",
+          "link": "https://buttondown.com/hillelwayne/archive/april-cools-post-new-york-vs-chicago-pizza/",
+          "date": "2026-04-01T17:53:29+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Choose Boring Technology and Innovative Practices",
+          "link": "https://buttondown.com/hillelwayne/archive/choose-boring-technology-and-innovative-practices/",
+          "date": "2026-03-24T14:38:06+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "LLMs are bad at vibing specifications",
+          "link": "https://buttondown.com/hillelwayne/archive/llms-are-bad-at-vibing-specifications/",
+          "date": "2026-03-10T17:12:30+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Free Books",
+          "link": "https://buttondown.com/hillelwayne/archive/free-books/",
+          "date": "2026-03-03T16:34:33+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "New Blog Post: Some Silly Z3 Scripts I Wrote",
+          "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-some-silly-z3-scripts-i-wrote/",
+          "date": "2026-02-23T16:49:10+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Stream of Consciousness Driven Development",
+          "link": "https://buttondown.com/hillelwayne/archive/stream-of-consciousness-driven-development/",
+          "date": "2026-02-18T16:33:08+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Proving What's Possible",
+          "link": "https://buttondown.com/hillelwayne/archive/proving-whats-possible/",
+          "date": "2026-02-11T18:36:53+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Logic for Programmers New Release and Next Steps",
+          "link": "https://buttondown.com/hillelwayne/archive/logic-for-programmers-new-release-and-next-steps/",
+          "date": "2026-02-04T14:00:00+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Refinement without Specification",
+          "link": "https://buttondown.com/hillelwayne/archive/refinement-without-specification/",
+          "date": "2026-01-20T17:49:07+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "My Gripes with Prolog",
+          "link": "https://buttondown.com/hillelwayne/archive/my-gripes-with-prolog/",
+          "date": "2026-01-14T16:48:51+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "The Liskov Substitution Principle does more than you think",
+          "link": "https://buttondown.com/hillelwayne/archive/the-liskov-substitution-principle-does-more-than/",
+          "date": "2026-01-06T16:51:26+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Some Fun Software Facts",
+          "link": "https://buttondown.com/hillelwayne/archive/some-fun-software-facts/",
+          "date": "2025-12-10T18:45:37+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "One more week to the Logic for Programmers Food Drive",
+          "link": "https://buttondown.com/hillelwayne/archive/one-more-week-to-the-logic-for-programmers-food/",
+          "date": "2025-11-24T18:21:49+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Get Logic for Programmers 50% off & Support Chicago Foodbanks",
+          "link": "https://buttondown.com/hillelwayne/archive/get-logic-for-programmers-50-off-support-chicago/",
+          "date": "2025-11-10T16:31:11+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "I'm taking a break",
+          "link": "https://buttondown.com/hillelwayne/archive/im-taking-a-break/",
+          "date": "2025-10-27T21:02:37+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Modal editing is a weird historical contingency we have through sheer happenstance",
+          "link": "https://buttondown.com/hillelwayne/archive/modal-editing-is-a-weird-historical-contingency/",
+          "date": "2025-10-21T16:46:24+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "The Phase Change",
+          "link": "https://buttondown.com/hillelwayne/archive/the-phase-change/",
+          "date": "2025-10-16T14:59:25+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "Three ways formally verified code can go wrong in practice",
+          "link": "https://buttondown.com/hillelwayne/archive/three-ways-formally-verified-code-can-go-wrong-in/",
+          "date": "2025-10-10T17:06:19+00:00",
+          "excerpt": "",
+          "author": ""
+        },
+        {
+          "feed": "Hillel Wayne",
+          "title": "New Blog Post: \" A Very Early History of Algebraic Data Types\"",
+          "link": "https://buttondown.com/hillelwayne/archive/new-blog-post-a-very-early-history-of-algebraic/",
+          "date": "2025-09-25T16:50:58+00:00",
+          "excerpt": "",
+          "author": ""
         }
       ]
     }
