@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T06:29:43.114738+00:00",
+  "lastUpdated": "2026-08-21T06:30:54.522345+00:00",
   "articles": [
     {
       "feed": "Leonardo de Moura",
@@ -80,6 +80,14 @@
       "date": "2026-02-18T00:00:00+00:00",
       "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
       "author": ""
+    },
+    {
+      "feed": "Automating Mathematics",
+      "title": "Lean Kernel Bugs and Junk Values",
+      "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/lean-kernel-bugs-and-junk-values/",
+      "date": "2026-08-20T08:47:27+05:30",
+      "excerpt": "As vibe coding and AI generated proofs have proliferated, the Lean Prover has become a common tool to verify correctness. While it is undoubtedly advanced technology, Lean is not magic and cannot perfectly guarantee correctness.",
+      "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
     },
     {
       "feed": "Automating Mathematics",
@@ -1490,6 +1498,22 @@
       "author": ""
     },
     {
+      "feed": "Yukta Subramanian",
+      "title": "Cancer is getting on my nerves (literally!)",
+      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+      "date": "2026-02-24T19:06:27+00:00",
+      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Yukta Subramanian",
+      "title": "The Tick-Tock Within Us",
+      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+      "date": "2025-01-03T15:09:23+00:00",
+      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+      "author": "Yukta Subramanian"
+    },
+    {
       "feed": "Simon Willison",
       "title": "Conceptual integrity and counting lines of code",
       "link": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
@@ -1608,38 +1632,6 @@
       "date": "2026-06-21T23:35:47+00:00",
       "excerpt": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package , including support for complex table transformations , automatic table creation from JSON data and a whole lo",
       "author": ""
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Beyond Penetrate-and-Patch",
-      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-      "date": "2026-05-05T00:00:00+00:00",
-      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-      "author": ""
-    },
-    {
-      "feed": "Mike Hicks",
-      "title": "Hello, World: A New Blog",
-      "link": "https://mhicks.me/blog/hello-world/",
-      "date": "2026-03-12T00:00:00+00:00",
-      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-      "author": ""
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "Cancer is getting on my nerves (literally!)",
-      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-      "date": "2026-02-24T19:06:27+00:00",
-      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "The Tick-Tock Within Us",
-      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-      "date": "2025-01-03T15:09:23+00:00",
-      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-      "author": "Yukta Subramanian"
     },
     {
       "feed": "Experimental History",
@@ -1882,84 +1874,20 @@
       "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "There’s a libcurl.dll in my system32",
-      "link": "https://daniel.haxx.se/blog/2026/08/17/theres-a-libcurl-dll-in-my-system32/",
-      "date": "2026-08-17T21:27:36+00:00",
-      "excerpt": "This afternoon I had a meeting with IT people at a huge US power infrastructure company. They had found a libcurl.dll file in their C:\\Windows\\System32 directory and asked us for help to upgrade it. Their vulnerability scanner identified it as vulnerable to several publicly known vulnerabilities . C",
-      "author": "Daniel Stenberg"
+      "feed": "Mike Hicks",
+      "title": "Beyond Penetrate-and-Patch",
+      "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+      "date": "2026-05-05T00:00:00+00:00",
+      "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+      "author": ""
     },
     {
-      "feed": "Daniel Stenberg",
-      "title": "curl performance",
-      "link": "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2/",
-      "date": "2026-08-14T11:20:32+00:00",
-      "excerpt": "tldr: the live version is here: https://curl.se/perf/ How fast is “fast” and is it good enough? Does it run as fast now as it did before or was there a regression? What exactly needs to be fast? How fast is it? These are questions that many projects and products face, and in curl we are no different",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "What the bliss taught us",
-      "link": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/",
-      "date": "2026-08-03T06:42:19+00:00",
-      "excerpt": "At this exact moment curl’s summer of bliss 2026 ends. We (the maintainers of curl ) took the entire month of July off from vulnerability reporting and in this post I will try to explain how this went. (If you feel like skipping the wordy blab below, the single word answer is: fine ) This was possib",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "HTTP Message Signatures with curl",
-      "link": "https://daniel.haxx.se/blog/2026/07/27/http-message-signatures-with-curl/",
-      "date": "2026-07-27T06:55:03+00:00",
-      "excerpt": "The recently published RFC 9421 describes how to do HTTP Message Signatures , and starting just now , curl experimentally supports them. Message Signatures The specification describes this as a mechanism for creating, encoding, and verifying digital signatures or message authentication codes over co",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "1,500 curl authors",
-      "link": "https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/",
-      "date": "2026-07-25T14:29:28+00:00",
-      "excerpt": "It takes a village to make curl. A rather big village. I have not been a solo maintainer of curl for a long time and I don’t even do half of the commits anymore Since today, the curl git repository holds the accumulated efforts from 1,500 separate and named individuals. Only 4.5 years since we passe",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Workshop Basel day three",
-      "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
-      "date": "2026-07-16T20:01:14+00:00",
-      "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Workshop Basel day two",
-      "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
-      "date": "2026-07-15T20:07:14+00:00",
-      "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Workshop Basel day one",
-      "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
-      "date": "2026-07-14T20:25:28+00:00",
-      "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Do excellent vulnerability reports",
-      "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
-      "date": "2026-06-29T07:47:43+00:00",
-      "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "A curl mountain movie",
-      "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
-      "date": "2026-06-26T11:34:00+00:00",
-      "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
-      "author": "Daniel Stenberg"
+      "feed": "Mike Hicks",
+      "title": "Hello, World: A New Blog",
+      "link": "https://mhicks.me/blog/hello-world/",
+      "date": "2026-03-12T00:00:00+00:00",
+      "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+      "author": ""
     },
     {
       "feed": "Hillel Wayne",
@@ -2202,87 +2130,89 @@
       "author": ""
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "How the SIGPLAN Budget Works",
-      "link": "https://blog.sigplan.org/2026/07/20/sigplan-budget/",
-      "date": "2026-07-20T13:00:04+00:00",
-      "excerpt": "When I started as a SIGPLAN elected Member-at-Large and was given the position of Treasurer, we were coming off the COVID times, and the conferences were just returning to full in-person attendance with venues booked in more tumultuous prior years. I live far away from the typical US or EU-based SIG",
-      "author": "Alex Potanin"
+      "feed": "Daniel Stenberg",
+      "title": "There’s a libcurl.dll in my system32",
+      "link": "https://daniel.haxx.se/blog/2026/08/17/theres-a-libcurl-dll-in-my-system32/",
+      "date": "2026-08-17T21:27:36+00:00",
+      "excerpt": "This afternoon I had a meeting with IT people at a huge US power infrastructure company. They had found a libcurl.dll file in their C:\\Windows\\System32 directory and asked us for help to upgrade it. Their vulnerability scanner identified it as vulnerable to several publicly known vulnerabilities . C",
+      "author": "Daniel Stenberg"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
-      "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
-      "date": "2026-05-15T15:30:25+00:00",
-      "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
-      "author": "Ben Zorn"
+      "feed": "Daniel Stenberg",
+      "title": "curl performance",
+      "link": "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2/",
+      "date": "2026-08-14T11:20:32+00:00",
+      "excerpt": "tldr: the live version is here: https://curl.se/perf/ How fast is “fast” and is it good enough? Does it run as fast now as it did before or was there a regression? What exactly needs to be fast? How fast is it? These are questions that many projects and products face, and in curl we are no different",
+      "author": "Daniel Stenberg"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "Repositories Are Human/Agent Knowledge Factories",
-      "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-      "date": "2026-04-21T09:00:48+00:00",
-      "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-      "author": "Ben Zorn"
+      "feed": "Daniel Stenberg",
+      "title": "What the bliss taught us",
+      "link": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/",
+      "date": "2026-08-03T06:42:19+00:00",
+      "excerpt": "At this exact moment curl’s summer of bliss 2026 ends. We (the maintainers of curl ) took the entire month of July off from vulnerability reporting and in this post I will try to explain how this went. (If you feel like skipping the wordy blab below, the single word answer is: fine ) This was possib",
+      "author": "Daniel Stenberg"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "Think Globally, Discuss PL Locally",
-      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-      "date": "2025-09-16T13:09:36+00:00",
-      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-      "author": "Harrison Goldstein"
+      "feed": "Daniel Stenberg",
+      "title": "HTTP Message Signatures with curl",
+      "link": "https://daniel.haxx.se/blog/2026/07/27/http-message-signatures-with-curl/",
+      "date": "2026-07-27T06:55:03+00:00",
+      "excerpt": "The recently published RFC 9421 describes how to do HTTP Message Signatures , and starting just now , curl experimentally supports them. Message Signatures The specification describes this as a mechanism for creating, encoding, and verifying digital signatures or message authentication codes over co",
+      "author": "Daniel Stenberg"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "The Reserve Reviewer Policy",
-      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-      "date": "2025-09-09T15:59:52+00:00",
-      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-      "author": "Shriram Krishnamurthi"
+      "feed": "Daniel Stenberg",
+      "title": "1,500 curl authors",
+      "link": "https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/",
+      "date": "2026-07-25T14:29:28+00:00",
+      "excerpt": "It takes a village to make curl. A rather big village. I have not been a solo maintainer of curl for a long time and I don’t even do half of the commits anymore Since today, the curl git repository holds the accumulated efforts from 1,500 separate and named individuals. Only 4.5 years since we passe",
+      "author": "Daniel Stenberg"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "AI Models Need a Virtual Machine",
-      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-      "date": "2025-08-29T09:00:39+00:00",
-      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-      "author": "Ben Zorn"
+      "feed": "Daniel Stenberg",
+      "title": "Workshop Basel day three",
+      "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
+      "date": "2026-07-16T20:01:14+00:00",
+      "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
+      "author": "Daniel Stenberg"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-      "date": "2025-05-19T13:43:38+00:00",
-      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-      "author": "Adrian Sampson"
+      "feed": "Daniel Stenberg",
+      "title": "Workshop Basel day two",
+      "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
+      "date": "2026-07-15T20:07:14+00:00",
+      "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
+      "author": "Daniel Stenberg"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "How to Give a Good Talk",
-      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-      "date": "2025-03-31T13:00:03+00:00",
-      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-      "author": "Michael Greenberg"
+      "feed": "Daniel Stenberg",
+      "title": "Workshop Basel day one",
+      "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
+      "date": "2026-07-14T20:25:28+00:00",
+      "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
+      "author": "Daniel Stenberg"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-      "date": "2025-03-20T16:21:36+00:00",
-      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-      "author": "Ben Zorn"
+      "feed": "Daniel Stenberg",
+      "title": "Do excellent vulnerability reports",
+      "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
+      "date": "2026-06-29T07:47:43+00:00",
+      "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
+      "author": "Daniel Stenberg"
     },
     {
-      "feed": "SIGPLAN Blog",
-      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-      "date": "2025-01-29T13:00:02+00:00",
-      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-      "author": "Andreia Mordido"
+      "feed": "Daniel Stenberg",
+      "title": "A curl mountain movie",
+      "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
+      "date": "2026-06-26T11:34:00+00:00",
+      "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
+      "author": "Daniel Stenberg"
     }
   ],
-  "errors": {},
+  "errors": {
+    "SIGPLAN Blog": "XML parse error: mismatched tag: line 1, column 169"
+  },
   "feedCache": {
     "Leonardo de Moura": {
       "etag": "\"6a7fcc20-20a1\"",
@@ -2371,9 +2301,17 @@
       ]
     },
     "Automating Mathematics": {
-      "etag": "\"69a515ff-3f8e\"",
-      "last_modified": "Mon, 02 Mar 2026 04:45:51 GMT",
+      "etag": "\"6a87157a-4246\"",
+      "last_modified": "Thu, 20 Aug 2026 14:55:54 GMT",
       "articles": [
+        {
+          "feed": "Automating Mathematics",
+          "title": "Lean Kernel Bugs and Junk Values",
+          "link": "https://siddhartha-gadgil.github.io/automating-mathematics/posts/lean-kernel-bugs-and-junk-values/",
+          "date": "2026-08-20T08:47:27+05:30",
+          "excerpt": "As vibe coding and AI generated proofs have proliferated, the Lean Prover has become a common tool to verify correctness. While it is undoubtedly advanced technology, Lean is not magic and cannot perfectly guarantee correctness.",
+          "author": "siddhartha.gadgil@gmail.com (Siddhartha Gadgil)"
+        },
         {
           "feed": "Automating Mathematics",
           "title": "AI and the Pointy Haired Boss",
@@ -3796,6 +3734,28 @@
         }
       ]
     },
+    "Yukta Subramanian": {
+      "etag": null,
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "Yukta Subramanian",
+          "title": "Cancer is getting on my nerves (literally!)",
+          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+          "date": "2026-02-24T19:06:27+00:00",
+          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+          "author": "Yukta Subramanian"
+        },
+        {
+          "feed": "Yukta Subramanian",
+          "title": "The Tick-Tock Within Us",
+          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+          "date": "2025-01-03T15:09:23+00:00",
+          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+          "author": "Yukta Subramanian"
+        }
+      ]
+    },
     "Simon Willison": {
       "etag": null,
       "last_modified": "Wed, 19 Aug 2026 22:46:07 GMT",
@@ -3922,52 +3882,8 @@
         }
       ]
     },
-    "Mike Hicks": {
-      "etag": "\"6a30b31a-b0f\"",
-      "last_modified": "Tue, 16 Jun 2026 02:21:14 GMT",
-      "articles": [
-        {
-          "feed": "Mike Hicks",
-          "title": "Beyond Penetrate-and-Patch",
-          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
-          "date": "2026-05-05T00:00:00+00:00",
-          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
-          "author": ""
-        },
-        {
-          "feed": "Mike Hicks",
-          "title": "Hello, World: A New Blog",
-          "link": "https://mhicks.me/blog/hello-world/",
-          "date": "2026-03-12T00:00:00+00:00",
-          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
-          "author": ""
-        }
-      ]
-    },
-    "Yukta Subramanian": {
-      "etag": null,
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "Yukta Subramanian",
-          "title": "Cancer is getting on my nerves (literally!)",
-          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-          "date": "2026-02-24T19:06:27+00:00",
-          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-          "author": "Yukta Subramanian"
-        },
-        {
-          "feed": "Yukta Subramanian",
-          "title": "The Tick-Tock Within Us",
-          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-          "date": "2025-01-03T15:09:23+00:00",
-          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-          "author": "Yukta Subramanian"
-        }
-      ]
-    },
     "Experimental History": {
-      "etag": "W/\"f8a61-cueSb8Dh5imhqd8sGxot+BUTtR8\"",
+      "etag": "W/\"f8a61-e3UC/3eVwHbwkdVqt8ETB2Xg3Vo\"",
       "last_modified": null,
       "articles": [
         {
@@ -4218,89 +4134,25 @@
         }
       ]
     },
-    "Daniel Stenberg": {
-      "etag": "\"e9622e3420c5a7b22f67fd51f3167201\"",
-      "last_modified": "Mon, 17 Aug 2026 21:27:36 GMT",
+    "Mike Hicks": {
+      "etag": "\"6a86e9c4-b0f\"",
+      "last_modified": "Thu, 20 Aug 2026 11:49:24 GMT",
       "articles": [
         {
-          "feed": "Daniel Stenberg",
-          "title": "There’s a libcurl.dll in my system32",
-          "link": "https://daniel.haxx.se/blog/2026/08/17/theres-a-libcurl-dll-in-my-system32/",
-          "date": "2026-08-17T21:27:36+00:00",
-          "excerpt": "This afternoon I had a meeting with IT people at a huge US power infrastructure company. They had found a libcurl.dll file in their C:\\Windows\\System32 directory and asked us for help to upgrade it. Their vulnerability scanner identified it as vulnerable to several publicly known vulnerabilities . C",
-          "author": "Daniel Stenberg"
+          "feed": "Mike Hicks",
+          "title": "Beyond Penetrate-and-Patch",
+          "link": "https://mhicks.me/blog/beyond-penetrate-and-patch/",
+          "date": "2026-05-05T00:00:00+00:00",
+          "excerpt": "In April, Anthropic announced Claude Mythos Preview alongside Project Glasswing, reporting that the model had identified thousands of high-severity zero-day vulnerabilities across every major operating system and web browser, including a 27-year-old bug in OpenBSD. 1 Days later, Mozilla announced pa",
+          "author": ""
         },
         {
-          "feed": "Daniel Stenberg",
-          "title": "curl performance",
-          "link": "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2/",
-          "date": "2026-08-14T11:20:32+00:00",
-          "excerpt": "tldr: the live version is here: https://curl.se/perf/ How fast is “fast” and is it good enough? Does it run as fast now as it did before or was there a regression? What exactly needs to be fast? How fast is it? These are questions that many projects and products face, and in curl we are no different",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "What the bliss taught us",
-          "link": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/",
-          "date": "2026-08-03T06:42:19+00:00",
-          "excerpt": "At this exact moment curl’s summer of bliss 2026 ends. We (the maintainers of curl ) took the entire month of July off from vulnerability reporting and in this post I will try to explain how this went. (If you feel like skipping the wordy blab below, the single word answer is: fine ) This was possib",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "HTTP Message Signatures with curl",
-          "link": "https://daniel.haxx.se/blog/2026/07/27/http-message-signatures-with-curl/",
-          "date": "2026-07-27T06:55:03+00:00",
-          "excerpt": "The recently published RFC 9421 describes how to do HTTP Message Signatures , and starting just now , curl experimentally supports them. Message Signatures The specification describes this as a mechanism for creating, encoding, and verifying digital signatures or message authentication codes over co",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "1,500 curl authors",
-          "link": "https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/",
-          "date": "2026-07-25T14:29:28+00:00",
-          "excerpt": "It takes a village to make curl. A rather big village. I have not been a solo maintainer of curl for a long time and I don’t even do half of the commits anymore Since today, the curl git repository holds the accumulated efforts from 1,500 separate and named individuals. Only 4.5 years since we passe",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Workshop Basel day three",
-          "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
-          "date": "2026-07-16T20:01:14+00:00",
-          "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Workshop Basel day two",
-          "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
-          "date": "2026-07-15T20:07:14+00:00",
-          "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Workshop Basel day one",
-          "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
-          "date": "2026-07-14T20:25:28+00:00",
-          "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Do excellent vulnerability reports",
-          "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
-          "date": "2026-06-29T07:47:43+00:00",
-          "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "A curl mountain movie",
-          "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
-          "date": "2026-06-26T11:34:00+00:00",
-          "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
-          "author": "Daniel Stenberg"
+          "feed": "Mike Hicks",
+          "title": "Hello, World: A New Blog",
+          "link": "https://mhicks.me/blog/hello-world/",
+          "date": "2026-03-12T00:00:00+00:00",
+          "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
+          "author": ""
         }
       ]
     },
@@ -4550,89 +4402,89 @@
         }
       ]
     },
-    "SIGPLAN Blog": {
-      "etag": "\"6e4c39f617f56b209ff4d1dd9f14c72b\"",
-      "last_modified": "Mon, 20 Jul 2026 13:00:04 GMT",
+    "Daniel Stenberg": {
+      "etag": "\"724c257a1dd44b677da678673c43dc08\"",
+      "last_modified": "Thu, 20 Aug 2026 07:11:53 GMT",
       "articles": [
         {
-          "feed": "SIGPLAN Blog",
-          "title": "How the SIGPLAN Budget Works",
-          "link": "https://blog.sigplan.org/2026/07/20/sigplan-budget/",
-          "date": "2026-07-20T13:00:04+00:00",
-          "excerpt": "When I started as a SIGPLAN elected Member-at-Large and was given the position of Treasurer, we were coming off the COVID times, and the conferences were just returning to full in-person attendance with venues booked in more tumultuous prior years. I live far away from the typical US or EU-based SIG",
-          "author": "Alex Potanin"
+          "feed": "Daniel Stenberg",
+          "title": "There’s a libcurl.dll in my system32",
+          "link": "https://daniel.haxx.se/blog/2026/08/17/theres-a-libcurl-dll-in-my-system32/",
+          "date": "2026-08-17T21:27:36+00:00",
+          "excerpt": "This afternoon I had a meeting with IT people at a huge US power infrastructure company. They had found a libcurl.dll file in their C:\\Windows\\System32 directory and asked us for help to upgrade it. Their vulnerability scanner identified it as vulnerable to several publicly known vulnerabilities . C",
+          "author": "Daniel Stenberg"
         },
         {
-          "feed": "SIGPLAN Blog",
-          "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
-          "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
-          "date": "2026-05-15T15:30:25+00:00",
-          "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
-          "author": "Ben Zorn"
+          "feed": "Daniel Stenberg",
+          "title": "curl performance",
+          "link": "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2/",
+          "date": "2026-08-14T11:20:32+00:00",
+          "excerpt": "tldr: the live version is here: https://curl.se/perf/ How fast is “fast” and is it good enough? Does it run as fast now as it did before or was there a regression? What exactly needs to be fast? How fast is it? These are questions that many projects and products face, and in curl we are no different",
+          "author": "Daniel Stenberg"
         },
         {
-          "feed": "SIGPLAN Blog",
-          "title": "Repositories Are Human/Agent Knowledge Factories",
-          "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-          "date": "2026-04-21T09:00:48+00:00",
-          "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-          "author": "Ben Zorn"
+          "feed": "Daniel Stenberg",
+          "title": "What the bliss taught us",
+          "link": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/",
+          "date": "2026-08-03T06:42:19+00:00",
+          "excerpt": "At this exact moment curl’s summer of bliss 2026 ends. We (the maintainers of curl ) took the entire month of July off from vulnerability reporting and in this post I will try to explain how this went. (If you feel like skipping the wordy blab below, the single word answer is: fine ) This was possib",
+          "author": "Daniel Stenberg"
         },
         {
-          "feed": "SIGPLAN Blog",
-          "title": "Think Globally, Discuss PL Locally",
-          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-          "date": "2025-09-16T13:09:36+00:00",
-          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-          "author": "Harrison Goldstein"
+          "feed": "Daniel Stenberg",
+          "title": "HTTP Message Signatures with curl",
+          "link": "https://daniel.haxx.se/blog/2026/07/27/http-message-signatures-with-curl/",
+          "date": "2026-07-27T06:55:03+00:00",
+          "excerpt": "The recently published RFC 9421 describes how to do HTTP Message Signatures , and starting just now , curl experimentally supports them. Message Signatures The specification describes this as a mechanism for creating, encoding, and verifying digital signatures or message authentication codes over co",
+          "author": "Daniel Stenberg"
         },
         {
-          "feed": "SIGPLAN Blog",
-          "title": "The Reserve Reviewer Policy",
-          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-          "date": "2025-09-09T15:59:52+00:00",
-          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-          "author": "Shriram Krishnamurthi"
+          "feed": "Daniel Stenberg",
+          "title": "1,500 curl authors",
+          "link": "https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/",
+          "date": "2026-07-25T14:29:28+00:00",
+          "excerpt": "It takes a village to make curl. A rather big village. I have not been a solo maintainer of curl for a long time and I don’t even do half of the commits anymore Since today, the curl git repository holds the accumulated efforts from 1,500 separate and named individuals. Only 4.5 years since we passe",
+          "author": "Daniel Stenberg"
         },
         {
-          "feed": "SIGPLAN Blog",
-          "title": "AI Models Need a Virtual Machine",
-          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-          "date": "2025-08-29T09:00:39+00:00",
-          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-          "author": "Ben Zorn"
+          "feed": "Daniel Stenberg",
+          "title": "Workshop Basel day three",
+          "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
+          "date": "2026-07-16T20:01:14+00:00",
+          "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
+          "author": "Daniel Stenberg"
         },
         {
-          "feed": "SIGPLAN Blog",
-          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-          "date": "2025-05-19T13:43:38+00:00",
-          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-          "author": "Adrian Sampson"
+          "feed": "Daniel Stenberg",
+          "title": "Workshop Basel day two",
+          "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
+          "date": "2026-07-15T20:07:14+00:00",
+          "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
+          "author": "Daniel Stenberg"
         },
         {
-          "feed": "SIGPLAN Blog",
-          "title": "How to Give a Good Talk",
-          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-          "date": "2025-03-31T13:00:03+00:00",
-          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-          "author": "Michael Greenberg"
+          "feed": "Daniel Stenberg",
+          "title": "Workshop Basel day one",
+          "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
+          "date": "2026-07-14T20:25:28+00:00",
+          "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
+          "author": "Daniel Stenberg"
         },
         {
-          "feed": "SIGPLAN Blog",
-          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-          "date": "2025-03-20T16:21:36+00:00",
-          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-          "author": "Ben Zorn"
+          "feed": "Daniel Stenberg",
+          "title": "Do excellent vulnerability reports",
+          "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
+          "date": "2026-06-29T07:47:43+00:00",
+          "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
+          "author": "Daniel Stenberg"
         },
         {
-          "feed": "SIGPLAN Blog",
-          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-          "date": "2025-01-29T13:00:02+00:00",
-          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-          "author": "Andreia Mordido"
+          "feed": "Daniel Stenberg",
+          "title": "A curl mountain movie",
+          "link": "https://daniel.haxx.se/blog/2026/06/26/a-curl-mountain-movie/",
+          "date": "2026-06-26T11:34:00+00:00",
+          "excerpt": "One of my favorite visuals for known vulnerabilities in curl is the mountain . It shows how many currently known vulnerabilities were present in the code through-out curl’s history. In the end of June 2026 it looks like this: Over time we get more vulnerabilities reported. Since every flaw has a ver",
+          "author": "Daniel Stenberg"
         }
       ]
     }
