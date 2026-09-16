@@ -1,6 +1,94 @@
 {
-  "lastUpdated": "2026-09-15T10:43:53.932303+00:00",
+  "lastUpdated": "2026-09-16T10:32:19.658151+00:00",
   "articles": [
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Postmortem for the Kernel Soundness Bug Hunt",
+      "link": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
+      "date": "2026-08-24T00:00:00+00:00",
+      "excerpt": "This is a follow-up to Postmortem for Kernel Soundness Bug #14576. We describe the kernel soundness bug hunt using OpenAI internal models, the new bugs found, and the actions the Lean FRO is taking to increase trust.",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Postmortem for Kernel Soundness Bug #14576",
+      "link": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
+      "date": "2026-08-01T00:00:00+00:00",
+      "excerpt": "A soundness bug in the Lean kernel (#14576) was reported and fixed during the week of July 27. It has had visibility on Zulip and social media (e.g., X, LinkedIn, and Mastodon).",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Signal Shot: The Platform Is Ready",
+      "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
+      "date": "2026-04-20T00:00:00+00:00",
+      "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Why Lean?",
+      "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
+      "date": "2026-04-02T00:00:00+00:00",
+      "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Cray Colloquium at the University of Minnesota",
+      "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
+      "date": "2026-03-28T00:00:00+00:00",
+      "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Who Watches the Provers?",
+      "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
+      "date": "2026-03-16T00:00:00+00:00",
+      "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "This website is now powered by Verso",
+      "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
+      "date": "2026-03-15T00:00:00+00:00",
+      "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Teaching AI to Make Proof Automation Work",
+      "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
+      "date": "2026-03-14T00:00:00+00:00",
+      "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "sym => : interactive mode for scalable verification",
+      "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
+      "date": "2026-03-13T00:00:00+00:00",
+      "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "When AI Writes the World's Software, Who Verifies It?",
+      "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+      "date": "2026-02-28T00:00:00+00:00",
+      "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
+      "author": ""
+    },
+    {
+      "feed": "Leonardo de Moura",
+      "title": "Proof Assistants in the Age of AI",
+      "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
+      "date": "2026-02-18T00:00:00+00:00",
+      "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
+      "author": ""
+    },
     {
       "feed": "Automating Mathematics",
       "title": "Complex Structures on the 6-sphere (via AI?)",
@@ -1186,94 +1274,6 @@
       "author": ""
     },
     {
-      "feed": "Leonardo de Moura",
-      "title": "Postmortem for the Kernel Soundness Bug Hunt",
-      "link": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
-      "date": "2026-08-24T00:00:00+00:00",
-      "excerpt": "This is a follow-up to Postmortem for Kernel Soundness Bug #14576. We describe the kernel soundness bug hunt using OpenAI internal models, the new bugs found, and the actions the Lean FRO is taking to increase trust.",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Postmortem for Kernel Soundness Bug #14576",
-      "link": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
-      "date": "2026-08-01T00:00:00+00:00",
-      "excerpt": "A soundness bug in the Lean kernel (#14576) was reported and fixed during the week of July 27. It has had visibility on Zulip and social media (e.g., X, LinkedIn, and Mastodon).",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Signal Shot: The Platform Is Ready",
-      "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
-      "date": "2026-04-20T00:00:00+00:00",
-      "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Why Lean?",
-      "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
-      "date": "2026-04-02T00:00:00+00:00",
-      "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Cray Colloquium at the University of Minnesota",
-      "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
-      "date": "2026-03-28T00:00:00+00:00",
-      "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Who Watches the Provers?",
-      "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
-      "date": "2026-03-16T00:00:00+00:00",
-      "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "This website is now powered by Verso",
-      "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
-      "date": "2026-03-15T00:00:00+00:00",
-      "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Teaching AI to Make Proof Automation Work",
-      "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
-      "date": "2026-03-14T00:00:00+00:00",
-      "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "sym => : interactive mode for scalable verification",
-      "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
-      "date": "2026-03-13T00:00:00+00:00",
-      "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "When AI Writes the World's Software, Who Verifies It?",
-      "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
-      "date": "2026-02-28T00:00:00+00:00",
-      "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
-      "author": ""
-    },
-    {
-      "feed": "Leonardo de Moura",
-      "title": "Proof Assistants in the Age of AI",
-      "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
-      "date": "2026-02-18T00:00:00+00:00",
-      "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
-      "author": ""
-    },
-    {
       "feed": "Simon Willison",
       "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
       "link": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
@@ -1408,102 +1408,6 @@
       "date": "2026-03-12T00:00:00+00:00",
       "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
       "author": ""
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "How the SIGPLAN Budget Works",
-      "link": "https://blog.sigplan.org/2026/07/20/sigplan-budget/",
-      "date": "2026-07-20T13:00:04+00:00",
-      "excerpt": "When I started as a SIGPLAN elected Member-at-Large and was given the position of Treasurer, we were coming off the COVID times, and the conferences were just returning to full in-person attendance with venues booked in more tumultuous prior years. I live far away from the typical US or EU-based SIG",
-      "author": "Alex Potanin"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
-      "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
-      "date": "2026-05-15T15:30:25+00:00",
-      "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Repositories Are Human/Agent Knowledge Factories",
-      "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-      "date": "2026-04-21T09:00:48+00:00",
-      "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Think Globally, Discuss PL Locally",
-      "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-      "date": "2025-09-16T13:09:36+00:00",
-      "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-      "author": "Harrison Goldstein"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Reserve Reviewer Policy",
-      "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-      "date": "2025-09-09T15:59:52+00:00",
-      "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-      "author": "Shriram Krishnamurthi"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "AI Models Need a Virtual Machine",
-      "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-      "date": "2025-08-29T09:00:39+00:00",
-      "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-      "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-      "date": "2025-05-19T13:43:38+00:00",
-      "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-      "author": "Adrian Sampson"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "How to Give a Good Talk",
-      "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-      "date": "2025-03-31T13:00:03+00:00",
-      "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-      "author": "Michael Greenberg"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-      "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-      "date": "2025-03-20T16:21:36+00:00",
-      "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-      "author": "Ben Zorn"
-    },
-    {
-      "feed": "SIGPLAN Blog",
-      "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-      "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-      "date": "2025-01-29T13:00:02+00:00",
-      "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-      "author": "Andreia Mordido"
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "Cancer is getting on my nerves (literally!)",
-      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-      "date": "2026-02-24T19:06:27+00:00",
-      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-      "author": "Yukta Subramanian"
-    },
-    {
-      "feed": "Yukta Subramanian",
-      "title": "The Tick-Tock Within Us",
-      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-      "date": "2025-01-03T15:09:23+00:00",
-      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-      "author": "Yukta Subramanian"
     },
     {
       "feed": "The ReadME Project",
@@ -1747,6 +1651,14 @@
     },
     {
       "feed": "Experimental History",
+      "title": "There is no epidemic of loneliness, but there is an epidemic of scurvy",
+      "link": "https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness",
+      "date": "2026-09-15T12:54:38+00:00",
+      "excerpt": "photo cred: my dad We’re living through an epidemic of loneliness and everybody knows it, except for one small group: people who have actually looked at the data. Much of what appears to be a loneliness epidemic is, in fact, a well-intentioned misunderstanding. However, there is a real epidemic out ",
+      "author": "Adam Mastroianni"
+    },
+    {
+      "feed": "Experimental History",
       "title": "Actually good advice",
       "link": "https://www.experimental-history.com/p/actually-good-advice",
       "date": "2026-08-25T14:28:03+00:00",
@@ -1898,12 +1810,20 @@
       "author": "Adam Mastroianni"
     },
     {
-      "feed": "Experimental History",
-      "title": "The drug that taught me how much I should suffer",
-      "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
-      "date": "2025-12-09T17:46:17+00:00",
-      "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
-      "author": "Adam Mastroianni"
+      "feed": "Yukta Subramanian",
+      "title": "Cancer is getting on my nerves (literally!)",
+      "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+      "date": "2026-02-24T19:06:27+00:00",
+      "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+      "author": "Yukta Subramanian"
+    },
+    {
+      "feed": "Yukta Subramanian",
+      "title": "The Tick-Tock Within Us",
+      "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+      "date": "2025-01-03T15:09:23+00:00",
+      "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+      "author": "Yukta Subramanian"
     },
     {
       "feed": "Matt Might",
@@ -1984,6 +1904,86 @@
       "date": "2015-07-16T23:33:41-04:00",
       "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
       "author": ""
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "curl 8.22.0",
+      "link": "https://daniel.haxx.se/blog/2026/09/02/curl-8-22-0/",
+      "date": "2026-09-02T05:52:46+00:00",
+      "excerpt": "Welcome to this new release. Get it as always from https://curl.se . If you rather want a security-patched older release branch, stay tuned for the follow-up Rock-solid curl announcement within a few days. Release presentation Numbers the 276th release 6 changes 70 days (total: 10,887) 302 bugfixes ",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "There’s a libcurl.dll in my system32",
+      "link": "https://daniel.haxx.se/blog/2026/08/17/theres-a-libcurl-dll-in-my-system32/",
+      "date": "2026-08-17T21:27:36+00:00",
+      "excerpt": "This afternoon I had a meeting with IT people at a huge US power infrastructure company. They had found a libcurl.dll file in their C:\\Windows\\System32 directory and asked us for help to upgrade it. Their vulnerability scanner identified it as vulnerable to several publicly known vulnerabilities . C",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "curl performance",
+      "link": "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2/",
+      "date": "2026-08-14T11:20:32+00:00",
+      "excerpt": "tldr: the live version is here: https://curl.se/perf/ How fast is “fast” and is it good enough? Does it run as fast now as it did before or was there a regression? What exactly needs to be fast? How fast is it? These are questions that many projects and products face, and in curl we are no different",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "What the bliss taught us",
+      "link": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/",
+      "date": "2026-08-03T06:42:19+00:00",
+      "excerpt": "At this exact moment curl’s summer of bliss 2026 ends. We (the maintainers of curl ) took the entire month of July off from vulnerability reporting and in this post I will try to explain how this went. (If you feel like skipping the wordy blab below, the single word answer is: fine ) This was possib",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "HTTP Message Signatures with curl",
+      "link": "https://daniel.haxx.se/blog/2026/07/27/http-message-signatures-with-curl/",
+      "date": "2026-07-27T06:55:03+00:00",
+      "excerpt": "The recently published RFC 9421 describes how to do HTTP Message Signatures , and starting just now , curl experimentally supports them. Message Signatures The specification describes this as a mechanism for creating, encoding, and verifying digital signatures or message authentication codes over co",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "1,500 curl authors",
+      "link": "https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/",
+      "date": "2026-07-25T14:29:28+00:00",
+      "excerpt": "It takes a village to make curl. A rather big village. I have not been a solo maintainer of curl for a long time and I don’t even do half of the commits anymore Since today, the curl git repository holds the accumulated efforts from 1,500 separate and named individuals. Only 4.5 years since we passe",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Workshop Basel day three",
+      "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
+      "date": "2026-07-16T20:01:14+00:00",
+      "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Workshop Basel day two",
+      "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
+      "date": "2026-07-15T20:07:14+00:00",
+      "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Workshop Basel day one",
+      "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
+      "date": "2026-07-14T20:25:28+00:00",
+      "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
+      "author": "Daniel Stenberg"
+    },
+    {
+      "feed": "Daniel Stenberg",
+      "title": "Do excellent vulnerability reports",
+      "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
+      "date": "2026-06-29T07:47:43+00:00",
+      "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
+      "author": "Daniel Stenberg"
     },
     {
       "feed": "Hillel Wayne",
@@ -2224,90 +2224,106 @@
       "date": "2025-10-21T16:46:24+00:00",
       "excerpt": "A while back my friend Pablo Meier was reviewing some 2024 videogames and wrote this : I feel like some artists, if they didn't exist, would have the resulting void filled in by someone similar (e.g. if Katy Perry didn't exist, someone like her would have). But others don't have successful imitators",
       "author": ""
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "curl 8.22.0",
-      "link": "https://daniel.haxx.se/blog/2026/09/02/curl-8-22-0/",
-      "date": "2026-09-02T05:52:46+00:00",
-      "excerpt": "Welcome to this new release. Get it as always from https://curl.se . If you rather want a security-patched older release branch, stay tuned for the follow-up Rock-solid curl announcement within a few days. Release presentation Numbers the 276th release 6 changes 70 days (total: 10,887) 302 bugfixes ",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "There’s a libcurl.dll in my system32",
-      "link": "https://daniel.haxx.se/blog/2026/08/17/theres-a-libcurl-dll-in-my-system32/",
-      "date": "2026-08-17T21:27:36+00:00",
-      "excerpt": "This afternoon I had a meeting with IT people at a huge US power infrastructure company. They had found a libcurl.dll file in their C:\\Windows\\System32 directory and asked us for help to upgrade it. Their vulnerability scanner identified it as vulnerable to several publicly known vulnerabilities . C",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "curl performance",
-      "link": "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2/",
-      "date": "2026-08-14T11:20:32+00:00",
-      "excerpt": "tldr: the live version is here: https://curl.se/perf/ How fast is “fast” and is it good enough? Does it run as fast now as it did before or was there a regression? What exactly needs to be fast? How fast is it? These are questions that many projects and products face, and in curl we are no different",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "What the bliss taught us",
-      "link": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/",
-      "date": "2026-08-03T06:42:19+00:00",
-      "excerpt": "At this exact moment curl’s summer of bliss 2026 ends. We (the maintainers of curl ) took the entire month of July off from vulnerability reporting and in this post I will try to explain how this went. (If you feel like skipping the wordy blab below, the single word answer is: fine ) This was possib",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "HTTP Message Signatures with curl",
-      "link": "https://daniel.haxx.se/blog/2026/07/27/http-message-signatures-with-curl/",
-      "date": "2026-07-27T06:55:03+00:00",
-      "excerpt": "The recently published RFC 9421 describes how to do HTTP Message Signatures , and starting just now , curl experimentally supports them. Message Signatures The specification describes this as a mechanism for creating, encoding, and verifying digital signatures or message authentication codes over co",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "1,500 curl authors",
-      "link": "https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/",
-      "date": "2026-07-25T14:29:28+00:00",
-      "excerpt": "It takes a village to make curl. A rather big village. I have not been a solo maintainer of curl for a long time and I don’t even do half of the commits anymore Since today, the curl git repository holds the accumulated efforts from 1,500 separate and named individuals. Only 4.5 years since we passe",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Workshop Basel day three",
-      "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
-      "date": "2026-07-16T20:01:14+00:00",
-      "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Workshop Basel day two",
-      "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
-      "date": "2026-07-15T20:07:14+00:00",
-      "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Workshop Basel day one",
-      "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
-      "date": "2026-07-14T20:25:28+00:00",
-      "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
-      "author": "Daniel Stenberg"
-    },
-    {
-      "feed": "Daniel Stenberg",
-      "title": "Do excellent vulnerability reports",
-      "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
-      "date": "2026-06-29T07:47:43+00:00",
-      "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
-      "author": "Daniel Stenberg"
     }
   ],
-  "errors": {},
+  "errors": {
+    "SIGPLAN Blog": "XML parse error: mismatched tag: line 1, column 165"
+  },
   "feedCache": {
+    "Leonardo de Moura": {
+      "etag": "\"6a8bfeee-232a\"",
+      "last_modified": "Mon, 24 Aug 2026 08:21:02 GMT",
+      "articles": [
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Postmortem for the Kernel Soundness Bug Hunt",
+          "link": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
+          "date": "2026-08-24T00:00:00+00:00",
+          "excerpt": "This is a follow-up to Postmortem for Kernel Soundness Bug #14576. We describe the kernel soundness bug hunt using OpenAI internal models, the new bugs found, and the actions the Lean FRO is taking to increase trust.",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Postmortem for Kernel Soundness Bug #14576",
+          "link": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
+          "date": "2026-08-01T00:00:00+00:00",
+          "excerpt": "A soundness bug in the Lean kernel (#14576) was reported and fixed during the week of July 27. It has had visibility on Zulip and social media (e.g., X, LinkedIn, and Mastodon).",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Signal Shot: The Platform Is Ready",
+          "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
+          "date": "2026-04-20T00:00:00+00:00",
+          "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Why Lean?",
+          "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
+          "date": "2026-04-02T00:00:00+00:00",
+          "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Cray Colloquium at the University of Minnesota",
+          "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
+          "date": "2026-03-28T00:00:00+00:00",
+          "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Who Watches the Provers?",
+          "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
+          "date": "2026-03-16T00:00:00+00:00",
+          "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "This website is now powered by Verso",
+          "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
+          "date": "2026-03-15T00:00:00+00:00",
+          "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Teaching AI to Make Proof Automation Work",
+          "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
+          "date": "2026-03-14T00:00:00+00:00",
+          "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "sym => : interactive mode for scalable verification",
+          "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
+          "date": "2026-03-13T00:00:00+00:00",
+          "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "When AI Writes the World's Software, Who Verifies It?",
+          "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
+          "date": "2026-02-28T00:00:00+00:00",
+          "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
+          "author": ""
+        },
+        {
+          "feed": "Leonardo de Moura",
+          "title": "Proof Assistants in the Age of AI",
+          "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
+          "date": "2026-02-18T00:00:00+00:00",
+          "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
+          "author": ""
+        }
+      ]
+    },
     "Automating Mathematics": {
       "etag": "\"6a9f7737-4511\"",
       "last_modified": "Tue, 08 Sep 2026 02:47:19 GMT",
@@ -3504,100 +3520,6 @@
         }
       ]
     },
-    "Leonardo de Moura": {
-      "etag": "\"6a8bfeee-232a\"",
-      "last_modified": "Mon, 24 Aug 2026 08:21:02 GMT",
-      "articles": [
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Postmortem for the Kernel Soundness Bug Hunt",
-          "link": "https://leodemoura.github.io/blog/2026-8-24-postmortem-for-the-kernel-soundness-bug-hunt/",
-          "date": "2026-08-24T00:00:00+00:00",
-          "excerpt": "This is a follow-up to Postmortem for Kernel Soundness Bug #14576. We describe the kernel soundness bug hunt using OpenAI internal models, the new bugs found, and the actions the Lean FRO is taking to increase trust.",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Postmortem for Kernel Soundness Bug #14576",
-          "link": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
-          "date": "2026-08-01T00:00:00+00:00",
-          "excerpt": "A soundness bug in the Lean kernel (#14576) was reported and fixed during the week of July 27. It has had visibility on Zulip and social media (e.g., X, LinkedIn, and Mastodon).",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Signal Shot: The Platform Is Ready",
-          "link": "https://leodemoura.github.io/blog/2026-4-20-signal-shot-the-platform-is-ready/",
-          "date": "2026-04-20T00:00:00+00:00",
-          "excerpt": "Signal Shot is a public moonshot to verify the Signal protocol and its Rust implementation using Lean. Not the math on paper. The actual code. It is a joint effort of Signal (Rolfe Schmidt), the Beneficial AI Foundation (Max Tegmark), and the Lean FRO. BAIF's launch post is here.",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Why Lean?",
-          "link": "https://leodemoura.github.io/blog/2026-4-2-why-lean/",
-          "date": "2026-04-02T00:00:00+00:00",
-          "excerpt": "Markus de Medeiros wanted to understand garbled circuits. He had no formal training in cryptography. He spent an afternoon in Lean: a circuit evaluator in functional style, a custom DSL via metaprogramming, OpenSSL bindings via FFI, a correctness proof for his serializer, and a mutable garbling algo",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Cray Colloquium at the University of Minnesota",
-          "link": "https://leodemoura.github.io/notes/2026-3-28-cray-colloquium-at-the-university-of-minnesota/",
-          "date": "2026-03-28T00:00:00+00:00",
-          "excerpt": "Next Monday, I am giving the Cray Distinguished Colloquium at the University of Minnesota Department of Computer Science & Engineering. The Cray Colloquium Series was founded more than 30 years ago with a donation from Cray Inc. to honor the contributions and legacies of Dr. Seymour Cray. Past speak",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Who Watches the Provers?",
-          "link": "https://leodemoura.github.io/blog/2026-3-16-who-watches-the-provers/",
-          "date": "2026-03-16T00:00:00+00:00",
-          "excerpt": "In 2026, a skilled researcher using Claude (Opus 4.6), with real-time support from the Rocq development team, found seven kernel bugs in Rocq, a widely used proof assistant. Seven independent paths to proving something false. Rocq is a serious system with decades of foundational work. But even Rocq ",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "This website is now powered by Verso",
-          "link": "https://leodemoura.github.io/notes/2026-3-15-this-website-is-now-powered-by-verso/",
-          "date": "2026-03-15T00:00:00+00:00",
-          "excerpt": "This website is now built with Verso, the documentation tool for Lean. Verso is developed by David Thrane Christiansen at the Lean FRO. It powers the Lean language reference manual, the Lean website, and now this site. The main motivation: Lean code examples in blog posts are type-checked at build t",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Teaching AI to Make Proof Automation Work",
-          "link": "https://leodemoura.github.io/blog/2026-3-14-teaching-ai-to-make-proof-automation-work/",
-          "date": "2026-03-14T00:00:00+00:00",
-          "excerpt": "Consider this goal: example {α} [CommRing α] [IsCharP α 0] [NoNatZeroDivisors α] (d t d_inv : α) (Δ40 : d * (d + t + d * t) = 0) (Δ41 : d^2 * (d + d * t - 2 * d * t^2 + d * t^4 + d^2 * t^4) = 0) (_ : d * d_inv = 1) : t + 2 * t^2 - t^3 - 2 * t^4 + t^5 = 0 := by grind",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "sym => : interactive mode for scalable verification",
-          "link": "https://leodemoura.github.io/notes/2026-3-13-sym---interactive-mode-for-scalable-verification/",
-          "date": "2026-03-13T00:00:00+00:00",
-          "excerpt": "We are building sym =>, a new interactive tactic mode for writing scalable verification proofs in Lean. It extends grind's interactive mode with tactics from the Sym framework — our infrastructure for symbolic manipulation that achieves linear scaling on verification tasks where traditional approach",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "When AI Writes the World's Software, Who Verifies It?",
-          "link": "https://leodemoura.github.io/blog/2026-2-28-when-ai-writes-the-worlds-software-who-verifies-it/",
-          "date": "2026-02-28T00:00:00+00:00",
-          "excerpt": "Code Metal recently raised $125 million to rewrite defense industry code using AI. Google and Microsoft both report that 25–30% of their new code is AI-generated. AWS used AI to modernize 40 million lines of COBOL for Toyota. Microsoft's CTO predicts that 95% of all code will be AI-generated by 2030",
-          "author": ""
-        },
-        {
-          "feed": "Leonardo de Moura",
-          "title": "Proof Assistants in the Age of AI",
-          "link": "https://leodemoura.github.io/blog/2026-2-18-proof-assistants-in-the-age-of-ai/",
-          "date": "2026-02-18T00:00:00+00:00",
-          "excerpt": "AI is transforming how we write formal proofs. Language models can now generate thousands of lines of verified mathematics with minimal human guidance, and the cost keeps dropping. This is exciting, and it raises a natural question: what role does the choice of proof assistant play when AI is doing ",
-          "author": ""
-        }
-      ]
-    },
     "Simon Willison": {
       "etag": null,
       "last_modified": "Sat, 12 Sep 2026 23:56:42 GMT",
@@ -3743,114 +3665,6 @@
           "date": "2026-03-12T00:00:00+00:00",
           "excerpt": "Welcome to my blog. After years of inactivity on the blogging front, I feel I have the time and energy to start writing again. The PL Enthusiast will remain where it is, and new thoughts will show up here. What to expect I plan to write about topics I think about in my research and teaching.",
           "author": ""
-        }
-      ]
-    },
-    "SIGPLAN Blog": {
-      "etag": "\"6e4c39f617f56b209ff4d1dd9f14c72b\"",
-      "last_modified": "Mon, 20 Jul 2026 13:00:04 GMT",
-      "articles": [
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "How the SIGPLAN Budget Works",
-          "link": "https://blog.sigplan.org/2026/07/20/sigplan-budget/",
-          "date": "2026-07-20T13:00:04+00:00",
-          "excerpt": "When I started as a SIGPLAN elected Member-at-Large and was given the position of Treasurer, we were coming off the COVID times, and the conferences were just returning to full in-person attendance with venues booked in more tumultuous prior years. I live far away from the typical US or EU-based SIG",
-          "author": "Alex Potanin"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Transformation of Documents: Repositories Are the New Unit of Knowledge Work",
-          "link": "https://blog.sigplan.org/2026/05/15/the-transformation-of-documents-repositories-are-the-new-unit-of-knowledge-work/",
-          "date": "2026-05-15T15:30:25+00:00",
-          "excerpt": "Summary: Traditional documents — reports, slide decks, spreadsheets — are artifacts shaped by human biology: linear, single-file, snapshot-oriented. AI agents need something different: stable references, change tracking, decomposability, etc. Source repositories provide all of these natively. This p",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Repositories Are Human/Agent Knowledge Factories",
-          "link": "https://blog.sigplan.org/2026/04/21/repositories-are-human-agent-knowledge-factories/",
-          "date": "2026-04-21T09:00:48+00:00",
-          "excerpt": "We argue that source repositories are no longer just containers for human-authored code — they are containers and generators of knowledge supporting the interaction of humans with AI agents. Taking this perspective demands that we rethink how we structure projects, write documentation, and more broa",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Think Globally, Discuss PL Locally",
-          "link": "https://blog.sigplan.org/2025/09/16/think-globally-discuss-pl-locally/",
-          "date": "2025-09-16T13:09:36+00:00",
-          "excerpt": "In-person meetings are hugely beneficial for academic research; they provide a venue to collaborate and connect, making our community more connected and facilitating the exchange of ideas. In addition to SIGPLAN’s four annual flagship conferences, smaller local events increasingly facilitate face-to",
-          "author": "Harrison Goldstein"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Reserve Reviewer Policy",
-          "link": "https://blog.sigplan.org/2025/09/09/the-reserve-reviewer-policy/",
-          "date": "2025-09-09T15:59:52+00:00",
-          "excerpt": "One of the great fears for a program chair is (or ought to be) an unexpected explosion in the number of submissions. We, the co-chairs of OOPSLA 2025, certainly fretted about this, and in response put in place a Reserve Reviewer (RR) Policy (RRP). This blog post explains the policy and some outcomes",
-          "author": "Shriram Krishnamurthi"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "AI Models Need a Virtual Machine",
-          "link": "https://blog.sigplan.org/2025/08/29/ai-models-need-a-virtual-machine/",
-          "date": "2025-08-29T09:00:39+00:00",
-          "excerpt": "Applications using AI embed the AI model in a framework that interfaces between the model and the rest of the system, providing needed services such as tool calling, context retrieval, etc. Software for early chatbots took user input, called the LLM, and returned the result to the user; essentially ",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "The Academic Pipeline Stall: Why Industry Must Stand for Academia",
-          "link": "https://blog.sigplan.org/2025/05/19/the-academic-pipeline-stall-why-industry-must-stand-for-academia/",
-          "date": "2025-05-19T13:43:38+00:00",
-          "excerpt": "This post was cross-published from the SIGARCH blog . The Research Pipeline is Stalling The&nbsp; U.S. National Science Foundation (NSF) froze all outgoing funding , including new awards and scheduled payments on active grants. Over &nbsp;1,000 NSF research projects &nbsp;were abruptly canceled in a",
-          "author": "Adrian Sampson"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "How to Give a Good Talk",
-          "link": "https://blog.sigplan.org/2025/03/31/how-to-give-a-good-talk/",
-          "date": "2025-03-31T13:00:03+00:00",
-          "excerpt": "In computer science, conferences are a focal point of academic attention. Conferences are a moment where computing communities—distributed over the globe—come together. Giving a talk at a conference is an incredible opportunity: for a moment, you have the community’s attention. If you can give a goo",
-          "author": "Michael Greenberg"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Testing AI Software Isn’t Like Testing Plain Old Software",
-          "link": "https://blog.sigplan.org/2025/03/20/testing-ai-software-isnt-like-testing-plain-old-software/",
-          "date": "2025-03-20T16:21:36+00:00",
-          "excerpt": "This blog post considers new challenges created by incorporating AI models into traditional software. We focus on how the practice of using AI models in traditional software challenges our existing approaches to testing. This blog post is not about using AI to test traditional software . AI Software",
-          "author": "Ben Zorn"
-        },
-        {
-          "feed": "SIGPLAN Blog",
-          "title": "Parametric Subtyping for Structural Parametric Polymorphism",
-          "link": "https://blog.sigplan.org/2025/01/29/parametric-subtyping-for-structural-parametric-polymorphism/",
-          "date": "2025-01-29T13:00:02+00:00",
-          "excerpt": "Recursive types, generics (sometimes called parametric polymorphism), and subtyping are all essential features for modern programming languages across numerous paradigms. Whereas recursive types describe unbounded data structures, generics are used to define parametrized data structures by abstracti",
-          "author": "Andreia Mordido"
-        }
-      ]
-    },
-    "Yukta Subramanian": {
-      "etag": null,
-      "last_modified": null,
-      "articles": [
-        {
-          "feed": "Yukta Subramanian",
-          "title": "Cancer is getting on my nerves (literally!)",
-          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
-          "date": "2026-02-24T19:06:27+00:00",
-          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
-          "author": "Yukta Subramanian"
-        },
-        {
-          "feed": "Yukta Subramanian",
-          "title": "The Tick-Tock Within Us",
-          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
-          "date": "2025-01-03T15:09:23+00:00",
-          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
-          "author": "Yukta Subramanian"
         }
       ]
     },
@@ -4101,9 +3915,17 @@
       ]
     },
     "Experimental History": {
-      "etag": "W/\"edb28-ozf65wfuME+Knx+MnaLNYj8tLx4\"",
+      "etag": "W/\"fc44a-omvyW8Xjj7EIeozw1c6aPM3HCOs\"",
       "last_modified": null,
       "articles": [
+        {
+          "feed": "Experimental History",
+          "title": "There is no epidemic of loneliness, but there is an epidemic of scurvy",
+          "link": "https://www.experimental-history.com/p/there-is-no-epidemic-of-loneliness",
+          "date": "2026-09-15T12:54:38+00:00",
+          "excerpt": "photo cred: my dad We’re living through an epidemic of loneliness and everybody knows it, except for one small group: people who have actually looked at the data. Much of what appears to be a loneliness epidemic is, in fact, a well-intentioned misunderstanding. However, there is a real epidemic out ",
+          "author": "Adam Mastroianni"
+        },
         {
           "feed": "Experimental History",
           "title": "Actually good advice",
@@ -4255,14 +4077,28 @@
           "date": "2026-01-06T16:45:44+00:00",
           "excerpt": "photo cred: my dad Here’s the most replicated finding to come out of my area of psychology in the past decade: most people believe they suffer from a chronic case of awkwardness. Study after study finds that people expect their conversations to go poorly, when in fact those conversations usually go ",
           "author": "Adam Mastroianni"
+        }
+      ]
+    },
+    "Yukta Subramanian": {
+      "etag": null,
+      "last_modified": null,
+      "articles": [
+        {
+          "feed": "Yukta Subramanian",
+          "title": "Cancer is getting on my nerves (literally!)",
+          "link": "https://medium.com/@yukta.subramanian/cancer-is-getting-on-my-nerves-literally-e5a17d74a556?source=rss-65e1393d999d------2",
+          "date": "2026-02-24T19:06:27+00:00",
+          "excerpt": "A sneak peek into cancer neuroscience Cancer has been a mind-boggling problem for clinicians and researchers. The more we study it, the more we realise its complexity. Occasionally, however, we come across revelations and ideas that fundamentally shift the way we view this disease, for example, the ",
+          "author": "Yukta Subramanian"
         },
         {
-          "feed": "Experimental History",
-          "title": "The drug that taught me how much I should suffer",
-          "link": "https://www.experimental-history.com/p/the-drug-that-taught-me-how-much",
-          "date": "2025-12-09T17:46:17+00:00",
-          "excerpt": "photo cred: my dad All of us, whether we realize it or not, are asking ourselves one question over and over for our whole lives: how much should I suffer? Should I take the job that pays more but also sucks more? Should I stick with the guy who sometimes drives me insane? Should I drag myself throug",
-          "author": "Adam Mastroianni"
+          "feed": "Yukta Subramanian",
+          "title": "The Tick-Tock Within Us",
+          "link": "https://medium.com/@yukta.subramanian/the-tick-tock-within-us-e31f3ef69ffc?source=rss-65e1393d999d------2",
+          "date": "2025-01-03T15:09:23+00:00",
+          "excerpt": "Where does the biological sense of time come from? Professor Carlos Ibáñez delivering the presentation speech for the 2017 Nobel Prize in Physiology or Medicine at the Stockholm Concert Hall. Copyright © Nobel Media AB 2017, Photo: Pi Frisk “Phileas Fogg, the main character in Jules Verne’s acclaime",
+          "author": "Yukta Subramanian"
         }
       ]
     },
@@ -4349,6 +4185,92 @@
           "date": "2015-07-16T23:33:41-04:00",
           "excerpt": "The birthday paradox observes that in a room of 23 people, the odds that at least two people share a birthday is 50% The same logic that drives matching birthdays also drives the probability that one can find collisions with a hash function. In other words, if you have a uniform hashing function tha",
           "author": ""
+        }
+      ]
+    },
+    "Daniel Stenberg": {
+      "etag": "\"76237b552b811ff02ae9f62298645b4d\"",
+      "last_modified": "Wed, 02 Sep 2026 20:33:14 GMT",
+      "articles": [
+        {
+          "feed": "Daniel Stenberg",
+          "title": "curl 8.22.0",
+          "link": "https://daniel.haxx.se/blog/2026/09/02/curl-8-22-0/",
+          "date": "2026-09-02T05:52:46+00:00",
+          "excerpt": "Welcome to this new release. Get it as always from https://curl.se . If you rather want a security-patched older release branch, stay tuned for the follow-up Rock-solid curl announcement within a few days. Release presentation Numbers the 276th release 6 changes 70 days (total: 10,887) 302 bugfixes ",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "There’s a libcurl.dll in my system32",
+          "link": "https://daniel.haxx.se/blog/2026/08/17/theres-a-libcurl-dll-in-my-system32/",
+          "date": "2026-08-17T21:27:36+00:00",
+          "excerpt": "This afternoon I had a meeting with IT people at a huge US power infrastructure company. They had found a libcurl.dll file in their C:\\Windows\\System32 directory and asked us for help to upgrade it. Their vulnerability scanner identified it as vulnerable to several publicly known vulnerabilities . C",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "curl performance",
+          "link": "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2/",
+          "date": "2026-08-14T11:20:32+00:00",
+          "excerpt": "tldr: the live version is here: https://curl.se/perf/ How fast is “fast” and is it good enough? Does it run as fast now as it did before or was there a regression? What exactly needs to be fast? How fast is it? These are questions that many projects and products face, and in curl we are no different",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "What the bliss taught us",
+          "link": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/",
+          "date": "2026-08-03T06:42:19+00:00",
+          "excerpt": "At this exact moment curl’s summer of bliss 2026 ends. We (the maintainers of curl ) took the entire month of July off from vulnerability reporting and in this post I will try to explain how this went. (If you feel like skipping the wordy blab below, the single word answer is: fine ) This was possib",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "HTTP Message Signatures with curl",
+          "link": "https://daniel.haxx.se/blog/2026/07/27/http-message-signatures-with-curl/",
+          "date": "2026-07-27T06:55:03+00:00",
+          "excerpt": "The recently published RFC 9421 describes how to do HTTP Message Signatures , and starting just now , curl experimentally supports them. Message Signatures The specification describes this as a mechanism for creating, encoding, and verifying digital signatures or message authentication codes over co",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "1,500 curl authors",
+          "link": "https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/",
+          "date": "2026-07-25T14:29:28+00:00",
+          "excerpt": "It takes a village to make curl. A rather big village. I have not been a solo maintainer of curl for a long time and I don’t even do half of the commits anymore Since today, the curl git repository holds the accumulated efforts from 1,500 separate and named individuals. Only 4.5 years since we passe",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Workshop Basel day three",
+          "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
+          "date": "2026-07-16T20:01:14+00:00",
+          "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Workshop Basel day two",
+          "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
+          "date": "2026-07-15T20:07:14+00:00",
+          "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Workshop Basel day one",
+          "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
+          "date": "2026-07-14T20:25:28+00:00",
+          "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
+          "author": "Daniel Stenberg"
+        },
+        {
+          "feed": "Daniel Stenberg",
+          "title": "Do excellent vulnerability reports",
+          "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
+          "date": "2026-06-29T07:47:43+00:00",
+          "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
+          "author": "Daniel Stenberg"
         }
       ]
     },
@@ -4595,92 +4517,6 @@
           "date": "2025-10-21T16:46:24+00:00",
           "excerpt": "A while back my friend Pablo Meier was reviewing some 2024 videogames and wrote this : I feel like some artists, if they didn't exist, would have the resulting void filled in by someone similar (e.g. if Katy Perry didn't exist, someone like her would have). But others don't have successful imitators",
           "author": ""
-        }
-      ]
-    },
-    "Daniel Stenberg": {
-      "etag": "\"76237b552b811ff02ae9f62298645b4d\"",
-      "last_modified": "Wed, 02 Sep 2026 20:33:14 GMT",
-      "articles": [
-        {
-          "feed": "Daniel Stenberg",
-          "title": "curl 8.22.0",
-          "link": "https://daniel.haxx.se/blog/2026/09/02/curl-8-22-0/",
-          "date": "2026-09-02T05:52:46+00:00",
-          "excerpt": "Welcome to this new release. Get it as always from https://curl.se . If you rather want a security-patched older release branch, stay tuned for the follow-up Rock-solid curl announcement within a few days. Release presentation Numbers the 276th release 6 changes 70 days (total: 10,887) 302 bugfixes ",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "There’s a libcurl.dll in my system32",
-          "link": "https://daniel.haxx.se/blog/2026/08/17/theres-a-libcurl-dll-in-my-system32/",
-          "date": "2026-08-17T21:27:36+00:00",
-          "excerpt": "This afternoon I had a meeting with IT people at a huge US power infrastructure company. They had found a libcurl.dll file in their C:\\Windows\\System32 directory and asked us for help to upgrade it. Their vulnerability scanner identified it as vulnerable to several publicly known vulnerabilities . C",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "curl performance",
-          "link": "https://daniel.haxx.se/blog/2026/08/14/curl-performance-2/",
-          "date": "2026-08-14T11:20:32+00:00",
-          "excerpt": "tldr: the live version is here: https://curl.se/perf/ How fast is “fast” and is it good enough? Does it run as fast now as it did before or was there a regression? What exactly needs to be fast? How fast is it? These are questions that many projects and products face, and in curl we are no different",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "What the bliss taught us",
-          "link": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/",
-          "date": "2026-08-03T06:42:19+00:00",
-          "excerpt": "At this exact moment curl’s summer of bliss 2026 ends. We (the maintainers of curl ) took the entire month of July off from vulnerability reporting and in this post I will try to explain how this went. (If you feel like skipping the wordy blab below, the single word answer is: fine ) This was possib",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "HTTP Message Signatures with curl",
-          "link": "https://daniel.haxx.se/blog/2026/07/27/http-message-signatures-with-curl/",
-          "date": "2026-07-27T06:55:03+00:00",
-          "excerpt": "The recently published RFC 9421 describes how to do HTTP Message Signatures , and starting just now , curl experimentally supports them. Message Signatures The specification describes this as a mechanism for creating, encoding, and verifying digital signatures or message authentication codes over co",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "1,500 curl authors",
-          "link": "https://daniel.haxx.se/blog/2026/07/25/1500-curl-authors/",
-          "date": "2026-07-25T14:29:28+00:00",
-          "excerpt": "It takes a village to make curl. A rather big village. I have not been a solo maintainer of curl for a long time and I don’t even do half of the commits anymore Since today, the curl git repository holds the accumulated efforts from 1,500 separate and named individuals. Only 4.5 years since we passe",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Workshop Basel day three",
-          "link": "https://daniel.haxx.se/blog/2026/07/16/workshop-basel-day-three/",
-          "date": "2026-07-16T20:01:14+00:00",
-          "excerpt": "See also: day one, day two . There is only one thing that is better than two days of HTTP workshop, and that is of course three days of HTTP workshop. The final day of this edition of the series started out with us again shuffling around where we parked ourselves around the big table. Except Mr capt",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Workshop Basel day two",
-          "link": "https://daniel.haxx.se/blog/2026/07/15/workshop-basel-day-two/",
-          "date": "2026-07-15T20:07:14+00:00",
-          "excerpt": "If you missed it. I already described day one . Caffeinated and ready, we all gathered in the same spacious room as yesterday, but seated in new places as “suggested” by our captain. Some of us even remembered to move over the name tags we wrote yesterday to our new seats. No time was wasted on intr",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Workshop Basel day one",
-          "link": "https://daniel.haxx.se/blog/2026/07/14/workshop-basel-day-one/",
-          "date": "2026-07-14T20:25:28+00:00",
-          "excerpt": "On this hot summer’s day in Basel, Switzerland, the seventh HTTP workshop started. These events tend to work roughly the same way and the people in the room are also to large extent familiar and known since previous editions. Forty people in a meeting room, where we take turns in doing short talks o",
-          "author": "Daniel Stenberg"
-        },
-        {
-          "feed": "Daniel Stenberg",
-          "title": "Do excellent vulnerability reports",
-          "link": "https://daniel.haxx.se/blog/2026/06/29/do-excellent-vulnerability-reports/",
-          "date": "2026-06-29T07:47:43+00:00",
-          "excerpt": "Over the years, we have received, read and handled way over one thousand vulnerability reports filed against curl . We have seen most kinds. It is time for me to try to help future reporters by providing a short guide on how to submit a truly excellent vulnerability report to an Open Source project.",
-          "author": "Daniel Stenberg"
         }
       ]
     }
